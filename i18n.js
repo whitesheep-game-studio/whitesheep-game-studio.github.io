@@ -29,7 +29,7 @@ function translateText(){
   for(const textNode of nodes){
     if(!originals.has(textNode))originals.set(textNode,textNode.nodeValue);
     const original=originals.get(textNode);
-    const match=original.match(/^(\\s*)([\\s\\S]*?)(\\s*)$/);
+    const match=original.match(/^(\s*)([\s\S]*?)(\s*)$/);
     if(match)textNode.nodeValue=match[1]+lookup(match[2],lang)+match[3];
   }
   const elements=document.querySelectorAll('[placeholder],[aria-label],[alt]');
