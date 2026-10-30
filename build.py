@@ -2,6 +2,8 @@
 from pathlib import Path
 import json
 import html
+import base64
+import hashlib
 import re
 import shutil
 
@@ -15,10 +17,19 @@ def escape(s):
     return html.escape(str(s),quote=True)
 
 
+def asset_metadata(name):
+    """Hash the bytes actually served, and invalidate stale browser caches."""
+    digest=hashlib.sha384((OUT/name).read_bytes()).digest()
+    return '/'+name+'?v='+digest.hex()[:16], 'sha384-'+base64.b64encode(digest).decode('ascii')
+
+
 def write_page(route,title,body):
     dest=OUT/route;dest.mkdir(parents=True,exist_ok=True)
     canonical=ORIGIN+'/'+(route+'/' if route else '')
-    doc=f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{escape(title)} · WhiteSheep Game Studio</title><meta name="description" content="WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요."><meta property="og:title" content="{escape(title)} · WhiteSheep Game Studio"><meta property="og:type" content="website"><meta property="og:url" content="{canonical}"><link rel="canonical" href="{canonical}"><link rel="icon" href="/assets/studio.svg"><link rel="stylesheet" href="/style.css?v=20261030-2"></head><body><a class="skip" href="#main">본문 바로가기</a><header><a class="brand" href="/"><img src="/assets/studio.svg" alt="" width="38" height="38"><span>WhiteSheep<br><small>Game Studio</small></span></a><nav aria-label="주 메뉴"><a href="/apps/">게임과 앱</a><a href="/about/">스튜디오</a><a href="/support/">문의</a></nav><div class="language-picker"><button class="language-trigger" id="language-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="language-menu"><span aria-hidden="true">🌐</span><span data-i18n="lang.label">언어 변경</span><span class="current-language">한국어</span><span aria-hidden="true">⌄</span></button><div class="language-menu" id="language-menu" role="menu" hidden><button type="button" role="menuitemradio" aria-checked="true" data-language="ko">한국어 <small>· 한국어</small><span class="language-check">✓</span></button><button type="button" role="menuitemradio" aria-checked="false" data-language="ja">日本語 <small>· 일본어</small><span class="language-check"></span></button><button type="button" role="menuitemradio" aria-checked="false" data-language="en">English <small>· 영어</small><span class="language-check"></span></button></div></div></header><main id="main">{body}</main><footer><div>WhiteSheep Game Studio<br>운영자 초록지붕이층집 · © 2026</div><div class="links"><a href="/apps/">게임과 앱</a><a href="/support/">문의</a><a href="/privacy/">웹사이트 개인정보 안내</a></div></footer><script src="/directory.js?v=20261030-2" defer></script><script src="/i18n.js?v=20261030-2" defer></script></body></html>'''
+    css_url,css_integrity=asset_metadata('style.css')
+    directory_url,directory_integrity=asset_metadata('directory.js')
+    i18n_url,i18n_integrity=asset_metadata('i18n.js')
+    doc=f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{escape(title)} · WhiteSheep Game Studio</title><meta name="description" content="WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요."><meta property="og:title" content="{escape(title)} · WhiteSheep Game Studio"><meta property="og:type" content="website"><meta property="og:url" content="{canonical}"><link rel="canonical" href="{canonical}"><link rel="icon" href="/assets/studio.svg"><link rel="stylesheet" href="{css_url}" integrity="{css_integrity}"></head><body><a class="skip" href="#main">본문 바로가기</a><header><a class="brand" href="/"><img src="/assets/studio.svg" alt="" width="38" height="38"><span>WhiteSheep<br><small>Game Studio</small></span></a><nav aria-label="주 메뉴"><a href="/apps/">게임과 앱</a><a href="/about/">스튜디오</a><a href="/support/">문의</a></nav><div class="language-picker"><button class="language-trigger" id="language-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="language-menu"><span aria-hidden="true">🌐</span><span data-i18n="lang.label">언어 변경</span><span class="current-language">한국어</span><span aria-hidden="true">⌄</span></button><div class="language-menu" id="language-menu" role="menu" hidden><button type="button" role="menuitemradio" aria-checked="true" data-language="ko">한국어 <small>· 한국어</small><span class="language-check">✓</span></button><button type="button" role="menuitemradio" aria-checked="false" data-language="ja">日本語 <small>· 일본어</small><span class="language-check"></span></button><button type="button" role="menuitemradio" aria-checked="false" data-language="en">English <small>· 영어</small><span class="language-check"></span></button></div></div></header><main id="main">{body}</main><footer><div>WhiteSheep Game Studio<br>운영자 초록지붕이층집 · © 2026</div><div class="links"><a href="/apps/">게임과 앱</a><a href="/support/">문의</a><a href="/privacy/">웹사이트 개인정보 안내</a></div></footer><script src="{directory_url}" integrity="{directory_integrity}" defer></script><script src="{i18n_url}" integrity="{i18n_integrity}" defer></script></body></html>'''
     (dest/'index.html').write_text(doc,encoding='utf-8')
 
 

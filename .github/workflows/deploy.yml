@@ -31,6 +31,8 @@ jobs:
         run: python build.py
       - name: Validate links and page contract
         run: python check_site.py
+      - name: Test generated asset integrity
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Lint JavaScript
         run: npm run lint
       - name: Check formatting
