@@ -1,0 +1,8 @@
+{
+  "extends": ["html-validate:document"],
+  "rules": {
+    "void-style": "off",
+    "close-order": "error",
+    "no-trailing-whitespace": "off"
+  }
+}
