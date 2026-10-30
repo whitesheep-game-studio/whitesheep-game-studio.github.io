@@ -9,8 +9,8 @@
 
 ## 2. Repository ownership and generated output
 - **Source of truth:** `build.py`, `apps.json`, `content/<slug>/*.html`, `assets/`, `style.css`, `directory.js`, `i18n.js`, and this document.
-- **Generated deployment artifacts:** `docs/` (GitHub Pages serves `main:/docs`). Do not edit only `docs/`: such changes are lost on the next build.
-- Run `python build.py` after source edits. Commit matching regenerated `docs/` alongside sources, then run `python check_site.py`.
+- **Generated deployment artifacts:** `docs/` (GitHub Actions builds and publishes this folder as a Pages artifact). Never edit only `docs/`: generated files are not the source of truth.
+- Run `python build.py` and `python check_site.py` locally when possible. CI runs both on each `main` push; commit sources, not regenerated `docs/` output.
 - Preserve `docs/.nojekyll`, `robots.txt`, `sitemap.xml`, canonical URLs, and the required `/apps/<slug>/` page structure.
 - Keep `main` deployable; check the Pages result after publishing, not only the Git commit.
 
@@ -51,7 +51,7 @@
 3. Run `python build.py` and `python check_site.py`; address all failures.
 4. Check HTML title/meta/lang, canonical URL, one `h1`, links, image loading, keyboard and mobile layout, and language persistence across pages.
 5. Exercise all three languages, especially app cards, search/filter/count, and privacy/support/source pages. Do not report partially translated legal pages as complete.
-6. Verify that generated `docs/` matches sources, then commit with a conventional message (`feat(i18n): ...`, `fix(site): ...`, `docs: ...`).
+6. Verify generated `docs/` locally when possible; CI will build and deploy it. Commit source changes with a conventional message (`feat(i18n): ...`, `fix(site): ...`, `docs: ...`).
 7. Check deployed GitHub Pages URL, and report the commit, files changed, tests run, and any unresolved limitations honestly.
 
 ## 8. Preferred maintenance conventions
