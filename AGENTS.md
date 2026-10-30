@@ -59,3 +59,12 @@
 - Keep content, presentation, and behavior separated. Avoid duplication across individual app pages; use shared templates where possible.
 - Leave the email and site origin unchanged unless the site owner requests it.
 - When requirements conflict, favor accuracy, accessibility, privacy, URL stability, and preserving existing working behavior over visual novelty.
+
+## 9. Frontend quality gates and CI/CD
+- Mandatory tools: Vitest (unit tests), Playwright (desktop/mobile browser tests), axe-core (WCAG accessibility checks), ESLint (JS lint), Prettier (formatting), html-validate (generated HTML), Lighthouse CI (performance/SEO/accessibility audit), and Dependabot (dependency update PRs).
+- All PRs into `main` run the same verification job as deployment: build → internal links → lint → formatting → HTML → Vitest → Playwright/axe → Lighthouse. Only a passing `main` workflow deploys GitHub Pages.
+- Use `npm install`, `npm run lint`, `npm run format:check`, `npm run html:check`, `npm test`, and `npm run test:e2e`. Run `python build.py` before testing generated HTML.
+- Every i18n or layout bug fix must include a regression test that fails without the fix. Test Korean, Japanese and English plus persisted language preference; check mobile overflow and dropdown keyboard behavior.
+- Lighthouse score budgets start as warnings while baseline is established; do not claim scores are enforced deployment blockers until thresholds are explicitly raised to errors.
+- Dependabot PRs are subject to the same tests and must not auto-merge without successful checks.
+- Prefer PR verification before merging; protect `main` with a required passing `verify` check where repository permissions allow it.
