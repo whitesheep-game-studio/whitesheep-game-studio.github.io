@@ -1,2 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
-export default defineConfig({testDir:'tests/e2e',use:{baseURL:'http://127.0.0.1:8765'},projects:[{name:'chromium',use:{...devices['Desktop Chrome']}},{name:'mobile',use:{...devices['Desktop Chrome'],viewport:{width:390,height:844}}}],webServer:{command:'python -m http.server 8765 --directory docs',url:'http://127.0.0.1:8765',reuseExistingServer:!process.env.CI}});
+export default defineConfig({
+  testDir: 'tests/e2e',
+  use: { baseURL: 'http://127.0.0.1:8765' },
+  projects: [
+    { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
+    { name: 'mobile', use: { ...devices['Desktop Chrome'], viewport: { width: 390, height: 844 } } }
+  ],
+  webServer: { command: 'python -m http.server 8765 --directory docs', url: 'http://127.0.0.1:8765', reuseExistingServer: !process.env.CI }
+});

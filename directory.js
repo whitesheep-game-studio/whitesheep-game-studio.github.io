@@ -7,9 +7,10 @@ if (search && platform && status) {
     const query = search.value.trim().toLocaleLowerCase();
     let count = 0;
     for (const app of apps) {
-      const matches = app.dataset.search.includes(query)
-        && (!platform.value || app.dataset.platforms.split(' ').includes(platform.value))
-        && (!status.value || app.dataset.status === status.value);
+      const matches =
+        app.dataset.search.includes(query) &&
+        (!platform.value || app.dataset.platforms.split(' ').includes(platform.value)) &&
+        (!status.value || app.dataset.status === status.value);
       app.hidden = !matches;
       if (matches) count++;
     }
