@@ -49,7 +49,7 @@ function apply(){
 }
 function close(){menu.hidden=true;trigger.setAttribute('aria-expanded','false')}
 trigger.addEventListener('click',()=>{const open=menu.hidden;menu.hidden=!open;trigger.setAttribute('aria-expanded',String(open));if(open)menu.querySelector('[data-language="'+lang+'"]').focus()});
-menu.addEventListener('click',event=>{const b=event.target.closest('[data-language]');if(!b)return;lang=b.dataset.language;try{localStorage.setItem('whitesheep-language',lang)}catch{}apply();close();trigger.focus()});
+menu.addEventListener('click',event=>{const b=event.target.closest('[data-language]');if(!b)return;lang=b.dataset.language;try{localStorage.setItem('whitesheep-language',lang)}catch{ /* Language preference is optional when storage is unavailable. */ }apply();close();trigger.focus()});
 document.addEventListener('click',e=>{if(!picker.contains(e.target))close()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!menu.hidden){close();trigger.focus()}});
 apply();
