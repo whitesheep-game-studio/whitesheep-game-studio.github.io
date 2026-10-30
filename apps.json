@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "kanjigyeol",
+    "name": "칸지결",
+    "tagline": "한 글자씩, 나만의 결로.",
+    "description": "뜻과 독음, 사용단어와 암기 팁을 함께 읽는 일본어 한자 학습 앱.",
+    "category": "학습",
+    "status": "개발 중",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/kanjigyeol/icon.svg",
+    "policy_status": "개발 버전 안내 · 출시용 최종 방침 준비 중"
+  }
+]
