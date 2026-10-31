@@ -14,10 +14,13 @@ if (search && platform && status) {
       app.hidden = !matches;
       if (matches) count++;
     }
-    document.querySelector('#app-count').textContent = `${count}개 / 전체 ${apps.length}개`;
+    const locale = document.documentElement.lang;
+    const template = window.WHITESHEEP_UI_TRANSLATIONS?.[locale]?.['directory.count'] || '{count}개 / 전체 {total}개';
+    document.querySelector('#app-count').textContent = template.replace('{count}', String(count)).replace('{total}', String(apps.length));
     document.querySelector('#no-results').hidden = count !== 0;
   };
   search.addEventListener('input', update);
   platform.addEventListener('change', update);
   status.addEventListener('change', update);
+  document.addEventListener('whitesheep:languagechange', update);
 }

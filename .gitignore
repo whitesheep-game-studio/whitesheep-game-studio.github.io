@@ -1,3 +1,8 @@
 __pycache__/
 *.log
 .env
+node_modules/
+playwright-report/
+test-results/
+.lighthouseci/
+.ci/locales/

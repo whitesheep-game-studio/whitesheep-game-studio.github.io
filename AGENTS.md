@@ -63,8 +63,11 @@
 ## 9. Frontend quality gates and CI/CD
 - Mandatory tools: Vitest (unit tests), Playwright (desktop/mobile browser tests), axe-core (WCAG accessibility checks), ESLint (JS lint), Prettier (formatting), html-validate (generated HTML), Lighthouse CI (performance/SEO/accessibility audit), and Dependabot (dependency update PRs).
 - All PRs into `main` run the same verification job as deployment: build → internal links → lint → formatting → HTML → Vitest → Playwright/axe → Lighthouse. Only a passing `main` workflow deploys GitHub Pages.
-- Use `npm install`, `npm run lint`, `npm run format:check`, `npm run html:check`, `npm test`, and `npm run test:e2e`. Run `python build.py` before testing generated HTML.
+- Use `npm ci`, `npm run lint`, `npm run format:check`, `npm run html:check`, `npm test`, `npm run test:e2e`, and `npm run i18n:check`. Run `python build.py` before testing generated HTML.
 - Every i18n or layout bug fix must include a regression test that fails without the fix. Test Korean, Japanese and English plus persisted language preference; check mobile overflow and dropdown keyboard behavior.
 - Lighthouse score budgets start as warnings while baseline is established; do not claim scores are enforced deployment blockers until thresholds are explicitly raised to errors.
 - Dependabot PRs are subject to the same tests and must not auto-merge without successful checks.
 - Prefer PR verification before merging; protect `main` with a required passing `verify` check where repository permissions allow it.
+- Preserve the common workflow/helper full SHA pair, stable verify gate, and main-only Pages deployment. Publish only the static artifact that passed all checks; do not rebuild after verification.
+- `.ci/i18n-known-gaps.json` is an explicit inventory of existing authored Korean fallbacks, not approval or complete localization. Never regenerate it in CI, add new gaps silently, copy Korean into other locales as fake translations, or remove legal notices to satisfy coverage.
+- Review security overrides against actual upstream advisories and rerun all affected tools; retain the lockfile and mandatory OSV audit. Report actual CI, coverage gaps and deployment state separately.
