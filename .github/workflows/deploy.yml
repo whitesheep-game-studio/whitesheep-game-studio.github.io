@@ -15,64 +15,46 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  quality:
+    uses: whitesheep-game-studio/whitesheep-game-studio-public/.github/workflows/reusable-web.yml@72421e4b3c0960d98afb89535ea0235f7f757670
+    with:
+      automation-ref: 72421e4b3c0960d98afb89535ea0235f7f757670
+      config: .ci/project.yml
+
+  # Keep the existing required check while verification runs in a reusable job.
   verify:
-    runs-on: ubuntu-latest
+    if: always()
+    needs: quality
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund
-      - name: Generate static website
-        run: python build.py
-      - name: Validate links and page contract
-        run: python check_site.py
-      - name: Test generated asset integrity
-        run: python -m unittest discover -s tests -p 'test_*.py' -v
-      - name: Lint JavaScript
-        run: npm run lint
-      - name: Check formatting
-        run: npm run format:check
-      - name: Validate HTML
-        run: npm run html:check
-      - name: Vitest
-        run: npm test
-      - name: Install Chromium
-        run: npx playwright install --with-deps chromium
-      - name: Playwright and axe-core
-        run: npm run test:e2e
-      - name: Lighthouse CI
-        run: npm run lighthouse
-      - name: Upload browser diagnostics on failure
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: frontend-test-results
-          path: |
-            playwright-report/
-            test-results/
-            .lighthouseci/
-          if-no-files-found: ignore
-      - name: Upload Pages artifact
-        if: github.event_name != 'pull_request'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
+      - name: Require every quality stage to succeed
+        env:
+          QUALITY_RESULT: ${{ needs.quality.result }}
+        run: '[[ "$QUALITY_RESULT" == success ]]'
 
   deploy:
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: verify
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - name: Download the site that passed verification
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: verified-static-site
+          path: site
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
+        with:
+          path: site
+          retention-days: 3
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e
         id: deployment

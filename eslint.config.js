@@ -5,7 +5,7 @@ export default [
   { ignores: ['docs/**', 'node_modules/**', '.lighthouseci/**', 'test-results/**'] },
   js.configs.recommended,
   {
-    files: ['**/*.js'],
+    files: ['**/*.js', '**/*.mjs'],
     languageOptions: { ecmaVersion: 'latest', sourceType: 'module', globals: { ...globals.browser, ...globals.node, ...globals.vitest } },
     rules: { 'no-unused-vars': ['error', { argsIgnorePattern: '^_' }] }
   }

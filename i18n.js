@@ -204,10 +204,32 @@ window.WHITESHEEP_TRANSLATIONS = {
 (() => {
   'use strict';
   const languages = {
-    ko: { 'lang.label': '언어 변경', 'nav.apps': '게임과 앱', 'nav.about': '스튜디오', 'nav.support': '문의', 'footer.privacy': '웹사이트 개인정보 안내' },
-    ja: { 'lang.label': '言語を変更', 'nav.apps': 'ゲーム・アプリ', 'nav.about': 'スタジオ', 'nav.support': 'お問い合わせ', 'footer.privacy': 'ウェブサイトのプライバシー' },
-    en: { 'lang.label': 'Change language', 'nav.apps': 'Games & Apps', 'nav.about': 'Studio', 'nav.support': 'Contact', 'footer.privacy': 'Website Privacy' }
+    ko: {
+      'lang.label': '언어 변경',
+      'nav.apps': '게임과 앱',
+      'nav.about': '스튜디오',
+      'nav.support': '문의',
+      'footer.privacy': '웹사이트 개인정보 안내',
+      'directory.count': '{count}개 / 전체 {total}개'
+    },
+    ja: {
+      'lang.label': '言語を変更',
+      'nav.apps': 'ゲーム・アプリ',
+      'nav.about': 'スタジオ',
+      'nav.support': 'お問い合わせ',
+      'footer.privacy': 'ウェブサイトのプライバシー',
+      'directory.count': '全{total}件中{count}件'
+    },
+    en: {
+      'lang.label': 'Change language',
+      'nav.apps': 'Games & Apps',
+      'nav.about': 'Studio',
+      'nav.support': 'Contact',
+      'footer.privacy': 'Website Privacy',
+      'directory.count': '{count} / {total} total'
+    }
   };
+  window.WHITESHEEP_UI_TRANSLATIONS = languages;
   const selected = (() => {
     try {
       return localStorage.getItem('whitesheep-language');
@@ -266,6 +288,7 @@ window.WHITESHEEP_TRANSLATIONS = {
       b.querySelector('.language-check').textContent = active ? '✓' : '';
     });
     translateText();
+    document.dispatchEvent(new CustomEvent('whitesheep:languagechange'));
   }
   function close() {
     menu.hidden = true;
