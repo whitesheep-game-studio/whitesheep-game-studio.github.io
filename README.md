@@ -52,6 +52,8 @@ PR에서 함께 확인한다. CI는 이 옵션을 사용하지 않는다. 법률
 ## 의존성 검증
 
 Node 22 계열을 사용하고 `package-lock.json`/`npm ci`로 설치 결과를 고정한다.
+lockfile 갱신과 clean install은 CI와 같은 Node 22/npm 10으로 검증한다.
+npm 11에서만 갱신하면 npm 10에 필요한 optional peer 항목이 누락될 수 있으므로 `npm ci`를 생략하지 않는다.
 ESLint의 실제 import인 `@eslint/js`와 AST 파서 acorn을 명시적 개발 의존성으로 둔다.
 Vitest 4 및 ESLint 10을 검증하며, LHCI 0.15.1의 오래된 하위 도구는 패치된 Lighthouse 13.6,
 chrome-launcher 1.2.2, tmp 0.2.7, uuid 11.1.1, basic-ftp 6.2.4, glob 14.0.3,
