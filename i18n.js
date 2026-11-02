@@ -1,5 +1,83 @@
 window.WHITESHEEP_TRANSLATIONS = {
   ja: {
+    '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'カンジギョル · プライバシーポリシー · WhiteSheep Game Studio',
+    'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'WhiteSheep Game Studioのゲーム・アプリ、更新情報、サポートを一か所でご確認いただけます。',
+    '운영자 초록지붕이층집 · © 2026': '運営者 초록지붕이층집 · © 2026',
+    '칸지결 개인정보처리방침': 'カンジギョル プライバシーポリシー',
+    '버전 1.0 · 시행일 2026년 11월 2일': 'バージョン1.0・施行日：2026年11月2日',
+    '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、漢字学習アプリ「칸지결 — 일본어 한자 학습」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針の掲載ページに適用されます。',
+    '앱에는 회원가입, 자체 서버, 별도 분석 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 외부 광고·동의 SDK, 이메일 서비스 및 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
+      'アカウント登録、独自サーバー、独立した分析SDK、決済機能はありません。学習履歴は端末に保存されます。外部の広告・同意SDK、メールサービス、ウェブホスティングの情報処理は以下に個別に記載します。',
+    '1. 운영자와 개인정보 문의': '1. 運営者とプライバシーに関するお問い合わせ',
+    '운영자 및 개인정보 문의 담당자: 초록지붕이층집 운영자': '運営者および個人情報に関する担当者：초록지붕이층집の運営者',
+    '문의·열람·정정·삭제·처리 정지 요청:': 'お問い合わせ・開示・訂正・削除・処理停止のご依頼：',
+    '2. 기기에 저장하는 학습 기록과 설정': '2. 端末に保存する学習履歴と設定',
+    '현재 한자 ID, 열람한 한자 ID, 콘텐츠·저장 형식 버전 및 화면 테마를 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 광고업체의 서버로 전송하지 않습니다. 운영자는 기기에만 있는 학습 기록을 원격으로 조회할 수 없습니다.':
+      '現在の漢字ID、閲覧済みの漢字ID、コンテンツ・保存形式のバージョン、画面テーマを保存し、学習位置と設定を復元します。アプリ自体はこれらの履歴を運営者や広告事業者のサーバーに送信しません。運営者は端末内だけにある学習履歴を遠隔で閲覧できません。',
+    '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 기록 초기화는 위치·열람 기록을 초기화하며 테마와 광고 동의 기록은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
+      'これらの情報は、設定での初期化またはアプリデータの削除まで端末に残ります。学習履歴の初期化は位置・閲覧履歴を初期化し、テーマと広告同意履歴は別に保持します。アプリの削除やOSのバックアップ・復元設定によっては、再インストール後に履歴が復元されることがあります。',
+    '3. 문의와 오류 제보': '3. お問い合わせと不具合報告',
+    '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 앱 버전, 운영체제·기기 종류, 한자 ID와 재현 절차는 문제 확인에 필요한 경우에만 알려 주세요. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요.':
+      'メールでのお問い合わせでは、返信先、件名・本文、ご自身で添付した資料を受け取り、回答や不具合確認に利用します。アプリのバージョン、OS・端末の種類、漢字ID、再現手順は確認に必要な場合のみお知らせください。添付は任意です。パスワード、認証コード、身分証、健康情報、他人の個人情報は送らないでください。',
+    '서비스 지원에 필요한 범위에서 요청하신 문의를 처리하며, 그 범위를 넘는 목적에는 별도 근거 없이 이용하지 않습니다. 문의를 보내지 않아도 학습할 수 있습니다. 불필요한 민감정보가 도착하면 삭제하거나 가린 자료를 다시 요청합니다. 문의 데이터는 마케팅·광고 대상자 목록으로 사용하지 않습니다.':
+      'サービスのサポートに必要な範囲でご依頼に対応し、その範囲を超える目的には別の根拠なく利用しません。お問い合わせをしなくても学習できます。不要な機微情報が届いた場合は削除するか、情報を隠した資料の再送をお願いします。お問い合わせ情報をマーケティングや広告配信リストに利用しません。',
+    '문의 메일은 일반 Gmail에서 수신·보관하며 다른 CRM·메일함·외부 업체로 자동 전달하지 않습니다. 운영자가 관리하는 메일, 첨부, 별도 복사본과 휴지통은 문의 처리 종료 후 90일 이내 삭제합니다. 이는 운영자의 보유 기준이며 일률적인 법정 보존기간이 아닙니다. 법적 의무나 구체적인 분쟁 때문에 보존이 필요한 경우 해당 항목·근거·기간으로 범위를 제한하고 종료 시 삭제합니다.':
+      'お問い合わせメールは通常のGmailで受信・保存し、他のCRM・メールボックス・外部事業者へ自動転送しません。運営者が管理するメール、添付、別のコピー、ゴミ箱内のデータは対応終了後90日以内に削除します。これは運営上の保存基準であり、一律の法定保存期間ではありません。法的義務や具体的な紛争のため保存が必要な場合は、対象・根拠・期間を必要な範囲に限定し、終了時に削除します。',
+    '앱의 제보 내용 복사는 앱·콘텐츠 버전과 현재 한자 ID 등을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 전체 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
+      'アプリの報告内容のコピー機能は、アプリ・コンテンツのバージョンや現在の漢字IDなどを含む書式を端末のクリップボードにコピーします。メールの自動送信や学習履歴全体の送信は行いません。送信前に編集でき、クリップボードは端末・OSの方針に従って処理されます。',
+    '4. 광고와 동의 SDK의 정보 처리': '4. 広告・同意SDKによる情報処理',
+    '앱에는 Google Mobile Ads와 Google UMP SDK가 포함됩니다. SDK가 동작하는 경우 IP 주소와 그로부터 추정되는 대략적 위치, 광고 ID·앱 세트 ID 등 식별자, 앱 실행·광고 노출·탭 등 상호작용, 성능·오류·진단 정보 및 동의 상태 등이 Google로 전송될 수 있습니다. 목적은 광고 제공·측정, SDK 및 서비스 운영, 진단, 보안과 부정 이용 방지입니다.':
+      'アプリにはGoogle Mobile AdsとGoogle UMP SDKが含まれます。SDKの動作時には、IPアドレスとそこから推定されるおおよその位置、広告ID・アプリセットIDなどの識別子、起動・広告表示・タップなどの操作、性能・エラー・診断情報、同意状態などがGoogleへ送信されることがあります。目的は広告の提供・測定、SDKとサービスの運用、診断、セキュリティ、不正利用防止です。',
+    '2026년 11월 2일 기준 운영 배너는 활성화되지 않았습니다. 현재 release 구성은 앱의 동의·광고 초기화·배너 요청 경로를 비활성화하며, 개발·테스트 구성에서는 Google 샘플 광고를 사용합니다. SDK가 바이너리에 포함되어 있으므로 이를 Google과의 모든 통신이나 정보 처리가 없다는 의미로 해석하지 않습니다. 운영 광고를 켜거나 처리 범위가 달라지기 전에 방침과 필요한 안내·선택 절차를 갱신합니다.':
+      '2026年11月2日時点では本番バナーは有効になっていません。現在のrelease構成は、アプリの同意取得・広告初期化・バナーリクエストの経路を無効にし、開発・テスト構成ではGoogleのサンプル広告を使用します。SDKはバイナリに含まれるため、Googleとの通信や情報処理が一切ないという意味ではありません。本番広告の有効化や処理範囲の変更前に、本方針と必要な説明・選択手続きを更新します。',
+    '현재 광고 요청은 비개인화 광고와 콘텐츠 등급 G를 사용합니다. 비개인화 광고·테스트 광고도 식별자나 진단 정보 처리가 없다는 뜻은 아닙니다. 앱은 위치 권한·주소록·생년월일·신분증을 요구하지 않으며 iOS 추적 허용 팝업을 요청하지 않습니다.':
+      '現在の広告リクエストでは非パーソナライズ広告とコンテンツレーティングGを使用します。非パーソナライズ広告やテスト広告でも、識別子や診断情報が処理されないとは限りません。アプリは位置権限・連絡先・生年月日・身分証を要求せず、iOSのトラッキング許可ポップアップも要求しません。',
+    '5. 광고 선택과 거부': '5. 広告に関する選択と拒否',
+    '광고 요청은 Google 동의 도구가 요청 가능 상태를 반환할 때 진행합니다. 도구가 개인정보 선택 변경을 요구하는 경우 앱 설정에 광고 개인정보 선택 메뉴가 표시됩니다. 기기 설정에서 광고 ID 삭제·재설정 및 개인정보 선택을 관리할 수 있습니다. 메뉴와 지원 범위는 운영체제·SDK·지역에 따라 다를 수 있습니다.':
+      'Googleの同意ツールがリクエスト可能と返した場合に広告をリクエストします。ツールがプライバシー選択の変更を必要とする場合、アプリ設定に広告のプライバシー選択メニューを表示します。端末設定でも広告IDの削除・リセットやプライバシー選択を管理できます。メニューと対応範囲はOS・SDK・地域により異なることがあります。',
+    '광고가 표시되지 않거나 동의 처리·통신이 실패해도 학습 기능을 차단하지 않습니다. 학습 기록 초기화나 광고 ID 변경만으로 Google이 이미 보유한 정보가 모두 삭제되지는 않습니다. Google이 보유한 정보에 대한 요청은 Google의 개인정보 보호 도구 또는 아래 연락처를 이용할 수 있습니다.':
+      '広告が表示されない場合や同意処理・通信が失敗した場合でも学習を妨げません。学習履歴の初期化や広告IDの変更だけで、Googleがすでに保有する情報がすべて削除されるわけではありません。Googleが保有する情報のご依頼には、Googleのプライバシーツールまたは以下の連絡先を利用できます。',
+    '6. 외부 서비스와 정보 공유': '6. 外部サービスと情報共有',
+    '운영자는 학습 기록을 판매하거나 광고업체에 제공하지 않습니다. Google 광고·동의 SDK의 처리와 문의 메일·정책 웹페이지의 외부 서비스 이용은 이와 별개의 흐름입니다. 필요한 동의 또는 다른 적법한 근거 없이 문의 내용을 새로운 제3자에게 제공하거나 다른 목적으로 사용하지 않습니다.':
+      '運営者は学習履歴を販売したり広告事業者に提供したりしません。Google広告・同意SDKによる処理や、お問い合わせメール・方針掲載ページでの外部サービス利用は別の流れです。必要な同意または他の適法な根拠なしに、お問い合わせ内容を新たな第三者に提供したり別目的に利用したりしません。',
+    '광고·동의 서비스: Google의 공개 개인정보처리방침에 따라 Google LLC 및 관련 Google 법인이 정보를 처리할 수 있습니다. 기본 AdMob 서비스의 독립적인 개인정보 처리와 특정 기능의 처리위탁은 구분됩니다. 모든 Google 처리를 운영자의 지시에만 따르는 위탁이라고 표시하지 않습니다.':
+      '広告・同意サービス：Googleの公開プライバシーポリシーに従い、Google LLCおよび関連するGoogle法人が情報を処理することがあります。基本AdMobサービスの独立した個人情報処理と、特定機能における処理委託は区別します。Googleによる処理をすべて運営者の指示のみに従う委託とは表示しません。',
+    '문의 이메일: Gmail을 제공하는 Google의 메일 전송·저장·보안 기능을 사용합니다. 정책 웹페이지: GitHub Pages를 제공하는 GitHub, Inc. 등 GitHub의 해당 서비스 제공자가 접속 정보를 처리합니다. 운영자가 받는 문의와 제공자가 자체 서비스·보안 목적으로 처리하는 정보를 구분합니다.':
+      'お問い合わせメール：Gmailを提供するGoogleのメール送信・保存・セキュリティ機能を利用します。方針掲載ページ：GitHub Pagesを提供するGitHub, Inc.など、該当するGitHubサービス提供者がアクセス情報を処理します。運営者が受け取るお問い合わせと、提供者が自社サービス・セキュリティ目的で処理する情報は区別します。',
+    '7. 국외 처리와 보유 기간': '7. 国外での処理と保存期間',
+    'Google과 GitHub는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지합니다. 이용 시점에 통신망을 통한 전송·보관·처리가 이루어질 수 있습니다. 운영자는 이용자별 실제 서버 국가를 지정하거나 조회하지 못하며 미국 한 곳에서만 처리된다고 보장하지 않습니다. 제공자의 현재 처리지역·보호조치·연락처는 아래 공식 고지에서 확인할 수 있습니다.':
+      'GoogleとGitHubは、米国を含む複数の国のインフラで情報を処理すると公表しています。利用時に通信ネットワークを通じた転送・保存・処理が行われることがあります。運営者は利用者ごとの実際のサーバー国を指定・照会できず、米国だけで処理されるとは保証しません。提供者の現在の処理地域、保護措置、連絡先は以下の公式文書で確認できます。',
+    'Google SDK 정보는 SDK 통신 시 광고·동의·진단 등을 위해 처리되며, 보유 기간은 데이터 유형·목적·설정과 법적 필요에 따라 달라집니다. 문의 메일은 운영자의 90일 삭제 기준을 적용하되 제공자의 삭제 처리·백업은 별도 절차를 따릅니다. Google은 일반적인 삭제 절차와 백업 보관에 관한 산정 기준을 공개하며, 이 기준을 모든 광고 데이터의 단일 보유 기간으로 해석하지 않습니다.':
+      'Google SDK情報はSDK通信時に広告・同意・診断などのため処理され、保存期間は情報の種類・目的・設定・法的必要性によって異なります。お問い合わせメールには運営者の90日以内の削除基準を適用しますが、提供者の削除処理・バックアップは別の手続きに従います。Googleは一般的な削除・バックアップ保存の基準を公開していますが、これはすべての広告情報に共通する単一の保存期間を意味しません。',
+    'GitHub의 접속 정보는 웹페이지 제공·보안·운영에 필요한 기간과 법적 의무 등에 따라 처리됩니다. 운영자는 개인별 호스팅 로그를 별도로 수집·다운로드하거나 학습 기록과 결합하지 않습니다. 상세한 보유 기준과 권리 요청은 GitHub의 개인정보 고지를 따릅니다.':
+      'GitHubのアクセス情報は、ページ提供・セキュリティ・運用に必要な期間や法的義務などに応じて処理されます。運営者は個人別のホスティングログを別に収集・ダウンロードしたり学習履歴と結合したりしません。詳細な保存基準と権利に関するご依頼はGitHubのプライバシー文書をご確認ください。',
+    '외부 처리를 원하지 않으면 해당 서비스를 이용하지 않거나 문의 메일 전송을 중단하고 위 담당자에게 삭제·처리 정지를 요청할 수 있습니다. 문의 미전송이나 정책 웹페이지 미방문은 기기 내 학습을 막지 않습니다. 광고 관련 선택은 5항을 따릅니다. 방침의 게시는 별도 동의가 필요한 처리의 동의를 대신하지 않으며, 운영 광고를 활성화하기 전에 실제 제공자·국가·근거와 필요한 고지·동의 절차를 확인합니다.':
+      '外部処理を望まない場合は、該当サービスの利用やお問い合わせメールの送信を中止し、上記担当者に削除・処理停止を依頼できます。メールを送らない場合や方針ページを閲覧しない場合でも端末内の学習は利用できます。広告の選択は第5項をご確認ください。本方針の公開は別途必要な同意に代わるものではなく、本番広告を有効にする前に実際の提供者・国・根拠と必要な説明・同意手続きを確認します。',
+    '8. 이 웹페이지와 언어 설정': '8. このウェブページと言語設定',
+    '이 페이지는 GitHub Pages의 정적 웹페이지입니다. 자체 로그인, 문의 입력폼, 광고, 외부 분석 스크립트와 웹폰트를 사용하지 않습니다. 브라우저의 localStorage에는 선택한 언어만 저장하며 서버로 전송하지 않습니다. 브라우저의 사이트 데이터 삭제로 지울 수 있고, 저장을 차단해도 기본 언어로 페이지를 읽을 수 있습니다. 호스팅 제공자의 접속 정보 처리는 6·7항과 별개로 사라지지 않습니다.':
+      '本ページはGitHub Pagesの静的ウェブページです。独自ログイン、問い合わせ入力フォーム、広告、外部分析スクリプト、ウェブフォントは使用しません。ブラウザーのlocalStorageには選択した言語だけを保存し、サーバーへ送信しません。サイトデータの削除で消去でき、保存をブロックしても既定言語で閲覧できます。ホスティング提供者によるアクセス情報の処理は、第6・7項のとおり別に存在します。',
+    '9. 이용자의 권리와 파기 방법': '9. 利用者の権利と削除方法',
+    '운영자가 보유한 문의 정보에 대해 열람, 정정, 삭제, 처리 정지와 동의 철회를 요청할 수 있습니다. 대리인을 통한 요청도 필요한 권한 확인 후 처리합니다. 과도한 신분증이나 불필요한 개인정보를 일률적으로 요구하지 않습니다. 법령상 제한이 있는 경우 사유를 안내합니다. 기기에만 저장된 기록은 앱 설정이나 운영체제의 앱 데이터 삭제로 관리할 수 있습니다.':
+      '運営者が保有するお問い合わせ情報について、開示・訂正・削除・処理停止・同意撤回を依頼できます。代理人による依頼も必要な権限確認後に対応します。過剰な身分証や不要な個人情報を一律に要求しません。法令上の制限がある場合は理由を説明します。端末内だけの履歴はアプリ設定またはOSのアプリデータ削除で管理できます。',
+    '보유 목적이나 기간이 끝난 전자파일·메일·첨부는 복구가 어렵도록 삭제하고 관리 가능한 복사본과 휴지통도 확인합니다. 종이로 출력한 개인정보가 있으면 분쇄 등으로 파기합니다. Google·GitHub가 독립적으로 보유하는 정보는 해당 제공자의 삭제 절차가 적용되므로 운영자의 기록 삭제만으로 모두 지워졌다고 보장하지 않습니다.':
+      '目的または保存期間が終了した電子ファイル・メール・添付は復元が困難な方法で削除し、管理可能なコピーやゴミ箱も確認します。個人情報を印刷した紙があれば裁断などで廃棄します。Google・GitHubが独立して保有する情報には各提供者の削除手続きが適用されるため、運営者の記録の削除ですべて消去されたとは保証しません。',
+    '10. 안전성 확보': '10. 安全性の確保',
+    '운영자 계정과 문의 자료의 접근을 필요한 담당자로 제한하고, 계정·기기 접근 보호와 보유 자료 점검·삭제를 수행합니다. 앱은 운영체제의 앱 저장 영역을 사용하며 저장 라이브러리 자체의 추가 암호화를 보장하지 않습니다. Google 광고 SDK는 전송 시 TLS 암호화를 사용하며 정책 페이지는 HTTPS로 제공합니다. 이용자의 기기와 외부 제공자의 모든 시스템을 운영자가 통제한다는 의미는 아닙니다.':
+      '運営者アカウントとお問い合わせ資料へのアクセスは必要な担当者に限定し、アカウント・端末のアクセス保護、保有資料の確認・削除を行います。アプリはOSのアプリ保存領域を使用し、保存ライブラリー自体による追加暗号化は保証しません。Google広告SDKは送信時にTLS暗号化を使用し、本方針ページはHTTPSで提供します。利用者の端末や外部提供者の全システムを運営者が管理するという意味ではありません。',
+    '11. 이용 대상과 아동': '11. 対象年齢と子ども',
+    '칸지결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
+      'カンジギョルは韓国の14歳以上の青少年と成人を対象とします。生年月日や身分証を収集して年齢確認を行うことはなく、すべての利用者を成人と見なしません。14歳未満の個人情報がお問い合わせに含まれると判明した場合、必要な保護措置を検討し、不要な情報を削除します。',
+    '12. 변경 안내와 외부 제공자 고지': '12. 変更のお知らせと外部提供者の文書',
+    '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 칸지결의 방침이나 필요한 개별 동의를 대체하지 않습니다.':
+      '処理目的・項目・提供者・保存基準などを変更する場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は施行前に同意を得ます。外部リンクは各提供者の文書であり、カンジギョルの本方針や必要な個別同意に代わるものではありません。',
+    'Google 개인정보처리방침 및 문의': 'Googleのプライバシーポリシーとお問い合わせ',
+    'Google 한국 거주자 추가 고지': 'Googleの韓国居住者向け追加情報',
+    'Google 데이터 보유·삭제 기준': 'Googleのデータ保存・削除基準',
+    'Google 파트너 앱의 정보 이용': 'Googleによるパートナーアプリ情報の利用',
+    'Google 광고 SDK 데이터 공개': 'Google広告SDKのデータ開示',
+    'Google 광고 서비스별 처리 역할': 'Google広告サービス別の処理上の役割',
+    'GitHub 개인정보·국외 처리·권리 요청': 'GitHubのプライバシー・国外処理・権利に関するご依頼',
     '본문 바로가기': '本文へ移動',
     '주 메뉴': 'メインメニュー',
     '게임과 앱': 'ゲーム・アプリ',
@@ -100,6 +178,84 @@ window.WHITESHEEP_TRANSLATIONS = {
     '안내 변경': '記載内容の変更'
   },
   en: {
+    '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio',
+    'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.',
+    '운영자 초록지붕이층집 · © 2026': 'Operated by 초록지붕이층집 · © 2026',
+    '칸지결 개인정보처리방침': 'Kanjigyeol Privacy Policy',
+    '버전 1.0 · 시행일 2026년 11월 2일': 'Version 1.0 · Effective November 2, 2026',
+    '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the kanji learning app 칸지결 — 일본어 한자 학습. The developer brand is WhiteSheep Game Studio. This policy covers the app, support requests, and the webpage publishing this policy.',
+    '앱에는 회원가입, 자체 서버, 별도 분석 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 외부 광고·동의 SDK, 이메일 서비스 및 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
+      'The app has no account registration, operator-run server, separate analytics SDK, or payment feature. Learning history is stored on your device. Processing by advertising and consent SDKs, email services, and website hosting is described separately below.',
+    '1. 운영자와 개인정보 문의': '1. Operator and privacy contact',
+    '운영자 및 개인정보 문의 담당자: 초록지붕이층집 운영자': 'Operator and privacy contact: the operator of 초록지붕이층집',
+    '문의·열람·정정·삭제·처리 정지 요청:': 'Questions and requests for access, correction, deletion, or restriction:',
+    '2. 기기에 저장하는 학습 기록과 설정': '2. Learning history and settings stored on your device',
+    '현재 한자 ID, 열람한 한자 ID, 콘텐츠·저장 형식 버전 및 화면 테마를 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 광고업체의 서버로 전송하지 않습니다. 운영자는 기기에만 있는 학습 기록을 원격으로 조회할 수 없습니다.':
+      'The app stores the current kanji ID, viewed kanji IDs, content and storage-format versions, and display theme to restore your place and preferences. The app itself does not send these records to the operator or advertising companies. The operator cannot remotely access learning history held only on your device.',
+    '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 기록 초기화는 위치·열람 기록을 초기화하며 테마와 광고 동의 기록은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
+      'These records remain on your device until you reset them in settings or remove app data. Resetting learning history resets your position and viewed records; themes and advertising consent records are maintained separately. Depending on app removal and operating-system backup or restore settings, records may return after reinstallation.',
+    '3. 문의와 오류 제보': '3. Support requests and error reports',
+    '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 앱 버전, 운영체제·기기 종류, 한자 ID와 재현 절차는 문제 확인에 필요한 경우에만 알려 주세요. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요.':
+      'When you email us, we receive your reply address, subject, message, and any attachments you choose to send, and use them to respond and investigate errors. Provide app version, operating system and device type, kanji ID, or reproduction steps only when relevant. Attachments are optional. Do not send passwords, verification codes, identity documents, health information, or other people’s personal information.',
+    '서비스 지원에 필요한 범위에서 요청하신 문의를 처리하며, 그 범위를 넘는 목적에는 별도 근거 없이 이용하지 않습니다. 문의를 보내지 않아도 학습할 수 있습니다. 불필요한 민감정보가 도착하면 삭제하거나 가린 자료를 다시 요청합니다. 문의 데이터는 마케팅·광고 대상자 목록으로 사용하지 않습니다.':
+      'We handle the support you request to the extent necessary to assist with the service and do not use that information for unrelated purposes without a separate basis. Sending a request is not required to study. If unnecessary sensitive information arrives, we delete it or ask you to resend a redacted version. Support information is not used for marketing or advertising lists.',
+    '문의 메일은 일반 Gmail에서 수신·보관하며 다른 CRM·메일함·외부 업체로 자동 전달하지 않습니다. 운영자가 관리하는 메일, 첨부, 별도 복사본과 휴지통은 문의 처리 종료 후 90일 이내 삭제합니다. 이는 운영자의 보유 기준이며 일률적인 법정 보존기간이 아닙니다. 법적 의무나 구체적인 분쟁 때문에 보존이 필요한 경우 해당 항목·근거·기간으로 범위를 제한하고 종료 시 삭제합니다.':
+      'Support emails are received and stored in standard Gmail and are not automatically forwarded to another CRM, mailbox, or external provider. Messages, attachments, separate copies, and trash controlled by the operator are deleted within 90 days after the request is resolved. This is our retention rule, not a universal statutory retention period. Where a legal duty or a specific dispute requires retention, we limit the records, basis, and duration to what is necessary and delete them when that requirement ends.',
+    '앱의 제보 내용 복사는 앱·콘텐츠 버전과 현재 한자 ID 등을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 전체 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
+      'The report-copy feature copies a template containing app and content versions and the current kanji ID to your device clipboard. It does not automatically send email or transmit your full learning history. You may edit the template before sending; clipboard handling depends on your device and operating system.',
+    '4. 광고와 동의 SDK의 정보 처리': '4. Information processed by advertising and consent SDKs',
+    '앱에는 Google Mobile Ads와 Google UMP SDK가 포함됩니다. SDK가 동작하는 경우 IP 주소와 그로부터 추정되는 대략적 위치, 광고 ID·앱 세트 ID 등 식별자, 앱 실행·광고 노출·탭 등 상호작용, 성능·오류·진단 정보 및 동의 상태 등이 Google로 전송될 수 있습니다. 목적은 광고 제공·측정, SDK 및 서비스 운영, 진단, 보안과 부정 이용 방지입니다.':
+      'The app includes Google Mobile Ads and Google UMP SDKs. When these SDKs operate, IP addresses and approximate location derived from them, identifiers such as advertising and app-set IDs, interactions such as app launches, ad impressions and taps, performance and diagnostic information, errors, and consent status may be sent to Google. Purposes include ad delivery and measurement, SDK and service operation, diagnostics, security, and fraud prevention.',
+    '2026년 11월 2일 기준 운영 배너는 활성화되지 않았습니다. 현재 release 구성은 앱의 동의·광고 초기화·배너 요청 경로를 비활성화하며, 개발·테스트 구성에서는 Google 샘플 광고를 사용합니다. SDK가 바이너리에 포함되어 있으므로 이를 Google과의 모든 통신이나 정보 처리가 없다는 의미로 해석하지 않습니다. 운영 광고를 켜거나 처리 범위가 달라지기 전에 방침과 필요한 안내·선택 절차를 갱신합니다.':
+      'As of November 2, 2026, production banners are not enabled. The current release configuration disables the app’s consent, ad-initialization, and banner-request paths, while development and test builds use Google sample ads. SDKs remain in the binary; this does not mean that all communication or information processing by Google is absent. Before enabling production ads or changing processing, we will update this policy and the required notices and choices.',
+    '현재 광고 요청은 비개인화 광고와 콘텐츠 등급 G를 사용합니다. 비개인화 광고·테스트 광고도 식별자나 진단 정보 처리가 없다는 뜻은 아닙니다. 앱은 위치 권한·주소록·생년월일·신분증을 요구하지 않으며 iOS 추적 허용 팝업을 요청하지 않습니다.':
+      'Current ad requests use non-personalized ads and content rating G. Non-personalized or test ads do not imply that identifiers or diagnostic information are not processed. The app does not request location permission, contacts, date of birth, identity documents, or the iOS tracking-permission prompt.',
+    '5. 광고 선택과 거부': '5. Advertising choices and refusal',
+    '광고 요청은 Google 동의 도구가 요청 가능 상태를 반환할 때 진행합니다. 도구가 개인정보 선택 변경을 요구하는 경우 앱 설정에 광고 개인정보 선택 메뉴가 표시됩니다. 기기 설정에서 광고 ID 삭제·재설정 및 개인정보 선택을 관리할 수 있습니다. 메뉴와 지원 범위는 운영체제·SDK·지역에 따라 다를 수 있습니다.':
+      'Ad requests proceed when Google’s consent tool returns that ads may be requested. If the tool requires access to privacy choices, the app settings show an advertising privacy-choice menu. Device settings may also let you delete or reset advertising IDs and manage privacy choices. Menus and available options depend on operating system, SDK, and region.',
+    '광고가 표시되지 않거나 동의 처리·통신이 실패해도 학습 기능을 차단하지 않습니다. 학습 기록 초기화나 광고 ID 변경만으로 Google이 이미 보유한 정보가 모두 삭제되지는 않습니다. Google이 보유한 정보에 대한 요청은 Google의 개인정보 보호 도구 또는 아래 연락처를 이용할 수 있습니다.':
+      'Learning is not blocked when ads are unavailable or consent handling or communication fails. Resetting learning history or changing an advertising ID does not delete all information Google already holds. Requests concerning data held by Google can be made through its privacy tools or the contact below.',
+    '6. 외부 서비스와 정보 공유': '6. External services and information sharing',
+    '운영자는 학습 기록을 판매하거나 광고업체에 제공하지 않습니다. Google 광고·동의 SDK의 처리와 문의 메일·정책 웹페이지의 외부 서비스 이용은 이와 별개의 흐름입니다. 필요한 동의 또는 다른 적법한 근거 없이 문의 내용을 새로운 제3자에게 제공하거나 다른 목적으로 사용하지 않습니다.':
+      'The operator does not sell learning history or provide it to advertising companies. Google advertising and consent SDK processing and external services used for support email and this policy webpage are separate flows. We do not disclose support content to new third parties or use it for other purposes without required consent or another lawful basis.',
+    '광고·동의 서비스: Google의 공개 개인정보처리방침에 따라 Google LLC 및 관련 Google 법인이 정보를 처리할 수 있습니다. 기본 AdMob 서비스의 독립적인 개인정보 처리와 특정 기능의 처리위탁은 구분됩니다. 모든 Google 처리를 운영자의 지시에만 따르는 위탁이라고 표시하지 않습니다.':
+      'Advertising and consent services: Google LLC and relevant Google entities may process information under Google’s published privacy policy. Independent processing in the core AdMob service is distinct from processing on another party’s behalf for specific features. Not all Google processing is described as processing solely under the operator’s instructions.',
+    '문의 이메일: Gmail을 제공하는 Google의 메일 전송·저장·보안 기능을 사용합니다. 정책 웹페이지: GitHub Pages를 제공하는 GitHub, Inc. 등 GitHub의 해당 서비스 제공자가 접속 정보를 처리합니다. 운영자가 받는 문의와 제공자가 자체 서비스·보안 목적으로 처리하는 정보를 구분합니다.':
+      'Support email uses Google’s Gmail transmission, storage, and security features. For this policy webpage, the relevant GitHub service provider, including GitHub, Inc., processes access information through GitHub Pages. Support received by the operator is distinguished from information providers process for their own service and security purposes.',
+    '7. 국외 처리와 보유 기간': '7. International processing and retention',
+    'Google과 GitHub는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지합니다. 이용 시점에 통신망을 통한 전송·보관·처리가 이루어질 수 있습니다. 운영자는 이용자별 실제 서버 국가를 지정하거나 조회하지 못하며 미국 한 곳에서만 처리된다고 보장하지 않습니다. 제공자의 현재 처리지역·보호조치·연락처는 아래 공식 고지에서 확인할 수 있습니다.':
+      'Google and GitHub disclose processing on infrastructure in multiple countries, including the United States. Transmission, storage, and processing over networks may occur when the services are used. The operator cannot specify or inspect the actual server country for each user and does not guarantee processing only in the United States. Current provider disclosures below describe processing locations, safeguards, and contacts.',
+    'Google SDK 정보는 SDK 통신 시 광고·동의·진단 등을 위해 처리되며, 보유 기간은 데이터 유형·목적·설정과 법적 필요에 따라 달라집니다. 문의 메일은 운영자의 90일 삭제 기준을 적용하되 제공자의 삭제 처리·백업은 별도 절차를 따릅니다. Google은 일반적인 삭제 절차와 백업 보관에 관한 산정 기준을 공개하며, 이 기준을 모든 광고 데이터의 단일 보유 기간으로 해석하지 않습니다.':
+      'Google SDK information is processed for advertising, consent, diagnostics, and related purposes when SDK communication occurs. Retention depends on data type, purpose, settings, and legal needs. Our 90-day deletion rule applies to support emails under our control, while provider deletion and backups follow separate processes. Google publishes general deletion and backup-retention criteria; these are not a single retention period for all advertising data.',
+    'GitHub의 접속 정보는 웹페이지 제공·보안·운영에 필요한 기간과 법적 의무 등에 따라 처리됩니다. 운영자는 개인별 호스팅 로그를 별도로 수집·다운로드하거나 학습 기록과 결합하지 않습니다. 상세한 보유 기준과 권리 요청은 GitHub의 개인정보 고지를 따릅니다.':
+      'GitHub processes access information for the duration needed for webpage delivery, security, operation, and legal obligations. The operator does not separately collect or download individual hosting logs or combine them with learning history. GitHub’s privacy notice describes its retention criteria and rights-request process.',
+    '외부 처리를 원하지 않으면 해당 서비스를 이용하지 않거나 문의 메일 전송을 중단하고 위 담당자에게 삭제·처리 정지를 요청할 수 있습니다. 문의 미전송이나 정책 웹페이지 미방문은 기기 내 학습을 막지 않습니다. 광고 관련 선택은 5항을 따릅니다. 방침의 게시는 별도 동의가 필요한 처리의 동의를 대신하지 않으며, 운영 광고를 활성화하기 전에 실제 제공자·국가·근거와 필요한 고지·동의 절차를 확인합니다.':
+      'If you do not want external processing, you may refrain from using the relevant service or sending support emails and request deletion or restriction from the contact above. Not sending email or visiting this webpage does not prevent on-device learning. Advertising choices are described in section 5. Publishing this policy does not replace any separately required consent. Before enabling production ads, the actual providers, countries, legal basis, and required notices and consent processes must be confirmed.',
+    '8. 이 웹페이지와 언어 설정': '8. This webpage and language preferences',
+    '이 페이지는 GitHub Pages의 정적 웹페이지입니다. 자체 로그인, 문의 입력폼, 광고, 외부 분석 스크립트와 웹폰트를 사용하지 않습니다. 브라우저의 localStorage에는 선택한 언어만 저장하며 서버로 전송하지 않습니다. 브라우저의 사이트 데이터 삭제로 지울 수 있고, 저장을 차단해도 기본 언어로 페이지를 읽을 수 있습니다. 호스팅 제공자의 접속 정보 처리는 6·7항과 별개로 사라지지 않습니다.':
+      'This is a static GitHub Pages webpage. It uses no operator-provided login, contact form, advertising, external analytics script, or web font. Browser localStorage holds only your selected language and is not sent to a server. You may clear it through site-data settings; blocking storage still permits reading in the default language. Hosting-provider processing of access information described in sections 6 and 7 still applies.',
+    '9. 이용자의 권리와 파기 방법': '9. Your rights and deletion methods',
+    '운영자가 보유한 문의 정보에 대해 열람, 정정, 삭제, 처리 정지와 동의 철회를 요청할 수 있습니다. 대리인을 통한 요청도 필요한 권한 확인 후 처리합니다. 과도한 신분증이나 불필요한 개인정보를 일률적으로 요구하지 않습니다. 법령상 제한이 있는 경우 사유를 안내합니다. 기기에만 저장된 기록은 앱 설정이나 운영체제의 앱 데이터 삭제로 관리할 수 있습니다.':
+      'You may request access, correction, deletion, restriction, or withdrawal of consent for support information held by the operator. Authorized-agent requests are handled after necessary authority checks. We do not routinely demand excessive identity documents or unnecessary personal information. We explain any legal restrictions. Device-only records can be managed through app settings or operating-system app-data deletion.',
+    '보유 목적이나 기간이 끝난 전자파일·메일·첨부는 복구가 어렵도록 삭제하고 관리 가능한 복사본과 휴지통도 확인합니다. 종이로 출력한 개인정보가 있으면 분쇄 등으로 파기합니다. Google·GitHub가 독립적으로 보유하는 정보는 해당 제공자의 삭제 절차가 적용되므로 운영자의 기록 삭제만으로 모두 지워졌다고 보장하지 않습니다.':
+      'When a purpose or retention period ends, we delete electronic files, emails, and attachments in a manner intended to prevent recovery, including checking copies and trash under our control. Any printed personal information is shredded or otherwise destroyed. Google and GitHub apply their own procedures to information they hold independently; deletion of the operator’s records does not guarantee deletion of all provider-held information.',
+    '10. 안전성 확보': '10. Safeguards',
+    '운영자 계정과 문의 자료의 접근을 필요한 담당자로 제한하고, 계정·기기 접근 보호와 보유 자료 점검·삭제를 수행합니다. 앱은 운영체제의 앱 저장 영역을 사용하며 저장 라이브러리 자체의 추가 암호화를 보장하지 않습니다. Google 광고 SDK는 전송 시 TLS 암호화를 사용하며 정책 페이지는 HTTPS로 제공합니다. 이용자의 기기와 외부 제공자의 모든 시스템을 운영자가 통제한다는 의미는 아닙니다.':
+      'We restrict access to operator accounts and support materials to necessary personnel, protect account and device access, and review and delete retained materials. The app uses operating-system app storage; extra encryption by the storage library itself is not guaranteed. Google’s advertising SDK uses TLS in transit, and this policy webpage uses HTTPS. This does not mean the operator controls every user device or every external provider system.',
+    '11. 이용 대상과 아동': '11. Intended audience and children',
+    '칸지결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
+      'Kanjigyeol is intended for teenagers aged 14 or older and adults in South Korea. We do not verify age by collecting birth dates or identity documents and do not treat every user as an adult. If we learn that a support request contains personal information about a child under 14, we consider necessary protective steps and delete unnecessary information.',
+    '12. 변경 안내와 외부 제공자 고지': '12. Changes and external provider notices',
+    '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 칸지결의 방침이나 필요한 개별 동의를 대체하지 않습니다.':
+      'When processing purposes, data, providers, or retention criteria change, we update this page’s version and effective date and explain the changes and when they apply. Changes requiring separate consent will not take effect before that consent is obtained. External links are provider disclosures and do not replace this policy or any required individual consent.',
+    'Google 개인정보처리방침 및 문의': 'Google Privacy Policy and contact',
+    'Google 한국 거주자 추가 고지': 'Google additional information for Korean residents',
+    'Google 데이터 보유·삭제 기준': 'Google data retention and deletion criteria',
+    'Google 파트너 앱의 정보 이용': 'Google use of information from partner apps',
+    'Google 광고 SDK 데이터 공개': 'Google advertising SDK data disclosure',
+    'Google 광고 서비스별 처리 역할': 'Google advertising service processing roles',
+    'GitHub 개인정보·국외 처리·권리 요청': 'GitHub privacy, international processing, and rights requests',
     '본문 바로가기': 'Skip to content',
     '주 메뉴': 'Main navigation',
     '게임과 앱': 'Games & Apps',
@@ -245,6 +401,11 @@ window.WHITESHEEP_TRANSLATIONS = {
   if (!picker || !trigger || !menu) return;
   const names = { ko: '한국어', ja: '日本語', en: 'English' };
   const originals = new WeakMap();
+  const originalTitle = document.title;
+  const originalMetadata = [...document.querySelectorAll('meta[name="description"], meta[property="og:title"], meta[property="og:description"]')].map((element) => ({
+    element,
+    content: element.content
+  }));
   const lookup = (text, language) => {
     if (language === 'ko') return text;
     const dict = window.WHITESHEEP_TRANSLATIONS?.[language] || {};
@@ -278,6 +439,10 @@ window.WHITESHEEP_TRANSLATIONS = {
   }
   function apply() {
     document.documentElement.lang = lang;
+    document.title = lookup(originalTitle, lang);
+    for (const { element, content } of originalMetadata) {
+      element.content = lookup(content, lang);
+    }
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       el.textContent = languages[lang][el.dataset.i18n] || languages.ko[el.dataset.i18n] || el.textContent;
     });
@@ -323,4 +488,5 @@ window.WHITESHEEP_TRANSLATIONS = {
     }
   });
   apply();
+  trigger.disabled = false;
 })();
