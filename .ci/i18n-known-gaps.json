@@ -4,23 +4,6 @@
   "note": "Existing authored Korean fallback. These texts are not verified ja/en translations. Review faithful translations before removing gaps; CI never regenerates this baseline.",
   "knownGaps": [
     {
-      "id": "text.02e7dbc9665a9f82194f",
-      "source": "WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.",
-      "locales": ["en", "ja"],
-      "locations": [
-        "404.html:meta:description",
-        "about/index.html:meta:description",
-        "apps/index.html:meta:description",
-        "apps/kanjigyeol/index.html:meta:description",
-        "apps/kanjigyeol/privacy/index.html:meta:description",
-        "apps/kanjigyeol/sources/index.html:meta:description",
-        "apps/kanjigyeol/support/index.html:meta:description",
-        "index.html:meta:description",
-        "privacy/index.html:meta:description",
-        "support/index.html:meta:description"
-      ]
-    },
-    {
       "id": "text.031cc1a11008e15844de",
       "source": "페이지를 찾을 수 없습니다",
       "locales": ["en", "ja"],
@@ -201,12 +184,6 @@
       "locations": ["apps/kanjigyeol/support/index.html:text"]
     },
     {
-      "id": "text.9892c9cfdfbe0731358b",
-      "source": "칸지결 · 개인정보 안내 · WhiteSheep Game Studio",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/privacy/index.html:meta:og:title", "apps/kanjigyeol/privacy/index.html:title"]
-    },
-    {
       "id": "text.99a545a84e62ee97f825",
       "source": "담당자: 초록지붕이층집 운영자. 문의 메일·첨부·관리 가능한 복사본과 휴지통은 처리 종료 후 90일 이내 삭제합니다. 법령상 보존이나 분쟁 대응 등 예외가 필요하면 근거와 기간을 별도로 확인합니다.",
       "locales": ["en", "ja"],
@@ -334,23 +311,6 @@
       "source": "와",
       "locales": ["en", "ja"],
       "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
-      "id": "text.d7c78ce05e13d07ecbf4",
-      "source": "운영자 초록지붕이층집 · © 2026",
-      "locales": ["en", "ja"],
-      "locations": [
-        "404.html:text",
-        "about/index.html:text",
-        "apps/index.html:text",
-        "apps/kanjigyeol/index.html:text",
-        "apps/kanjigyeol/privacy/index.html:text",
-        "apps/kanjigyeol/sources/index.html:text",
-        "apps/kanjigyeol/support/index.html:text",
-        "index.html:text",
-        "privacy/index.html:text",
-        "support/index.html:text"
-      ]
     },
     {
       "id": "text.e0567832d5879aba2e9f",

@@ -116,9 +116,10 @@ export function collectGaps(directory, { dictionaries }) {
         if (element.hasAttribute(attribute)) add(element.getAttribute(attribute), `${page}:${attribute}`, true);
       }
     }
-    add(document.title, `${page}:title`, false);
+    add(document.title, `${page}:title`, true);
     for (const element of document.querySelectorAll('meta[content]')) {
-      add(element.content, `${page}:meta:${element.name || element.getAttribute('property')}`, false);
+      const supported = element.matches('meta[name="description"], meta[property="og:title"], meta[property="og:description"]');
+      add(element.content, `${page}:meta:${element.name || element.getAttribute('property')}`, supported);
     }
     dom.window.close();
   }

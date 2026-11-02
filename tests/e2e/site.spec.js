@@ -1,5 +1,28 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+test('language selection waits for initialization when the translation script loads slowly', async ({ page }) => {
+  let releaseScript;
+  const ready = new Promise((resolve) => {
+    releaseScript = resolve;
+  });
+  await page.route('**/i18n.js*', async (route) => {
+    await ready;
+    await route.continue();
+  });
+  try {
+    await page.goto('/apps/kanjigyeol/privacy/', { waitUntil: 'commit' });
+    await expect(page.locator('#language-trigger')).toBeVisible();
+    await expect(page.locator('#language-trigger')).toBeDisabled();
+    releaseScript();
+    await expect(page.locator('#language-trigger')).toBeEnabled();
+    await page.locator('#language-trigger').click();
+    await page.locator('[data-language="en"]').click();
+    await expect(page.locator('h1')).toHaveText('Kanjigyeol Privacy Policy');
+  } finally {
+    releaseScript();
+  }
+});
+
 test('language switching translates homepage and persists', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('#language-menu')).toBeHidden();
@@ -52,15 +75,17 @@ test('localized counts preserve filters and update in all three languages', asyn
 test('app privacy policy preserves data and advertising boundaries in every language', async ({ page }) => {
   await page.goto('/apps/kanjigyeol/privacy/');
   const article = page.locator('article.doc');
-  for (const [locale, title, retention, scope] of [
-    ['ko', '칸지결 개인정보처리방침', '90일 이내', '운영 배너는 활성화되지 않았습니다'],
-    ['ja', 'カンジギョル プライバシーポリシー', '90日以内', '本番バナーは有効になっていません'],
-    ['en', 'Kanjigyeol Privacy Policy', 'within 90 days', 'production banners are not enabled']
+  for (const [locale, title, retention, scope, tabTitle] of [
+    ['ko', '칸지결 개인정보처리방침', '90일 이내', '운영 배너는 활성화되지 않았습니다', '칸지결 · 개인정보 안내 · WhiteSheep Game Studio'],
+    ['ja', 'カンジギョル プライバシーポリシー', '90日以内', '本番バナーは有効になっていません', 'カンジギョル · プライバシーポリシー · WhiteSheep Game Studio'],
+    ['en', 'Kanjigyeol Privacy Policy', 'within 90 days', 'production banners are not enabled', 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio']
   ]) {
     await page.locator('#language-trigger').click();
     await page.locator(`[data-language="${locale}"]`).click();
     await expect(page.locator('html')).toHaveAttribute('lang', locale);
     await expect(article.locator('h1')).toHaveText(title);
+    await expect(page).toHaveTitle(tabTitle);
+    await expect(page.locator('meta[property="og:title"]')).toHaveAttribute('content', tabTitle);
     await expect(article).toContainText(retention);
     await expect(article).toContainText(scope);
     await expect(article.locator('h2')).toHaveCount(12);
@@ -70,6 +95,12 @@ test('app privacy policy preserves data and advertising boundaries in every lang
   }
   await page.reload();
   await expect(article.locator('h1')).toHaveText('Kanjigyeol Privacy Policy');
+  await expect(page).toHaveTitle('Kanjigyeol · Privacy Policy · WhiteSheep Game Studio');
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.');
+  await page.locator('#language-trigger').click();
+  await page.locator('[data-language="ko"]').click();
+  await expect(article.locator('h1')).toHaveText('칸지결 개인정보처리방침');
+  await expect(page).toHaveTitle('칸지결 · 개인정보 안내 · WhiteSheep Game Studio');
   const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
   expect(results.violations.filter((v) => ['serious', 'critical'].includes(v.impact))).toEqual([]);
 });

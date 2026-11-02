@@ -1,5 +1,8 @@
 window.WHITESHEEP_TRANSLATIONS = {
   ja: {
+    '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'カンジギョル · プライバシーポリシー · WhiteSheep Game Studio',
+    'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'WhiteSheep Game Studioのゲーム・アプリ、更新情報、サポートを一か所でご確認いただけます。',
+    '운영자 초록지붕이층집 · © 2026': '運営者 초록지붕이층집 · © 2026',
     '칸지결 개인정보처리방침': 'カンジギョル プライバシーポリシー',
     '버전 1.0 · 시행일 2026년 11월 2일': 'バージョン1.0・施行日：2026年11月2日',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
@@ -175,6 +178,9 @@ window.WHITESHEEP_TRANSLATIONS = {
     '안내 변경': '記載内容の変更'
   },
   en: {
+    '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio',
+    'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.',
+    '운영자 초록지붕이층집 · © 2026': 'Operated by 초록지붕이층집 · © 2026',
     '칸지결 개인정보처리방침': 'Kanjigyeol Privacy Policy',
     '버전 1.0 · 시행일 2026년 11월 2일': 'Version 1.0 · Effective November 2, 2026',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
@@ -395,6 +401,11 @@ window.WHITESHEEP_TRANSLATIONS = {
   if (!picker || !trigger || !menu) return;
   const names = { ko: '한국어', ja: '日本語', en: 'English' };
   const originals = new WeakMap();
+  const originalTitle = document.title;
+  const originalMetadata = [...document.querySelectorAll('meta[name="description"], meta[property="og:title"], meta[property="og:description"]')].map((element) => ({
+    element,
+    content: element.content
+  }));
   const lookup = (text, language) => {
     if (language === 'ko') return text;
     const dict = window.WHITESHEEP_TRANSLATIONS?.[language] || {};
@@ -428,6 +439,10 @@ window.WHITESHEEP_TRANSLATIONS = {
   }
   function apply() {
     document.documentElement.lang = lang;
+    document.title = lookup(originalTitle, lang);
+    for (const { element, content } of originalMetadata) {
+      element.content = lookup(content, lang);
+    }
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       el.textContent = languages[lang][el.dataset.i18n] || languages.ko[el.dataset.i18n] || el.textContent;
     });
@@ -473,4 +488,5 @@ window.WHITESHEEP_TRANSLATIONS = {
     }
   });
   apply();
+  trigger.disabled = false;
 })();
