@@ -48,3 +48,28 @@ test('localized counts preserve filters and update in all three languages', asyn
   await page.locator('[data-language="ko"]').click();
   await expect(page.locator('#app-count')).toHaveText('0개 / 전체 1개');
 });
+
+test('app privacy policy preserves data and advertising boundaries in every language', async ({ page }) => {
+  await page.goto('/apps/kanjigyeol/privacy/');
+  const article = page.locator('article.doc');
+  for (const [locale, title, retention, scope] of [
+    ['ko', '칸지결 개인정보처리방침', '90일 이내', '운영 배너는 활성화되지 않았습니다'],
+    ['ja', 'カンジギョル プライバシーポリシー', '90日以内', '本番バナーは有効になっていません'],
+    ['en', 'Kanjigyeol Privacy Policy', 'within 90 days', 'production banners are not enabled']
+  ]) {
+    await page.locator('#language-trigger').click();
+    await page.locator(`[data-language="${locale}"]`).click();
+    await expect(page.locator('html')).toHaveAttribute('lang', locale);
+    await expect(article.locator('h1')).toHaveText(title);
+    await expect(article).toContainText(retention);
+    await expect(article).toContainText(scope);
+    await expect(article.locator('h2')).toHaveCount(12);
+    await expect(article.locator('a[href="mailto:whitesheep0601@gmail.com"]')).toHaveCount(1);
+    await expect(article).not.toContainText('이 페이지를 스토어 제출용 최종 방침으로 사용하지 않습니다');
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  }
+  await page.reload();
+  await expect(article.locator('h1')).toHaveText('Kanjigyeol Privacy Policy');
+  const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
+  expect(results.violations.filter((v) => ['serious', 'critical'].includes(v.impact))).toEqual([]);
+});
