@@ -175,7 +175,50 @@ window.WHITESHEEP_TRANSLATIONS = {
     '앱과 브랜드': 'アプリとブランド',
     '이 웹사이트': 'このウェブサイト',
     '권리 행사와 이용 대상': '権利行使と対象年齢',
-    '안내 변경': '記載内容の変更'
+    '안내 변경': '記載内容の変更',
+    '칸지결 · 출처·이용 조건 · WhiteSheep Game Studio': 'カンジギョル · 出典・利用条件 · WhiteSheep Game Studio',
+    칸지결: 'カンジギョル',
+    '칸지결은 출시를 준비 중입니다. 앱의 콘텐츠(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁)는 검수 중이며, 이 페이지는 출시 시 앱이 가리키는 출처와 이용 조건 안내입니다. 아래 고지가 전체 원고의 검수 완료나 출시 승인을 뜻하지는 않습니다.':
+      'カンジギョルはリリースの準備中です。アプリのコンテンツ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒント）は検収中で、このページはリリース時にアプリが参照する出典と利用条件の案内です。以下の表示は、すべての原稿の検収完了やリリース承認を意味するものではありません。',
+    '콘텐츠 이용 조건': 'コンテンツの利用条件',
+    '칸지결의 콘텐츠 데이터(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁과 출처 표기)는 권리가 존재하는 범위에서 CC BY-SA 4.0 라이선스로 공개합니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘, 광고 연동은 이 라이선스에 포함되지 않습니다.':
+      'カンジギョルのコンテンツデータ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒントと出典表示）は、権利が存在する範囲でCC BY-SA 4.0ライセンスにより公開します。アプリのコード、画面デザイン、アプリ名とアイコン、広告連携はこのライセンスに含まれません。',
+    '콘텐츠 데이터 파일(JSON)과 SHA-256 체크섬은 앱 출시와 함께 이 페이지에서 로그인 없이 받을 수 있도록 공개할 예정입니다. 지금은 공개된 파일이 없습니다. 공개되는 데이터에 대해 앱 약관과 앱 스토어 약관은 이 페이지에서 데이터를 받은 사람의 권리를 제한하지 않습니다.':
+      'コンテンツデータファイル（JSON）とSHA-256チェックサムは、アプリのリリースと同時に、このページからログインなしで入手できるよう公開する予定です。現在、公開されているファイルはありません。公開されるデータについて、アプリの利用規約とアプリストアの規約は、このページからデータを入手した人の権利を制限しません。',
+    'CC BY-SA 4.0 라이선스 안내': 'CC BY-SA 4.0ライセンスの案内',
+    '문화청의 상용한자표와 음훈 색인을 바탕으로 표제자·순서·독음을 학습용 구조로 편집했습니다. 출처를 표시하고 가공했습니다. 일본 정부가 제작·승인·보증한 앱이 아닙니다.':
+      '文化庁の常用漢字表と音訓索引に基づき、見出し字・順序・読みを学習用の構造に編集しました。出典を表示し、加工しています。日本政府が制作・承認・保証したアプリではありません。',
+    원자료: '原資料',
+    '이용 조건': '利用条件',
+    'JMdict와 KANJIDIC2의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 사용단어의 표기·읽기·영어 뜻과 한자 독음을 대조하는 데 사용했으며 한국어 뜻은 이를 바탕으로 편집했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
+      'JMdictとKANJIDIC2の著作権は、James William Breen氏とElectronic Dictionary Research and Development Group（EDRDG）にあります。JSON変換版にはStanislav Petrov氏のjmdict-simplifiedを使用しました。使用単語の表記・読み・英語の意味と漢字の読みの照合に使用し、韓国語の意味はこれに基づいて編集しました。利用条件はEDRDGライセンスとCC BY-SA 4.0に従い、EDRDGによる保証・推奨を意味するものではありません。',
+    'EDRDG 라이선스': 'EDRDGライセンス',
+    '한국어 위키낱말사전 기여자, CC BY-SA 4.0. 한국어 훈음을 대조하고 대표 표현을 편집했습니다. 앱의 한자 카드에서 해당 한자에 사용한 페이지·판본 링크를 확인할 수 있습니다.':
+      '韓国語版ウィクショナリーの貢献者、CC BY-SA 4.0。韓国語の訓と音を照合し、代表的な表現を編集しました。アプリの漢字カードで、その漢字に使用したページ・版へのリンクを確認できます。',
+    이용약관: '利用規約',
+    '이 웹사이트의 실제 화면에 표시된 愛의 한국어 훈음은 아래 고정 판본을 대조해 대표 표현을 편집한 것입니다. 원 기여자와 CC BY-SA 4.0 조건을 표시합니다.':
+      'このウェブサイトの実際の画面に表示されている「愛」の韓国語の訓と音は、下記の固定版を照合して代表的な表現を編集したものです。元の貢献者とCC BY-SA 4.0の条件を表示します。',
+    '한국어 위키낱말사전 愛, 고정 판본 4389908': '韓国語版ウィクショナリー「愛」、固定版 4389908',
+    'KanjiVG © Ulrich Apel 및 KanjiVG 기여자, CC BY-SA 3.0. 글자의 현대 모양에서 부품과 위치 속성을 참고해 모양 설명을 한국어로 작성했습니다. 획 이미지(SVG)는 사용하지 않습니다. 이 모양 설명은 CC BY-SA 4.0으로 공개합니다.':
+      'KanjiVG © Ulrich Apel氏およびKanjiVGの貢献者、CC BY-SA 3.0。文字の現代の字形から、部品と位置の属性を参考にして字形の説明を韓国語で作成しました。筆画の画像（SVG）は使用していません。この字形の説明はCC BY-SA 4.0で公開します。',
+    'KanjiVG 프로젝트': 'KanjiVGプロジェクト',
+    'libhangul 한자 사전': 'libhangul 漢字辞書',
+    'libhangul의 한자 사전(hanja.txt) © Choe Hwanjin 및 libhangul 기여자, BSD 3-Clause 라이선스. 한자의 한국어 음·훈을 대조하는 데 사용했습니다. 저작권 고지와 사용 조건, 면책 조항은 아래 원문 파일의 머리말을 따릅니다. libhangul 저장소 전체의 라이선스와 이 사전 파일 머리말의 라이선스는 서로 다릅니다.':
+      'libhangulの漢字辞書（hanja.txt）© Choe Hwanjin氏およびlibhangulの貢献者、BSD 3-Clauseライセンス。漢字の韓国語の音・訓の照合に使用しました。著作権表示、利用条件、免責事項は、下記の原文ファイルの冒頭に従います。libhangulリポジトリ全体のライセンスと、この辞書ファイルの冒頭に記載されたライセンスは異なります。',
+    'hanja.txt 원문(고정 판본)': 'hanja.txt 原文（固定版）',
+    법무성: '法務省',
+    '錮의 설명(2025년 6월 1일 징역과 금고의 구금형 일원화)은 법무성 자료를 참조해 출처를 표시하고 요약했습니다. 개별 사건의 법 적용을 판단하지 않으며 일본 정부가 제작·승인한 앱이 아닙니다.':
+      '「錮」の説明（2025年6月1日の懲役と禁錮の拘禁刑への一本化）は、法務省の資料を参照し、出典を表示して要約したものです。個別の事件への法の適用は判断しません。日本政府が制作・承認したアプリではありません。',
+    'Unicode Unihan 자료는 상용한자 집합과 문자 대응 대조에 사용했습니다. Copyright © 1991–2026 Unicode, Inc. Unicode License V3.':
+      'Unicode Unihanのデータは、常用漢字の集合と文字対応の照合に使用しました。Copyright © 1991–2026 Unicode, Inc. Unicode License V3。',
+    '라이선스 전문': 'ライセンス全文',
+    '아이콘의 펼친 책 심벌은 이 프로젝트에서 새로 그린 벡터입니다. 외부 사진·삽화·웹폰트를 사용하지 않습니다. 앱의 Flutter·Dart 패키지별 라이선스는 앱 정보의 오픈소스 라이선스 화면에서 확인할 수 있습니다. Google 광고 SDK는 별도의 서비스·SDK 이용 조건이 적용됩니다.':
+      'アイコンの開いた本のシンボルは、このプロジェクトのために新しく描いたベクター画像です。外部の写真・イラスト・ウェブフォントは使用していません。アプリのFlutter・Dartパッケージごとのライセンスは、アプリ情報のオープンソースライセンス画面で確認できます。Google広告SDKには、別のサービス・SDK利用条件が適用されます。',
+    '콘텐츠별 이용 조건은 앱 코드와 별개입니다. 저장소 전체에 단일 오픈소스 라이선스를 부여했다는 뜻이 아닙니다.':
+      'コンテンツごとの利用条件はアプリのコードとは別です。リポジトリ全体に単一のオープンソースライセンスを付与するという意味ではありません。',
+    '권리 문의': '権利に関するお問い合わせ',
+    '콘텐츠의 권리나 출처 표기에 대한 문의와 시정 요청 이메일:': 'コンテンツの権利や出典表示に関するお問い合わせ・是正のご依頼（メール）：',
+    '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.': '受け付けた内容を確認し、必要に応じて該当項目をいったん非公開にしたうえで検討します。'
   },
   en: {
     '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio',
@@ -353,7 +396,51 @@ window.WHITESHEEP_TRANSLATIONS = {
     '앱과 브랜드': 'App and branding',
     '이 웹사이트': 'This website',
     '권리 행사와 이용 대상': 'Your rights and intended audience',
-    '안내 변경': 'Changes to this notice'
+    '안내 변경': 'Changes to this notice',
+    '칸지결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Kanjigyeol · Sources and Terms of Use · WhiteSheep Game Studio',
+    칸지결: 'Kanjigyeol',
+    '칸지결은 출시를 준비 중입니다. 앱의 콘텐츠(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁)는 검수 중이며, 이 페이지는 출시 시 앱이 가리키는 출처와 이용 조건 안내입니다. 아래 고지가 전체 원고의 검수 완료나 출시 승인을 뜻하지는 않습니다.':
+      'Kanjigyeol is being prepared for release. The app content (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji) is still under review. This page explains the sources and terms of use that the app will point to at release. The notices below do not mean that all entries have been reviewed or approved for release.',
+    '콘텐츠 이용 조건': 'Content terms of use',
+    '칸지결의 콘텐츠 데이터(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁과 출처 표기)는 권리가 존재하는 범위에서 CC BY-SA 4.0 라이선스로 공개합니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘, 광고 연동은 이 라이선스에 포함되지 않습니다.':
+      'The Kanjigyeol content data (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji, together with the source credits) is released under the CC BY-SA 4.0 license to the extent that rights exist in it. The app code, screen design, app name and icon, and advertising integration are not covered by this license.',
+    '콘텐츠 데이터 파일(JSON)과 SHA-256 체크섬은 앱 출시와 함께 이 페이지에서 로그인 없이 받을 수 있도록 공개할 예정입니다. 지금은 공개된 파일이 없습니다. 공개되는 데이터에 대해 앱 약관과 앱 스토어 약관은 이 페이지에서 데이터를 받은 사람의 권리를 제한하지 않습니다.':
+      'The content data file (JSON) and its SHA-256 checksum will be published on this page, available without signing in, when the app is released. No files are published yet. For the data that is published, the app terms and the app store terms do not restrict the rights of people who obtain the data from this page.',
+    'CC BY-SA 4.0 라이선스 안내': 'About the CC BY-SA 4.0 license',
+    '문화청의 상용한자표와 음훈 색인을 바탕으로 표제자·순서·독음을 학습용 구조로 편집했습니다. 출처를 표시하고 가공했습니다. 일본 정부가 제작·승인·보증한 앱이 아닙니다.':
+      "The headword characters, their order and their readings were edited into a learning-oriented structure based on the Agency for Cultural Affairs' Jōyō Kanji list and its on-kun index. The source is credited and the material has been modified. This app was not created, approved or endorsed by the Japanese government.",
+    원자료: 'Original source',
+    '이용 조건': 'Terms of use',
+    'JMdict와 KANJIDIC2의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 사용단어의 표기·읽기·영어 뜻과 한자 독음을 대조하는 데 사용했으며 한국어 뜻은 이를 바탕으로 편집했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
+      'The copyright in JMdict and KANJIDIC2 belongs to James William Breen and the Electronic Dictionary Research and Development Group (EDRDG). The JSON conversion used is jmdict-simplified by Stanislav Petrov. These sources were used to cross-check the spelling, readings and English meanings of the example words and the readings of the kanji, and the Korean meanings were edited on that basis. The terms of use follow the EDRDG license and CC BY-SA 4.0, and do not imply any endorsement or recommendation by the EDRDG.',
+    'EDRDG 라이선스': 'EDRDG license',
+    '한국어 위키낱말사전 기여자, CC BY-SA 4.0. 한국어 훈음을 대조하고 대표 표현을 편집했습니다. 앱의 한자 카드에서 해당 한자에 사용한 페이지·판본 링크를 확인할 수 있습니다.':
+      'Korean Wiktionary contributors, CC BY-SA 4.0. The Korean readings (hun and eum) were cross-checked against it and the representative wording was edited. On each kanji card in the app you can find the link to the page revision used for that kanji.',
+    이용약관: 'Terms of Use',
+    '이 웹사이트의 실제 화면에 표시된 愛의 한국어 훈음은 아래 고정 판본을 대조해 대표 표현을 편집한 것입니다. 원 기여자와 CC BY-SA 4.0 조건을 표시합니다.':
+      'The Korean reading of 愛 shown on this website was edited into its representative wording by cross-checking the pinned revision below. The original contributors and the CC BY-SA 4.0 terms are credited.',
+    '한국어 위키낱말사전 愛, 고정 판본 4389908': 'Korean Wiktionary: 愛, pinned revision 4389908',
+    'KanjiVG © Ulrich Apel 및 KanjiVG 기여자, CC BY-SA 3.0. 글자의 현대 모양에서 부품과 위치 속성을 참고해 모양 설명을 한국어로 작성했습니다. 획 이미지(SVG)는 사용하지 않습니다. 이 모양 설명은 CC BY-SA 4.0으로 공개합니다.':
+      "KanjiVG © Ulrich Apel and KanjiVG contributors, CC BY-SA 3.0. The shape descriptions were written in Korean with reference to the component and position attributes of each character's modern shape. Stroke images (SVG) are not used. These shape descriptions are released under CC BY-SA 4.0.",
+    'KanjiVG 프로젝트': 'KanjiVG project',
+    'libhangul 한자 사전': 'libhangul hanja dictionary',
+    'libhangul의 한자 사전(hanja.txt) © Choe Hwanjin 및 libhangul 기여자, BSD 3-Clause 라이선스. 한자의 한국어 음·훈을 대조하는 데 사용했습니다. 저작권 고지와 사용 조건, 면책 조항은 아래 원문 파일의 머리말을 따릅니다. libhangul 저장소 전체의 라이선스와 이 사전 파일 머리말의 라이선스는 서로 다릅니다.':
+      'The libhangul hanja dictionary (hanja.txt) © Choe Hwanjin and libhangul contributors, BSD 3-Clause license. It was used to cross-check the Korean eum and hun of each kanji. The copyright notice, conditions and disclaimer follow the header of the original file linked below. The license of the libhangul repository as a whole differs from the license stated in the header of this dictionary file.',
+    'hanja.txt 원문(고정 판본)': 'hanja.txt original (pinned revision)',
+    법무성: 'Ministry of Justice (Japan)',
+    '錮의 설명(2025년 6월 1일 징역과 금고의 구금형 일원화)은 법무성 자료를 참조해 출처를 표시하고 요약했습니다. 개별 사건의 법 적용을 판단하지 않으며 일본 정부가 제작·승인한 앱이 아닙니다.':
+      'The explanation for 錮 (the unification of imprisonment with and without labor into a single detention sentence on 1 June 2025) refers to a Ministry of Justice document, credits its source and summarizes it. It does not judge how the law applies to any individual case. This app was not created or approved by the Japanese government.',
+    'Unicode Unihan 자료는 상용한자 집합과 문자 대응 대조에 사용했습니다. Copyright © 1991–2026 Unicode, Inc. Unicode License V3.':
+      'Unicode Unihan data was used to cross-check the set of Jōyō kanji and character correspondences. Copyright © 1991–2026 Unicode, Inc. Unicode License V3.',
+    '라이선스 전문': 'Full license text',
+    '아이콘의 펼친 책 심벌은 이 프로젝트에서 새로 그린 벡터입니다. 외부 사진·삽화·웹폰트를 사용하지 않습니다. 앱의 Flutter·Dart 패키지별 라이선스는 앱 정보의 오픈소스 라이선스 화면에서 확인할 수 있습니다. Google 광고 SDK는 별도의 서비스·SDK 이용 조건이 적용됩니다.':
+      "The open-book symbol in the icon is a vector newly drawn for this project. No external photos, illustrations or web fonts are used. The licenses of the app's Flutter and Dart packages can be viewed on the open-source licenses screen in the app information. The Google advertising SDK is subject to its own service and SDK terms.",
+    '콘텐츠별 이용 조건은 앱 코드와 별개입니다. 저장소 전체에 단일 오픈소스 라이선스를 부여했다는 뜻이 아닙니다.':
+      'The terms of use for the content are separate from the app code. This does not mean that a single open-source license applies to the whole repository.',
+    '권리 문의': 'Rights inquiries',
+    '콘텐츠의 권리나 출처 표기에 대한 문의와 시정 요청 이메일:': 'Email for inquiries and correction requests about content rights or source credits:',
+    '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.':
+      'We review what we receive and, where necessary, first take the item in question offline and then examine it.'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */

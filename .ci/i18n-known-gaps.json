@@ -10,42 +10,6 @@
       "locations": ["404.html:text"]
     },
     {
-      "id": "text.0c2d5391358a6bfb0849",
-      "source": "을 따릅니다. EDRDG의 보증·추천을 뜻하지 않습니다.",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
-      "id": "text.1aad0452f313884ae699",
-      "source": "EDRDG 라이선스",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
-      "id": "text.1fbbadb85938ecd8009a",
-      "source": "을 대조해 대표 표현을 편집한 것입니다. 원 기여자와 CC BY-SA 4.0 조건을 표시합니다. 앱 화면은 여러 출처의 자료와 자체 설명을 함께 표시합니다.",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
-      "id": "text.23884ef82224433f9ab7",
-      "source": "칸지결 · 출처·이용 조건 · WhiteSheep Game Studio",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:meta:og:title", "apps/kanjigyeol/sources/index.html:title"]
-    },
-    {
-      "id": "text.255e0d083ff4144aa90c",
-      "source": "이 웹사이트의 실제 화면에 표시된 愛의 한국어 훈음은",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
-      "id": "text.2571907b8cc5c8fea82e",
-      "source": "콘텐츠별 이용 조건은 앱 코드와 별개입니다. 저장소 전체에 단일 오픈소스 라이선스를 부여했다는 뜻이 아닙니다.",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
       "id": "text.276fc2c90d2e53a614ec",
       "source": "필요하면 해당 카드의 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.",
       "locales": ["en", "ja"],
@@ -88,12 +52,6 @@
       "locations": ["privacy/index.html:text"]
     },
     {
-      "id": "text.524c9f95b71ec865cebd",
-      "source": "JMdict © James William Breen and the Electronic Dictionary Research and Development Group (EDRDG). 사용단어의 표기·읽기 및 영어 뜻 대조에 사용했으며 한국어 뜻은 별도 편집 초안입니다. 일본어·영어 자료의 이용 조건은",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
       "id": "text.5e3a6633ba641707d2c1",
       "source": "GitHub 개인정보처리방침",
       "locales": ["en", "ja"],
@@ -118,12 +76,6 @@
       "locations": ["apps/kanjigyeol/index.html:alt"]
     },
     {
-      "id": "text.7237e61ba5cb19927e43",
-      "source": "아이콘의 펼친 책 심벌은 이 프로젝트에서 새로 그린 벡터입니다. 외부 사진·삽화·웹폰트를 사용하지 않습니다. 앱의 Flutter·Dart 패키지별 라이선스는 앱 정보의 오픈소스 라이선스 화면에서 확인할 수 있습니다. Google 광고 SDK는 별도의 서비스·SDK 이용 조건이 적용됩니다.",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
       "id": "text.74d1ba4f583f2ca91185",
       "source": "공개된 게임·앱 정보와 지원 안내를 제공하는 정적 홈페이지입니다. 자체 회원가입·문의 입력폼·분석 스크립트·광고·외부 웹폰트를 넣지 않았습니다. 검색·필터는 브라우저 안에서 동작하며 검색어를 별도로 운영자 서버에 보내거나 저장하지 않습니다.",
       "locales": ["en", "ja"],
@@ -134,18 +86,6 @@
       "source": "칸지결 · WhiteSheep Game Studio",
       "locales": ["en", "ja"],
       "locations": ["apps/kanjigyeol/index.html:meta:og:title", "apps/kanjigyeol/index.html:title"]
-    },
-    {
-      "id": "text.7e8a80000813e8160cb5",
-      "source": "한국어 위키낱말사전 愛, 고정 판본 4389908",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
-      "id": "text.7e8e55eff59ba90a2da4",
-      "source": "이용 조건",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
     },
     {
       "id": "text.85411a2273f412bae04a",
@@ -202,12 +142,6 @@
       "locations": ["apps/kanjigyeol/index.html:alt"]
     },
     {
-      "id": "text.a22245e900c329b035e1",
-      "source": "라이선스 전문",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
       "id": "text.a37091de314b02aaa383",
       "source": "운영자: 초록지붕이층집",
       "locales": ["en", "ja"],
@@ -218,21 +152,6 @@
       "source": "운영자와 문의",
       "locales": ["en", "ja"],
       "locations": ["privacy/index.html:text"]
-    },
-    {
-      "id": "text.a597db8bf8fa4d901f15",
-      "source": "칸지결",
-      "locales": ["en", "ja"],
-      "locations": [
-        "404.html:text",
-        "apps/index.html:text",
-        "apps/kanjigyeol/index.html:text",
-        "apps/kanjigyeol/privacy/index.html:text",
-        "apps/kanjigyeol/sources/index.html:text",
-        "apps/kanjigyeol/support/index.html:text",
-        "index.html:text",
-        "support/index.html:text"
-      ]
     },
     {
       "id": "text.a93e47873271b6bbfae6",
@@ -271,28 +190,10 @@
       "locations": ["privacy/index.html:text"]
     },
     {
-      "id": "text.beb5d47be26868c70260",
-      "source": "한국어 위키낱말사전 기여자, CC BY-SA 4.0. 한국어 훈음 등을 대조하고 대표 표현을 편집했습니다. 개발 앱의 ‘콘텐츠 출처·이용 조건’에서 개별 원고에 사용한 페이지·판본 링크를 확인할 수 있습니다.",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
-      "id": "text.c45d3e103d9bbb917429",
-      "source": "칸지결은 여러 출처의 자료와 자체 작성 설명을 구분해 사용합니다. 현재 콘텐츠는 검수·권리 확인 전 개발용 표본이며, 아래 고지가 전체 원고의 출시 승인을 뜻하지는 않습니다.",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
       "id": "text.c71e61023a040d2b1e84",
       "source": "게임과 앱 · WhiteSheep Game Studio",
       "locales": ["en", "ja"],
       "locations": ["404.html:meta:og:title", "404.html:title", "apps/index.html:meta:og:title", "apps/index.html:title"]
-    },
-    {
-      "id": "text.c7e724d5c4951b723676",
-      "source": "이용약관",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
     },
     {
       "id": "text.cbf7d701dd7b428a7c25",
@@ -307,22 +208,10 @@
       "locations": ["about/index.html:meta:og:title", "about/index.html:title"]
     },
     {
-      "id": "text.d536e6255a4151eae226",
-      "source": "와",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
       "id": "text.e0567832d5879aba2e9f",
       "source": "운영자·문의 담당자: 초록지붕이층집 운영자",
       "locales": ["en", "ja"],
       "locations": ["privacy/index.html:text"]
-    },
-    {
-      "id": "text.e08b979fed52a3b1993b",
-      "source": "문화청의 상용한자표와 음훈 색인을 바탕으로 표제자·순서·독음을 학습용 구조로 편집했습니다. 정부가 제작·승인한 앱이 아닙니다.",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
     },
     {
       "id": "text.ebc2b4968883f8307666",
@@ -343,22 +232,10 @@
       "locations": ["apps/kanjigyeol/index.html:alt"]
     },
     {
-      "id": "text.f024cbc323b5dbf1afd0",
-      "source": "Unicode Unihan 자료는 상용한자 집합과 문자 대응 대조에 사용했습니다. Copyright © 1991–2026 Unicode, Inc. Unicode License V3.",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
-    },
-    {
       "id": "text.f1e139cc8a3c86c9a59f",
       "source": "학습 · Android / iOS",
       "locales": ["en", "ja"],
       "locations": ["404.html:text", "apps/index.html:text", "index.html:text", "support/index.html:text"]
-    },
-    {
-      "id": "text.f34546c73c4af7c849b1",
-      "source": "원자료",
-      "locales": ["en", "ja"],
-      "locations": ["apps/kanjigyeol/sources/index.html:text"]
     },
     {
       "id": "text.f7de9841bbf87b2445c0",
