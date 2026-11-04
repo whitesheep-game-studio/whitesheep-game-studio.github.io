@@ -17,6 +17,12 @@ class Page(HTMLParser):
             if v:self.refs.append(v)
 errors=[]
 for file in ROOT.rglob('*.html'):
+    # Search Console verification files are plain-text tokens, not HTML pages.
+    if file.name.startswith('google') and file.name.endswith('.html'):
+        expected = f'google-site-verification: {file.name}'
+        if file.parent != ROOT or file.read_text(encoding='utf-8').strip() != expected:
+            errors.append(f'Invalid Google verification file: {file.relative_to(ROOT)}')
+        continue
     parser=Page();parser.feed(file.read_text(encoding='utf-8'))
     if parser.titles!=1 or parser.h1!=1:errors.append(f'Heading/title: {file.relative_to(ROOT)}')
     for ref in parser.refs:
