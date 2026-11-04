@@ -7,7 +7,7 @@
     "test:e2e": "playwright test",
     "lint": "eslint i18n.js directory.js scripts/**/*.mjs tests/**/*.js *.config.js",
     "format:check": "prettier --check \"*.json\" \"*.js\" \"scripts/**/*.mjs\" \"tests/**/*.js\" \".github/**/*.yml\" \".ci/**/*.yml\" \".ci/*.json\"",
-    "html:check": "html-validate \"docs/**/*.html\" --exclude \"docs/google*.html\"",
+    "html:check": "html-validate \"docs/**/index.html\" \"docs/404.html\"",
     "lighthouse": "lhci autorun",
     "i18n:check": "node scripts/export-i18n.mjs"
   },
