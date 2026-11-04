@@ -144,8 +144,7 @@ export function assertKnownGaps(actual, baseline) {
   for (const gap of actual) {
     if (legacy.has(gap.id)) continue;
     const termsOnly = gap.locations.every((location) => location.startsWith('apps/kanjigyeol/terms/index.html:'));
-    const termsNavigation = gap.source === '이용약관' &&
-      gap.locations.every((location) => location.endsWith(':text'));
+    const termsNavigation = gap.source === '이용약관' && gap.locations.every((location) => location.endsWith(':text'));
     if (!termsOnly && !termsNavigation) {
       throw new Error('Authored Korean fallback inventory changed; review missing translations and baseline explicitly');
     }
