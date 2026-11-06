@@ -1,0 +1,37 @@
+name: Temporary Vitest 5.1.0 validation
+on:
+  push:
+    branches: [chore/vitest-5-1-0-validation]
+    paths:
+      - .github/workflows/vitest-upgrade-validation.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  upgrade:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '26.13.0'
+          cache: npm
+      - name: Upgrade Vitest with npm and validate
+        run: |
+          npm install --save-dev --save-exact vitest@5.1.0
+          npm ci --no-audit --no-fund
+          npm test
+          npm run lint
+          npm run format:check
+          git diff --exit-code -- .nvmrc
+      - name: Commit only validated dependency files to this branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add package.json package-lock.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'chore: upgrade Vitest to 5.1.0'
+          git push origin HEAD:chore/vitest-5-1-0-validation
