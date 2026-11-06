@@ -23,6 +23,8 @@ jobs:
         run: |
           npm install --save-dev --save-exact vitest@5.1.0
           npm ci --no-audit --no-fund
+          python build.py
+          python check_site.py
           npm test
           npm run lint
           npm run format:check
