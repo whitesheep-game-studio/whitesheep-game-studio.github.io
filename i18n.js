@@ -311,7 +311,41 @@ window.WHITESHEEP_TRANSLATIONS = {
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다. 법령상 보존 등 예외가 필요한 경우 관련 근거와 기간을 확인해 안내합니다.':
       '担当者：초록지붕이층집の運営者。上記のメールアドレスに、開示・訂正・削除などのご依頼をお送りください。お問い合わせメールは、対応終了後90日以内に削除します。法令上の保存などの例外が必要な場合は、関連する根拠と期間を確認してご案内します。',
     '앱은 이메일을 자동으로 보내지 않습니다. 복사한 양식을 직접 편집한 뒤 보내실 수 있습니다.':
-      'アプリはメールを自動送信しません。コピーした書式を自分で編集してから送信できます。'
+      'アプリはメールを自動送信しません。コピーした書式を自分で編集してから送信できます。',
+    '일본문법결 서비스 이용약관': 'イルボンムンボプギョル サービス利用規約',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 문법 학습 앱 ‘일본문법결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
+      'この規約は、초록지붕이층집（開発者ブランド WhiteSheep Game Studio）が提供する日本語文法学習アプリ「일본문법결」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
+    '일본문법결은 일본어 동사·형용사·명사의 활용과 문형을 한국어로 보여 주는 교육용 앱입니다. 이 약관은 일본문법결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
+      '일본문법결は、日本語の動詞・形容詞・名詞の活用と文型を韓国語で示す教育用アプリです。この規約は일본문법결アプリと関連するサポートサービスに適用され、他のアプリには自動的には適用されません。提供される学習コンテンツと機能は更新されることがあります。',
+    '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료입니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것이 아니므로 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
+      '活用形、文型の説明、単語の韓国語の意味は、学習を助けるための資料です。韓国語の意味と文型の説明はAIが作成したもので、人がすべて確認したわけではないため、誤りや漏れがある場合があります。試験・業務など重要な判断には、信頼できる辞書や公式資料もあわせてご確認ください。コンテンツの出典と利用条件は別の',
+    '마지막으로 본 단어, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
+      '最後に見た単語、学習の印、ブックマークなどは端末に保存されます。アプリの削除、データの初期化、端末の変更、またはOSの動作により、記録が消えたり復元されたりすることがあります。個人情報に関する事項は',
+    '앱 하단에는 운영자의 홍보 영역이 표시될 수 있으며 현재 앱 내 결제 기능은 없습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
+      'アプリの下部には運営者の紹介欄が表示されることがあり、現在アプリ内課金機能はありません。今後、広告や有料機能を導入する場合は、アプリ内の案内と関連する方針を更新します。ストアでの購入を導入する場合は、該当ストアの決済・返金規定と関連法令が適用されます。',
+    '이용자는 관련 법령을 준수하고 앱을 정상적인 학습 목적으로 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스 및 다른 이용자에게 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
+      '利用者は関連法令を遵守し、アプリを通常の学習目的で利用しなければなりません。アプリやコンテンツを無断で複製・再配布したり、サービスや他の利用者に被害を与える方法で利用したりしてはなりません。法令上認められる利用者の権利は制限しません。',
+    '앱의 디자인, 자체 제작 설명 및 소프트웨어에 관한 권리는 운영자 또는 정당한 권리자에게 귀속됩니다. 제3자 자료에는 해당 자료의 라이선스와 법령이 우선 적용됩니다. 이 약관은 이용자에게 앱을 정상적으로 이용하는 범위를 넘어선 권리를 부여하지 않습니다.':
+      'アプリのデザイン、独自に制作した説明、ソフトウェアに関する権利は、運営者または正当な権利者に帰属します。第三者の資料には、その資料のライセンスと法令が優先して適用されます。この規約は、利用者にアプリを通常利用する範囲を超える権利を付与するものではありません。',
+    '기능 개선, 보안, 운영 또는 불가피한 사유로 서비스의 일부를 변경하거나 중단할 수 있습니다. 이용자에게 중대한 영향을 주는 변경은 가능한 방법으로 사전에 안내합니다. 법령상 요구되는 의무와 이용자 권리는 이 조항으로 배제되지 않습니다.':
+      '機能改善、セキュリティ、運営、またはやむを得ない事由により、サービスの一部を変更または中断することがあります。利用者に重大な影響を与える変更は、可能な方法で事前にお知らせします。法令上求められる義務と利用者の権利は、この条項によって排除されません。',
+    '운영자는 합리적인 범위에서 오류 수정과 안정적인 제공을 위해 노력합니다. 다만 네트워크·기기·외부 서비스 등의 사정으로 이용이 제한될 수 있습니다. 이 약관의 어떤 내용도 적용 법령에 따른 소비자 보호, 손해배상 청구 또는 기타 강행규정상 권리를 제한하지 않습니다.':
+      '運営者は、合理的な範囲でエラーの修正と安定した提供に努めます。ただし、ネットワーク・端末・外部サービスなどの事情により、利用が制限されることがあります。この規約のいかなる内容も、適用法令に基づく消費者保護、損害賠償請求、その他の強行規定上の権利を制限するものではありません。',
+    '약관이 변경되면 시행일과 변경 내용을 이 페이지 또는 앱에서 안내합니다. 문의 및 오류 제보:':
+      '規約が変更された場合は、施行日と変更内容をこのページまたはアプリでお知らせします。お問い合わせとエラー報告：',
+    '. 운영자: 초록지붕이층집 · 개발자 브랜드: WhiteSheep Game Studio.': '。運営者：초록지붕이층집 · 開発者ブランド：WhiteSheep Game Studio。',
+    '1. 서비스와 적용 범위': '1. サービスと適用範囲',
+    '2. 이용 조건': '2. 利用条件',
+    '3. 학습 콘텐츠': '3. 学習コンテンツ',
+    '에서 확인할 수 있습니다.': 'で確認できます。',
+    '4. 학습 기록과 개인정보': '4. 学習履歴と個人情報',
+    '을 확인해 주세요.': 'をご確認ください。',
+    '5. 광고 및 결제': '5. 広告と決済',
+    '6. 지식재산권': '6. 知的財産権',
+    '7. 서비스 변경 및 중단': '7. サービスの変更と中断',
+    '8. 책임과 이용자 권리': '8. 責任と利用者の権利',
+    '9. 약관 변경과 문의': '9. 規約の変更とお問い合わせ',
+    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サービス利用規約 · WhiteSheep Game Studio'
   },
   en: {
     '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio',
@@ -629,7 +663,41 @@ window.WHITESHEEP_TRANSLATIONS = {
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다. 법령상 보존 등 예외가 필요한 경우 관련 근거와 기간을 확인해 안내합니다.':
       'Contact: the operator of 초록지붕이층집. Send requests for access, correction, deletion, and similar matters to the email above. Support emails are deleted within 90 days after handling ends. If an exception such as legal retention is needed, we will confirm the basis and period and let you know.',
     '앱은 이메일을 자동으로 보내지 않습니다. 복사한 양식을 직접 편집한 뒤 보내실 수 있습니다.':
-      'The app does not send email automatically. You can edit the copied form yourself before sending it.'
+      'The app does not send email automatically. You can edit the copied form yourself before sending it.',
+    '일본문법결 서비스 이용약관': 'Ilbon Mungbeopgyeol Terms of Service',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 문법 학습 앱 ‘일본문법결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
+      'These terms describe the conditions of use for 일본문법결, a Japanese grammar learning app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
+    '일본문법결은 일본어 동사·형용사·명사의 활용과 문형을 한국어로 보여 주는 교육용 앱입니다. 이 약관은 일본문법결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
+      '일본문법결 is an educational app that shows the conjugations of Japanese verbs, adjectives, and nouns and sentence patterns in Korean. These terms apply to the 일본문법결 app and its related support services, and do not automatically apply to other apps. The learning content and features provided may be updated.',
+    '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료입니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것이 아니므로 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
+      'Conjugated forms, pattern explanations, and the Korean meanings of words are materials to support learning. Korean meanings and pattern notes were written by AI and have not all been reviewed by people, so errors or omissions may exist. For important decisions such as exams or work, please also check authoritative dictionaries or official materials. The sources and terms of the content are available on the separate',
+    '마지막으로 본 단어, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
+      'Your last viewed word, study marks, bookmarks, and similar records are stored on your device. Depending on app deletion, data reset, device changes, or OS behavior, records may be lost or restored. For matters related to personal information, please see the',
+    '앱 하단에는 운영자의 홍보 영역이 표시될 수 있으며 현재 앱 내 결제 기능은 없습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
+      'A promotional area of the operator may appear at the bottom of the app, and there is currently no in-app purchase feature. If ads or paid features are introduced later, we will update the in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.',
+    '이용자는 관련 법령을 준수하고 앱을 정상적인 학습 목적으로 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스 및 다른 이용자에게 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
+      'Users must comply with applicable laws and use the app for normal learning purposes. You must not copy or redistribute the app or its content without permission, or use it in ways that harm the service or other users. Rights of users that the law allows are not restricted.',
+    '앱의 디자인, 자체 제작 설명 및 소프트웨어에 관한 권리는 운영자 또는 정당한 권리자에게 귀속됩니다. 제3자 자료에는 해당 자료의 라이선스와 법령이 우선 적용됩니다. 이 약관은 이용자에게 앱을 정상적으로 이용하는 범위를 넘어선 권리를 부여하지 않습니다.':
+      'Rights in the app’s design, self-written explanations, and software belong to the operator or the rightful holders. For third-party materials, the licenses of those materials and applicable laws take precedence. These terms do not grant users rights beyond normal use of the app.',
+    '기능 개선, 보안, 운영 또는 불가피한 사유로 서비스의 일부를 변경하거나 중단할 수 있습니다. 이용자에게 중대한 영향을 주는 변경은 가능한 방법으로 사전에 안내합니다. 법령상 요구되는 의무와 이용자 권리는 이 조항으로 배제되지 않습니다.':
+      'We may change or suspend part of the service for feature improvements, security, operations, or unavoidable reasons. Changes that significantly affect users will be announced in advance where possible. Obligations required by law and users’ rights are not excluded by this clause.',
+    '운영자는 합리적인 범위에서 오류 수정과 안정적인 제공을 위해 노력합니다. 다만 네트워크·기기·외부 서비스 등의 사정으로 이용이 제한될 수 있습니다. 이 약관의 어떤 내용도 적용 법령에 따른 소비자 보호, 손해배상 청구 또는 기타 강행규정상 권리를 제한하지 않습니다.':
+      'The operator will make reasonable efforts to correct errors and provide the service stably. However, use may be restricted due to circumstances such as networks, devices, or external services. Nothing in these terms limits consumer protection, claims for damages, or other rights under mandatory provisions of applicable law.',
+    '약관이 변경되면 시행일과 변경 내용을 이 페이지 또는 앱에서 안내합니다. 문의 및 오류 제보:':
+      'If these terms change, we will announce the effective date and changes on this page or in the app. Inquiries and error reports:',
+    '. 운영자: 초록지붕이층집 · 개발자 브랜드: WhiteSheep Game Studio.': '. Operator: 초록지붕이층집 · Developer brand: WhiteSheep Game Studio.',
+    '1. 서비스와 적용 범위': '1. Service and scope',
+    '2. 이용 조건': '2. Conditions of use',
+    '3. 학습 콘텐츠': '3. Learning content',
+    '에서 확인할 수 있습니다.': '.',
+    '4. 학습 기록과 개인정보': '4. Study records and personal information',
+    '을 확인해 주세요.': '.',
+    '5. 광고 및 결제': '5. Ads and payments',
+    '6. 지식재산권': '6. Intellectual property',
+    '7. 서비스 변경 및 중단': '7. Changes to and suspension of the service',
+    '8. 책임과 이용자 권리': '8. Responsibility and user rights',
+    '9. 약관 변경과 문의': '9. Changes to these terms and contact',
+    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Terms of Service · WhiteSheep Game Studio'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */
