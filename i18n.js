@@ -112,7 +112,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '전체 플랫폼': 'すべてのプラットフォーム',
     상태: 'ステータス',
     '전체 상태': 'すべてのステータス',
-    '개발 중': '開発中',
+    '출시 예정': '公開予定',
     출시: '公開済み',
     '전체 1개': '全1件',
     '조건에 맞는 게임이나 앱이 없습니다. 검색어나 필터를 바꿔 주세요.': '該当するゲーム・アプリがありません。検索条件を変更してください。',
@@ -142,7 +142,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '나만의 결로.': '自分のペースで。',
     '뜻과 소리, 모양과 이야기를 함께.': '意味・音・形・物語を一緒に。',
     '한국어로 차근차근 익히는 일본어 한자, 칸지결.': '韓国語でじっくり学ぶ日本語漢字アプリ、カンジギョル。',
-    'Android · iOS 개발 중': 'Android · iOS 開発中',
+    'Android · iOS 출시 예정': 'Android · iOS 公開予定',
     '칸지결 알아보기 ↓': 'カンジギョルについて ↓',
     '한 장에 한 글자.': 'カード1枚に漢字1字。',
     '읽고, 이해하고, 기억해요.': '読んで、理解して、覚えよう。',
@@ -218,7 +218,100 @@ window.WHITESHEEP_TRANSLATIONS = {
       'コンテンツごとの利用条件はアプリのコードとは別です。リポジトリ全体に単一のオープンソースライセンスを付与するという意味ではありません。',
     '권리 문의': '権利に関するお問い合わせ',
     '콘텐츠의 권리나 출처 표기에 대한 문의와 시정 요청 이메일:': 'コンテンツの権利や出典表示に関するお問い合わせ・是正のご依頼（メール）：',
-    '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.': '受け付けた内容を確認し、必要に応じて該当項目をいったん非公開にしたうえで検討します。'
+    '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.': '受け付けた内容を確認し、必要に応じて該当項目をいったん非公開にしたうえで検討します。',
+    일본문법결: 'イルボンムンボプギョル',
+    '활용을 한눈에, 문형은 차근차근.': '活用をひと目で、文型は着実に。',
+    '동사·형용사·명사의 활용과 문형을 한국어로 한눈에 익히는 일본어 문법 학습 앱.': '動詞・形容詞・名詞の活用と文型を韓国語でひと目で身につける日本語文法学習アプリ。',
+    '활용을 한눈에,': '活用をひと目で、',
+    '문형은 차근차근.': '文型は着実に。',
+    '동사·형용사·명사의 활용과 문형을 한국어로 익히는 일본어 문법 앱, 일본문법결.': '動詞・形容詞・名詞の活用と文型を韓国語で学ぶ日本語文法アプリ、イルボンムンボプギョル。',
+    '일본문법결 알아보기 ↓': 'イルボンムンボプギョルを見る ↓',
+    '활용표 한 장을 표현한 일본문법결 심벌': '活用表1枚を表したイルボンムンボプギョルのシンボル',
+    '분류별로 활용을,': '品詞ごとに活用を、',
+    '접속형별로 문형을.': '接続形ごとに文型を。',
+    '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
+      '動詞3グループ、い形容詞、な形容詞、名詞の普通体・丁寧体の活用を、現在・過去、肯定・否定の1枚の表にまとめました。変わる語尾は太字で、漢字の読みは漢字の上に小さく表示します。',
+    'JLPT N5·N4 단어 1,250개와 문형 144개로 시작합니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것은 아니며, 스토어 출시는 아직 진행하지 않았습니다.':
+      'JLPT N5・N4の単語1,250個と文型144個から始めます。韓国語の意味と文型の説明はAIが作成したもので、すべてを人が確認したわけではありません。ストアでの公開はまだ行っていません。',
+    '한눈에 보는 활용표': 'ひと目でわかる活用表',
+    '분류를 고르면 보통체·공손체와 현재·과거, 긍정·부정이 한 카드에 나옵니다.': '品詞を選ぶと、普通体・丁寧体と現在・過去、肯定・否定が1枚のカードに表示されます。',
+    '문형에 붙여 보기': '文型に付けてみる',
+    '문형을 단어에 붙인 결과를 접속형별로 확인하고, 단어 화면에서 그 단어에 쓰는 문형을 모아 봅니다.':
+      '文型を単語に付けた結果を接続形ごとに確認し、単語画面でその単語に使う文型をまとめて見られます。',
+    '다섯 개씩, 내 속도로': '5個ずつ、自分のペースで',
+    '카드를 다섯 개 묶음으로 풀며 알아요·헷갈려요를 표시하고, 학습 위치와 북마크는 기기에 저장합니다.':
+      'カードを5個ずつ解きながら「わかる」「あやふや」を記録し、学習位置とブックマークは端末に保存します。',
+    '틀린 곳을': '間違いを',
+    '알려 주세요.': '知らせてください。',
+    '틀린 뜻이나 활용형을 발견하면 알려 주세요. 앱 버전과 단어를 함께 보내 주시면 확인에 도움이 됩니다.':
+      '間違った意味や活用形を見つけたら知らせてください。アプリのバージョンと単語を一緒に送っていただけると確認の助けになります。',
+    '앱 정보 화면의 ‘제보 양식 복사’를 누르세요.': 'アプリ情報画面の「報告用紙をコピー」を押してください。',
+    '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': '必要に応じて該当の画面を添付してください。個人情報は隠してください。',
+    '마지막으로 본 단어, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      '最後に見た単語、学習の印（わかる・あやふや）、ブックマーク、表示言語・テーマ・読み補助の設定は端末に保存されます。運営者がサーバーで記録を閲覧したり復元したりすることはできません。アプリの削除・OSのデータ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
+    '일본문법결 개인정보처리방침': 'イルボンムンボプギョル プライバシーポリシー',
+    '출시 전 초안 · 2026년 11월 7일': '公開前の草案・2026年11月7日',
+    '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용되며, 출시 전 초안이므로 출시 시점에 확정본으로 갱신합니다.':
+      '초록지붕이층집は、日本語文法学習アプリ「일본문법결」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、およびこの方針を掲載するウェブページに適用され、公開前の草案のため、公開時に確定版へ更新します。',
+    '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
+      'アプリにはアカウント登録、独自サーバー、分析SDK、広告SDK、決済機能はありません。学習履歴は端末に保存されます。メールサービスとウェブホスティングによる情報処理は、以下で別に説明します。',
+    '마지막으로 본 단어 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      '最後に見た単語ID、「わかる」「あやふや」の印、ブックマーク、表示言語、画面テーマ、読み補助の設定を保存し、学習位置と設定を復元します。アプリ自体はこれらの記録を運営者や外部サーバーへ送信しません。運営者は端末にだけある記録を遠隔で閲覧できません。',
+    '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 위치 초기화는 마지막으로 본 단어만 지우며, 학습 표시·북마크·설정은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
+      'これらの情報は、設定で初期化するかアプリデータを削除するまで端末に残ります。学習位置の初期化は最後に見た単語だけを消し、学習の印・ブックマーク・設定は別に保持されます。アプリの削除とOSのバックアップ・復元設定により、再インストール後に記録が復元されることがあります。',
+    '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 앱 버전, 운영체제·기기 종류, 단어나 문형 이름과 재현 절차는 문제 확인에 필요한 경우에만 알려 주세요. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요.':
+      'メールでのお問い合わせでは、返信先、件名・本文、ご自身で添付した資料を受け取り、回答や不具合確認に利用します。アプリのバージョン、OS・端末の種類、単語や文型の名前、再現手順は、確認に必要な場合にのみお知らせください。添付は任意であり、パスワード、認証コード、身分証、健康情報、他人の個人情報は送らないでください。',
+    '앱 정보 화면의 제보 양식 복사는 앱 버전과 콘텐츠 버전을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
+      'アプリ情報画面の報告用紙のコピーは、アプリとコンテンツのバージョンを含む書式を端末のクリップボードにコピーします。メールの自動送信や学習履歴の送信は行いません。送信前に内容を編集でき、クリップボードは端末・OSのポリシーに従って処理されます。',
+    '4. 앱 하단의 홍보 영역': '4. アプリ下部の紹介欄',
+    '앱 하단에는 운영자의 스마트스토어 홍보 영역이 표시됩니다. 영역을 눌렀을 때만 기기의 외부 브라우저로 운영자 상점 페이지가 열리며, 앱은 이 과정에서 학습 기록이나 개인정보를 전달하지 않습니다. 열린 웹사이트의 정보 처리는 해당 사이트의 방침을 따릅니다.':
+      'アプリ下部には運営者のスマートストアの紹介欄が表示されます。この欄を押したときだけ、端末の外部ブラウザで運営者のショップページが開き、アプリはその際に学習履歴や個人情報を渡しません。開かれたウェブサイトの情報処理は、そのサイトの方針に従います。',
+    '앱에는 아직 광고 SDK가 포함되어 있지 않습니다. 광고 SDK를 도입하기 전에 이 방침을 갱신하고 필요한 안내와 선택 절차를 마련합니다.':
+      'アプリにはまだ広告SDKは含まれていません。広告SDKを導入する前に、この方針を更新し、必要な案内と選択手続きを用意します。',
+    '5. 외부 서비스와 국외 처리': '5. 外部サービスと国外での処理',
+    '문의 이메일은 Gmail을 제공하는 Google의 메일 전송·저장·보안 기능을 사용하고, 이 정책 웹페이지는 GitHub Pages를 제공하는 GitHub, Inc.가 접속 정보를 처리합니다. 두 제공자는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지하며, 운영자는 이용자별 실제 처리 국가를 지정하거나 조회할 수 없습니다. 학습 기록은 판매하거나 외부에 제공하지 않습니다.':
+      'お問い合わせメールはGmailを提供するGoogleのメール送信・保存・セキュリティ機能を利用し、この方針を掲載するウェブページではGitHub Pagesを提供するGitHub, Inc.がアクセス情報を処理します。両提供者は米国を含む複数の国のインフラで情報を処理すると公表しており、運営者は利用者ごとの実際の処理国を指定したり確認したりできません。学習履歴を販売したり外部に提供したりしません。',
+    '6. 이 웹페이지와 언어 설정': '6. このウェブページと言語設定',
+    '이 페이지는 GitHub Pages의 정적 웹페이지입니다. 자체 로그인, 문의 입력폼, 광고, 외부 분석 스크립트와 웹폰트를 사용하지 않습니다. 브라우저의 localStorage에는 선택한 언어만 저장하며 서버로 전송하지 않습니다. 브라우저의 사이트 데이터 삭제로 지울 수 있고, 저장을 차단해도 기본 언어로 페이지를 읽을 수 있습니다. 호스팅 제공자의 접속 정보 처리는 5항과 별개로 사라지지 않습니다.':
+      'このページはGitHub Pagesの静的ウェブページです。独自ログイン、問い合わせ入力フォーム、広告、外部分析スクリプト、ウェブフォントは使用しません。ブラウザのlocalStorageには選択した言語だけを保存し、サーバーには送信しません。ブラウザのサイトデータ削除で消去でき、保存を拒否しても既定の言語でページを読めます。ホスティング提供者によるアクセス情報の処理は、5項とは別に残ります。',
+    '7. 이용자의 권리와 파기 방법': '7. 利用者の権利と削除方法',
+    '8. 이용 대상과 아동': '8. 利用対象と児童',
+    '일본문법결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
+      '일본문법결は、大韓民国の満14歳以上の青少年および成人を対象としています。生年月日や身分証を収集して年齢を確認することはなく、すべての利用者を成人とみなすこともありません。満14歳未満の個人情報がお問い合わせに含まれていると知った場合は、必要な保護措置を検討し、不要な情報を削除します。',
+    '9. 변경 안내': '9. 変更のお知らせ',
+    '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
+      '処理の目的・項目・提供者・保存基準などが変更される場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は、施行前に同意を得ます。外部リンクは各提供者の公表内容であり、일본문법결の方針に代わるものではありません。',
+    'Jonathan Waller의 JLPT 자료': 'Jonathan WallerのJLPT資料',
+    '일본문법결은 출시를 준비 중입니다. 앱의 콘텐츠(단어의 한국어 뜻·문형 설명)는 AI가 작성한 초안이며 사람이 모두 검수한 것이 아닙니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내이며, 아래 고지가 콘텐츠의 검수 완료나 출시 승인을 뜻하지는 않습니다.':
+      '일본문법결は公開を準備中です。アプリのコンテンツ（単語の韓国語の意味・文型の説明）はAIが作成した草案で、人がすべて確認したものではありません。このページはアプリが参照する出典と利用条件の案内であり、以下の表示がコンテンツの確認完了や公開承認を意味するものではありません。',
+    '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
+      '일본문법결の単語データには、JMdictから取り入れた表記・読みとJLPTの参考レベルが含まれています。JMdictはCC BY-SA 4.0の条件に従い出典を表示して加工しており、同じ条件が適用される範囲を含むデータの公開方法は、公開とあわせて決める予定です。アプリのコード、画面デザイン、アプリ名とアイコンはこの条件に含まれません。',
+    JMdict: 'JMdict',
+    'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 AI가 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
+      'JMdictの著作権はJames William BreenとElectronic Dictionary Research and Development Group（EDRDG）にあります。JSON変換版にはStanislav Petrovのjmdict-simplifiedを使用しました。単語の表記・読み・品詞と英語の参考訳をもとにしており、韓国語の意味はAIが新たに作成しました。利用条件はEDRDGライセンスとCC BY-SA 4.0に従い、EDRDGによる保証・推奨を意味しません。',
+    'JLPT 레벨 목록': 'JLPTレベル一覧',
+    'JLPT 레벨은 Jonathan Waller(tanos.co.uk)의 어휘 목록을 Creative Commons BY 조건으로 가공해 사용했습니다. 레벨은 비공식 참고 분류이며 일본국제교류기금과 JLPT 주관 기관이 발표한 공식 목록이 아닙니다.':
+      'JLPTレベルは、Jonathan Waller（tanos.co.uk）の語彙リストをCreative Commons BYの条件で加工して使用しています。レベルは非公式の参考分類であり、国際交流基金やJLPT主催団体が公表した公式リストではありません。',
+    'AI가 작성한 내용': 'AIが作成した内容',
+    '한국어 뜻과 문형 설명은 AI가 작성한 초안이며, 사람이 모두 검수한 것이 아닙니다. 틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.':
+      '韓国語の意味と文型の説明はAIが作成した草案で、人がすべて確認したものではありません。間違いはアプリのエラー報告またはお問い合わせメールでお知らせください。',
+    '일본 정부나 JLPT 주관 기관과 관련 없는 앱입니다.': '日本政府やJLPTの主催団体とは関係のないアプリです。',
+    '상용한자 2,136자 전체 학습을 목표로 콘텐츠를 준비하고 있으며, 스토어 출시는 아직 진행하지 않았습니다.':
+      '常用漢字2,136字すべての学習を目標にコンテンツを準備しており、ストアでの公開はまだ行っていません。',
+    'Android 실제 촬영 · 광고 비활성화 촬영': 'Android実機で撮影・広告無効で撮影',
+    '실제 화면: 한자와 독음을 한눈에': '実際の画面：漢字と読みをひと目で',
+    '실제 화면: 단어와 암기 팁까지': '実際の画面：単語と暗記のコツまで',
+    '실제 화면: 편안한 다크 테마': '実際の画面：目に優しいダークテーマ',
+    '전체 2개': '全2件',
+    '일본문법결 · WhiteSheep Game Studio': 'イルボンムンボプギョル · WhiteSheep Game Studio',
+    '일본문법결 · 지원 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サポート · WhiteSheep Game Studio',
+    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': 'イルボンムンボプギョル · プライバシーポリシー · WhiteSheep Game Studio',
+    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': 'イルボンムンボプギョル · 出典と利用条件 · WhiteSheep Game Studio',
+    '메일에 붙여 넣고 어떤 내용이 잘못되었는지 적어 주세요.': 'メールに貼り付けて、どの内容が間違っているかを書いてください。',
+    '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다. 법령상 보존 등 예외가 필요한 경우 관련 근거와 기간을 확인해 안내합니다.':
+      '担当者：초록지붕이층집の運営者。上記のメールアドレスに、開示・訂正・削除などのご依頼をお送りください。お問い合わせメールは、対応終了後90日以内に削除します。法令上の保存などの例外が必要な場合は、関連する根拠と期間を確認してご案内します。',
+    '앱은 이메일을 자동으로 보내지 않습니다. 복사한 양식을 직접 편집한 뒤 보내실 수 있습니다.':
+      'アプリはメールを自動送信しません。コピーした書式を自分で編集してから送信できます。'
   },
   en: {
     '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio',
@@ -333,7 +426,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '전체 플랫폼': 'All platforms',
     상태: 'Status',
     '전체 상태': 'All statuses',
-    '개발 중': 'In development',
+    '출시 예정': 'Coming soon',
     출시: 'Released',
     '전체 1개': '1 total',
     '조건에 맞는 게임이나 앱이 없습니다. 검색어나 필터를 바꿔 주세요.': 'No matching games or apps. Try another search or filter.',
@@ -363,7 +456,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '나만의 결로.': 'at your own pace.',
     '뜻과 소리, 모양과 이야기를 함께.': 'Meaning, sound, shape, and story together.',
     '한국어로 차근차근 익히는 일본어 한자, 칸지결.': 'Kanjigyeol helps you learn Japanese kanji step by step through Korean.',
-    'Android · iOS 개발 중': 'Android · iOS in development',
+    'Android · iOS 출시 예정': 'Android · iOS coming soon',
     '칸지결 알아보기 ↓': 'Discover Kanjigyeol ↓',
     '한 장에 한 글자.': 'One card, one character.',
     '읽고, 이해하고, 기억해요.': 'Read it, understand it, remember it.',
@@ -440,7 +533,103 @@ window.WHITESHEEP_TRANSLATIONS = {
     '권리 문의': 'Rights inquiries',
     '콘텐츠의 권리나 출처 표기에 대한 문의와 시정 요청 이메일:': 'Email for inquiries and correction requests about content rights or source credits:',
     '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.':
-      'We review what we receive and, where necessary, first take the item in question offline and then examine it.'
+      'We review what we receive and, where necessary, first take the item in question offline and then examine it.',
+    일본문법결: 'Ilbon Mungbeopgyeol',
+    '활용을 한눈에, 문형은 차근차근.': 'Conjugations at a glance, patterns step by step.',
+    '동사·형용사·명사의 활용과 문형을 한국어로 한눈에 익히는 일본어 문법 학습 앱.':
+      'A Japanese grammar app that teaches verb, adjective, and noun conjugations and sentence patterns at a glance, in Korean.',
+    '활용을 한눈에,': 'Conjugations at a glance,',
+    '문형은 차근차근.': 'patterns step by step.',
+    '동사·형용사·명사의 활용과 문형을 한국어로 익히는 일본어 문법 앱, 일본문법결.':
+      'A Japanese grammar app that teaches verb, adjective, and noun conjugations and sentence patterns in Korean: Ilbon Mungbeopgyeol.',
+    '일본문법결 알아보기 ↓': 'Explore Ilbon Mungbeopgyeol ↓',
+    '활용표 한 장을 표현한 일본문법결 심벌': 'Ilbon Mungbeopgyeol symbol showing a single conjugation table',
+    '분류별로 활용을,': 'Conjugations by word type,',
+    '접속형별로 문형을.': 'patterns by connection form.',
+    '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
+      'Plain and polite conjugations of the three verb groups, i-adjectives, na-adjectives, and nouns are gathered in one table by present/past and affirmative/negative. Changing endings are bold, and readings appear small above the kanji.',
+    'JLPT N5·N4 단어 1,250개와 문형 144개로 시작합니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것은 아니며, 스토어 출시는 아직 진행하지 않았습니다.':
+      'It starts with 1,250 JLPT N5 and N4 words and 144 sentence patterns. Korean meanings and pattern notes were written by AI and have not all been reviewed by people. The app has not been released in any store yet.',
+    '한눈에 보는 활용표': 'Conjugation tables at a glance',
+    '분류를 고르면 보통체·공손체와 현재·과거, 긍정·부정이 한 카드에 나옵니다.':
+      'Choose a word type to see plain and polite forms, present and past, affirmative and negative on one card.',
+    '문형에 붙여 보기': 'Try it with patterns',
+    '문형을 단어에 붙인 결과를 접속형별로 확인하고, 단어 화면에서 그 단어에 쓰는 문형을 모아 봅니다.':
+      'See the result of attaching each pattern to a word by connection form, and collect the patterns that go with a word from its own screen.',
+    '다섯 개씩, 내 속도로': 'Five at a time, at your pace',
+    '카드를 다섯 개 묶음으로 풀며 알아요·헷갈려요를 표시하고, 학습 위치와 북마크는 기기에 저장합니다.':
+      'Work through cards five at a time, mark them known or unsure, and keep your place and bookmarks on your device.',
+    '틀린 곳을': 'Tell us',
+    '알려 주세요.': 'about mistakes.',
+    '틀린 뜻이나 활용형을 발견하면 알려 주세요. 앱 버전과 단어를 함께 보내 주시면 확인에 도움이 됩니다.':
+      'If you find a wrong meaning or form, let us know. Including the app version and the word helps us check.',
+    '앱 정보 화면의 ‘제보 양식 복사’를 누르세요.': 'Tap “Copy report form” on the app info screen.',
+    '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': 'If needed, attach the relevant screen. Please hide any personal information.',
+    '마지막으로 본 단어, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'Your last viewed word, study marks (known/unsure), bookmarks, and language, theme, and reading-aid settings are stored on your device. The operator cannot view or restore these records from a server. Depending on app deletion, OS data deletion, and backup settings, records may be lost or restored.',
+    '일본문법결 개인정보처리방침': 'Ilbon Mungbeopgyeol Privacy Policy',
+    '출시 전 초안 · 2026년 11월 7일': 'Pre-release draft · November 7, 2026',
+    '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용되며, 출시 전 초안이므로 출시 시점에 확정본으로 갱신합니다.':
+      '초록지붕이층집 explains how personal information is handled for 일본문법결 (Ilbon Mungbeopgyeol), a Japanese grammar learning app. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support replies, and this web page, and because it is a pre-release draft it will be updated to a final version at release.',
+    '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
+      'The app has no sign-up, own server, analytics SDK, advertising SDK, or payment feature. Study records are stored on your device. Information processing by the email service and web hosting is explained separately below.',
+    '마지막으로 본 단어 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      'The app stores the ID of your last viewed word, known/unsure marks, bookmarks, display language, screen theme, and reading-aid settings to restore your place and settings. The app itself does not send these records to the operator or any external server. The operator cannot remotely view records that exist only on your device.',
+    '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 위치 초기화는 마지막으로 본 단어만 지우며, 학습 표시·북마크·설정은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
+      'This information stays on your device until you reset it in settings or delete the app data. Resetting your study position clears only the last viewed word; study marks, bookmarks, and settings are kept separately. Depending on app deletion and the OS backup and restore settings, records may be restored after reinstalling.',
+    '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 앱 버전, 운영체제·기기 종류, 단어나 문형 이름과 재현 절차는 문제 확인에 필요한 경우에만 알려 주세요. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요.':
+      'When you email us, we receive your reply address, subject, body, and any materials you attach, and use them to respond and check the problem. Tell us the app version, OS and device type, the word or pattern name, and reproduction steps only when needed. Attachments are optional; do not send passwords, verification codes, ID documents, health information, or other people’s personal information.',
+    '앱 정보 화면의 제보 양식 복사는 앱 버전과 콘텐츠 버전을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
+      'The app info screen’s “Copy report form” copies a form that includes the app and content versions to your device clipboard. It does not send email automatically or transmit your study records. You can edit the content before sending, and the clipboard is handled under your device and OS policies.',
+    '4. 앱 하단의 홍보 영역': '4. Promotional area at the bottom of the app',
+    '앱 하단에는 운영자의 스마트스토어 홍보 영역이 표시됩니다. 영역을 눌렀을 때만 기기의 외부 브라우저로 운영자 상점 페이지가 열리며, 앱은 이 과정에서 학습 기록이나 개인정보를 전달하지 않습니다. 열린 웹사이트의 정보 처리는 해당 사이트의 방침을 따릅니다.':
+      'A promotional area for the operator’s Smart Store is shown at the bottom of the app. Only when you tap it does the operator’s shop page open in your device’s external browser, and the app passes no study records or personal information in the process. Information processing by the opened website follows that site’s own policy.',
+    '앱에는 아직 광고 SDK가 포함되어 있지 않습니다. 광고 SDK를 도입하기 전에 이 방침을 갱신하고 필요한 안내와 선택 절차를 마련합니다.':
+      'The app does not include an advertising SDK yet. Before introducing one, we will update this policy and provide the necessary notices and choices.',
+    '5. 외부 서비스와 국외 처리': '5. External services and international processing',
+    '문의 이메일은 Gmail을 제공하는 Google의 메일 전송·저장·보안 기능을 사용하고, 이 정책 웹페이지는 GitHub Pages를 제공하는 GitHub, Inc.가 접속 정보를 처리합니다. 두 제공자는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지하며, 운영자는 이용자별 실제 처리 국가를 지정하거나 조회할 수 없습니다. 학습 기록은 판매하거나 외부에 제공하지 않습니다.':
+      'Support email uses the mail delivery, storage, and security features of Google, which provides Gmail, and this policy web page is served by GitHub, Inc., which provides GitHub Pages and processes access information. Both providers state that they process information on infrastructure in several countries including the United States, and the operator cannot specify or look up the actual processing country for each user. Study records are not sold or provided to others.',
+    '6. 이 웹페이지와 언어 설정': '6. This web page and language setting',
+    '이 페이지는 GitHub Pages의 정적 웹페이지입니다. 자체 로그인, 문의 입력폼, 광고, 외부 분석 스크립트와 웹폰트를 사용하지 않습니다. 브라우저의 localStorage에는 선택한 언어만 저장하며 서버로 전송하지 않습니다. 브라우저의 사이트 데이터 삭제로 지울 수 있고, 저장을 차단해도 기본 언어로 페이지를 읽을 수 있습니다. 호스팅 제공자의 접속 정보 처리는 5항과 별개로 사라지지 않습니다.':
+      'This page is a static GitHub Pages web page. It uses no login, inquiry form, ads, external analytics scripts, or web fonts. Only your chosen language is stored in the browser’s localStorage and it is not sent to a server. You can clear it by deleting the browser’s site data, and the page remains readable in the default language even if storage is blocked. The hosting provider’s processing of access information does not disappear and is separate from section 5.',
+    '7. 이용자의 권리와 파기 방법': '7. Your rights and deletion',
+    '8. 이용 대상과 아동': '8. Intended users and children',
+    '일본문법결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
+      '일본문법결 is intended for teenagers aged 14 and over and adults in the Republic of Korea. We do not collect birth dates or ID documents to verify age, and we do not treat every user as an adult. If we learn that an inquiry contains personal information of a child under 14, we will consider necessary protective measures and delete unnecessary information.',
+    '9. 변경 안내': '9. Changes to this policy',
+    '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
+      'When purposes, items, providers, or retention standards change, we will update this page’s version and effective date and announce the change and when it applies. Changes that need separate consent will be put to you before they take effect. External links are each provider’s own notices and do not replace the policy for 일본문법결.',
+    'Jonathan Waller의 JLPT 자료': 'Jonathan Waller’s JLPT resources',
+    '일본문법결은 출시를 준비 중입니다. 앱의 콘텐츠(단어의 한국어 뜻·문형 설명)는 AI가 작성한 초안이며 사람이 모두 검수한 것이 아닙니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내이며, 아래 고지가 콘텐츠의 검수 완료나 출시 승인을 뜻하지는 않습니다.':
+      '일본문법결 is being prepared for release. The app’s content (Korean meanings of words and pattern notes) is an AI-written draft and has not all been reviewed by people. This page describes the sources and terms the app points to; the notices below do not mean the content has been fully reviewed or approved for release.',
+    '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
+      'The word data in 일본문법결 includes spellings and readings taken from JMdict and reference JLPT levels. JMdict is credited and adapted under CC BY-SA 4.0, and how the data will be published, including the scope where the same terms apply, will be decided together with the release. The app code, screen design, app name, and icon are not covered by these terms.',
+    JMdict: 'JMdict',
+    'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 AI가 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
+      'The copyright of JMdict belongs to James William Breen and the Electronic Dictionary Research and Development Group (EDRDG). The JSON conversion by Stanislav Petrov, jmdict-simplified, was used. The app builds on word spellings, readings, parts of speech, and English reference glosses, and the Korean meanings were newly written by AI. The terms follow the EDRDG licence and CC BY-SA 4.0 and do not imply endorsement by EDRDG.',
+    'JLPT 레벨 목록': 'JLPT level lists',
+    'JLPT 레벨은 Jonathan Waller(tanos.co.uk)의 어휘 목록을 Creative Commons BY 조건으로 가공해 사용했습니다. 레벨은 비공식 참고 분류이며 일본국제교류기금과 JLPT 주관 기관이 발표한 공식 목록이 아닙니다.':
+      'JLPT levels use Jonathan Waller’s (tanos.co.uk) vocabulary lists, adapted under Creative Commons BY. The levels are unofficial reference classifications, not official lists published by the Japan Foundation or the JLPT organizers.',
+    'AI가 작성한 내용': 'AI-written content',
+    '한국어 뜻과 문형 설명은 AI가 작성한 초안이며, 사람이 모두 검수한 것이 아닙니다. 틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.':
+      'Korean meanings and pattern notes are AI-written drafts and have not all been reviewed by people. Please report mistakes through the app’s report feature or by email.',
+    '일본 정부나 JLPT 주관 기관과 관련 없는 앱입니다.': 'This app is not affiliated with the Japanese government or the JLPT organizers.',
+    '상용한자 2,136자 전체 학습을 목표로 콘텐츠를 준비하고 있으며, 스토어 출시는 아직 진행하지 않았습니다.':
+      'We are preparing content aiming at all 2,136 jōyō kanji, and the app has not been released in any store yet.',
+    'Android 실제 촬영 · 광고 비활성화 촬영': 'Captured on Android · ads disabled when captured',
+    '실제 화면: 한자와 독음을 한눈에': 'Actual screen: a kanji and its readings at a glance',
+    '실제 화면: 단어와 암기 팁까지': 'Actual screen: words and memory tips too',
+    '실제 화면: 편안한 다크 테마': 'Actual screen: a comfortable dark theme',
+    '전체 2개': '2 total',
+    '일본문법결 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · WhiteSheep Game Studio',
+    '일본문법결 · 지원 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Support · WhiteSheep Game Studio',
+    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Privacy Policy · WhiteSheep Game Studio',
+    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Sources and terms · WhiteSheep Game Studio',
+    '메일에 붙여 넣고 어떤 내용이 잘못되었는지 적어 주세요.': 'Paste it into an email and describe what is wrong.',
+    '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다. 법령상 보존 등 예외가 필요한 경우 관련 근거와 기간을 확인해 안내합니다.':
+      'Contact: the operator of 초록지붕이층집. Send requests for access, correction, deletion, and similar matters to the email above. Support emails are deleted within 90 days after handling ends. If an exception such as legal retention is needed, we will confirm the basis and period and let you know.',
+    '앱은 이메일을 자동으로 보내지 않습니다. 복사한 양식을 직접 편집한 뒤 보내실 수 있습니다.':
+      'The app does not send email automatically. You can edit the copied form yourself before sending it.'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */
