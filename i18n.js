@@ -247,18 +247,18 @@ window.WHITESHEEP_TRANSLATIONS = {
       '間違った意味や活用形を見つけたら知らせてください。アプリのバージョンと単語を一緒に送っていただけると確認の助けになります。',
     '앱 정보 화면의 ‘제보 양식 복사’를 누르세요.': 'アプリ情報画面の「報告用紙をコピー」を押してください。',
     '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': '必要に応じて該当の画面を添付してください。個人情報は隠してください。',
-    '마지막으로 본 단어, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
-      '最後に見た単語、学習の印（わかる・あやふや）、ブックマーク、表示言語・テーマ・読み補助の設定は端末に保存されます。運営者がサーバーで記録を閲覧したり復元したりすることはできません。アプリの削除・OSのデータ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
+    '마지막으로 본 단어·문형, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      '最後に見た単語・文型、学習の印（わかる・あやふや）、ブックマーク、表示言語・テーマ・読み補助の設定は端末に保存されます。運営者がサーバーで記録を閲覧したり復元したりすることはできません。アプリの削除・OSのデータ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
     '일본문법결 개인정보처리방침': 'イルボンムンボプギョル プライバシーポリシー',
-    '출시 전 초안 · 2026년 11월 7일': '公開前の草案・2026年11月7日',
-    '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용되며, 출시 전 초안이므로 출시 시점에 확정본으로 갱신합니다.':
-      '초록지붕이층집は、日本語文法学習アプリ「일본문법결」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、およびこの方針を掲載するウェブページに適用され、公開前の草案のため、公開時に確定版へ更新します。',
+    '최종 갱신 2026년 11월 8일': '最終更新・2026年11월8日',
+    '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、日本語文法学習アプリ「일본문법결」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、およびこの方針を掲載するウェブページに適用されます。',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
       'アプリにはアカウント登録、独自サーバー、分析SDK、広告SDK、決済機能はありません。学習履歴は端末に保存されます。メールサービスとウェブホスティングによる情報処理は、以下で別に説明します。',
-    '마지막으로 본 단어 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
-      '最後に見た単語ID、「わかる」「あやふや」の印、ブックマーク、表示言語、画面テーマ、読み補助の設定を保存し、学習位置と設定を復元します。アプリ自体はこれらの記録を運営者や外部サーバーへ送信しません。運営者は端末にだけある記録を遠隔で閲覧できません。',
-    '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 위치 초기화는 마지막으로 본 단어만 지우며, 학습 표시·북마크·설정은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
-      'これらの情報は、設定で初期化するかアプリデータを削除するまで端末に残ります。学習位置の初期化は最後に見た単語だけを消し、学習の印・ブックマーク・設定は別に保持されます。アプリの削除とOSのバックアップ・復元設定により、再インストール後に記録が復元されることがあります。',
+    '마지막으로 본 단어·문형 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      '最後に見た単語・文型のID、「わかる」「あやふや」の印、ブックマーク、表示言語、画面テーマ、読み補助の設定を保存し、学習位置と設定を復元します。アプリ自体はこれらの記録を運営者や外部サーバーへ送信しません。運営者は端末にだけある記録を遠隔で閲覧できません。',
+    '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 위치 초기화는 마지막으로 본 단어·문형만 지우며, 학습 표시·북마크·설정은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
+      'これらの情報は、設定で初期化するかアプリデータを削除するまで端末に残ります。学習位置の初期化は最後に見た単語・文型の記録だけを消し、学習の印・ブックマーク・設定は別に保持されます。アプリの削除とOSのバックアップ・復元設定により、再インストール後に記録が復元されることがあります。',
     '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 앱 버전, 운영체제·기기 종류, 단어나 문형 이름과 재현 절차는 문제 확인에 필요한 경우에만 알려 주세요. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요.':
       'メールでのお問い合わせでは、返信先、件名・本文、ご自身で添付した資料を受け取り、回答や不具合確認に利用します。アプリのバージョン、OS・端末の種類、単語や文型の名前、再現手順は、確認に必要な場合にのみお知らせください。添付は任意であり、パスワード、認証コード、身分証、健康情報、他人の個人情報は送らないでください。',
     '앱 정보 화면의 제보 양식 복사는 앱 버전과 콘텐츠 버전을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
@@ -319,8 +319,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '일본문법결は、日本語の動詞・形容詞・名詞の活用と文型を韓国語で示す教育用アプリです。この規約は일본문법결アプリと関連するサポートサービスに適用され、他のアプリには自動的には適用されません。提供される学習コンテンツと機能は更新されることがあります。',
     '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료입니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것이 아니므로 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
       '活用形、文型の説明、単語の韓国語の意味は、学習を助けるための資料です。韓国語の意味と文型の説明はAIが作成したもので、人がすべて確認したわけではないため、誤りや漏れがある場合があります。試験・業務など重要な判断には、信頼できる辞書や公式資料もあわせてご確認ください。コンテンツの出典と利用条件は別の',
-    '마지막으로 본 단어, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
-      '最後に見た単語、学習の印、ブックマークなどは端末に保存されます。アプリの削除、データの初期化、端末の変更、またはOSの動作により、記録が消えたり復元されたりすることがあります。個人情報に関する事項は',
+    '마지막으로 본 단어·문형, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
+      '最後に見た単語・文型、学習の印、ブックマークなどは端末に保存されます。アプリの削除、データの初期化、端末の変更、またはOSの動作により、記録が消えたり復元されたりすることがあります。個人情報に関する事項は',
     '앱 하단에는 운영자의 홍보 영역이 표시될 수 있으며 현재 앱 내 결제 기능은 없습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
       'アプリの下部には運営者の紹介欄が表示されることがあり、現在アプリ内課金機能はありません。今後、広告や有料機能を導入する場合は、アプリ内の案内と関連する方針を更新します。ストアでの購入を導入する場合は、該当ストアの決済・返金規定と関連法令が適用されます。',
     '이용자는 관련 법령을 준수하고 앱을 정상적인 학습 목적으로 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스 및 다른 이용자에게 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
@@ -599,18 +599,18 @@ window.WHITESHEEP_TRANSLATIONS = {
       'If you find a wrong meaning or form, let us know. Including the app version and the word helps us check.',
     '앱 정보 화면의 ‘제보 양식 복사’를 누르세요.': 'Tap “Copy report form” on the app info screen.',
     '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': 'If needed, attach the relevant screen. Please hide any personal information.',
-    '마지막으로 본 단어, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
-      'Your last viewed word, study marks (known/unsure), bookmarks, and language, theme, and reading-aid settings are stored on your device. The operator cannot view or restore these records from a server. Depending on app deletion, OS data deletion, and backup settings, records may be lost or restored.',
+    '마지막으로 본 단어·문형, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'Your last viewed word or pattern, study marks (known/unsure), bookmarks, and language, theme, and reading-aid settings are stored on your device. The operator cannot view or restore these records from a server. Depending on app deletion, OS data deletion, and backup settings, records may be lost or restored.',
     '일본문법결 개인정보처리방침': 'Ilbon Mungbeopgyeol Privacy Policy',
-    '출시 전 초안 · 2026년 11월 7일': 'Pre-release draft · November 7, 2026',
-    '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용되며, 출시 전 초안이므로 출시 시점에 확정본으로 갱신합니다.':
-      '초록지붕이층집 explains how personal information is handled for 일본문법결 (Ilbon Mungbeopgyeol), a Japanese grammar learning app. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support replies, and this web page, and because it is a pre-release draft it will be updated to a final version at release.',
+    '최종 갱신 2026년 11월 8일': 'Last updated November 8, 2026',
+    '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for 일본문법결 (Ilbon Mungbeopgyeol), a Japanese grammar learning app. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support replies, and this web page.',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
       'The app has no sign-up, own server, analytics SDK, advertising SDK, or payment feature. Study records are stored on your device. Information processing by the email service and web hosting is explained separately below.',
-    '마지막으로 본 단어 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
-      'The app stores the ID of your last viewed word, known/unsure marks, bookmarks, display language, screen theme, and reading-aid settings to restore your place and settings. The app itself does not send these records to the operator or any external server. The operator cannot remotely view records that exist only on your device.',
-    '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 위치 초기화는 마지막으로 본 단어만 지우며, 학습 표시·북마크·설정은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
-      'This information stays on your device until you reset it in settings or delete the app data. Resetting your study position clears only the last viewed word; study marks, bookmarks, and settings are kept separately. Depending on app deletion and the OS backup and restore settings, records may be restored after reinstalling.',
+    '마지막으로 본 단어·문형 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      'The app stores the ID of your last viewed word or pattern, known/unsure marks, bookmarks, display language, screen theme, and reading-aid settings to restore your place and settings. The app itself does not send these records to the operator or any external server. The operator cannot remotely view records that exist only on your device.',
+    '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 위치 초기화는 마지막으로 본 단어·문형만 지우며, 학습 표시·북마크·설정은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
+      'This information stays on your device until you reset it in settings or delete the app data. Resetting your study position clears only the last viewed word or pattern; study marks, bookmarks, and settings are kept separately. Depending on app deletion and the OS backup and restore settings, records may be restored after reinstalling.',
     '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 앱 버전, 운영체제·기기 종류, 단어나 문형 이름과 재현 절차는 문제 확인에 필요한 경우에만 알려 주세요. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요.':
       'When you email us, we receive your reply address, subject, body, and any materials you attach, and use them to respond and check the problem. Tell us the app version, OS and device type, the word or pattern name, and reproduction steps only when needed. Attachments are optional; do not send passwords, verification codes, ID documents, health information, or other people’s personal information.',
     '앱 정보 화면의 제보 양식 복사는 앱 버전과 콘텐츠 버전을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
@@ -671,8 +671,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '일본문법결 is an educational app that shows the conjugations of Japanese verbs, adjectives, and nouns and sentence patterns in Korean. These terms apply to the 일본문법결 app and its related support services, and do not automatically apply to other apps. The learning content and features provided may be updated.',
     '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료입니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것이 아니므로 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
       'Conjugated forms, pattern explanations, and the Korean meanings of words are materials to support learning. Korean meanings and pattern notes were written by AI and have not all been reviewed by people, so errors or omissions may exist. For important decisions such as exams or work, please also check authoritative dictionaries or official materials. The sources and terms of the content are available on the separate',
-    '마지막으로 본 단어, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
-      'Your last viewed word, study marks, bookmarks, and similar records are stored on your device. Depending on app deletion, data reset, device changes, or OS behavior, records may be lost or restored. For matters related to personal information, please see the',
+    '마지막으로 본 단어·문형, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
+      'Your last viewed word or pattern, study marks, bookmarks, and similar records are stored on your device. Depending on app deletion, data reset, device changes, or OS behavior, records may be lost or restored. For matters related to personal information, please see the',
     '앱 하단에는 운영자의 홍보 영역이 표시될 수 있으며 현재 앱 내 결제 기능은 없습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
       'A promotional area of the operator may appear at the bottom of the app, and there is currently no in-app purchase feature. If ads or paid features are introduced later, we will update the in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.',
     '이용자는 관련 법령을 준수하고 앱을 정상적인 학습 목적으로 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스 및 다른 이용자에게 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
