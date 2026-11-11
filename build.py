@@ -53,6 +53,7 @@ def main():
     if len(set(slugs))!=len(slugs) or any(not re.fullmatch(r'[a-z][a-z0-9-]*',s) for s in slugs):
         raise ValueError('App slugs must be unique stable ASCII identifiers')
     OUT.mkdir(exist_ok=True)
+    shutil.copyfile(ROOT/'app-ads.txt',OUT/'app-ads.txt')
     shutil.copytree(ROOT/'assets',OUT/'assets',dirs_exist_ok=True)
     css=(ROOT/'style.css').read_text(encoding='utf-8')
     (OUT/'style.css').write_text(css,encoding='utf-8')
