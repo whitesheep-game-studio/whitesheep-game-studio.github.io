@@ -16,6 +16,15 @@ class Page(HTMLParser):
             v=a.get('href') or a.get('src')
             if v:self.refs.append(v)
 errors=[]
+ads=ROOT/'app-ads.txt'
+expected_ads='google.com, pub-3431837292149955, DIRECT, f08c47fec0942fa0'
+try:
+    if ads.read_text(encoding='ascii').splitlines()!=[expected_ads]:
+        errors.append('Invalid app-ads.txt: expected the verified AdMob publisher record')
+    if ads.read_bytes()!=(ROOT.parent/'app-ads.txt').read_bytes():
+        errors.append('app-ads.txt differs from the source file')
+except (OSError,UnicodeError) as error:
+    errors.append(f'Cannot verify app-ads.txt: {error}')
 for file in ROOT.rglob('*.html'):
     # Search Console verification files are plain-text tokens, not HTML pages.
     if file.name.startswith('google') and file.name.endswith('.html'):
