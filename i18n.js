@@ -231,8 +231,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '접속형별로 문형을.': '接続形ごとに文型を。',
     '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
       '動詞3グループ、い形容詞、な形容詞、名詞の普通体・丁寧体の活用を、現在・過去、肯定・否定の1枚の表にまとめました。変わる語尾は太字で、漢字の読みは漢字の上に小さく表示します。',
-    'JLPT N5·N4 단어 1,250개와 문형 144개로 시작합니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것은 아니며, 스토어 출시는 아직 진행하지 않았습니다.':
-      'JLPT N5・N4の単語1,250個と文型144個から始めます。韓国語の意味と文型の説明はAIが作成したもので、すべてを人が確認したわけではありません。ストアでの公開はまだ行っていません。',
+    'JLPT N5·N4 단어 1,252개와 문형 144개, 숫자 읽기 공부로 시작합니다. 스토어 출시는 아직 진행하지 않았습니다.':
+      'JLPT N5・N4の単語1,252語と文型144個、数字の読み方の勉強から始めます。ストアでの公開はまだ行っていません。',
     '한눈에 보는 활용표': 'ひと目でわかる活用表',
     '분류를 고르면 보통체·공손체와 현재·과거, 긍정·부정이 한 카드에 나옵니다.': '品詞を選ぶと、普通体・丁寧体と現在・過去、肯定・否定が1枚のカードに表示されます。',
     '문형에 붙여 보기': '文型に付けてみる',
@@ -282,19 +282,18 @@ window.WHITESHEEP_TRANSLATIONS = {
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
       '処理の目的・項目・提供者・保存基準などが変更される場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は、施行前に同意を得ます。外部リンクは各提供者の公表内容であり、일본문법결の方針に代わるものではありません。',
     'Jonathan Waller의 JLPT 자료': 'Jonathan WallerのJLPT資料',
-    '일본문법결은 출시를 준비 중입니다. 앱의 콘텐츠(단어의 한국어 뜻·문형 설명)는 AI가 작성한 초안이며 사람이 모두 검수한 것이 아닙니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내이며, 아래 고지가 콘텐츠의 검수 완료나 출시 승인을 뜻하지는 않습니다.':
-      '일본문법결は公開を準備中です。アプリのコンテンツ（単語の韓国語の意味・文型の説明）はAIが作成した草案で、人がすべて確認したものではありません。このページはアプリが参照する出典と利用条件の案内であり、以下の表示がコンテンツの確認完了や公開承認を意味するものではありません。',
+    '일본문법결은 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
+      '일본문법결は公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
     '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
       '일본문법결の単語データには、JMdictから取り入れた表記・読みとJLPTの参考レベルが含まれています。JMdictはCC BY-SA 4.0の条件に従い出典を表示して加工しており、同じ条件が適用される範囲を含むデータの公開方法は、公開とあわせて決める予定です。アプリのコード、画面デザイン、アプリ名とアイコンはこの条件に含まれません。',
     JMdict: 'JMdict',
-    'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 AI가 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
-      'JMdictの著作権はJames William BreenとElectronic Dictionary Research and Development Group（EDRDG）にあります。JSON変換版にはStanislav Petrovのjmdict-simplifiedを使用しました。単語の表記・読み・品詞と英語の参考訳をもとにしており、韓国語の意味はAIが新たに作成しました。利用条件はEDRDGライセンスとCC BY-SA 4.0に従い、EDRDGによる保証・推奨を意味しません。',
+    'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
+      'JMdictの著作権はJames William BreenとElectronic Dictionary Research and Development Group（EDRDG）にあります。JSON変換版にはStanislav Petrovのjmdict-simplifiedを使用しました。単語の表記・読み・品詞と英語の参考訳をもとにしており、韓国語の意味は新たに作成しました。利用条件はEDRDGライセンスとCC BY-SA 4.0に従い、EDRDGによる保証・推奨を意味しません。',
     'JLPT 레벨 목록': 'JLPTレベル一覧',
     'JLPT 레벨은 Jonathan Waller(tanos.co.uk)의 어휘 목록을 Creative Commons BY 조건으로 가공해 사용했습니다. 레벨은 비공식 참고 분류이며 일본국제교류기금과 JLPT 주관 기관이 발표한 공식 목록이 아닙니다.':
       'JLPTレベルは、Jonathan Waller（tanos.co.uk）の語彙リストをCreative Commons BYの条件で加工して使用しています。レベルは非公式の参考分類であり、国際交流基金やJLPT主催団体が公表した公式リストではありません。',
-    'AI가 작성한 내용': 'AIが作成した内容',
-    '한국어 뜻과 문형 설명은 AI가 작성한 초안이며, 사람이 모두 검수한 것이 아닙니다. 틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.':
-      '韓国語の意味と文型の説明はAIが作成した草案で、人がすべて確認したものではありません。間違いはアプリのエラー報告またはお問い合わせメールでお知らせください。',
+    '오류 제보': 'エラー報告',
+    '틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.': '間違いはアプリのエラー報告またはお問い合わせメールでお知らせください。',
     '일본 정부나 JLPT 주관 기관과 관련 없는 앱입니다.': '日本政府やJLPTの主催団体とは関係のないアプリです。',
     '상용한자 2,136자 전체 학습을 목표로 콘텐츠를 준비하고 있으며, 스토어 출시는 아직 진행하지 않았습니다.':
       '常用漢字2,136字すべての学習を目標にコンテンツを準備しており、ストアでの公開はまだ行っていません。',
@@ -317,8 +316,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'この規約は、초록지붕이층집（開発者ブランド WhiteSheep Game Studio）が提供する日本語文法学習アプリ「일본문법결」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
     '일본문법결은 일본어 동사·형용사·명사의 활용과 문형을 한국어로 보여 주는 교육용 앱입니다. 이 약관은 일본문법결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
       '일본문법결は、日本語の動詞・形容詞・名詞の活用と文型を韓国語で示す教育用アプリです。この規約は일본문법결アプリと関連するサポートサービスに適用され、他のアプリには自動的には適用されません。提供される学習コンテンツと機能は更新されることがあります。',
-    '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료입니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것이 아니므로 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
-      '活用形、文型の説明、単語の韓国語の意味は、学習を助けるための資料です。韓国語の意味と文型の説明はAIが作成したもので、人がすべて確認したわけではないため、誤りや漏れがある場合があります。試験・業務など重要な判断には、信頼できる辞書や公式資料もあわせてご確認ください。コンテンツの出典と利用条件は別の',
+    '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료이며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
+      '活用形、文型の説明、単語の韓国語の意味は、学習を助けるための資料であり、誤りや漏れがある場合があります。試験・業務など重要な判断には、信頼できる辞書や公式資料もあわせてご確認ください。コンテンツの出典と利用条件は別の',
     '마지막으로 본 단어·문형, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
       '最後に見た単語・文型、学習の印、ブックマークなどは端末に保存されます。アプリの削除、データの初期化、端末の変更、またはOSの動作により、記録が消えたり復元されたりすることがあります。個人情報に関する事項は',
     '앱 하단에는 운영자의 홍보 영역이 표시될 수 있으며 현재 앱 내 결제 기능은 없습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
@@ -582,8 +581,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '접속형별로 문형을.': 'patterns by connection form.',
     '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
       'Plain and polite conjugations of the three verb groups, i-adjectives, na-adjectives, and nouns are gathered in one table by present/past and affirmative/negative. Changing endings are bold, and readings appear small above the kanji.',
-    'JLPT N5·N4 단어 1,250개와 문형 144개로 시작합니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것은 아니며, 스토어 출시는 아직 진행하지 않았습니다.':
-      'It starts with 1,250 JLPT N5 and N4 words and 144 sentence patterns. Korean meanings and pattern notes were written by AI and have not all been reviewed by people. The app has not been released in any store yet.',
+    'JLPT N5·N4 단어 1,252개와 문형 144개, 숫자 읽기 공부로 시작합니다. 스토어 출시는 아직 진행하지 않았습니다.':
+      'It starts with 1,252 JLPT N5 and N4 words, 144 sentence patterns and number reading practice. The app has not been released in any store yet.',
     '한눈에 보는 활용표': 'Conjugation tables at a glance',
     '분류를 고르면 보통체·공손체와 현재·과거, 긍정·부정이 한 카드에 나옵니다.':
       'Choose a word type to see plain and polite forms, present and past, affirmative and negative on one card.',
@@ -634,19 +633,18 @@ window.WHITESHEEP_TRANSLATIONS = {
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
       'When purposes, items, providers, or retention standards change, we will update this page’s version and effective date and announce the change and when it applies. Changes that need separate consent will be put to you before they take effect. External links are each provider’s own notices and do not replace the policy for 일본문법결.',
     'Jonathan Waller의 JLPT 자료': 'Jonathan Waller’s JLPT resources',
-    '일본문법결은 출시를 준비 중입니다. 앱의 콘텐츠(단어의 한국어 뜻·문형 설명)는 AI가 작성한 초안이며 사람이 모두 검수한 것이 아닙니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내이며, 아래 고지가 콘텐츠의 검수 완료나 출시 승인을 뜻하지는 않습니다.':
-      '일본문법결 is being prepared for release. The app’s content (Korean meanings of words and pattern notes) is an AI-written draft and has not all been reviewed by people. This page describes the sources and terms the app points to; the notices below do not mean the content has been fully reviewed or approved for release.',
+    '일본문법결은 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
+      '일본문법결 is being prepared for release. This page describes the sources and terms the app points to.',
     '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
       'The word data in 일본문법결 includes spellings and readings taken from JMdict and reference JLPT levels. JMdict is credited and adapted under CC BY-SA 4.0, and how the data will be published, including the scope where the same terms apply, will be decided together with the release. The app code, screen design, app name, and icon are not covered by these terms.',
     JMdict: 'JMdict',
-    'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 AI가 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
-      'The copyright of JMdict belongs to James William Breen and the Electronic Dictionary Research and Development Group (EDRDG). The JSON conversion by Stanislav Petrov, jmdict-simplified, was used. The app builds on word spellings, readings, parts of speech, and English reference glosses, and the Korean meanings were newly written by AI. The terms follow the EDRDG licence and CC BY-SA 4.0 and do not imply endorsement by EDRDG.',
+    'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
+      'The copyright of JMdict belongs to James William Breen and the Electronic Dictionary Research and Development Group (EDRDG). The JSON conversion by Stanislav Petrov, jmdict-simplified, was used. The app builds on word spellings, readings, parts of speech, and English reference glosses, and the Korean meanings were newly written. The terms follow the EDRDG licence and CC BY-SA 4.0 and do not imply endorsement by EDRDG.',
     'JLPT 레벨 목록': 'JLPT level lists',
     'JLPT 레벨은 Jonathan Waller(tanos.co.uk)의 어휘 목록을 Creative Commons BY 조건으로 가공해 사용했습니다. 레벨은 비공식 참고 분류이며 일본국제교류기금과 JLPT 주관 기관이 발표한 공식 목록이 아닙니다.':
       'JLPT levels use Jonathan Waller’s (tanos.co.uk) vocabulary lists, adapted under Creative Commons BY. The levels are unofficial reference classifications, not official lists published by the Japan Foundation or the JLPT organizers.',
-    'AI가 작성한 내용': 'AI-written content',
-    '한국어 뜻과 문형 설명은 AI가 작성한 초안이며, 사람이 모두 검수한 것이 아닙니다. 틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.':
-      'Korean meanings and pattern notes are AI-written drafts and have not all been reviewed by people. Please report mistakes through the app’s report feature or by email.',
+    '오류 제보': 'Reporting mistakes',
+    '틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.': 'Please report mistakes through the app’s report feature or by email.',
     '일본 정부나 JLPT 주관 기관과 관련 없는 앱입니다.': 'This app is not affiliated with the Japanese government or the JLPT organizers.',
     '상용한자 2,136자 전체 학습을 목표로 콘텐츠를 준비하고 있으며, 스토어 출시는 아직 진행하지 않았습니다.':
       'We are preparing content aiming at all 2,136 jōyō kanji, and the app has not been released in any store yet.',
@@ -669,8 +667,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'These terms describe the conditions of use for 일본문법결, a Japanese grammar learning app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
     '일본문법결은 일본어 동사·형용사·명사의 활용과 문형을 한국어로 보여 주는 교육용 앱입니다. 이 약관은 일본문법결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
       '일본문법결 is an educational app that shows the conjugations of Japanese verbs, adjectives, and nouns and sentence patterns in Korean. These terms apply to the 일본문법결 app and its related support services, and do not automatically apply to other apps. The learning content and features provided may be updated.',
-    '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료입니다. 한국어 뜻과 문형 설명은 AI가 작성했고 사람이 모두 검수한 것이 아니므로 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
-      'Conjugated forms, pattern explanations, and the Korean meanings of words are materials to support learning. Korean meanings and pattern notes were written by AI and have not all been reviewed by people, so errors or omissions may exist. For important decisions such as exams or work, please also check authoritative dictionaries or official materials. The sources and terms of the content are available on the separate',
+    '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료이며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
+      'Conjugated forms, pattern explanations, and the Korean meanings of words are materials to support learning, and errors or omissions may exist. For important decisions such as exams or work, please also check authoritative dictionaries or official materials. The sources and terms of the content are available on the separate',
     '마지막으로 본 단어·문형, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
       'Your last viewed word or pattern, study marks, bookmarks, and similar records are stored on your device. Depending on app deletion, data reset, device changes, or OS behavior, records may be lost or restored. For matters related to personal information, please see the',
     '앱 하단에는 운영자의 홍보 영역이 표시될 수 있으며 현재 앱 내 결제 기능은 없습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
