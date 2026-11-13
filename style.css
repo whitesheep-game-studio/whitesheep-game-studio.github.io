@@ -156,3 +156,8 @@ th{padding-bottom:0}
 td{padding-top:var(--wsds-space-2)}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}
 *,*::before,*::after{transition-duration:0ms!important;animation-duration:0ms!important}}
+
+/* Official store artwork with clear space and a keyboard-accessible target. */
+.store-links{display:flex;flex-wrap:wrap;gap:var(--wsds-space-4);margin-top:var(--wsds-space-4)}
+.store-badge{display:inline-flex;padding:var(--wsds-space-2);border-radius:var(--wsds-radius-sm)}
+.store-badge img{display:block;width:150px;height:50px}

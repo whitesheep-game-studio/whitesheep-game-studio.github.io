@@ -1,5 +1,7 @@
 window.WHITESHEEP_TRANSLATIONS = {
   ja: {
+    'iOS 출시 · Android 출시 예정': 'iOS 公開済み · Android 公開予定',
+    'App Store에서 다운로드': 'App Storeからダウンロード',
     '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'カンジギョル · プライバシーポリシー · WhiteSheep Game Studio',
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'WhiteSheep Game Studioのゲーム・アプリ、更新情報、サポートを一か所でご確認いただけます。',
     '운영자 초록지붕이층집 · © 2026': '運営者 초록지붕이층집 · © 2026',
@@ -295,8 +297,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '오류 제보': 'エラー報告',
     '틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.': '間違いはアプリのエラー報告またはお問い合わせメールでお知らせください。',
     '일본 정부나 JLPT 주관 기관과 관련 없는 앱입니다.': '日本政府やJLPTの主催団体とは関係のないアプリです。',
-    '상용한자 2,136자 전체 학습을 목표로 콘텐츠를 준비하고 있으며, 스토어 출시는 아직 진행하지 않았습니다.':
-      '常用漢字2,136字すべての学習を目標にコンテンツを準備しており、ストアでの公開はまだ行っていません。',
+    'iOS 버전은 App Store에서 다운로드할 수 있습니다. Android 버전은 출시 예정입니다.':
+      'iOS版はApp Storeからダウンロードできます。Android版は公開予定です。',
     'Android 실제 촬영 · 광고 비활성화 촬영': 'Android実機で撮影・広告無効で撮影',
     '실제 화면: 한자와 독음을 한눈에': '実際の画面：漢字と読みをひと目で',
     '실제 화면: 단어와 암기 팁까지': '実際の画面：単語と暗記のコツまで',
@@ -347,6 +349,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サービス利用規約 · WhiteSheep Game Studio'
   },
   en: {
+    'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
+    'App Store에서 다운로드': 'Download on the App Store',
     '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio',
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.',
     '운영자 초록지붕이층집 · © 2026': 'Operated by 초록지붕이층집 · © 2026',
@@ -646,8 +650,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '오류 제보': 'Reporting mistakes',
     '틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.': 'Please report mistakes through the app’s report feature or by email.',
     '일본 정부나 JLPT 주관 기관과 관련 없는 앱입니다.': 'This app is not affiliated with the Japanese government or the JLPT organizers.',
-    '상용한자 2,136자 전체 학습을 목표로 콘텐츠를 준비하고 있으며, 스토어 출시는 아직 진행하지 않았습니다.':
-      'We are preparing content aiming at all 2,136 jōyō kanji, and the app has not been released in any store yet.',
+    'iOS 버전은 App Store에서 다운로드할 수 있습니다. Android 버전은 출시 예정입니다.':
+      'The iOS version is available on the App Store. The Android version is coming soon.',
     'Android 실제 촬영 · 광고 비활성화 촬영': 'Captured on Android · ads disabled when captured',
     '실제 화면: 한자와 독음을 한눈에': 'Actual screen: a kanji and its readings at a glance',
     '실제 화면: 단어와 암기 팁까지': 'Actual screen: words and memory tips too',

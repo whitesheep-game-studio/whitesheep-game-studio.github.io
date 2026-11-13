@@ -41,10 +41,17 @@ def write_page(route,title,body):
     (dest/'index.html').write_text(doc,encoding='utf-8')
 
 
+def app_store_badge(app):
+    url=app.get('app_store_url')
+    if not url:
+        return ''
+    return f'<div class="store-links"><a class="store-badge" href="{escape(url)}"><img src="/assets/badges/app-store.svg" alt="App Store에서 다운로드" width="150" height="50"></a></div>'
+
+
 def app_card(app):
     name,slug=escape(app['name']),app['slug']
     search=escape(' '.join([app['name'],slug,app['category'],*app['platforms']]).lower())
-    return f'''<article class="app" data-app data-search="{search}" data-status="{escape(app['status'])}" data-platforms="{escape(' '.join(app['platforms']))}"><a class="app-main" href="/apps/{slug}/"><img src="{escape(app['icon'])}" alt="" width="80" height="80"><div><span class="status">{escape(app['status'])}</span><h2>{name}</h2><p>{escape(app['description'])}</p><span class="meta">{escape(app['category'])} · {escape(' / '.join(app['platforms']))}</span></div><span class="arrow" aria-hidden="true">↗</span></a><div class="app-links"><a href="/apps/{slug}/support/">지원</a><a href="/apps/{slug}/privacy/">개인정보</a><a href="/apps/{slug}/sources/">출처·이용 조건</a><a href="/apps/{slug}/terms/">이용약관</a></div></article>'''
+    return f'''<article class="app" data-app data-search="{search}" data-status="{escape(app['status'])}" data-platforms="{escape(' '.join(app['platforms']))}"><a class="app-main" href="/apps/{slug}/"><img src="{escape(app['icon'])}" alt="" width="80" height="80"><div><span class="status">{escape(app.get('status_label',app['status']))}</span><h2>{name}</h2><p>{escape(app['description'])}</p><span class="meta">{escape(app['category'])} · {escape(' / '.join(app['platforms']))}</span></div><span class="arrow" aria-hidden="true">↗</span></a><div class="app-links"><a href="/apps/{slug}/support/">지원</a><a href="/apps/{slug}/privacy/">개인정보</a><a href="/apps/{slug}/sources/">출처·이용 조건</a><a href="/apps/{slug}/terms/">이용약관</a></div>{app_store_badge(app)}</article>'''
 
 
 def main():
@@ -80,7 +87,7 @@ def main():
             route='apps/'+slug+('/'+part if part!='index' else '')
             title=app['name']+({'index':'','support':' · 지원','privacy':' · 개인정보 안내','sources':' · 출처·이용 조건','terms':' · 서비스 이용약관'}[part])
             trail=f'<div class="app-nav"><a href="/apps/">게임과 앱</a><span>/</span><a href="/apps/{slug}/">{escape(app["name"])}</a><a href="/apps/{slug}/support/">지원</a><a href="/apps/{slug}/privacy/">개인정보</a><a href="/apps/{slug}/terms/">이용약관</a></div>'
-            write_page(route,title,trail+content.read_text(encoding='utf-8'))
+            write_page(route,title,trail+content.read_text(encoding='utf-8').replace('<!-- app-store -->',app_store_badge(app)))
             routes.append(route)
     (OUT/'404.html').write_text((OUT/'apps/index.html').read_text(encoding='utf-8').replace('게임과 앱</h1>','페이지를 찾을 수 없습니다</h1>'),encoding='utf-8')
     (OUT/'.nojekyll').write_text('')
