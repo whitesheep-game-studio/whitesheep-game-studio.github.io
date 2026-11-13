@@ -77,3 +77,17 @@ CI 실패로 처리하며 무시 목록으로 우회하지 않는다. 이들은 
 모두 통과한 `verified-static-site` artifact를 main의 기존 Pages deploy가 내려받아 그대로 배포한다.
 검증 후 소스를 다시 빌드하지 않으며 PR에서는 배포하지 않는다. 개발/진단 artifact 보관은 3일이다.
 실제 Pages 배포 결과는 이 PR 검증과 별도이며 main 병합 후 확인해야 한다.
+
+## 수동 정적 배포 (Actions 사용량 소진 시)
+
+2026-11-13 OWNER 요청에 따라 Pages 게시 소스를 `gh-pages` 브랜치의 루트(`/`)로 전환했다.
+기존 `.github/workflows/deploy.yml`과 검증 게이트는 유지하며, 이 수동 게시를 위해 Actions를 다시 실행하지 않는다.
+
+- 로컬에서 저장소에 고정된 Node 버전과 `npm ci`를 사용하고 `.ci/project.yml`의 검사, 다국어 검사 및 의존성 감사를 실행한다.
+- `python build.py`로 만든 `docs/`를 검증한 뒤, 같은 파일을 다시 빌드하지 않고 `gh-pages` 루트에 게시한다. `.nojekyll`을 반드시 포함한다.
+- `main`에는 원본 소스만 커밋하며, 생성물은 `gh-pages`에만 커밋한다. 수동 배포 관련 `main` 커밋에는 `[skip ci]`를 사용해 불필요한 Actions 실행을 피한다.
+- Pages 설정은 `Deploy from a branch` → `gh-pages` → `/ (root)`다. 도메인·HTTPS·방문자 공개 범위는 변경하지 않는다.
+- 배포 완료 후 공개 URL의 배지 링크와 아이콘 바이트를 검증한다. 실패하면 게시 브랜치의 이전 커밋으로 되돌린다.
+- Actions 자동 배포를 재개할 때는 Pages 소스를 `GitHub Actions`로 되돌린 뒤 기존 전체 검증·배포 워크플로를 사용한다.
+
+GitHub 공식 근거: [.nojekyll을 이용한 직접 게시](https://github.blog/changelog/2024-07-08-pages-legacy-worker-sunset/).

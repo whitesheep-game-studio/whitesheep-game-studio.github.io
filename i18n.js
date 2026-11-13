@@ -297,8 +297,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '오류 제보': 'エラー報告',
     '틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.': '間違いはアプリのエラー報告またはお問い合わせメールでお知らせください。',
     '일본 정부나 JLPT 주관 기관과 관련 없는 앱입니다.': '日本政府やJLPTの主催団体とは関係のないアプリです。',
-    'iOS 버전은 App Store에서 다운로드할 수 있습니다. Android 버전은 출시 예정입니다.':
-      'iOS版はApp Storeからダウンロードできます。Android版は公開予定です。',
+    'iOS 버전은 App Store에서 다운로드할 수 있습니다. Android 버전은 출시 예정입니다.': 'iOS版はApp Storeからダウンロードできます。Android版は公開予定です。',
     'Android 실제 촬영 · 광고 비활성화 촬영': 'Android実機で撮影・広告無効で撮影',
     '실제 화면: 한자와 독음을 한눈에': '実際の画面：漢字と読みをひと目で',
     '실제 화면: 단어와 암기 팁까지': '実際の画面：単語と暗記のコツまで',
@@ -650,8 +649,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '오류 제보': 'Reporting mistakes',
     '틀린 곳은 앱의 오류 제보나 문의 메일로 알려 주세요.': 'Please report mistakes through the app’s report feature or by email.',
     '일본 정부나 JLPT 주관 기관과 관련 없는 앱입니다.': 'This app is not affiliated with the Japanese government or the JLPT organizers.',
-    'iOS 버전은 App Store에서 다운로드할 수 있습니다. Android 버전은 출시 예정입니다.':
-      'The iOS version is available on the App Store. The Android version is coming soon.',
+    'iOS 버전은 App Store에서 다운로드할 수 있습니다. Android 버전은 출시 예정입니다.': 'The iOS version is available on the App Store. The Android version is coming soon.',
     'Android 실제 촬영 · 광고 비활성화 촬영': 'Captured on Android · ads disabled when captured',
     '실제 화면: 한자와 독음을 한눈에': 'Actual screen: a kanji and its readings at a glance',
     '실제 화면: 단어와 암기 팁까지': 'Actual screen: words and memory tips too',
