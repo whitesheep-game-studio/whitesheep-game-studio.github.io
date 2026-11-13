@@ -53,7 +53,7 @@ PR에서 함께 확인한다. CI는 이 옵션을 사용하지 않는다. 법률
 
 ## 의존성 검증
 
-Node 26.13.0 LTS를 사용하고 `.nvmrc`와 `package-lock.json`/`npm ci`로 실행·설치 버전을 고정한다.
+Node 26.13.1 LTS를 사용하고 `.nvmrc`와 `package-lock.json`/`npm ci`로 실행·설치 버전을 고정한다.
 lockfile을 갱신한 뒤 clean install과 기존 검사 전체를 실행한다.
 ESLint의 실제 import인 `@eslint/js`와 AST 파서 acorn을 명시적 개발 의존성으로 둔다.
 Vitest 5 및 ESLint 10을 검증하며, LHCI 0.15.1의 오래된 하위 도구는 패치된 Lighthouse 13.6,

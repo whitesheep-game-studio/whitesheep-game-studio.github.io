@@ -16,9 +16,9 @@ concurrency:
 
 jobs:
   quality:
-    uses: whitesheep-game-studio/whitesheep-game-studio-public/.github/workflows/reusable-web.yml@40495fa780909293e8e8f25b9d93263d33e056d3
+    uses: whitesheep-game-studio/whitesheep-game-studio-public/.github/workflows/reusable-web.yml@ca73ec9d2b603fbde13cb9c55688c6ea0ede12da
     with:
-      automation-ref: 40495fa780909293e8e8f25b9d93263d33e056d3
+      automation-ref: ca73ec9d2b603fbde13cb9c55688c6ea0ede12da
       config: .ci/project.yml
 
   # Keep the existing required check while verification runs in a reusable job.
