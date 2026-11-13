@@ -118,7 +118,7 @@ for (const [locale, status, label] of [
       await page.goto(route);
       await expect(page.locator('html')).toHaveAttribute('lang', locale);
       const badge = page.getByRole('link', { name: label, exact: true });
-      await expect(badge).toHaveAttribute('href', 'https://apps.apple.com/app/id6832132208');
+      await expect(badge).toHaveAttribute('href', 'https://apps.apple.com/kr/app/%EC%B9%B8%EC%A7%80%EA%B2%B0/id6832132208');
       await expect(page.locator('.status').first()).toHaveText(status);
       await expect(badge.locator('img')).toBeVisible();
       const icon = page.locator('img[src="/assets/kanjigyeol/icon.svg"]').first();
