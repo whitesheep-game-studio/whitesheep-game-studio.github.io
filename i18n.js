@@ -463,7 +463,36 @@ window.WHITESHEEP_TRANSLATIONS = {
     '학습 위치와 열람 기록 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보와 외부 SDK 관련 사항은':
       '学習位置や閲覧履歴などは端末に保存されます。アプリの削除、データの初期化、端末の変更、OSの動作により、記録が消えたり復元されたりすることがあります。個人情報と外部SDKに関する事項は',
     '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
-      '現在、アプリでは運用広告とアプリ内決済機能は有効になっていません。今後広告や有料機能を導入する場合は、アプリ内の案内と関連ポリシーを更新します。ストアでの購入を導入する場合は、そのストアの決済・返金規定と関連法令が適用されます。'
+      '現在、アプリでは運用広告とアプリ内決済機能は有効になっていません。今後広告や有料機能を導入する場合は、アプリ内の案内と関連ポリシーを更新します。ストアでの購入を導入する場合は、そのストアの決済・返金規定と関連法令が適用されます。',
+    'IT 패스포트 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
+      'ITパスポートの出題分野ごとに、過去問に出た概念を日本語で解説する学習アプリ、IT国家資格 勉強。',
+    '기출을 푸는 대신,': '過去問を解く代わりに、',
+    '나온 개념을 이해하세요.': '出題された概念を理解しよう。',
+    'IPA 실라버스(Ver.6.5)의 9개 영역·23개 중분류별로 2025·2026년도 공개 문제 200문항을 분석해, 실제로 출제된 개념 93개를 설명합니다. 일본어 이해도에 맞춰 번역을 켜고 끌 수 있습니다.':
+      'IPAシラバス（Ver.6.5）の9分野・23の中分類ごとに、2025・2026年度の公開問題200問を分析し、実際に出題された概念93個を解説します。日本語の理解度に合わせて、翻訳の表示を切り替えられます。',
+    '영역별로 개념 학습': '分野ごとに概念を学ぶ',
+    '중분류마다 출제 경향과 소분류별 문항 수, 개념 카드를 확인합니다.': '中分類ごとに、出題の傾向、小分類別の問題数、概念カードを確認します。',
+    '출제 포인트와 함정': '出題のポイントと落とし穴',
+    '카드마다 문제가 묻는 방식과 헷갈리기 쉬운 선택지를 정리했습니다.': 'カードごとに、問題の問い方と間違えやすい選択肢を整理しました。',
+    '용어집과 진도 관리': '用語集と進捗管理',
+    'IT 용어 500개를 일본어·한국어·영어로 확인하고, 이해한 개념과 북마크를 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
+      'IT用語500語を日本語・韓国語・英語で確認し、理解した概念とブックマークを端末に保存します。アカウントもサーバーも不要です。',
+    '개념 이름이나 영역과 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': '概念名や分野とアプリのバージョンを一緒に送っていただけると、確認の助けになります。',
+    '이해함으로 표시한 개념, 북마크한 개념과 용어, 마지막으로 본 개념, 일본어 이해도, 표시 언어, 번역 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      '「理解した」にした概念、ブックマークした概念と用語、最後に見た概念、日本語の理解度、表示言語、翻訳の表示設定を保存し、学習位置と設定を復元します。運営者は端末内だけにある記録を遠隔で閲覧できません。',
+    '기출문제의 이용': '過去問題の利用',
+    '이 앱은 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
+      'このアプリは、IPAが公開したITパスポート試験の公開問題（2025年度・2026年度 各100問）を分析し、出題された概念を解説します。問題の本文と画像はアプリに含めず、概念ごとに関連する問題を年度と問題番号だけで示し、IPAの公式の問題集へのリンクを案内します。著作権はIPAに帰属します。',
+    '문제를 실라버스 Ver.6.5의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
+      '問題をシラバスVer.6.5の中分類に分けた基準、概念の解説と出題のポイントは運営者が新たに書いたもので、IPAの公式解説ではありません。IPAの利用案内に従い、出典を表示します。',
+    '개념 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
+      '概念名または用語名、アプリのバージョン、誤っている内容を書いてお送りください。必要なら画面を添付し、個人情報は隠してください。',
+    '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      '「理解した」の表示、ブックマーク、最後に見た概念、表示言語と翻訳の設定は端末に保存されます。運営者がサーバーから記録を閲覧・復旧することはできません。アプリの削除・データ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
+    '이 앱은 IT 패스포트 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、ITパスポート試験シラバスの分野ごとの概念解説とIT用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    'IT 패스포트 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
+      'ITパスポートのシラバス分野ごとに、過去問に出た概念を日本語で解説し、IT用語500語もあわせて学べる日本のIT資格試験学習アプリ。'
   },
   en: {
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
@@ -933,7 +962,36 @@ window.WHITESHEEP_TRANSLATIONS = {
     '학습 위치와 열람 기록 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보와 외부 SDK 관련 사항은':
       'Your study position and viewing history are stored on your device. Depending on app removal, data reset, device changes or operating system behavior, records may disappear or be restored. For personal information and external SDKs, see',
     '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
-      'Live advertising and in-app payment features are not currently enabled in the app. If ads or paid features are introduced, we will update in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.'
+      'Live advertising and in-app payment features are not currently enabled in the app. If ads or paid features are introduced, we will update in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.',
+    'IT 패스포트 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
+      'A study app that explains, in Japanese, the concepts that appeared in past questions, organized by IT Passport exam area: Japan IT Cert Study.',
+    '기출을 푸는 대신,': 'Instead of solving past papers,',
+    '나온 개념을 이해하세요.': 'understand the concepts they test.',
+    'IPA 실라버스(Ver.6.5)의 9개 영역·23개 중분류별로 2025·2026년도 공개 문제 200문항을 분석해, 실제로 출제된 개념 93개를 설명합니다. 일본어 이해도에 맞춰 번역을 켜고 끌 수 있습니다.':
+      'We analyzed the 200 public questions of FY2025 and FY2026 across the 9 areas and 23 categories of the IPA syllabus (Ver.6.5) and explain the 93 concepts that actually appeared. You can turn the translation on or off to match your Japanese level.',
+    '영역별로 개념 학습': 'Learn concepts by area',
+    '중분류마다 출제 경향과 소분류별 문항 수, 개념 카드를 확인합니다.': 'For each category, check how it is tested, the number of questions per subcategory and the concept cards.',
+    '출제 포인트와 함정': 'Exam points and pitfalls',
+    '카드마다 문제가 묻는 방식과 헷갈리기 쉬운 선택지를 정리했습니다.': 'Each card organizes how questions are asked and which choices are easy to mix up.',
+    '용어집과 진도 관리': 'Glossary and progress',
+    'IT 용어 500개를 일본어·한국어·영어로 확인하고, 이해한 개념과 북마크를 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
+      'Check 500 IT terms in Japanese, Korean and English, and save the concepts you understood and your bookmarks on the device. No account or server is needed.',
+    '개념 이름이나 영역과 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': 'Sending the concept name or area together with the app version helps us check.',
+    '이해함으로 표시한 개념, 북마크한 개념과 용어, 마지막으로 본 개념, 일본어 이해도, 표시 언어, 번역 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      'We store the concepts you marked as understood, bookmarked concepts and terms, the last concept you viewed, your Japanese level, display language and translation display setting to restore your place and settings. The operator cannot remotely view records that exist only on your device.',
+    '기출문제의 이용': 'Use of past questions',
+    '이 앱은 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
+      'This app analyzes the public IT Passport exam questions released by IPA (100 each for fiscal 2025 and fiscal 2026) and explains the concepts that were tested. The question text and images are not included in the app; for each concept, related questions are shown only by year and question number, with a link to IPA’s official question book. Copyright belongs to IPA.',
+    '문제를 실라버스 Ver.6.5의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
+      'The criteria for sorting questions into the syllabus Ver.6.5 categories, and the concept explanations and exam points, are original work by the operator and not official IPA commentary. In line with IPA’s usage guidance, the source is shown.',
+    '개념 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
+      'Please send the concept or term name, the app version and what is wrong. Attach a screenshot if helpful, with personal information hidden.',
+    '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'Understood marks, bookmarks, the last concept viewed, display language and translation settings are stored on your device. The operator cannot view or recover records from a server. Depending on app removal, data deletion and backup settings, records may disappear or be restored.',
+    '이 앱은 IT 패스포트 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that supports learning concept explanations by IT Passport syllabus area and IT terms. These terms apply only to this app and its related support.',
+    'IT 패스포트 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
+      'A study app for Japanese IT exams that explains, in Japanese, concepts that appeared in past questions by IT Passport syllabus area, together with 500 IT terms.'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */
