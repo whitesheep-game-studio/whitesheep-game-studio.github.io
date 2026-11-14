@@ -233,8 +233,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '접속형별로 문형을.': '接続形ごとに文型を。',
     '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
       '動詞3グループ、い形容詞、な形容詞、名詞の普通体・丁寧体の活用を、現在・過去、肯定・否定の1枚の表にまとめました。変わる語尾は太字で、漢字の読みは漢字の上に小さく表示します。',
-    'JLPT N5·N4 단어 1,252개와 문형 144개, 숫자 읽기 공부로 시작합니다. 스토어 출시는 아직 진행하지 않았습니다.':
-      'JLPT N5・N4の単語1,252語と文型144個、数字の読み方の勉強から始めます。ストアでの公開はまだ行っていません。',
+    'JLPT N5·N4 단어 1,252개와 문형 144개, 숫자 읽기 공부로 시작합니다. iOS는 App Store에서 만나실 수 있고, Android는 출시를 준비 중입니다.':
+      'JLPT N5・N4の単語1,252語と文型144個、数字の読み方の勉強から始めます。iOSはApp Storeでご利用いただけます。Androidは公開を準備中です。',
     '한눈에 보는 활용표': 'ひと目でわかる活用表',
     '분류를 고르면 보통체·공손체와 현재·과거, 긍정·부정이 한 카드에 나옵니다.': '品詞を選ぶと、普通体・丁寧体と現在・過去、肯定・否定が1枚のカードに表示されます。',
     '문형에 붙여 보기': '文型に付けてみる',
@@ -284,8 +284,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
       '処理の目的・項目・提供者・保存基準などが変更される場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は、施行前に同意を得ます。外部リンクは各提供者の公表内容であり、일본문법결の方針に代わるものではありません。',
     'Jonathan Waller의 JLPT 자료': 'Jonathan WallerのJLPT資料',
-    '일본문법결은 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
-      '일본문법결は公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
+    '일본문법결은 iOS로 출시되었고 Android 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
+      '일본문법결はiOSで公開済みで、Androidの公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
     '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
       '일본문법결の単語データには、JMdictから取り入れた表記・読みとJLPTの参考レベルが含まれています。JMdictはCC BY-SA 4.0の条件に従い出典を表示して加工しており、同じ条件が適用される範囲を含むデータの公開方法は、公開とあわせて決める予定です。アプリのコード、画面デザイン、アプリ名とアイコンはこの条件に含まれません。',
     JMdict: 'JMdict',
@@ -345,7 +345,127 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 서비스 변경 및 중단': '7. サービスの変更と中断',
     '8. 책임과 이용자 권리': '8. 責任と利用者の権利',
     '9. 약관 변경과 문의': '9. 規約の変更とお問い合わせ',
-    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サービス利用規約 · WhiteSheep Game Studio'
+    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サービス利用規約 · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결 · WhiteSheep Game Studio': 'IT資格結 · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결': 'IT資格結',
+    '일본 IT 국가자격증,': '日本のIT国家資格を、',
+    '결 따라 차근차근.': '結のペースで着実に。',
+    'IT 패스포트 공개 기출과 IT 용어를 일본어 원문으로 익히는 학습 앱, 일본 IT 국가자격증 결.': 'ITパスポートの公開過去問題とIT用語を日本語の原文で学べる学習アプリ、IT資格結。',
+    'Android 출시 예정': 'Android公開予定',
+    '앱 알아보기 ↓': 'アプリを見る ↓',
+    '펼친 책과 톱니, 실뭉치를 표현한 일본 IT 국가자격증 결 심벌': '開いた本、歯車、毛糸玉を表したIT資格結のシンボル',
+    '기출은 원문 그대로,': '過去問は原文のまま、',
+    '도움은 내 수준에 맞게.': 'サポートは自分のレベルに合わせて。',
+    'IPA가 공개한 IT 패스포트 시험 공개 문제 200문항을 출제 이미지 그대로 풀어 보고, IT 용어 500개를 일본어·한국어·영어로 확인합니다. 일본어 이해도에 따라 번역과 후리가나 표시를 고를 수 있습니다.':
+      'IPAが公開したITパスポート試験の公開問題200問を出題画像のまま解き、IT用語500語を日本語・韓国語・英語で確認できます。日本語の理解度に応じて、翻訳とふりがなの表示を選べます。',
+    '이 앱은 IPA와 관련 없는 비공식 학습 앱이며 합격을 보장하지 않습니다. 스토어 출시는 아직 진행하지 않았습니다.':
+      'このアプリはIPAとは関係のない非公式の学習アプリで、合格を保証するものではありません。ストアでの公開はまだ行っていません。',
+    '원문 그대로 풀기': '原文のまま解く',
+    '연도·영역·북마크로 문제를 고르고, 정답과 출처를 확인합니다. 문제 이미지는 확대해서 볼 수 있습니다.':
+      '年度・分野・ブックマークで問題を選び、正解と出典を確認します。問題画像は拡大して見られます。',
+    '용어집으로 바로 확인': '用語集ですぐ確認',
+    '문제에 나온 IT 용어를 눌러 뜻과 읽기, 관련 용어를 확인합니다.': '問題に出てきたIT用語をタップして、意味と読み、関連用語を確認します。',
+    '모의시험과 오답 복습': '模擬試験と間違い復習',
+    '최대 10문항 15분 모의시험과 틀린 문제 기록을 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
+      '最大10問・15分の模擬試験と間違えた問題の記録を端末に保存します。アカウントもサーバーも不要です。',
+    '문제 번호와 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': '問題番号とアプリのバージョンを一緒に送っていただけると、確認の助けになります。',
+    '일본 IT 국가자격증 결 · 개인정보 안내 · WhiteSheep Game Studio': 'IT資格結 · プライバシーポリシー · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결 개인정보처리방침': 'IT資格結 プライバシーポリシー',
+    '최종 갱신 2026년 11월 14일 · 출시 전 초안': '最終更新：2026年11月14日 · 公開前の草案',
+    '초록지붕이층집은 일본 IT 국가자격증 결 — 일본 IT 자격시험 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、日本のIT資格試験学習アプリ「IT資格結」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針の掲載ページに適用されます。',
+    '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장되며 앱이 외부로 전송하지 않습니다.':
+      'アプリにはアカウント登録、独自サーバー、分析SDK、広告SDK、決済機能はありません。学習履歴は端末に保存され、アプリが外部へ送信することはありません。',
+    '풀이 기록과 시각, 오답 기록, 북마크, 모의시험의 문항·선택·종료 시각, 일본어 이해도, 표시 언어, 보조 언어, 번역·후리가나 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      '解答履歴と時刻、間違えた問題の記録、ブックマーク、模擬試験の問題・選択・終了時刻、日本語の理解度、表示言語、補助言語、翻訳・ふりがなの表示設定を保存し、学習位置と設定を復元します。運営者は端末内だけにある記録を遠隔で閲覧できません。',
+    '이 정보는 앱 데이터를 삭제할 때까지 기기에 남습니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
+      'この情報はアプリのデータを削除するまで端末に残ります。アプリの削除やOSのバックアップ・復元設定により、再インストール後に記録が復元されることがあります。',
+    '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요. 문의 메일은 일반 Gmail에서 수신·보관하며 처리 종료 후 90일 이내 삭제합니다. 이는 운영자의 보유 기준이며 일률적인 법정 보존기간이 아닙니다.':
+      'メールでのお問い合わせでは、返信先アドレス、件名・本文、ご自身で添付した資料を受け取り、問い合わせ対応と不具合の確認に使用します。添付は任意で、パスワード、認証コード、身分証、健康情報、他人の個人情報は送らないでください。問い合わせメールは通常のGmailで受信・保管し、対応終了後90日以内に削除します。これは運営者の保管基準であり、一律の法定保存期間ではありません。',
+    '4. 광고와 외부 서비스': '4. 広告と外部サービス',
+    '앱에는 광고와 분석 도구가 없습니다. 도입하기 전에 이 방침을 갱신하고 필요한 안내와 선택 절차를 마련합니다. 문의 이메일은 Google의 Gmail, 이 웹페이지는 GitHub Pages가 처리하며 두 제공자는 미국을 포함한 여러 국가에서 정보를 처리할 수 있습니다.':
+      'アプリには広告と分析ツールはありません。導入する前にこの方針を更新し、必要な案内と選択手続を用意します。問い合わせメールはGoogleのGmail、このウェブページはGitHub Pagesが処理し、両提供者は米国を含む複数の国で情報を処理することがあります。',
+    'Google 개인정보처리방침': 'Googleプライバシーポリシー',
+    'GitHub 개인정보처리방침': 'GitHubプライバシーポリシー',
+    '5. 이 웹페이지와 언어 설정': '5. このウェブページと言語設定',
+    '이 페이지는 정적 웹페이지이며 로그인, 입력폼, 광고, 외부 분석 스크립트를 사용하지 않습니다. 브라우저의 localStorage에는 선택한 언어만 저장하며 서버로 전송하지 않습니다.':
+      'このページは静的なウェブページで、ログイン、入力フォーム、広告、外部の分析スクリプトを使用しません。ブラウザのlocalStorageには選択した言語のみを保存し、サーバーへは送信しません。',
+    '6. 이용자의 권리와 파기': '6. 利用者の権利と破棄',
+    '운영자가 보유한 문의 정보에 대해 열람, 정정, 삭제, 처리 정지를 요청할 수 있습니다. 기기에만 저장된 기록은 앱 데이터 삭제로 지울 수 있습니다. 보유 기간이 끝난 메일과 첨부는 복구가 어렵도록 삭제합니다. Google과 GitHub가 독립적으로 보유하는 정보에는 각 제공자의 절차가 적용됩니다.':
+      '運営者が保有する問い合わせ情報について、閲覧、訂正、削除、処理停止を請求できます。端末内だけに保存された記録は、アプリのデータ削除で消去できます。保管期間が終わったメールと添付は、復元が困難になるよう削除します。GoogleとGitHubが独自に保有する情報には、各提供者の手続が適用されます。',
+    '7. 이용 대상과 변경': '7. 利用対象と変更',
+    '연령 확인을 위한 생년월일이나 신분증을 수집하지 않습니다. 처리 목적·항목·제공자가 바뀌면 이 페이지의 일자와 내용을 갱신하고 시행 전에 안내합니다.':
+      '年齢確認のための生年月日や身分証は収集しません。処理の目的・項目・提供者が変わる場合は、このページの日付と内容を更新し、施行前にお知らせします。',
+    '일본 IT 국가자격증 결 · 출처·이용 조건 · WhiteSheep Game Studio': 'IT資格結 · 出典・利用条件 · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결은 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
+      'IT資格結は公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
+    '비공식 앱': '非公式アプリ',
+    '이 앱은 독립행정법인 정보처리추진기구(IPA)와 관련이 없는 비공식 학습 앱입니다. IPA의 인증이나 추천을 받지 않았으며 합격을 보장하지 않습니다. IPA의 로고와 명칭을 사용한 공식 표시는 없습니다.':
+      'このアプリは独立行政法人情報処理推進機構（IPA）とは関係のない非公式の学習アプリです。IPAの認定や推奨を受けておらず、合格を保証しません。IPAのロゴや名称を用いた公式表示はありません。',
+    기출문제: '過去問題',
+    '수록한 문제는 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)와 공식 정답입니다. 문제마다 연도, 시험, 문제 번호를 출처로 표시합니다. 저작권은 IPA에 있습니다.':
+      '収録している問題は、IPAが公開したITパスポート試験の公開問題（2025年度・2026年度 各100問）と公式の正解です。問題ごとに年度、試験、問題番号を出典として表示します。著作権はIPAに帰属します。',
+    '변경 사항: 문제 이미지는 문제 영역만 잘라 여백과 쪽 번호를 정리했고 내용은 바꾸지 않았습니다. 화면 읽기와 검색을 위해 일본어 전사를 덧붙였습니다.':
+      '変更点：問題画像は問題領域だけを切り出して余白とページ番号を整えており、内容は変更していません。画面読み上げと検索のために日本語の文字起こしを加えています。',
+    'IPA의 이용 안내는 출처 표시와 변경 사실의 고지를 조건으로 합니다. 앱 형태의 상업적 이용에 대한 별도 허락은 확인하지 못했으므로, 앱은 무료이며 광고 없이 제공하고 수익화 전에 IPA의 이용 조건을 다시 확인합니다.':
+      'IPAの利用案内は、出典の表示と変更事実の明示を条件としています。アプリとしての商用利用についての個別の許諾は確認できていないため、アプリは無料・広告なしで提供し、収益化の前にIPAの利用条件を再確認します。',
+    'IPA IT 패스포트 시험 자주 묻는 질문': 'IPA ITパスポート試験 よくある質問',
+    'IPA 사이트 이용 안내': 'IPAサイトのご利用案内',
+    'IPA 공개 문제': 'IPA 公開問題',
+    '용어집과 번역': '用語集と翻訳',
+    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다. 독립적인 원어민 감수는 아직 진행하지 않았습니다.':
+      '用語は、IPAのITパスポート試験シラバス（Ver.6.5）に出てくる言葉をもとに選びました。日本語・韓国語・英語の定義と読みは運営者が新たに書いた説明で、IPAの公式文言や公式翻訳ではありません。独立したネイティブによる校閲はまだ行っていません。',
+    '시험 개정과 해설': '試験改定と解説',
+    '수록 내용은 과거 시험 기준이며 2027년 시험 개정에 대한 대응 여부는 확인하지 않았습니다. 문제 해설은 준비 중입니다.':
+      '収録内容は過去の試験に基づいており、2027年度の試験改定への対応は確認していません。問題の解説は準備中です。',
+    '틀린 곳은 문의 메일로 알려 주세요.': '誤りを見つけたら、問い合わせメールでお知らせください。',
+    '일본 IT 국가자격증 결 · 지원 · WhiteSheep Game Studio': 'IT資格結 · サポート · WhiteSheep Game Studio',
+    '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
+      '年度と問題番号または用語名、アプリのバージョン、誤っている内容を書いてお送りください。必要なら画面を添付し、個人情報は隠してください。',
+    '풀이 기록, 오답, 북마크, 모의시험 진행 상황, 표시 언어와 읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      '解答履歴、間違えた問題、ブックマーク、模擬試験の進行状況、表示言語と読み補助の設定は端末に保存されます。運営者がサーバーから記録を閲覧・復旧することはできません。アプリの削除・データ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
+    '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다.':
+      '担当者：초록지붕이층집 運営者。上記のメールアドレスに、閲覧・訂正・削除などの請求をお送りください。問い合わせメールは対応終了後90日以内に削除します。',
+    '일본 IT 국가자격증 결 · 서비스 이용약관 · WhiteSheep Game Studio': 'IT資格結 · サービス利用規約 · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결 서비스 이용약관': 'IT資格結 サービス利用規約',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본 IT 자격시험 학습 앱 ‘일본 IT 국가자격증 결’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する日本のIT資格試験学習アプリ「IT資格結」の利用条件を説明します。',
+    '이 앱은 IT 패스포트 공개 기출과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、ITパスポートの公開過去問題とIT用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    '이용자는 관련 법령을 준수하고 정상적인 학습 목적으로 앱을 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스에 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
+      '利用者は関連法令を守り、正常な学習目的でアプリを利用する必要があります。アプリやコンテンツを無断で複製・再配布したり、サービスに損害を与える方法で利用したりしてはいけません。法令上認められる利用者の権利は制限しません。',
+    '3. 학습 콘텐츠와 시험 결과': '3. 学習コンテンツと試験結果',
+    '수록 내용에는 오류나 누락이 있을 수 있으며 합격이나 점수를 보장하지 않습니다. 시험 신청과 최신 출제 범위는 IPA의 공식 안내를 확인해 주세요. 출처와 이용 조건은':
+      '収録内容には誤りや漏れがある場合があり、合格や点数を保証しません。試験の申込みと最新の出題範囲はIPAの公式案内をご確認ください。出典と利用条件は',
+    '학습 기록은 기기에 저장되며 앱 삭제나 기기 변경에 따라 사라지거나 복원될 수 있습니다. 자세한 내용은':
+      '学習履歴は端末に保存され、アプリの削除や端末の変更により消えたり復元されたりすることがあります。詳しくは',
+    개인정보처리방침: 'プライバシーポリシー',
+    '5. 광고와 결제': '5. 広告と決済',
+    '현재 앱에는 광고와 앱 내 결제가 없습니다. 도입하는 경우 앱 내 안내와 관련 정책을 먼저 갱신합니다.':
+      '現在アプリには広告もアプリ内決済もありません。導入する場合は、アプリ内の案内と関連ポリシーを先に更新します。',
+    '기출문제의 저작권은 IPA에 있습니다. 앱의 디자인, 자체 작성 설명과 소프트웨어에 관한 권리는 운영자 또는 정당한 권리자에게 있습니다.':
+      '過去問題の著作権はIPAに帰属します。アプリのデザイン、自作の説明、ソフトウェアに関する権利は、運営者または正当な権利者に帰属します。',
+    '7. 변경과 문의': '7. 変更とお問い合わせ',
+    '서비스와 약관은 변경될 수 있으며 중대한 변경은 가능한 방법으로 안내합니다. 이 약관은 적용 법령상 소비자 권리를 제한하지 않습니다. 문의:':
+      'サービスと規約は変更されることがあり、重大な変更は可能な方法でお知らせします。この規約は、適用法令上の消費者の権利を制限しません。お問い合わせ：',
+    '학습 · iOS': '学習 · iOS',
+    'IT 패스포트 공개 기출 200문항과 IT 용어 500개를 일본어 원문으로 익히는 일본 IT 자격시험 학습 앱.':
+      'ITパスポートの公開過去問題200問とIT用語500語を日本語の原文で学べる、日本のIT資格試験学習アプリ。',
+    '학습 · Android': '学習 · Android',
+    '전체 3개': '全3件',
+    '칸지결 서비스 이용약관': 'カンジギョル サービス利用規約',
+    '칸지결 · 서비스 이용약관 · WhiteSheep Game Studio': 'カンジギョル · サービス利用規約 · WhiteSheep Game Studio',
+    '버전 1.0 · 시행일 2026년 11월 5일': 'バージョン1.0・施行日：2026年11月5日',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 한자 학습 앱 ‘칸지결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する日本語漢字学習アプリ「칸지결」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
+    '칸지결은 일본어 한자의 뜻, 읽기, 단어 및 학습 보조 설명을 제공하는 교육용 앱입니다. 이 약관은 칸지결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
+      '칸지결は、日本語の漢字の意味、読み、単語、学習の補助説明を提供する教育用アプリです。この規約は칸지결アプリと関連するサポートに適用され、他のアプリには自動的には適用されません。提供する学習コンテンツや機能は更新されることがあります。',
+    '한자 해설, 독음, 단어 및 암기 팁은 학습을 돕기 위한 자료입니다. 정확성 개선을 위해 검수와 수정이 진행되며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
+      '漢字の解説、読み、単語、暗記のヒントは学習を助けるための資料です。正確性の向上のため確認と修正を進めていますが、誤りや漏れがある場合があります。試験や仕事などの重要な判断には、信頼できる辞書や公式資料もあわせてご確認ください。コンテンツの出典と利用条件は別の',
+    '학습 위치와 열람 기록 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보와 외부 SDK 관련 사항은':
+      '学習位置や閲覧履歴などは端末に保存されます。アプリの削除、データの初期化、端末の変更、OSの動作により、記録が消えたり復元されたりすることがあります。個人情報と外部SDKに関する事項は',
+    '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
+      '現在、アプリでは運用広告とアプリ内決済機能は有効になっていません。今後広告や有料機能を導入する場合は、アプリ内の案内と関連ポリシーを更新します。ストアでの購入を導入する場合は、そのストアの決済・返金規定と関連法令が適用されます。'
   },
   en: {
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
@@ -584,8 +704,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '접속형별로 문형을.': 'patterns by connection form.',
     '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
       'Plain and polite conjugations of the three verb groups, i-adjectives, na-adjectives, and nouns are gathered in one table by present/past and affirmative/negative. Changing endings are bold, and readings appear small above the kanji.',
-    'JLPT N5·N4 단어 1,252개와 문형 144개, 숫자 읽기 공부로 시작합니다. 스토어 출시는 아직 진행하지 않았습니다.':
-      'It starts with 1,252 JLPT N5 and N4 words, 144 sentence patterns and number reading practice. The app has not been released in any store yet.',
+    'JLPT N5·N4 단어 1,252개와 문형 144개, 숫자 읽기 공부로 시작합니다. iOS는 App Store에서 만나실 수 있고, Android는 출시를 준비 중입니다.':
+      'It starts with 1,252 JLPT N5 and N4 words, 144 sentence patterns and number reading practice. The iOS app is available on the App Store; Android is being prepared for release.',
     '한눈에 보는 활용표': 'Conjugation tables at a glance',
     '분류를 고르면 보통체·공손체와 현재·과거, 긍정·부정이 한 카드에 나옵니다.':
       'Choose a word type to see plain and polite forms, present and past, affirmative and negative on one card.',
@@ -636,8 +756,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
       'When purposes, items, providers, or retention standards change, we will update this page’s version and effective date and announce the change and when it applies. Changes that need separate consent will be put to you before they take effect. External links are each provider’s own notices and do not replace the policy for 일본문법결.',
     'Jonathan Waller의 JLPT 자료': 'Jonathan Waller’s JLPT resources',
-    '일본문법결은 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
-      '일본문법결 is being prepared for release. This page describes the sources and terms the app points to.',
+    '일본문법결은 iOS로 출시되었고 Android 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
+      '일본문법결 is released on iOS and Android is being prepared for release. This page describes the sources and terms the app points to.',
     '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
       'The word data in 일본문법결 includes spellings and readings taken from JMdict and reference JLPT levels. JMdict is credited and adapted under CC BY-SA 4.0, and how the data will be published, including the scope where the same terms apply, will be decided together with the release. The app code, screen design, app name, and icon are not covered by these terms.',
     JMdict: 'JMdict',
@@ -697,7 +817,128 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 서비스 변경 및 중단': '7. Changes to and suspension of the service',
     '8. 책임과 이용자 권리': '8. Responsibility and user rights',
     '9. 약관 변경과 문의': '9. Changes to these terms and contact',
-    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Terms of Service · WhiteSheep Game Studio'
+    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Terms of Service · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결': 'Yui – Japan IT Cert Prep',
+    '일본 IT 국가자격증,': 'Japan’s IT certification,',
+    '결 따라 차근차근.': 'one step at a time.',
+    'IT 패스포트 공개 기출과 IT 용어를 일본어 원문으로 익히는 학습 앱, 일본 IT 국가자격증 결.':
+      'A study app for the public IT Passport past questions and IT terms in the original Japanese: Yui – Japan IT Cert Prep.',
+    'Android 출시 예정': 'Android coming soon',
+    '앱 알아보기 ↓': 'Explore the app ↓',
+    '펼친 책과 톱니, 실뭉치를 표현한 일본 IT 국가자격증 결 심벌': 'Yui symbol showing an open book, a gear and a ball of yarn',
+    '기출은 원문 그대로,': 'Past questions as published,',
+    '도움은 내 수준에 맞게.': 'support that fits your level.',
+    'IPA가 공개한 IT 패스포트 시험 공개 문제 200문항을 출제 이미지 그대로 풀어 보고, IT 용어 500개를 일본어·한국어·영어로 확인합니다. 일본어 이해도에 따라 번역과 후리가나 표시를 고를 수 있습니다.':
+      'Solve the 200 public IT Passport questions released by IPA as the original images, and check 500 IT terms in Japanese, Korean and English. Choose translation and furigana display to match your Japanese level.',
+    '이 앱은 IPA와 관련 없는 비공식 학습 앱이며 합격을 보장하지 않습니다. 스토어 출시는 아직 진행하지 않았습니다.':
+      'This is an unofficial study app not affiliated with IPA, and it does not guarantee a pass. It has not been released in any store yet.',
+    '원문 그대로 풀기': 'Solve as published',
+    '연도·영역·북마크로 문제를 고르고, 정답과 출처를 확인합니다. 문제 이미지는 확대해서 볼 수 있습니다.':
+      'Pick questions by year, domain or bookmark, then check the answer and source. Question images can be zoomed.',
+    '용어집으로 바로 확인': 'Check terms right away',
+    '문제에 나온 IT 용어를 눌러 뜻과 읽기, 관련 용어를 확인합니다.': 'Tap an IT term from a question to see its meaning, reading and related terms.',
+    '모의시험과 오답 복습': 'Mock exams and review of mistakes',
+    '최대 10문항 15분 모의시험과 틀린 문제 기록을 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
+      'A mock exam of up to 10 questions in 15 minutes and your record of missed questions are saved on your device. No account or server is needed.',
+    '문제 번호와 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': 'Sending the question number together with the app version helps us check.',
+    '일본 IT 국가자격증 결 · 개인정보 안내 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · Privacy Policy · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결 개인정보처리방침': 'Yui – Japan IT Cert Prep Privacy Policy',
+    '최종 갱신 2026년 11월 14일 · 출시 전 초안': 'Last updated November 14, 2026 · Pre-release draft',
+    '초록지붕이층집은 일본 IT 국가자격증 결 — 일본 IT 자격시험 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled in Yui – Japan IT Cert Prep, a study app for Japanese IT exams. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence and the web page that hosts this policy.',
+    '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장되며 앱이 외부로 전송하지 않습니다.':
+      'The app has no account sign-up, own server, analytics SDK, advertising SDK or payment feature. Study records are stored on your device and are not sent anywhere by the app.',
+    '풀이 기록과 시각, 오답 기록, 북마크, 모의시험의 문항·선택·종료 시각, 일본어 이해도, 표시 언어, 보조 언어, 번역·후리가나 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      'We store answer history and timestamps, records of missed questions, bookmarks, the questions, choices and end time of a mock exam, Japanese level, display language, support language and translation/furigana display settings to restore your place and settings. The operator cannot remotely view records that exist only on your device.',
+    '이 정보는 앱 데이터를 삭제할 때까지 기기에 남습니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
+      'This information stays on your device until you delete the app data. Depending on app removal and your operating system backup and restore settings, records may be restored after reinstalling.',
+    '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요. 문의 메일은 일반 Gmail에서 수신·보관하며 처리 종료 후 90일 이내 삭제합니다. 이는 운영자의 보유 기준이며 일률적인 법정 보존기간이 아닙니다.':
+      'When you email us, we receive your reply address, subject and message, and any material you attach, and use them to respond and check problems. Attachments are optional; please do not send passwords, verification codes, ID documents, health information or other people’s personal information. Support email is received and kept in ordinary Gmail and deleted within 90 days after handling ends. This is the operator’s retention standard, not a uniform statutory retention period.',
+    '4. 광고와 외부 서비스': '4. Advertising and external services',
+    '앱에는 광고와 분석 도구가 없습니다. 도입하기 전에 이 방침을 갱신하고 필요한 안내와 선택 절차를 마련합니다. 문의 이메일은 Google의 Gmail, 이 웹페이지는 GitHub Pages가 처리하며 두 제공자는 미국을 포함한 여러 국가에서 정보를 처리할 수 있습니다.':
+      'The app has no ads or analytics tools. Before adding any, we will update this policy and provide the necessary notices and choices. Support email is handled by Google’s Gmail and this web page by GitHub Pages; both providers may process information in several countries, including the United States.',
+    'Google 개인정보처리방침': 'Google Privacy Policy',
+    'GitHub 개인정보처리방침': 'GitHub Privacy Statement',
+    '5. 이 웹페이지와 언어 설정': '5. This web page and language setting',
+    '이 페이지는 정적 웹페이지이며 로그인, 입력폼, 광고, 외부 분석 스크립트를 사용하지 않습니다. 브라우저의 localStorage에는 선택한 언어만 저장하며 서버로 전송하지 않습니다.':
+      'This is a static web page and does not use sign-in, input forms, ads or external analytics scripts. Only your chosen language is stored in the browser’s localStorage and it is not sent to a server.',
+    '6. 이용자의 권리와 파기': '6. Your rights and deletion',
+    '운영자가 보유한 문의 정보에 대해 열람, 정정, 삭제, 처리 정지를 요청할 수 있습니다. 기기에만 저장된 기록은 앱 데이터 삭제로 지울 수 있습니다. 보유 기간이 끝난 메일과 첨부는 복구가 어렵도록 삭제합니다. Google과 GitHub가 독립적으로 보유하는 정보에는 각 제공자의 절차가 적용됩니다.':
+      'You can request access, correction, deletion or suspension of processing for inquiry information the operator holds. Records stored only on your device can be erased by deleting the app data. Emails and attachments whose retention period has ended are deleted so that they are hard to recover. Information that Google and GitHub hold independently is subject to each provider’s procedures.',
+    '7. 이용 대상과 변경': '7. Intended users and changes',
+    '연령 확인을 위한 생년월일이나 신분증을 수집하지 않습니다. 처리 목적·항목·제공자가 바뀌면 이 페이지의 일자와 내용을 갱신하고 시행 전에 안내합니다.':
+      'We do not collect birth dates or ID documents to verify age. If purposes, items or providers of processing change, we will update the date and content of this page and give notice before the change takes effect.',
+    '일본 IT 국가자격증 결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · Sources and Terms of Use · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결은 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
+      'Yui – Japan IT Cert Prep is being prepared for release. This page describes the sources and terms the app points to.',
+    '비공식 앱': 'Unofficial app',
+    '이 앱은 독립행정법인 정보처리추진기구(IPA)와 관련이 없는 비공식 학습 앱입니다. IPA의 인증이나 추천을 받지 않았으며 합격을 보장하지 않습니다. IPA의 로고와 명칭을 사용한 공식 표시는 없습니다.':
+      'This is an unofficial study app with no affiliation to the Information-technology Promotion Agency, Japan (IPA). It is not certified or endorsed by IPA and does not guarantee a pass. It shows no official IPA logo or name as an endorsement.',
+    기출문제: 'Past questions',
+    '수록한 문제는 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)와 공식 정답입니다. 문제마다 연도, 시험, 문제 번호를 출처로 표시합니다. 저작권은 IPA에 있습니다.':
+      'The questions are the public IT Passport exam questions released by IPA (100 each for fiscal 2025 and fiscal 2026) with the official answers. Each question shows its year, exam and question number as the source. Copyright belongs to IPA.',
+    '변경 사항: 문제 이미지는 문제 영역만 잘라 여백과 쪽 번호를 정리했고 내용은 바꾸지 않았습니다. 화면 읽기와 검색을 위해 일본어 전사를 덧붙였습니다.':
+      'Modifications: question images are cropped to the question area with margins and page numbers tidied; their content is unchanged. A Japanese transcription is added for screen readers and search.',
+    'IPA의 이용 안내는 출처 표시와 변경 사실의 고지를 조건으로 합니다. 앱 형태의 상업적 이용에 대한 별도 허락은 확인하지 못했으므로, 앱은 무료이며 광고 없이 제공하고 수익화 전에 IPA의 이용 조건을 다시 확인합니다.':
+      'IPA’s usage guidance is conditioned on stating the source and disclosing modifications. We have not confirmed a separate permission for commercial use as an app, so the app is offered free and without ads, and we will re-check IPA’s terms before any monetization.',
+    'IPA IT 패스포트 시험 자주 묻는 질문': 'IPA IT Passport Exam FAQ',
+    'IPA 사이트 이용 안내': 'IPA site terms of use',
+    'IPA 공개 문제': 'IPA public questions',
+    '용어집과 번역': 'Glossary and translations',
+    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다. 독립적인 원어민 감수는 아직 진행하지 않았습니다.':
+      'Terms were chosen from words appearing in IPA’s IT Passport exam syllabus (Ver.6.5). The Japanese, Korean and English definitions and readings are original explanations written by the operator, not official IPA wording or translations. Independent native-speaker review has not been done yet.',
+    '시험 개정과 해설': 'Exam revisions and explanations',
+    '수록 내용은 과거 시험 기준이며 2027년 시험 개정에 대한 대응 여부는 확인하지 않았습니다. 문제 해설은 준비 중입니다.':
+      'Content is based on past exams, and compatibility with the 2027 exam revision has not been checked. Explanations for the questions are in preparation.',
+    '틀린 곳은 문의 메일로 알려 주세요.': 'If you find a mistake, please let us know by email.',
+    '일본 IT 국가자격증 결 · 지원 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · Support · WhiteSheep Game Studio',
+    '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
+      'Please send the year and question number or the term, the app version and what is wrong. Attach a screenshot if helpful, with personal information hidden.',
+    '풀이 기록, 오답, 북마크, 모의시험 진행 상황, 표시 언어와 읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'Answer history, missed questions, bookmarks, mock exam progress, display language and reading aid settings are stored on your device. The operator cannot view or recover records from a server. Depending on app removal, data deletion and backup settings, records may disappear or be restored.',
+    '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다.':
+      'Contact person: operator of 초록지붕이층집. Please send requests for access, correction or deletion to the email address above. Support email is deleted within 90 days after handling ends.',
+    '일본 IT 국가자격증 결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · Terms of Service · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 결 서비스 이용약관': 'Yui – Japan IT Cert Prep Terms of Service',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본 IT 자격시험 학습 앱 ‘일본 IT 국가자격증 결’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Yui – Japan IT Cert Prep”, a study app for Japanese IT exams provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 IT 패스포트 공개 기출과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you study public IT Passport past questions and IT terms. These terms apply only to this app and its related support.',
+    '이용자는 관련 법령을 준수하고 정상적인 학습 목적으로 앱을 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스에 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
+      'Users must comply with applicable laws and use the app for ordinary study. You must not copy or redistribute the app or its content without permission, or use it in a way that harms the service. Rights that users have under law are not limited.',
+    '3. 학습 콘텐츠와 시험 결과': '3. Study content and exam results',
+    '수록 내용에는 오류나 누락이 있을 수 있으며 합격이나 점수를 보장하지 않습니다. 시험 신청과 최신 출제 범위는 IPA의 공식 안내를 확인해 주세요. 출처와 이용 조건은':
+      'Content may contain errors or omissions and does not guarantee a pass or a score. For exam applications and the latest scope, see IPA’s official guidance. Sources and terms of use can be found in',
+    '학습 기록은 기기에 저장되며 앱 삭제나 기기 변경에 따라 사라지거나 복원될 수 있습니다. 자세한 내용은':
+      'Study records are stored on your device and may disappear or be restored when you remove the app or change devices. For details, see',
+    개인정보처리방침: 'Privacy Policy',
+    '5. 광고와 결제': '5. Ads and payments',
+    '현재 앱에는 광고와 앱 내 결제가 없습니다. 도입하는 경우 앱 내 안내와 관련 정책을 먼저 갱신합니다.':
+      'The app currently has no ads or in-app payments. If they are introduced, we will update in-app notices and related policies first.',
+    '기출문제의 저작권은 IPA에 있습니다. 앱의 디자인, 자체 작성 설명과 소프트웨어에 관한 권리는 운영자 또는 정당한 권리자에게 있습니다.':
+      'Copyright in the past questions belongs to IPA. Rights in the app’s design, original explanations and software belong to the operator or rightful holders.',
+    '7. 변경과 문의': '7. Changes and contact',
+    '서비스와 약관은 변경될 수 있으며 중대한 변경은 가능한 방법으로 안내합니다. 이 약관은 적용 법령상 소비자 권리를 제한하지 않습니다. 문의:':
+      'The service and these terms may change, and significant changes will be announced where possible. These terms do not limit consumer rights under applicable law. Contact:',
+    '학습 · iOS': 'Learning · iOS',
+    'IT 패스포트 공개 기출 200문항과 IT 용어 500개를 일본어 원문으로 익히는 일본 IT 자격시험 학습 앱.':
+      'A study app for Japanese IT exams with 200 public IT Passport past questions and 500 IT terms in the original Japanese.',
+    '학습 · Android': 'Learning · Android',
+    '전체 3개': '3 total',
+    '칸지결 서비스 이용약관': 'Kanjigyeol Terms of Service',
+    '칸지결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Kanjigyeol · Terms of Service · WhiteSheep Game Studio',
+    '버전 1.0 · 시행일 2026년 11월 5일': 'Version 1.0 · Effective November 5, 2026',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 한자 학습 앱 ‘칸지결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
+      'These terms describe the conditions of use for “칸지결”, a Japanese kanji study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
+    '칸지결은 일본어 한자의 뜻, 읽기, 단어 및 학습 보조 설명을 제공하는 교육용 앱입니다. 이 약관은 칸지결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
+      '칸지결 is an educational app that provides the meanings, readings, words and supporting explanations of Japanese kanji. These terms apply to the 칸지결 app and its related support, and do not automatically apply to other apps. The study content and features provided may be updated.',
+    '한자 해설, 독음, 단어 및 암기 팁은 학습을 돕기 위한 자료입니다. 정확성 개선을 위해 검수와 수정이 진행되며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
+      'Kanji explanations, readings, words and memory tips are materials to help you study. They are being reviewed and corrected to improve accuracy, but may contain errors or omissions. For important decisions such as exams or work, please also check reliable dictionaries or official sources. The sources and terms of use of the content are described separately in',
+    '학습 위치와 열람 기록 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보와 외부 SDK 관련 사항은':
+      'Your study position and viewing history are stored on your device. Depending on app removal, data reset, device changes or operating system behavior, records may disappear or be restored. For personal information and external SDKs, see',
+    '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
+      'Live advertising and in-app payment features are not currently enabled in the app. If ads or paid features are introduced, we will update in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */
