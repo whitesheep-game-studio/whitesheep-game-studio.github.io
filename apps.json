@@ -18,9 +18,22 @@
     "tagline": "활용을 한눈에, 문형은 차근차근.",
     "description": "동사·형용사·명사의 활용과 문형을 한국어로 한눈에 익히는 일본어 문법 학습 앱.",
     "category": "학습",
-    "status": "출시 예정",
+    "status": "출시",
     "platforms": ["Android", "iOS"],
     "icon": "/assets/jgrammar/icon.svg",
-    "policy_status": "개인정보처리방침 · 2026-11-08"
+    "policy_status": "개인정보처리방침 · 2026-11-08",
+    "status_label": "iOS 출시 · Android 출시 예정",
+    "app_store_url": "https://apps.apple.com/kr/app/%EC%9D%BC%EB%B3%B8%EB%AC%B8%EB%B2%95%EA%B2%B0/id6833926694"
+  },
+  {
+    "slug": "itcert",
+    "name": "일본 IT 국가자격증 결",
+    "tagline": "기출은 원문 그대로, 도움은 내 수준에 맞게.",
+    "description": "IT 패스포트 공개 기출 200문항과 IT 용어 500개를 일본어 원문으로 익히는 일본 IT 자격시험 학습 앱.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android"],
+    "icon": "/assets/itcert/icon.svg",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-14"
   }
 ]
