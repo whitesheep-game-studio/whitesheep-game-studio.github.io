@@ -346,20 +346,20 @@ window.WHITESHEEP_TRANSLATIONS = {
     '8. 책임과 이용자 권리': '8. 責任と利用者の権利',
     '9. 약관 변경과 문의': '9. 規約の変更とお問い合わせ',
     '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サービス利用規約 · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결 · WhiteSheep Game Studio': 'IT資格結 · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결': 'IT資格結',
+    '일본 IT 국가자격증 공부 · WhiteSheep Game Studio': 'IT国家資格 勉強 · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부': 'IT国家資格 勉強',
     '일본 IT 국가자격증,': '日本のIT国家資格を、',
     '결 따라 차근차근.': '結のペースで着実に。',
-    'IT 패스포트 공개 기출과 IT 용어를 일본어 원문으로 익히는 학습 앱, 일본 IT 국가자격증 결.': 'ITパスポートの公開過去問題とIT用語を日本語の原文で学べる学習アプリ、IT資格結。',
+    'IT 패스포트 공개 기출과 IT 용어를 일본어 원문으로 익히는 학습 앱, 일본 IT 국가자격증 공부.':
+      'ITパスポートの公開過去問題とIT用語を日本語の原文で学べる学習アプリ、IT国家資格 勉強。',
     'Android 출시 예정': 'Android公開予定',
     '앱 알아보기 ↓': 'アプリを見る ↓',
-    '펼친 책과 톱니, 실뭉치를 표현한 일본 IT 국가자격증 결 심벌': '開いた本、歯車、毛糸玉を表したIT資格結のシンボル',
+    '펼친 책과 톱니, 실뭉치를 표현한 일본 IT 국가자격증 공부 심벌': '開いた本、歯車、毛糸玉を表したIT国家資格 勉強のシンボル',
     '기출은 원문 그대로,': '過去問は原文のまま、',
     '도움은 내 수준에 맞게.': 'サポートは自分のレベルに合わせて。',
     'IPA가 공개한 IT 패스포트 시험 공개 문제 200문항을 출제 이미지 그대로 풀어 보고, IT 용어 500개를 일본어·한국어·영어로 확인합니다. 일본어 이해도에 따라 번역과 후리가나 표시를 고를 수 있습니다.':
       'IPAが公開したITパスポート試験の公開問題200問を出題画像のまま解き、IT用語500語を日本語・韓国語・英語で確認できます。日本語の理解度に応じて、翻訳とふりがなの表示を選べます。',
-    '이 앱은 IPA와 관련 없는 비공식 학습 앱이며 합격을 보장하지 않습니다. 스토어 출시는 아직 진행하지 않았습니다.':
-      'このアプリはIPAとは関係のない非公式の学習アプリで、合格を保証するものではありません。ストアでの公開はまだ行っていません。',
+    '이 앱은 IPA와 관련 없는 비공식 학습 앱이며 합격을 보장하지 않습니다.': 'このアプリはIPAとは関係のない非公式の学習アプリで、合格を保証するものではありません。',
     '원문 그대로 풀기': '原文のまま解く',
     '연도·영역·북마크로 문제를 고르고, 정답과 출처를 확인합니다. 문제 이미지는 확대해서 볼 수 있습니다.':
       '年度・分野・ブックマークで問題を選び、正解と出典を確認します。問題画像は拡大して見られます。',
@@ -369,11 +369,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     '최대 10문항 15분 모의시험과 틀린 문제 기록을 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
       '最大10問・15分の模擬試験と間違えた問題の記録を端末に保存します。アカウントもサーバーも不要です。',
     '문제 번호와 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': '問題番号とアプリのバージョンを一緒に送っていただけると、確認の助けになります。',
-    '일본 IT 국가자격증 결 · 개인정보 안내 · WhiteSheep Game Studio': 'IT資格結 · プライバシーポリシー · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결 개인정보처리방침': 'IT資格結 プライバシーポリシー',
-    '최종 갱신 2026년 11월 14일 · 출시 전 초안': '最終更新：2026年11月14日 · 公開前の草案',
-    '초록지붕이층집은 일본 IT 국가자격증 결 — 일본 IT 자격시험 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
-      '초록지붕이층집は、日本のIT資格試験学習アプリ「IT資格結」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針の掲載ページに適用されます。',
+    '일본 IT 국가자격증 공부 · 개인정보 안내 · WhiteSheep Game Studio': 'IT国家資格 勉強 · プライバシーポリシー · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 개인정보처리방침': 'IT国家資格 勉強 プライバシーポリシー',
+    '최종 갱신 2026년 11월 14일': '最終更新：2026年11月14日',
+    '초록지붕이층집은 일본 IT 국가자격증 공부 — 일본 IT 자격시험 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、日本のIT資格試験学習アプリ「IT国家資格 勉強」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針の掲載ページに適用されます。',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장되며 앱이 외부로 전송하지 않습니다.':
       'アプリにはアカウント登録、独自サーバー、分析SDK、広告SDK、決済機能はありません。学習履歴は端末に保存され、アプリが外部へ送信することはありません。',
     '풀이 기록과 시각, 오답 기록, 북마크, 모의시험의 문항·선택·종료 시각, 일본어 이해도, 표시 언어, 보조 언어, 번역·후리가나 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
@@ -396,9 +396,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 이용 대상과 변경': '7. 利用対象と変更',
     '연령 확인을 위한 생년월일이나 신분증을 수집하지 않습니다. 처리 목적·항목·제공자가 바뀌면 이 페이지의 일자와 내용을 갱신하고 시행 전에 안내합니다.':
       '年齢確認のための生年月日や身分証は収集しません。処理の目的・項目・提供者が変わる場合は、このページの日付と内容を更新し、施行前にお知らせします。',
-    '일본 IT 국가자격증 결 · 출처·이용 조건 · WhiteSheep Game Studio': 'IT資格結 · 出典・利用条件 · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결은 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
-      'IT資格結は公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
+    '일본 IT 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': 'IT国家資格 勉強 · 出典・利用条件 · WhiteSheep Game Studio',
+    '이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.': 'このページはアプリが参照する出典と利用条件の案内です。',
     '비공식 앱': '非公式アプリ',
     '이 앱은 독립행정법인 정보처리추진기구(IPA)와 관련이 없는 비공식 학습 앱입니다. IPA의 인증이나 추천을 받지 않았으며 합격을 보장하지 않습니다. IPA의 로고와 명칭을 사용한 공식 표시는 없습니다.':
       'このアプリは独立行政法人情報処理推進機構（IPA）とは関係のない非公式の学習アプリです。IPAの認定や推奨を受けておらず、合格を保証しません。IPAのロゴや名称を用いた公式表示はありません。',
@@ -407,29 +406,28 @@ window.WHITESHEEP_TRANSLATIONS = {
       '収録している問題は、IPAが公開したITパスポート試験の公開問題（2025年度・2026年度 各100問）と公式の正解です。問題ごとに年度、試験、問題番号を出典として表示します。著作権はIPAに帰属します。',
     '변경 사항: 문제 이미지는 문제 영역만 잘라 여백과 쪽 번호를 정리했고 내용은 바꾸지 않았습니다. 화면 읽기와 검색을 위해 일본어 전사를 덧붙였습니다.':
       '変更点：問題画像は問題領域だけを切り出して余白とページ番号を整えており、内容は変更していません。画面読み上げと検索のために日本語の文字起こしを加えています。',
-    'IPA의 이용 안내는 출처 표시와 변경 사실의 고지를 조건으로 합니다. 앱 형태의 상업적 이용에 대한 별도 허락은 확인하지 못했으므로, 앱은 무료이며 광고 없이 제공하고 수익화 전에 IPA의 이용 조건을 다시 확인합니다.':
-      'IPAの利用案内は、出典の表示と変更事実の明示を条件としています。アプリとしての商用利用についての個別の許諾は確認できていないため、アプリは無料・広告なしで提供し、収益化の前にIPAの利用条件を再確認します。',
+    'IPA의 이용 안내에 따라 문제마다 출처를 표시하고 변경 사항을 밝힙니다.': 'IPAの利用案内に従い、問題ごとに出典を表示し、変更点を明示します。',
     'IPA IT 패스포트 시험 자주 묻는 질문': 'IPA ITパスポート試験 よくある質問',
     'IPA 사이트 이용 안내': 'IPAサイトのご利用案内',
     'IPA 공개 문제': 'IPA 公開問題',
     '용어집과 번역': '用語集と翻訳',
-    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다. 독립적인 원어민 감수는 아직 진행하지 않았습니다.':
-      '用語は、IPAのITパスポート試験シラバス（Ver.6.5）に出てくる言葉をもとに選びました。日本語・韓国語・英語の定義と読みは運営者が新たに書いた説明で、IPAの公式文言や公式翻訳ではありません。独立したネイティブによる校閲はまだ行っていません。',
-    '시험 개정과 해설': '試験改定と解説',
-    '수록 내용은 과거 시험 기준이며 2027년 시험 개정에 대한 대응 여부는 확인하지 않았습니다. 문제 해설은 준비 중입니다.':
-      '収録内容は過去の試験に基づいており、2027年度の試験改定への対応は確認していません。問題の解説は準備中です。',
+    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
+      '用語は、IPAのITパスポート試験シラバス（Ver.6.5）に出てくる言葉をもとに選びました。日本語・韓国語・英語の定義と読みは運営者が新たに書いた説明で、IPAの公式文言や公式翻訳ではありません。',
+    '수록 기준': '収録の基準',
+    '수록 내용은 IT 패스포트 시험 실라버스 Ver.6.5와 2025년도·2026년도 공개 문제를 기준으로 합니다.':
+      '収録内容は、ITパスポート試験シラバスVer.6.5と2025年度・2026年度の公開問題に基づきます。',
     '틀린 곳은 문의 메일로 알려 주세요.': '誤りを見つけたら、問い合わせメールでお知らせください。',
-    '일본 IT 국가자격증 결 · 지원 · WhiteSheep Game Studio': 'IT資格結 · サポート · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'IT国家資格 勉強 · サポート · WhiteSheep Game Studio',
     '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
       '年度と問題番号または用語名、アプリのバージョン、誤っている内容を書いてお送りください。必要なら画面を添付し、個人情報は隠してください。',
     '풀이 기록, 오답, 북마크, 모의시험 진행 상황, 표시 언어와 읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       '解答履歴、間違えた問題、ブックマーク、模擬試験の進行状況、表示言語と読み補助の設定は端末に保存されます。運営者がサーバーから記録を閲覧・復旧することはできません。アプリの削除・データ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다.':
       '担当者：초록지붕이층집 運営者。上記のメールアドレスに、閲覧・訂正・削除などの請求をお送りください。問い合わせメールは対応終了後90日以内に削除します。',
-    '일본 IT 국가자격증 결 · 서비스 이용약관 · WhiteSheep Game Studio': 'IT資格結 · サービス利用規約 · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결 서비스 이용약관': 'IT資格結 サービス利用規約',
-    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본 IT 자격시험 학습 앱 ‘일본 IT 국가자격증 결’의 이용 조건을 안내합니다.':
-      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する日本のIT資格試験学習アプリ「IT資格結」の利用条件を説明します。',
+    '일본 IT 국가자격증 공부 · 서비스 이용약관 · WhiteSheep Game Studio': 'IT国家資格 勉強 · サービス利用規約 · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 서비스 이용약관': 'IT国家資格 勉強 サービス利用規約',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본 IT 자격시험 학습 앱 ‘일본 IT 국가자격증 공부’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する日本のIT資格試験学習アプリ「IT国家資格 勉強」の利用条件を説明します。',
     '이 앱은 IT 패스포트 공개 기출과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
       'このアプリは、ITパスポートの公開過去問題とIT用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
     '이용자는 관련 법령을 준수하고 정상적인 학습 목적으로 앱을 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스에 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
@@ -465,7 +463,36 @@ window.WHITESHEEP_TRANSLATIONS = {
     '학습 위치와 열람 기록 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보와 외부 SDK 관련 사항은':
       '学習位置や閲覧履歴などは端末に保存されます。アプリの削除、データの初期化、端末の変更、OSの動作により、記録が消えたり復元されたりすることがあります。個人情報と外部SDKに関する事項は',
     '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
-      '現在、アプリでは運用広告とアプリ内決済機能は有効になっていません。今後広告や有料機能を導入する場合は、アプリ内の案内と関連ポリシーを更新します。ストアでの購入を導入する場合は、そのストアの決済・返金規定と関連法令が適用されます。'
+      '現在、アプリでは運用広告とアプリ内決済機能は有効になっていません。今後広告や有料機能を導入する場合は、アプリ内の案内と関連ポリシーを更新します。ストアでの購入を導入する場合は、そのストアの決済・返金規定と関連法令が適用されます。',
+    'IT 패스포트 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
+      'ITパスポートの出題分野ごとに、過去問に出た概念を日本語で解説する学習アプリ、IT国家資格 勉強。',
+    '기출을 푸는 대신,': '過去問を解く代わりに、',
+    '나온 개념을 이해하세요.': '出題された概念を理解しよう。',
+    'IPA 실라버스(Ver.6.5)의 9개 영역·23개 중분류별로 2025·2026년도 공개 문제 200문항을 분석해, 실제로 출제된 개념 93개를 설명합니다. 일본어 이해도에 맞춰 번역을 켜고 끌 수 있습니다.':
+      'IPAシラバス（Ver.6.5）の9分野・23の中分類ごとに、2025・2026年度の公開問題200問を分析し、実際に出題された概念93個を解説します。日本語の理解度に合わせて、翻訳の表示を切り替えられます。',
+    '영역별로 개념 학습': '分野ごとに概念を学ぶ',
+    '중분류마다 출제 경향과 소분류별 문항 수, 개념 카드를 확인합니다.': '中分類ごとに、出題の傾向、小分類別の問題数、概念カードを確認します。',
+    '출제 포인트와 함정': '出題のポイントと落とし穴',
+    '카드마다 문제가 묻는 방식과 헷갈리기 쉬운 선택지를 정리했습니다.': 'カードごとに、問題の問い方と間違えやすい選択肢を整理しました。',
+    '용어집과 진도 관리': '用語集と進捗管理',
+    'IT 용어 500개를 일본어·한국어·영어로 확인하고, 이해한 개념과 북마크를 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
+      'IT用語500語を日本語・韓国語・英語で確認し、理解した概念とブックマークを端末に保存します。アカウントもサーバーも不要です。',
+    '개념 이름이나 영역과 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': '概念名や分野とアプリのバージョンを一緒に送っていただけると、確認の助けになります。',
+    '이해함으로 표시한 개념, 북마크한 개념과 용어, 마지막으로 본 개념, 일본어 이해도, 표시 언어, 번역 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      '「理解した」にした概念、ブックマークした概念と用語、最後に見た概念、日本語の理解度、表示言語、翻訳の表示設定を保存し、学習位置と設定を復元します。運営者は端末内だけにある記録を遠隔で閲覧できません。',
+    '기출문제의 이용': '過去問題の利用',
+    '이 앱은 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
+      'このアプリは、IPAが公開したITパスポート試験の公開問題（2025年度・2026年度 各100問）を分析し、出題された概念を解説します。問題の本文と画像はアプリに含めず、概念ごとに関連する問題を年度と問題番号だけで示し、IPAの公式の問題集へのリンクを案内します。著作権はIPAに帰属します。',
+    '문제를 실라버스 Ver.6.5의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
+      '問題をシラバスVer.6.5の中分類に分けた基準、概念の解説と出題のポイントは運営者が新たに書いたもので、IPAの公式解説ではありません。IPAの利用案内に従い、出典を表示します。',
+    '개념 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
+      '概念名または用語名、アプリのバージョン、誤っている内容を書いてお送りください。必要なら画面を添付し、個人情報は隠してください。',
+    '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      '「理解した」の表示、ブックマーク、最後に見た概念、表示言語と翻訳の設定は端末に保存されます。運営者がサーバーから記録を閲覧・復旧することはできません。アプリの削除・データ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
+    '이 앱은 IT 패스포트 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、ITパスポート試験シラバスの分野ごとの概念解説とIT用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    'IT 패스포트 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
+      'ITパスポートのシラバス分野ごとに、過去問に出た概念を日本語で解説し、IT用語500語もあわせて学べる日本のIT資格試験学習アプリ。'
   },
   en: {
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
@@ -818,21 +845,20 @@ window.WHITESHEEP_TRANSLATIONS = {
     '8. 책임과 이용자 권리': '8. Responsibility and user rights',
     '9. 약관 변경과 문의': '9. Changes to these terms and contact',
     '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Terms of Service · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결': 'Yui – Japan IT Cert Prep',
+    '일본 IT 국가자격증 공부 · WhiteSheep Game Studio': 'Japan IT Cert Study · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부': 'Japan IT Cert Study',
     '일본 IT 국가자격증,': 'Japan’s IT certification,',
     '결 따라 차근차근.': 'one step at a time.',
-    'IT 패스포트 공개 기출과 IT 용어를 일본어 원문으로 익히는 학습 앱, 일본 IT 국가자격증 결.':
-      'A study app for the public IT Passport past questions and IT terms in the original Japanese: Yui – Japan IT Cert Prep.',
+    'IT 패스포트 공개 기출과 IT 용어를 일본어 원문으로 익히는 학습 앱, 일본 IT 국가자격증 공부.':
+      'A study app for the public IT Passport past questions and IT terms in the original Japanese: Japan IT Cert Study.',
     'Android 출시 예정': 'Android coming soon',
     '앱 알아보기 ↓': 'Explore the app ↓',
-    '펼친 책과 톱니, 실뭉치를 표현한 일본 IT 국가자격증 결 심벌': 'Yui symbol showing an open book, a gear and a ball of yarn',
+    '펼친 책과 톱니, 실뭉치를 표현한 일본 IT 국가자격증 공부 심벌': 'Yui symbol showing an open book, a gear and a ball of yarn',
     '기출은 원문 그대로,': 'Past questions as published,',
     '도움은 내 수준에 맞게.': 'support that fits your level.',
     'IPA가 공개한 IT 패스포트 시험 공개 문제 200문항을 출제 이미지 그대로 풀어 보고, IT 용어 500개를 일본어·한국어·영어로 확인합니다. 일본어 이해도에 따라 번역과 후리가나 표시를 고를 수 있습니다.':
       'Solve the 200 public IT Passport questions released by IPA as the original images, and check 500 IT terms in Japanese, Korean and English. Choose translation and furigana display to match your Japanese level.',
-    '이 앱은 IPA와 관련 없는 비공식 학습 앱이며 합격을 보장하지 않습니다. 스토어 출시는 아직 진행하지 않았습니다.':
-      'This is an unofficial study app not affiliated with IPA, and it does not guarantee a pass. It has not been released in any store yet.',
+    '이 앱은 IPA와 관련 없는 비공식 학습 앱이며 합격을 보장하지 않습니다.': 'This is an unofficial study app not affiliated with IPA, and it does not guarantee a pass.',
     '원문 그대로 풀기': 'Solve as published',
     '연도·영역·북마크로 문제를 고르고, 정답과 출처를 확인합니다. 문제 이미지는 확대해서 볼 수 있습니다.':
       'Pick questions by year, domain or bookmark, then check the answer and source. Question images can be zoomed.',
@@ -842,11 +868,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     '최대 10문항 15분 모의시험과 틀린 문제 기록을 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
       'A mock exam of up to 10 questions in 15 minutes and your record of missed questions are saved on your device. No account or server is needed.',
     '문제 번호와 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': 'Sending the question number together with the app version helps us check.',
-    '일본 IT 국가자격증 결 · 개인정보 안내 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · Privacy Policy · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결 개인정보처리방침': 'Yui – Japan IT Cert Prep Privacy Policy',
-    '최종 갱신 2026년 11월 14일 · 출시 전 초안': 'Last updated November 14, 2026 · Pre-release draft',
-    '초록지붕이층집은 일본 IT 국가자격증 결 — 일본 IT 자격시험 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
-      '초록지붕이층집 explains how personal information is handled in Yui – Japan IT Cert Prep, a study app for Japanese IT exams. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence and the web page that hosts this policy.',
+    '일본 IT 국가자격증 공부 · 개인정보 안내 · WhiteSheep Game Studio': 'Japan IT Cert Study · Privacy Policy · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 개인정보처리방침': 'Japan IT Cert Study Privacy Policy',
+    '최종 갱신 2026년 11월 14일': 'Last updated November 14, 2026',
+    '초록지붕이층집은 일본 IT 국가자격증 공부 — 일본 IT 자격시험 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled in Japan IT Cert Study, a study app for Japanese IT exams. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence and the web page that hosts this policy.',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장되며 앱이 외부로 전송하지 않습니다.':
       'The app has no account sign-up, own server, analytics SDK, advertising SDK or payment feature. Study records are stored on your device and are not sent anywhere by the app.',
     '풀이 기록과 시각, 오답 기록, 북마크, 모의시험의 문항·선택·종료 시각, 일본어 이해도, 표시 언어, 보조 언어, 번역·후리가나 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
@@ -869,9 +895,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 이용 대상과 변경': '7. Intended users and changes',
     '연령 확인을 위한 생년월일이나 신분증을 수집하지 않습니다. 처리 목적·항목·제공자가 바뀌면 이 페이지의 일자와 내용을 갱신하고 시행 전에 안내합니다.':
       'We do not collect birth dates or ID documents to verify age. If purposes, items or providers of processing change, we will update the date and content of this page and give notice before the change takes effect.',
-    '일본 IT 국가자격증 결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · Sources and Terms of Use · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결은 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
-      'Yui – Japan IT Cert Prep is being prepared for release. This page describes the sources and terms the app points to.',
+    '일본 IT 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': 'Japan IT Cert Study · Sources and Terms of Use · WhiteSheep Game Studio',
+    '이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.': 'This page describes the sources and terms the app points to.',
     '비공식 앱': 'Unofficial app',
     '이 앱은 독립행정법인 정보처리추진기구(IPA)와 관련이 없는 비공식 학습 앱입니다. IPA의 인증이나 추천을 받지 않았으며 합격을 보장하지 않습니다. IPA의 로고와 명칭을 사용한 공식 표시는 없습니다.':
       'This is an unofficial study app with no affiliation to the Information-technology Promotion Agency, Japan (IPA). It is not certified or endorsed by IPA and does not guarantee a pass. It shows no official IPA logo or name as an endorsement.',
@@ -880,29 +905,28 @@ window.WHITESHEEP_TRANSLATIONS = {
       'The questions are the public IT Passport exam questions released by IPA (100 each for fiscal 2025 and fiscal 2026) with the official answers. Each question shows its year, exam and question number as the source. Copyright belongs to IPA.',
     '변경 사항: 문제 이미지는 문제 영역만 잘라 여백과 쪽 번호를 정리했고 내용은 바꾸지 않았습니다. 화면 읽기와 검색을 위해 일본어 전사를 덧붙였습니다.':
       'Modifications: question images are cropped to the question area with margins and page numbers tidied; their content is unchanged. A Japanese transcription is added for screen readers and search.',
-    'IPA의 이용 안내는 출처 표시와 변경 사실의 고지를 조건으로 합니다. 앱 형태의 상업적 이용에 대한 별도 허락은 확인하지 못했으므로, 앱은 무료이며 광고 없이 제공하고 수익화 전에 IPA의 이용 조건을 다시 확인합니다.':
-      'IPA’s usage guidance is conditioned on stating the source and disclosing modifications. We have not confirmed a separate permission for commercial use as an app, so the app is offered free and without ads, and we will re-check IPA’s terms before any monetization.',
+    'IPA의 이용 안내에 따라 문제마다 출처를 표시하고 변경 사항을 밝힙니다.': 'In line with IPA’s usage guidance, each question shows its source and modifications are disclosed.',
     'IPA IT 패스포트 시험 자주 묻는 질문': 'IPA IT Passport Exam FAQ',
     'IPA 사이트 이용 안내': 'IPA site terms of use',
     'IPA 공개 문제': 'IPA public questions',
     '용어집과 번역': 'Glossary and translations',
-    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다. 독립적인 원어민 감수는 아직 진행하지 않았습니다.':
-      'Terms were chosen from words appearing in IPA’s IT Passport exam syllabus (Ver.6.5). The Japanese, Korean and English definitions and readings are original explanations written by the operator, not official IPA wording or translations. Independent native-speaker review has not been done yet.',
-    '시험 개정과 해설': 'Exam revisions and explanations',
-    '수록 내용은 과거 시험 기준이며 2027년 시험 개정에 대한 대응 여부는 확인하지 않았습니다. 문제 해설은 준비 중입니다.':
-      'Content is based on past exams, and compatibility with the 2027 exam revision has not been checked. Explanations for the questions are in preparation.',
+    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
+      'Terms were chosen from words appearing in IPA’s IT Passport exam syllabus (Ver.6.5). The Japanese, Korean and English definitions and readings are original explanations written by the operator, not official IPA wording or translations.',
+    '수록 기준': 'Scope of content',
+    '수록 내용은 IT 패스포트 시험 실라버스 Ver.6.5와 2025년도·2026년도 공개 문제를 기준으로 합니다.':
+      'Content is based on the IT Passport exam syllabus Ver.6.5 and the FY2025 and FY2026 public questions.',
     '틀린 곳은 문의 메일로 알려 주세요.': 'If you find a mistake, please let us know by email.',
-    '일본 IT 국가자격증 결 · 지원 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · Support · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'Japan IT Cert Study · Support · WhiteSheep Game Studio',
     '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
       'Please send the year and question number or the term, the app version and what is wrong. Attach a screenshot if helpful, with personal information hidden.',
     '풀이 기록, 오답, 북마크, 모의시험 진행 상황, 표시 언어와 읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       'Answer history, missed questions, bookmarks, mock exam progress, display language and reading aid settings are stored on your device. The operator cannot view or recover records from a server. Depending on app removal, data deletion and backup settings, records may disappear or be restored.',
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다.':
       'Contact person: operator of 초록지붕이층집. Please send requests for access, correction or deletion to the email address above. Support email is deleted within 90 days after handling ends.',
-    '일본 IT 국가자격증 결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Yui – Japan IT Cert Prep · Terms of Service · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 결 서비스 이용약관': 'Yui – Japan IT Cert Prep Terms of Service',
-    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본 IT 자격시험 학습 앱 ‘일본 IT 국가자격증 결’의 이용 조건을 안내합니다.':
-      'These terms describe the conditions of use for “Yui – Japan IT Cert Prep”, a study app for Japanese IT exams provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '일본 IT 국가자격증 공부 · 서비스 이용약관 · WhiteSheep Game Studio': 'Japan IT Cert Study · Terms of Service · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 서비스 이용약관': 'Japan IT Cert Study Terms of Service',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본 IT 자격시험 학습 앱 ‘일본 IT 국가자격증 공부’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Japan IT Cert Study”, a study app for Japanese IT exams provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
     '이 앱은 IT 패스포트 공개 기출과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
       'This is an unofficial educational app that helps you study public IT Passport past questions and IT terms. These terms apply only to this app and its related support.',
     '이용자는 관련 법령을 준수하고 정상적인 학습 목적으로 앱을 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스에 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
@@ -938,7 +962,36 @@ window.WHITESHEEP_TRANSLATIONS = {
     '학습 위치와 열람 기록 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보와 외부 SDK 관련 사항은':
       'Your study position and viewing history are stored on your device. Depending on app removal, data reset, device changes or operating system behavior, records may disappear or be restored. For personal information and external SDKs, see',
     '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
-      'Live advertising and in-app payment features are not currently enabled in the app. If ads or paid features are introduced, we will update in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.'
+      'Live advertising and in-app payment features are not currently enabled in the app. If ads or paid features are introduced, we will update in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.',
+    'IT 패스포트 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
+      'A study app that explains, in Japanese, the concepts that appeared in past questions, organized by IT Passport exam area: Japan IT Cert Study.',
+    '기출을 푸는 대신,': 'Instead of solving past papers,',
+    '나온 개념을 이해하세요.': 'understand the concepts they test.',
+    'IPA 실라버스(Ver.6.5)의 9개 영역·23개 중분류별로 2025·2026년도 공개 문제 200문항을 분석해, 실제로 출제된 개념 93개를 설명합니다. 일본어 이해도에 맞춰 번역을 켜고 끌 수 있습니다.':
+      'We analyzed the 200 public questions of FY2025 and FY2026 across the 9 areas and 23 categories of the IPA syllabus (Ver.6.5) and explain the 93 concepts that actually appeared. You can turn the translation on or off to match your Japanese level.',
+    '영역별로 개념 학습': 'Learn concepts by area',
+    '중분류마다 출제 경향과 소분류별 문항 수, 개념 카드를 확인합니다.': 'For each category, check how it is tested, the number of questions per subcategory and the concept cards.',
+    '출제 포인트와 함정': 'Exam points and pitfalls',
+    '카드마다 문제가 묻는 방식과 헷갈리기 쉬운 선택지를 정리했습니다.': 'Each card organizes how questions are asked and which choices are easy to mix up.',
+    '용어집과 진도 관리': 'Glossary and progress',
+    'IT 용어 500개를 일본어·한국어·영어로 확인하고, 이해한 개념과 북마크를 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
+      'Check 500 IT terms in Japanese, Korean and English, and save the concepts you understood and your bookmarks on the device. No account or server is needed.',
+    '개념 이름이나 영역과 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': 'Sending the concept name or area together with the app version helps us check.',
+    '이해함으로 표시한 개념, 북마크한 개념과 용어, 마지막으로 본 개념, 일본어 이해도, 표시 언어, 번역 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      'We store the concepts you marked as understood, bookmarked concepts and terms, the last concept you viewed, your Japanese level, display language and translation display setting to restore your place and settings. The operator cannot remotely view records that exist only on your device.',
+    '기출문제의 이용': 'Use of past questions',
+    '이 앱은 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
+      'This app analyzes the public IT Passport exam questions released by IPA (100 each for fiscal 2025 and fiscal 2026) and explains the concepts that were tested. The question text and images are not included in the app; for each concept, related questions are shown only by year and question number, with a link to IPA’s official question book. Copyright belongs to IPA.',
+    '문제를 실라버스 Ver.6.5의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
+      'The criteria for sorting questions into the syllabus Ver.6.5 categories, and the concept explanations and exam points, are original work by the operator and not official IPA commentary. In line with IPA’s usage guidance, the source is shown.',
+    '개념 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
+      'Please send the concept or term name, the app version and what is wrong. Attach a screenshot if helpful, with personal information hidden.',
+    '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'Understood marks, bookmarks, the last concept viewed, display language and translation settings are stored on your device. The operator cannot view or recover records from a server. Depending on app removal, data deletion and backup settings, records may disappear or be restored.',
+    '이 앱은 IT 패스포트 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that supports learning concept explanations by IT Passport syllabus area and IT terms. These terms apply only to this app and its related support.',
+    'IT 패스포트 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
+      'A study app for Japanese IT exams that explains, in Japanese, concepts that appeared in past questions by IT Passport syllabus area, together with 500 IT terms.'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */
