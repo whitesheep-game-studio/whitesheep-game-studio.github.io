@@ -402,7 +402,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '비공식 앱': '非公式アプリ',
     '이 앱은 독립행정법인 정보처리추진기구(IPA)와 관련이 없는 비공식 학습 앱입니다. IPA의 인증이나 추천을 받지 않았으며 합격을 보장하지 않습니다. IPA의 로고와 명칭을 사용한 공식 표시는 없습니다.':
       'このアプリは独立行政法人情報処理推進機構（IPA）とは関係のない非公式の学習アプリです。IPAの認定や推奨を受けておらず、合格を保証しません。IPAのロゴや名称を用いた公式表示はありません。',
-    '기출문제': '過去問題',
+    기출문제: '過去問題',
     '수록한 문제는 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)와 공식 정답입니다. 문제마다 연도, 시험, 문제 번호를 출처로 표시합니다. 저작권은 IPA에 있습니다.':
       '収録している問題は、IPAが公開したITパスポート試験の公開問題（2025年度・2026年度 各100問）と公式の正解です。問題ごとに年度、試験、問題番号を出典として表示します。著作権はIPAに帰属します。',
     '변경 사항: 문제 이미지는 문제 영역만 잘라 여백과 쪽 번호를 정리했고 내용은 바꾸지 않았습니다. 화면 읽기와 검색을 위해 일본어 전사를 덧붙였습니다.':
@@ -439,7 +439,7 @@ window.WHITESHEEP_TRANSLATIONS = {
       '収録内容には誤りや漏れがある場合があり、合格や点数を保証しません。試験の申込みと最新の出題範囲はIPAの公式案内をご確認ください。出典と利用条件は',
     '학습 기록은 기기에 저장되며 앱 삭제나 기기 변경에 따라 사라지거나 복원될 수 있습니다. 자세한 내용은':
       '学習履歴は端末に保存され、アプリの削除や端末の変更により消えたり復元されたりすることがあります。詳しくは',
-    '개인정보처리방침': 'プライバシーポリシー',
+    개인정보처리방침: 'プライバシーポリシー',
     '5. 광고와 결제': '5. 広告と決済',
     '현재 앱에는 광고와 앱 내 결제가 없습니다. 도입하는 경우 앱 내 안내와 관련 정책을 먼저 갱신합니다.':
       '現在アプリには広告もアプリ内決済もありません。導入する場合は、アプリ内の案内と関連ポリシーを先に更新します。',
@@ -451,7 +451,21 @@ window.WHITESHEEP_TRANSLATIONS = {
     '학습 · iOS': '学習 · iOS',
     'IT 패스포트 공개 기출 200문항과 IT 용어 500개를 일본어 원문으로 익히는 일본 IT 자격시험 학습 앱.':
       'ITパスポートの公開過去問題200問とIT用語500語を日本語の原文で学べる、日本のIT資格試験学習アプリ。',
-    '학습 · Android': '学習 · Android'
+    '학습 · Android': '学習 · Android',
+    '전체 3개': '全3件',
+    '칸지결 서비스 이용약관': 'カンジギョル サービス利用規約',
+    '칸지결 · 서비스 이용약관 · WhiteSheep Game Studio': 'カンジギョル · サービス利用規約 · WhiteSheep Game Studio',
+    '버전 1.0 · 시행일 2026년 11월 5일': 'バージョン1.0・施行日：2026年11月5日',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 한자 학습 앱 ‘칸지결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する日本語漢字学習アプリ「칸지결」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
+    '칸지결은 일본어 한자의 뜻, 읽기, 단어 및 학습 보조 설명을 제공하는 교육용 앱입니다. 이 약관은 칸지결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
+      '칸지결は、日本語の漢字の意味、読み、単語、学習の補助説明を提供する教育用アプリです。この規約は칸지결アプリと関連するサポートに適用され、他のアプリには自動的には適用されません。提供する学習コンテンツや機能は更新されることがあります。',
+    '한자 해설, 독음, 단어 및 암기 팁은 학습을 돕기 위한 자료입니다. 정확성 개선을 위해 검수와 수정이 진행되며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
+      '漢字の解説、読み、単語、暗記のヒントは学習を助けるための資料です。正確性の向上のため確認と修正を進めていますが、誤りや漏れがある場合があります。試験や仕事などの重要な判断には、信頼できる辞書や公式資料もあわせてご確認ください。コンテンツの出典と利用条件は別の',
+    '학습 위치와 열람 기록 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보와 외부 SDK 관련 사항은':
+      '学習位置や閲覧履歴などは端末に保存されます。アプリの削除、データの初期化、端末の変更、OSの動作により、記録が消えたり復元されたりすることがあります。個人情報と外部SDKに関する事項は',
+    '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
+      '現在、アプリでは運用広告とアプリ内決済機能は有効になっていません。今後広告や有料機能を導入する場合は、アプリ内の案内と関連ポリシーを更新します。ストアでの購入を導入する場合は、そのストアの決済・返金規定と関連法令が適用されます。'
   },
   en: {
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
@@ -861,7 +875,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '비공식 앱': 'Unofficial app',
     '이 앱은 독립행정법인 정보처리추진기구(IPA)와 관련이 없는 비공식 학습 앱입니다. IPA의 인증이나 추천을 받지 않았으며 합격을 보장하지 않습니다. IPA의 로고와 명칭을 사용한 공식 표시는 없습니다.':
       'This is an unofficial study app with no affiliation to the Information-technology Promotion Agency, Japan (IPA). It is not certified or endorsed by IPA and does not guarantee a pass. It shows no official IPA logo or name as an endorsement.',
-    '기출문제': 'Past questions',
+    기출문제: 'Past questions',
     '수록한 문제는 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)와 공식 정답입니다. 문제마다 연도, 시험, 문제 번호를 출처로 표시합니다. 저작권은 IPA에 있습니다.':
       'The questions are the public IT Passport exam questions released by IPA (100 each for fiscal 2025 and fiscal 2026) with the official answers. Each question shows its year, exam and question number as the source. Copyright belongs to IPA.',
     '변경 사항: 문제 이미지는 문제 영역만 잘라 여백과 쪽 번호를 정리했고 내용은 바꾸지 않았습니다. 화면 읽기와 검색을 위해 일본어 전사를 덧붙였습니다.':
@@ -898,7 +912,7 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Content may contain errors or omissions and does not guarantee a pass or a score. For exam applications and the latest scope, see IPA’s official guidance. Sources and terms of use can be found in',
     '학습 기록은 기기에 저장되며 앱 삭제나 기기 변경에 따라 사라지거나 복원될 수 있습니다. 자세한 내용은':
       'Study records are stored on your device and may disappear or be restored when you remove the app or change devices. For details, see',
-    '개인정보처리방침': 'Privacy Policy',
+    개인정보처리방침: 'Privacy Policy',
     '5. 광고와 결제': '5. Ads and payments',
     '현재 앱에는 광고와 앱 내 결제가 없습니다. 도입하는 경우 앱 내 안내와 관련 정책을 먼저 갱신합니다.':
       'The app currently has no ads or in-app payments. If they are introduced, we will update in-app notices and related policies first.',
@@ -910,7 +924,21 @@ window.WHITESHEEP_TRANSLATIONS = {
     '학습 · iOS': 'Learning · iOS',
     'IT 패스포트 공개 기출 200문항과 IT 용어 500개를 일본어 원문으로 익히는 일본 IT 자격시험 학습 앱.':
       'A study app for Japanese IT exams with 200 public IT Passport past questions and 500 IT terms in the original Japanese.',
-    '학습 · Android': 'Learning · Android'
+    '학습 · Android': 'Learning · Android',
+    '전체 3개': '3 total',
+    '칸지결 서비스 이용약관': 'Kanjigyeol Terms of Service',
+    '칸지결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Kanjigyeol · Terms of Service · WhiteSheep Game Studio',
+    '버전 1.0 · 시행일 2026년 11월 5일': 'Version 1.0 · Effective November 5, 2026',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 한자 학습 앱 ‘칸지결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
+      'These terms describe the conditions of use for “칸지결”, a Japanese kanji study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
+    '칸지결은 일본어 한자의 뜻, 읽기, 단어 및 학습 보조 설명을 제공하는 교육용 앱입니다. 이 약관은 칸지결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
+      '칸지결 is an educational app that provides the meanings, readings, words and supporting explanations of Japanese kanji. These terms apply to the 칸지결 app and its related support, and do not automatically apply to other apps. The study content and features provided may be updated.',
+    '한자 해설, 독음, 단어 및 암기 팁은 학습을 돕기 위한 자료입니다. 정확성 개선을 위해 검수와 수정이 진행되며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
+      'Kanji explanations, readings, words and memory tips are materials to help you study. They are being reviewed and corrected to improve accuracy, but may contain errors or omissions. For important decisions such as exams or work, please also check reliable dictionaries or official sources. The sources and terms of use of the content are described separately in',
+    '학습 위치와 열람 기록 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보와 외부 SDK 관련 사항은':
+      'Your study position and viewing history are stored on your device. Depending on app removal, data reset, device changes or operating system behavior, records may disappear or be restored. For personal information and external SDKs, see',
+    '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
+      'Live advertising and in-app payment features are not currently enabled in the app. If ads or paid features are introduced, we will update in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */

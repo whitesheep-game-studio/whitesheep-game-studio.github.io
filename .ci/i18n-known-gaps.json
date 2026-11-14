@@ -46,12 +46,6 @@
       "locations": ["privacy/index.html:text"]
     },
     {
-      "id": "text.5e3a6633ba641707d2c1",
-      "source": "GitHub 개인정보처리방침",
-      "locales": ["en", "ja"],
-      "locations": ["privacy/index.html:text"]
-    },
-    {
       "id": "text.66c78779cd73cabdd9c0",
       "source": "이메일:",
       "locales": ["en", "ja"],
