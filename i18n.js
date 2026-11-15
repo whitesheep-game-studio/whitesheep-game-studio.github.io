@@ -411,11 +411,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     'IPA 사이트 이용 안내': 'IPAサイトのご利用案内',
     'IPA 공개 문제': 'IPA 公開問題',
     '용어집과 번역': '用語集と翻訳',
-    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
-      '用語は、IPAのITパスポート試験シラバス（Ver.6.5）に出てくる言葉をもとに選びました。日本語・韓国語・英語の定義と読みは運営者が新たに書いた説明で、IPAの公式文言や公式翻訳ではありません。',
+    '용어는 IPA의 IT 패스포트 시험 실라버스에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
+      '用語は、IPAのITパスポート試験シラバスに出てくる言葉をもとに選びました。日本語・韓国語・英語の定義と読みは運営者が新たに書いた説明で、IPAの公式文言や公式翻訳ではありません。',
     '수록 기준': '収録の基準',
-    '수록 내용은 IT 패스포트(Ver.6.5)·정보보안관리(Ver.4.1)·기본정보기술자(Ver.9.2)·응용정보기술자(Ver.7.2) 시험 실라버스와 위에 적은 공개 문제를 기준으로 합니다.':
-      '収録内容は、ITパスポート（Ver.6.5）・情報セキュリティマネジメント（Ver.4.1）・基本情報技術者（Ver.9.2）・応用情報技術者（Ver.7.2）の各試験シラバスと、上記の公開問題を基準としています。',
+    '수록 내용은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험 실라버스와 위에 적은 공개 문제를 기준으로 합니다.':
+      '収録内容は、ITパスポート・情報セキュリティマネジメント・基本情報技術者・応用情報技術者の各試験シラバスと、上記の公開問題を基準としています。',
     '틀린 곳은 문의 메일로 알려 주세요.': '誤りを見つけたら、問い合わせメールでお知らせください。',
     '일본 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'IT国家資格 勉強 · サポート · WhiteSheep Game Studio',
     '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
@@ -483,8 +483,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '기출문제의 이용': '過去問題の利用',
     '이 앱은 IPA가 공개한 IT 패스포트(2025·2026년도 각 100문항), 정보보안관리(2023~2026년도 각 15문항), 기본정보기술자(2023~2026년도 과목 A·B), 응용정보기술자(2021년 봄·2022년 가을·2023년 봄·2024년 봄 오전 각 80문항) 시험의 공개 문제를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
       'このアプリは、IPAが公開したITパスポート（2025・2026年度 各100問）、情報セキュリティマネジメント（2023〜2026年度 各15問）、基本情報技術者（2023〜2026年度 科目A・B）、応用情報技術者（2021年春・2022年秋・2023年春・2024年春 午前 各80問）の公開問題を分析し、出題された概念を解説します。問題の本文と画像はアプリに含めず、概念ごとに関連する問題を年度と問番号のみで表示し、IPAの公式問題集へのリンクを案内します。著作権はIPAに帰属します。',
-    '문제를 각 시험 실라버스(IP Ver.6.5, SG Ver.4.1, FE Ver.9.2, AP Ver.7.2)의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
-      '問題を各試験のシラバス（IP Ver.6.5、SG Ver.4.1、FE Ver.9.2、AP Ver.7.2）の中分類に分けた基準、概念の解説と出題のポイントは運営者が新たに書いたもので、IPAの公式解説ではありません。IPAの利用案内に従い、出典を表示します。',
+    '문제를 각 시험 실라버스의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
+      '問題を各試験のシラバスの中分類に分けた基準、概念の解説と出題のポイントは運営者が新たに書いたもので、IPAの公式解説ではありません。IPAの利用案内に従い、出典を表示します。',
     '개념 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
       '概念名または用語名、アプリのバージョン、誤っている内容を書いてお送りください。必要なら画面を添付し、個人情報は隠してください。',
     '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역·읽기 도움·화면 테마 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
@@ -910,11 +910,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     'IPA 사이트 이용 안내': 'IPA site terms of use',
     'IPA 공개 문제': 'IPA public questions',
     '용어집과 번역': 'Glossary and translations',
-    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
-      'Terms were chosen from words appearing in IPA’s IT Passport exam syllabus (Ver.6.5). The Japanese, Korean and English definitions and readings are original explanations written by the operator, not official IPA wording or translations.',
+    '용어는 IPA의 IT 패스포트 시험 실라버스에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
+      'Terms were chosen from words appearing in IPA’s IT Passport exam syllabus. The Japanese, Korean and English definitions and readings are original explanations written by the operator, not official IPA wording or translations.',
     '수록 기준': 'Scope of content',
-    '수록 내용은 IT 패스포트(Ver.6.5)·정보보안관리(Ver.4.1)·기본정보기술자(Ver.9.2)·응용정보기술자(Ver.7.2) 시험 실라버스와 위에 적은 공개 문제를 기준으로 합니다.':
-      'Content is based on the syllabi of IT Passport (Ver.6.5), Information Security Management (Ver.4.1), Fundamental Information Technology Engineer (Ver.9.2) and Applied Information Technology Engineer (Ver.7.2), and the public questions listed above.',
+    '수록 내용은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험 실라버스와 위에 적은 공개 문제를 기준으로 합니다.':
+      'Content is based on the syllabi of IT Passport, Information Security Management, Fundamental Information Technology Engineer and Applied Information Technology Engineer, and the public questions listed above.',
     '틀린 곳은 문의 메일로 알려 주세요.': 'If you find a mistake, please let us know by email.',
     '일본 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'Japan IT Cert Study · Support · WhiteSheep Game Studio',
     '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
@@ -982,8 +982,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '기출문제의 이용': 'Use of past questions',
     '이 앱은 IPA가 공개한 IT 패스포트(2025·2026년도 각 100문항), 정보보안관리(2023~2026년도 각 15문항), 기본정보기술자(2023~2026년도 과목 A·B), 응용정보기술자(2021년 봄·2022년 가을·2023년 봄·2024년 봄 오전 각 80문항) 시험의 공개 문제를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
       'This app analyzes the public questions released by IPA for IT Passport (100 each for FY2025 and FY2026), Information Security Management (15 each for FY2023 to FY2026), Fundamental Information Technology Engineer (Subjects A and B, FY2023 to FY2026) and Applied Information Technology Engineer (80 morning questions each for spring 2021, autumn 2022, spring 2023 and spring 2024), and explains the concepts that were tested. It does not include question text or images; it shows related questions only by year and number and points to IPA’s official question books. Copyright belongs to IPA.',
-    '문제를 각 시험 실라버스(IP Ver.6.5, SG Ver.4.1, FE Ver.9.2, AP Ver.7.2)의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
-      'The basis for sorting questions into the categories of each exam’s syllabus (IP Ver.6.5, SG Ver.4.1, FE Ver.9.2, AP Ver.7.2), the concept explanations and the exam points were newly written by the operator and are not IPA’s official explanations. Sources are shown in line with IPA’s terms of use.',
+    '문제를 각 시험 실라버스의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
+      'The basis for sorting questions into the categories of each exam’s syllabus, the concept explanations and the exam points were newly written by the operator and are not IPA’s official explanations. Sources are shown in line with IPA’s terms of use.',
     '개념 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
       'Please send the concept or term name, the app version and what is wrong. Attach a screenshot if helpful, with personal information hidden.',
     '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역·읽기 도움·화면 테마 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
