@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#244d3f"/><path d="M12 20l10 25 10-20 10 20 10-25" fill="none" stroke="#f9f4e6" stroke-width="7" stroke-linejoin="round"/><circle cx="49" cy="13" r="4" fill="#d4b578"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="64" height="64"><title>WhiteSheep Game Studio</title><rect width="1024" height="1024" rx="230" fill="#244d3f"/><g transform="translate(512 512) scale(2.9) translate(-692 -648)">
+<path d="M797 692C834 730 785 765 733 753C686 742 653 722 613 737C592 745 598 769 576 773C559 776 549 766 554 753" stroke-width="10" stroke-linecap="round" stroke="#C79A3B"/>
+<path d="M742 717C792.81 717 834 675.81 834 625C834 574.19 792.81 533 742 533C691.19 533 650 574.19 650 625C650 675.81 691.19 717 742 717Z" fill="#C79A3B"/>
+<path d="M680 557C714 526 762 526 797 552C780 580 749 598 720 620C693 641 675 665 671 683C643 648 642 594 680 557Z" fill="#D4B578"/>
+<path d="M723 626C758 630 797 649 820 674C805 697 782 712 756 716C748 681 737 654 723 626Z" fill="#D4B578"/>
+<path d="M679 574C680 612 705 663 740 700M697 556C696 603 724 657 760 696M717 546C713 570 719 597 730 620" stroke-width="7" stroke-linecap="round" stroke="#244D3F"/>
+<path d="M736 575C749 562 762 554 775 549M744 597C762 579 781 568 796 564M758 615C777 599 798 590 814 589" stroke-width="7" stroke-linecap="round" stroke="#244D3F"/>
+<path d="M754 635C780 635 804 645 822 659M766 656C786 660 802 668 812 677M777 679C786 682 792 686 797 690" stroke-width="7" stroke-linecap="round" stroke="#244D3F"/>
+<path d="M661 625C666 617 672 611 678 607M665 654C673 641 680 633 688 627M679 677C686 665 693 657 701 651" stroke-width="7" stroke-linecap="round" stroke="#244D3F"/>
+</g></svg>

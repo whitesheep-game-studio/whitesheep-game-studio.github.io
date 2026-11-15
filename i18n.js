@@ -492,7 +492,136 @@ window.WHITESHEEP_TRANSLATIONS = {
     '이 앱은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험의 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
       'このアプリは、ITパスポート・情報セキュリティマネジメント・基本情報技術者・応用情報技術者の各試験について、シラバスの分野ごとの概念解説とIT用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
     'IT 패스포트·SG·FE·AP 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
-      'ITパスポート・SG・FE・APのシラバス分野ごとに、過去問に出た概念を日本語で解説し、IT用語500語もあわせて学べる日本のIT資格試験学習アプリ。'
+      'ITパスポート・SG・FE・APのシラバス分野ごとに、過去問に出た概念を日本語で解説し、IT用語500語もあわせて学べる日本のIT資格試験学習アプリ。',
+    '익숙한 한 판,': 'なじみの一局、',
+    '새로운 여유.': '新しいくつろぎ。',
+    '프리셀과 스파이더 솔리테어를 한 앱에서 즐기는 1인용 카드 게임, Solitaire Duo.': 'フリーセルとスパイダーソリティアを1つのアプリで楽しめる1人用カードゲーム、Solitaire Duo。',
+    'Android·iOS 출시 준비 중': 'Android・iOS 公開準備中',
+    'Solitaire Duo 알아보기 ↓': 'Solitaire Duoを見る ↓',
+    '책과 스페이드 카드, 스파이더 카드, 실타래를 그린 Solitaire Duo 아이콘': '本とスペードのカード、スパイダーのカード、毛糸玉を描いたSolitaire Duoのアイコン',
+    '두 가지 클래식 솔리테어': '2つの定番ソリティア',
+    프리셀: 'フリーセル',
+    '52장의 카드를 8개의 열과 4개의 프리셀로 정리해 네 파운데이션에 모읍니다. 되돌리기와 힌트를 제공합니다.':
+      '52枚のカードを8つの列と4つのフリーセルで整理し、4つの組札に集めます。元に戻す機能とヒントがあります。',
+    스파이더: 'スパイダー',
+    '1·2·4무늬 난이도를 고르고 같은 무늬의 K부터 A까지 런 8개를 완성합니다. 난이도별로 진행이 따로 저장됩니다.':
+      '1・2・4スートの難易度を選び、同じマークのKからAまでのランを8組完成させます。難易度ごとに進行が別々に保存されます。',
+    '이어하기와 설정': '続きからと設定',
+    '진행 상황은 기기에 자동 저장되어 이어서 할 수 있고, 언어는 기기 설정을 따르거나 직접 고를 수 있습니다.':
+      '進行状況は端末に自動保存され、続きから遊べます。言語は端末の設定に従うか、自分で選べます。',
+    '불편한 점을': '気になる点を',
+    '앱 버전과 기기 정보를 함께 보내 주시면 확인에 도움이 됩니다.': 'アプリのバージョンと端末情報を添えていただくと確認の助けになります。',
+    '사용 문의, 오류 제보, 개인정보 관련 요청을 이메일로 보내주세요.': 'ご利用に関するお問い合わせ、不具合のご報告、個人情報に関するご依頼はメールでお送りください。',
+    '오류를 발견하셨나요?': '不具合を見つけましたか？',
+    '앱 버전과 기기 모델, 운영체제 버전을 알려 주세요.': 'アプリのバージョン、端末モデル、OSのバージョンをお知らせください。',
+    '어떤 화면에서 무엇을 했을 때 문제가 생겼는지 적어 주세요.': 'どの画面で何をしたときに問題が起きたかをご記入ください。',
+    '필요하면 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': '必要に応じて画面を添付してください。個人情報は隠してください。',
+    '게임 기록은 어디에 있나요?': 'ゲームの記録はどこにありますか？',
+    '게임 진행, 되돌리기 기록, 통계, 카드 뒷면 수집 정보와 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제나 운영체제의 데이터 삭제로 기록이 사라질 수 있습니다.':
+      'ゲームの進行、元に戻す履歴、統計、カード裏面のコレクション情報、設定は端末に保存されます。運営者がサーバーで記録を閲覧・復元することはできません。アプリの削除やOSのデータ削除により記録が消えることがあります。',
+    '개인정보 관련 문의는 위 이메일로 보내주세요.': '個人情報に関するお問い合わせは上記のメールアドレスまでお送りください。',
+    'Solitaire Duo 개인정보처리방침': 'Solitaire Duo プライバシーポリシー',
+    '출시 전 초안 · 개인정보처리방침': '公開前ドラフト・プライバシーポリシー',
+    '시행일: 2026년 11월 15일': '発効日: 2026年11月15日',
+    '앱 명칭: WhiteSheep Solitaire Duo (표시명: Solitaire Duo / 패키지 ID: com.whitesheep0601.game001solitaireduo)':
+      'アプリ名: WhiteSheep Solitaire Duo（表示名: Solitaire Duo / パッケージID: com.whitesheep0601.game001solitaireduo）',
+    '개발자/게시자: WhiteSheep Game Studio': '開発者・提供者: WhiteSheep Game Studio',
+    '문의처: whitesheep0601@gmail.com': 'お問い合わせ先: whitesheep0601@gmail.com',
+    'WhiteSheep Game Studio(이하 "개발자")는 Solitaire Duo(이하 "앱") 이용자의 개인정보를 중요하게 생각하며, 앱 버전 1.0이 기기 데이터를 어떻게 처리하는지 아래와 같이 안내합니다.':
+      'WhiteSheep Game Studio（以下「開発者」）は、Solitaire Duo（以下「本アプリ」）をご利用いただくユーザーのプライバシーを尊重し、バージョン1.0におけるデータの取り扱いについて以下のとおり説明します。',
+    '1. 수집하는 개인정보 항목 (수집 없음)': '1. 収集する個人情報（収集なし）',
+    '앱 버전 1.0은 완전한 오프라인 단일 플레이 솔리테어(프리셀, 스파이더 솔리테어) 게임입니다. 개발자는 이용자의 이름, 이메일 주소, 전화번호, 위치정보, 기기 식별자, 연락처, 사진, 결제 정보 등 어떠한 개인정보도 수집, 저장, 외부 서버로 전송하거나 제3자에게 제공하지 않습니다.':
+      '本アプリ（バージョン1.0）は、オフラインで動作する1人用ソリティア（フリーセル、スパイダーソリティア）ゲームです。開発者は、氏名、メールアドレス、電話番号、位置情報、端末識別子、連絡先、写真、決済情報など、いかなる個人情報も収集、保存、外部サーバーへ送信、または第三者へ提供しません。',
+    '회원가입 및 계정 없음: 앱 이용을 위해 계정 생성이나 로그인이 필요하지 않습니다.': 'アカウント登録不要: 本アプリの利用にアカウント作成やログインは必要ありません。',
+    '네트워크 통신 없음: 앱 1.0은 게임 플레이, 통계, 카드 뒷면 수집 등 모든 기능을 오프라인으로 실행하며 외부 서버와 통신하지 않습니다.':
+      'ネットワーク通信なし: バージョン1.0では、ゲームプレイ、統計、カード裏面コレクションを含むすべての機能がオフラインで動作し、外部サーバーとの通信は行いません。',
+    '광고 및 분석 도구 없음: 앱 1.0에는 제3자 광고 SDK나 사용자 행동 분석(Analytics)·추적 SDK가 포함되어 있지 않습니다.':
+      '広告・解析ツールなし: バージョン1.0には、第三者の広告SDKや行動解析（アナリティクス）・トラッキングSDKは含まれていません。',
+    '인앱 결제 없음: 앱 1.0에서는 유료 결제나 상점 기능을 제공하지 않습니다.': 'アプリ内課金なし: バージョン1.0では、有料課金やストア機能は提供していません。',
+    '2. 기기 내 로컬 저장 데이터': '2. 端末内にのみ保存されるローカルデータ',
+    '앱은 원활한 게임 진행을 위해 이용자의 기기 내부 저장소(user://)에만 아래의 비개인 게임 데이터를 저장합니다. 이 데이터는 기기 밖으로 전송되지 않습니다.':
+      '本アプリは、ゲームの進行や設定を保持するため、お使いの端末内のローカルストレージ（user://）にのみ以下の非個人データを保存します。これらのデータが端末の外部へ送信されることはありません。',
+    '게임 진행 및 프로필 데이터 (user://profile.json 및 백업 .bak):': 'ゲーム進行およびプロフィールデータ（user://profile.json およびバックアップ .bak）:',
+    '게임 모드별(프리셀, 스파이더 1·2·4무늬) 현재 배치 시드(seed), 이동 기록, 되돌리기(Undo) 내역':
+      '各モード（フリーセル、スパイダー 1・2・4スート）の配置シード（seed）、手数・操作履歴、元に戻す（Undo）履歴',
+    '모드별 플레이 통계(시작 횟수, 첫 승리 횟수, 승률 계산용 기록, 최소 이동 수)': 'モード別のプレイ統計（開始回数、初勝利回数、勝率計算用データ、最少手数）',
+    '이벤트 기간(기기 현지 날짜 기준) 또는 베타 참여로 획득한 카드 뒷면 목록 및 장착 상태': 'イベント期間（端末の現地日付基準）またはベータ参加により獲得したカード裏面と装着状態',
+    '이용자가 선택한 앱 표시 언어(ko, ja, en)': 'ユーザーが選択した表示言語（ko、ja、en）',
+    '환경 설정 데이터 (user://preferences.cfg, user://music.cfg):': '環境設定データ（user://preferences.cfg、user://music.cfg）:',
+    '효과음 켜기/끄기 및 음량, 약한 진동(햅틱) 사용 여부, 모션 줄이기(Reduced motion) 설정':
+      '効果音のオン/オフと音量、弱い振動（ハプティクス）の設定、動きを減らす（視差・モーション軽減）設定',
+    '배경 음악 켜기/끄기 및 음량 설정': 'BGMのオン/オフと音量設定',
+    '이용자는 기기의 운영체제 설정에서 앱 데이터 삭제를 실행하거나 앱을 삭제(제거)함으로써 언제든지 기기에 저장된 모든 로컬 데이터를 직접 삭제할 수 있습니다. (단, 기기 운영체제의 시스템 자동 백업 설정에 따라 OS 제공자 클라우드에 앱 데이터가 백업될 수 있으며, 이는 각 OS 제공자의 정책과 이용자의 기기 설정에 따릅니다. Android 빌드는 시스템 자동 백업을 사용하지 않도록 설정되어 있습니다. iOS의 백업 동작은 iOS 출시 시점에 확인하여 이 방침을 갱신합니다.)':
+      'ユーザーは、端末のOS設定からアプリのデータを消去するか、本アプリをアンインストール（削除）することで、いつでも端末内のローカルデータをすべて削除できます。（なお、OSの自動バックアップ機能の設定によっては、OS提供者のクラウドにアプリデータがバックアップされる場合がありますが、これは各OS提供者のポリシーおよびユーザーの端末設定に従います。Androidビルドはシステムの自動バックアップを使用しない設定です。iOSでのバックアップの扱いはiOS版の公開時に確認し、本方針を更新します。）',
+    '3. 기기 권한 사용 안내': '3. 端末の権限（パーミッション）について',
+    "앱은 게임 중 카드 착지 등 피드백을 제공하기 위해 이용자가 설정에서 '약한 진동'을 켠 경우에 한하여 기기의 진동 권한(android.permission.VIBRATE)을 사용합니다. 이 권한은 개인정보에 접근하지 않습니다.":
+      '本アプリは、設定で「弱い振動」を有効にした場合に限り、カード操作時のフィードバックのために端末のバイブレーション権限（android.permission.VIBRATE）を使用します。この権限によって個人情報へアクセスすることはありません。',
+    '4. 스토어 플랫폼 사업자의 데이터 처리': '4. ストアプラットフォーム提供者によるデータ処理',
+    '이용자가 Google Play 스토어 또는 Apple App Store를 통해 앱을 다운로드·설치·업데이트하거나 OS 수준의 크래시 보고를 사용하는 경우, 해당 플랫폼 사업자(Google LLC 또는 Apple Inc.)가 자체 개인정보처리방침에 따라 설치 기록, 기기 정보, 진단 데이터 등을 수집·처리할 수 있습니다. 개발자는 이를 통해 이용자 개인을 식별하지 않으며, 플랫폼 사업자의 데이터 처리에 관한 자세한 내용은 Google 또는 Apple의 개인정보처리방침을 참고하시기 바랍니다.':
+      'Google Play ストアまたは Apple App Store を通じて本アプリをダウンロード・インストール・更新する場合、またはOSレベルのクラッシュレポート機能を利用する場合、プラットフォーム提供者（Google LLC または Apple Inc.）が独自のプライバシーポリシーに基づき、インストール情報、端末情報、診断データ等を収集・処理することがあります。開発者がこれらを通じて個人を特定することはありません。詳細は Google または Apple のプライバシーポリシーをご確認ください。',
+    '5. 아동의 개인정보 보호': '5. お子様のプライバシー',
+    '앱은 아동을 포함한 모든 연령의 이용자로부터 어떠한 개인정보도 수집하지 않습니다. 앱은 13세 이상 이용자를 대상으로 하며, 아동을 대상으로 하지 않습니다.':
+      '本アプリは、お子様を含むすべての年齢のユーザーから個人情報を一切収集しません。本アプリは13歳以上のユーザーを対象としており、子ども向けではありません。',
+    '6. 개인정보처리방침의 변경': '6. プライバシーポリシーの変更',
+    '향후 업데이트를 통해 신규 기능(예: 선택적 인앱 구매 또는 광고 등)이 도입되어 데이터 처리 방식이 변경되는 경우, 해당 기능이 활성화되기 전에 본 개인정보처리방침을 개정하고 스토어 페이지 및 앱을 통해 고지합니다.':
+      '将来のアップデートにより新機能（任意のアプリ内課金や広告など）が追加され、データの取り扱い方法が変更される場合は、当該機能が有効化される前に本プライバシーポリシーを改定し、ストアページおよびアプリ内でお知らせします。',
+    '7. 문의처': '7. お問い合わせ先',
+    '본 방침에 관한 문의 사항은 아래 연락처로 문의해 주시기 바랍니다.': '本ポリシーに関するご質問は、下記までお問い合わせください。',
+    '이메일: whitesheep0601@gmail.com': 'メール: whitesheep0601@gmail.com',
+    '웹사이트/정책 URL: https://whitesheep-game-studio.github.io/apps/solitaire-duo/privacy/':
+      'ウェブサイト / ポリシーURL: https://whitesheep-game-studio.github.io/apps/solitaire-duo/privacy/',
+    '이 방침은 출시 전 초안이며 앱 출시와 함께 확정됩니다.': '本ポリシーは公開前のドラフトであり、アプリの公開に合わせて確定します。',
+    '이 페이지는 Solitaire Duo에 포함된 제3자 자료의 출처와 이용 조건을 안내합니다.': 'このページはSolitaire Duoに含まれる第三者の素材の出典と利用条件を案内します。',
+    '게임 엔진': 'ゲームエンジン',
+    'Godot Engine 4.7.2는 MIT 라이선스로 제공됩니다.': 'Godot Engine 4.7.2はMITライセンスで提供されています。',
+    'Godot 라이선스': 'Godotのライセンス',
+    글꼴: 'フォント',
+    'Noto Sans KR, Noto Sans JP, Source Serif 4는 SIL Open Font License 1.1로 제공됩니다.':
+      'Noto Sans KR、Noto Sans JP、Source Serif 4はSIL Open Font License 1.1で提供されています。',
+    'SIL OFL 1.1 안내': 'SIL OFL 1.1について',
+    '배경 음악': 'BGM',
+    'J. S. 바흐 평균율 클라비어곡집 1권 전주곡 C장조 BWV 846, Kimiko Ishizaka 연주 녹음은 CC0 1.0으로 공개되어 있습니다.':
+      'J. S. バッハ「平均律クラヴィーア曲集第1巻」前奏曲ハ長調 BWV 846、Kimiko Ishizakaの演奏録音はCC0 1.0で公開されています。',
+    'CC0 1.0 안내': 'CC0 1.0について',
+    '자체 제작 자료': '自社制作の素材',
+    '카드 그래픽, 카드 뒷면, 효과음, 앱 이름과 아이콘은 WhiteSheep Game Studio가 직접 제작했으며 위 조건에 포함되지 않습니다.':
+      'カードのグラフィック、カードの裏面、効果音、アプリ名とアイコンはWhiteSheep Game Studioが制作したもので、上記の条件には含まれません。',
+    'Solitaire Duo 서비스 이용약관': 'Solitaire Duo サービス利用規約',
+    '최종 갱신 2026년 11월 15일 · 출시 전 초안': '最終更新 2026年11月15日・公開前ドラフト',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 카드 게임 앱 ‘Solitaire Duo’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
+      '本規約は、초록지붕이층집（開発者ブランド WhiteSheep Game Studio）が提供するカードゲームアプリ「Solitaire Duo」の利用条件を説明します。ご利用の前にご確認ください。',
+    'Solitaire Duo는 프리셀과 스파이더 솔리테어를 즐길 수 있는 1인용 카드 게임 앱입니다. 이 약관은 Solitaire Duo 앱과 관련 지원에 적용되며 다른 앱에는 자동으로 적용되지 않습니다. 기능은 업데이트될 수 있습니다.':
+      'Solitaire Duoは、フリーセルとスパイダーソリティアを楽しめる1人用カードゲームアプリです。本規約はSolitaire Duoアプリと関連サポートに適用され、他のアプリには自動的には適用されません。機能は更新されることがあります。',
+    '이용자는 관련 법령을 준수하고 앱을 정상적인 개인 이용 목적으로 사용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스 운영을 방해해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
+      '利用者は関連法令を守り、通常の個人利用の目的でアプリを使用してください。アプリやコンテンツを無断で複製・再配布したり、サービスの運営を妨げたりしてはなりません。法令で認められる利用者の権利は制限しません。',
+    '3. 게임 진행과 저장 데이터': '3. ゲームの進行と保存データ',
+    '게임 진행, 되돌리기 기록, 통계, 카드 뒷면 수집 정보와 설정은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'ゲームの進行、元に戻す履歴、統計、カード裏面のコレクション情報、設定は端末に保存されます。アプリの削除、データの初期化、端末の変更、OSの動作により記録が消えたり復元されたりすることがあります。',
+    '4. 광고 및 결제': '4. 広告と決済',
+    '현재 앱에는 광고와 앱 내 결제가 없습니다. 향후 광고나 유료 기능이 도입되면 해당 기능이 활성화되기 전에 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
+      '現在、アプリには広告とアプリ内課金はありません。今後、広告や有料機能を導入する場合は、その機能を有効にする前にアプリ内の案内と関連ポリシーを更新します。ストアでの購入を導入する場合は、そのストアの決済・返金規定と関連法令が適用されます。',
+    '5. 지식재산권': '5. 知的財産権',
+    '앱의 디자인, 자체 제작 그래픽·효과음 및 소프트웨어에 관한 권리는 운영자 또는 정당한 권리자에게 귀속됩니다. 제3자 자료에는 해당 자료의 라이선스가 우선 적용되며, 출처는 출처·이용 조건 페이지에서 확인할 수 있습니다.':
+      'アプリのデザイン、自社制作のグラフィック・効果音、ソフトウェアに関する権利は、運営者または正当な権利者に帰属します。第三者の素材にはその素材のライセンスが優先して適用され、出典は出典・利用条件のページで確認できます。',
+    '6. 서비스 변경 및 중단': '6. サービスの変更と中断',
+    '기능 개선, 보안, 운영 또는 불가피한 사유로 서비스의 일부를 변경하거나 중단할 수 있습니다.':
+      '機能の改善、セキュリティ、運営、またはやむを得ない事由により、サービスの一部を変更または中断することがあります。',
+    '7. 면책': '7. 免責',
+    '앱은 오락 목적으로 제공되며 모든 배치가 풀 수 있다고 보장하지 않습니다. 이용자의 법령상 권리에는 영향을 주지 않습니다.':
+      'アプリは娯楽を目的として提供されており、すべての配置が解けることを保証するものではありません。法令に基づく利用者の権利には影響しません。',
+    '8. 문의': '8. お問い合わせ',
+    '약관에 관한 문의는 지원 페이지의 이메일로 보내 주세요.': '規約に関するお問い合わせは、サポートページのメールアドレスまでお送りください。',
+    '익숙한 한 판, 새로운 여유.': 'なじみの一局、新しいくつろぎ。',
+    '프리셀과 스파이더 솔리테어를 한 앱에서 즐기는 1인용 카드 게임.': 'フリーセルとスパイダーソリティアを1つのアプリで楽しめる1人用カードゲーム。',
+    '개인정보처리방침 초안 · 2026-11-15': 'プライバシーポリシー（ドラフト）・2026-11-15',
+    게임: 'ゲーム',
+    '전체 4개': '全4件',
+    '게임 · Android / iOS': 'ゲーム · Android / iOS',
+    'Solitaire Duo · WhiteSheep Game Studio': 'Solitaire Duo · WhiteSheep Game Studio',
+    'Solitaire Duo · 지원 · WhiteSheep Game Studio': 'Solitaire Duo · サポート · WhiteSheep Game Studio',
+    'Solitaire Duo · 개인정보 안내 · WhiteSheep Game Studio': 'Solitaire Duo · プライバシーポリシー · WhiteSheep Game Studio',
+    'Solitaire Duo · 출처·이용 조건 · WhiteSheep Game Studio': 'Solitaire Duo · 出典・利用条件 · WhiteSheep Game Studio',
+    'Solitaire Duo · 서비스 이용약관 · WhiteSheep Game Studio': 'Solitaire Duo · 利用規約 · WhiteSheep Game Studio'
   },
   en: {
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
@@ -991,7 +1120,138 @@ window.WHITESHEEP_TRANSLATIONS = {
     '이 앱은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험의 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
       'This is an unofficial educational app that helps you learn concepts and IT terminology by syllabus area for the IT Passport, Information Security Management, Fundamental Information Technology Engineer and Applied Information Technology Engineer exams. These terms apply only to this app and its related support.',
     'IT 패스포트·SG·FE·AP 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
-      'A study app for Japanese IT exams that explains, in Japanese, concepts that appeared in past questions by syllabus area for IT Passport, SG, FE and AP, together with 500 IT terms.'
+      'A study app for Japanese IT exams that explains, in Japanese, concepts that appeared in past questions by syllabus area for IT Passport, SG, FE and AP, together with 500 IT terms.',
+    '익숙한 한 판,': 'A familiar game.',
+    '새로운 여유.': 'A fresh moment.',
+    '프리셀과 스파이더 솔리테어를 한 앱에서 즐기는 1인용 카드 게임, Solitaire Duo.': 'Solitaire Duo is a single-player card game with FreeCell and Spider Solitaire in one app.',
+    'Android·iOS 출시 준비 중': 'Android and iOS coming soon',
+    'Solitaire Duo 알아보기 ↓': 'Learn about Solitaire Duo ↓',
+    '책과 스페이드 카드, 스파이더 카드, 실타래를 그린 Solitaire Duo 아이콘': 'Solitaire Duo icon showing a book, a spade card, a spider card and a ball of yarn',
+    '두 가지 클래식 솔리테어': 'Two classic solitaires',
+    프리셀: 'FreeCell',
+    '52장의 카드를 8개의 열과 4개의 프리셀로 정리해 네 파운데이션에 모읍니다. 되돌리기와 힌트를 제공합니다.':
+      'Sort 52 cards across eight columns and four free cells onto four foundations. Undo and hints are included.',
+    스파이더: 'Spider',
+    '1·2·4무늬 난이도를 고르고 같은 무늬의 K부터 A까지 런 8개를 완성합니다. 난이도별로 진행이 따로 저장됩니다.':
+      'Pick 1, 2 or 4 suits and build eight same-suit runs from K to A. Each difficulty saves its own progress.',
+    '이어하기와 설정': 'Resume and settings',
+    '진행 상황은 기기에 자동 저장되어 이어서 할 수 있고, 언어는 기기 설정을 따르거나 직접 고를 수 있습니다.':
+      'Progress is saved on your device so you can resume, and the language follows your device or can be chosen manually.',
+    '불편한 점을': 'Tell us what',
+    '앱 버전과 기기 정보를 함께 보내 주시면 확인에 도움이 됩니다.': 'Including the app version and your device model helps us look into it.',
+    '사용 문의, 오류 제보, 개인정보 관련 요청을 이메일로 보내주세요.': 'Send questions, bug reports and privacy requests by email.',
+    '오류를 발견하셨나요?': 'Found a problem?',
+    '앱 버전과 기기 모델, 운영체제 버전을 알려 주세요.': 'Tell us the app version, device model and operating system version.',
+    '어떤 화면에서 무엇을 했을 때 문제가 생겼는지 적어 주세요.': 'Describe what you did on which screen when the problem happened.',
+    '필요하면 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': 'Attach a screenshot if it helps, and hide any personal information.',
+    '게임 기록은 어디에 있나요?': 'Where is my game data?',
+    '게임 진행, 되돌리기 기록, 통계, 카드 뒷면 수집 정보와 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제나 운영체제의 데이터 삭제로 기록이 사라질 수 있습니다.':
+      'Game progress, undo history, statistics, card-back collection and settings are stored on your device. We cannot view or restore them from a server. Deleting the app or clearing its data may remove them.',
+    '개인정보 관련 문의는 위 이메일로 보내주세요.': 'Send privacy-related requests to the email address above.',
+    'Solitaire Duo 개인정보처리방침': 'Solitaire Duo Privacy Policy',
+    '출시 전 초안 · 개인정보처리방침': 'Pre-release draft · Privacy policy',
+    '시행일: 2026년 11월 15일': 'Effective Date: November 15, 2026',
+    '앱 명칭: WhiteSheep Solitaire Duo (표시명: Solitaire Duo / 패키지 ID: com.whitesheep0601.game001solitaireduo)':
+      'Application Name: WhiteSheep Solitaire Duo (Display Name: Solitaire Duo / Package ID: com.whitesheep0601.game001solitaireduo)',
+    '개발자/게시자: WhiteSheep Game Studio': 'Developer / Publisher: WhiteSheep Game Studio',
+    '문의처: whitesheep0601@gmail.com': 'Contact: whitesheep0601@gmail.com',
+    'WhiteSheep Game Studio(이하 "개발자")는 Solitaire Duo(이하 "앱") 이용자의 개인정보를 중요하게 생각하며, 앱 버전 1.0이 기기 데이터를 어떻게 처리하는지 아래와 같이 안내합니다.':
+      'WhiteSheep Game Studio ("Developer", "we", "us", or "our") respects your privacy. This Privacy Policy explains how Solitaire Duo (the "App") handles information in version 1.0.',
+    '1. 수집하는 개인정보 항목 (수집 없음)': '1. Information We Collect (No Personal Data Collected)',
+    '앱 버전 1.0은 완전한 오프라인 단일 플레이 솔리테어(프리셀, 스파이더 솔리테어) 게임입니다. 개발자는 이용자의 이름, 이메일 주소, 전화번호, 위치정보, 기기 식별자, 연락처, 사진, 결제 정보 등 어떠한 개인정보도 수집, 저장, 외부 서버로 전송하거나 제3자에게 제공하지 않습니다.':
+      'Solitaire Duo (version 1.0) is a standalone, offline single-player solitaire game (FreeCell and Spider Solitaire). We do not collect, store, transmit to external servers, or share with third parties any personal data or personally identifiable information (such as your name, email address, phone number, location, device identifiers, contacts, photos, or payment information).',
+    '회원가입 및 계정 없음: 앱 이용을 위해 계정 생성이나 로그인이 필요하지 않습니다.': 'No Accounts or Login: You do not need to create an account or sign in to play the App.',
+    '네트워크 통신 없음: 앱 1.0은 게임 플레이, 통계, 카드 뒷면 수집 등 모든 기능을 오프라인으로 실행하며 외부 서버와 통신하지 않습니다.':
+      'No Network Communication: In version 1.0, all gameplay, statistics, and card-back collection features run entirely offline on your device without communicating with external servers .',
+    '광고 및 분석 도구 없음: 앱 1.0에는 제3자 광고 SDK나 사용자 행동 분석(Analytics)·추적 SDK가 포함되어 있지 않습니다.':
+      'No Ads or Analytics SDKs: Version 1.0 contains no third-party advertising SDKs, analytics tools, or user tracking technologies.',
+    '인앱 결제 없음: 앱 1.0에서는 유료 결제나 상점 기능을 제공하지 않습니다.': 'No In-App Purchases: Version 1.0 does not offer in-app purchases or store transactions.',
+    '2. 기기 내 로컬 저장 데이터': '2. Local On-Device Storage',
+    '앱은 원활한 게임 진행을 위해 이용자의 기기 내부 저장소(user://)에만 아래의 비개인 게임 데이터를 저장합니다. 이 데이터는 기기 밖으로 전송되지 않습니다.':
+      'To save your game progress and preferences, the App stores the following non-personal game data strictly locally on your device (user://). This data never leaves your device through the App:',
+    '게임 진행 및 프로필 데이터 (user://profile.json 및 백업 .bak):': 'Game Progress and Profile Data (user://profile.json and backup .bak):',
+    '게임 모드별(프리셀, 스파이더 1·2·4무늬) 현재 배치 시드(seed), 이동 기록, 되돌리기(Undo) 내역':
+      'Current deal seed, move history, and Undo history for each mode (FreeCell and Spider 1-, 2-, and 4-suit modes)',
+    '모드별 플레이 통계(시작 횟수, 첫 승리 횟수, 승률 계산용 기록, 최소 이동 수)':
+      'Per-mode play statistics (games started, first victories, win-rate counters, and best move counts)',
+    '이벤트 기간(기기 현지 날짜 기준) 또는 베타 참여로 획득한 카드 뒷면 목록 및 장착 상태':
+      "Unlocked and equipped card-back designs earned via local calendar event windows (evaluated against your device's local date) or beta participation",
+    '이용자가 선택한 앱 표시 언어(ko, ja, en)': 'Your selected in-app display language (ko, ja, en)',
+    '환경 설정 데이터 (user://preferences.cfg, user://music.cfg):': 'User Preferences (user://preferences.cfg, user://music.cfg):',
+    '효과음 켜기/끄기 및 음량, 약한 진동(햅틱) 사용 여부, 모션 줄이기(Reduced motion) 설정':
+      'Sound effects toggle and volume, subtle vibration (haptics) toggle, and Reduce motion setting',
+    '배경 음악 켜기/끄기 및 음량 설정': 'Background music toggle and volume setting',
+    '이용자는 기기의 운영체제 설정에서 앱 데이터 삭제를 실행하거나 앱을 삭제(제거)함으로써 언제든지 기기에 저장된 모든 로컬 데이터를 직접 삭제할 수 있습니다. (단, 기기 운영체제의 시스템 자동 백업 설정에 따라 OS 제공자 클라우드에 앱 데이터가 백업될 수 있으며, 이는 각 OS 제공자의 정책과 이용자의 기기 설정에 따릅니다. Android 빌드는 시스템 자동 백업을 사용하지 않도록 설정되어 있습니다. iOS의 백업 동작은 iOS 출시 시점에 확인하여 이 방침을 갱신합니다.)':
+      "You can delete all locally stored data at any time by clearing the App's storage in your device's operating system settings or by uninstalling the App. (Depending on your device's OS settings, operating system backup features such as Android Auto Backup or iOS iCloud Backup may back up local app data under your OS provider's terms and settings. WhiteSheep Game Studio)",
+    '3. 기기 권한 사용 안내': '3. Device Permissions',
+    "앱은 게임 중 카드 착지 등 피드백을 제공하기 위해 이용자가 설정에서 '약한 진동'을 켠 경우에 한하여 기기의 진동 권한(android.permission.VIBRATE)을 사용합니다. 이 권한은 개인정보에 접근하지 않습니다.":
+      'When you enable "Subtle vibration" in the in-game settings, the App uses the device\'s vibration permission (android.permission.VIBRATE) solely to provide tactile feedback during card interactions. This permission does not access any personal data.',
+    '4. 스토어 플랫폼 사업자의 데이터 처리': '4. Store Platform Providers',
+    '이용자가 Google Play 스토어 또는 Apple App Store를 통해 앱을 다운로드·설치·업데이트하거나 OS 수준의 크래시 보고를 사용하는 경우, 해당 플랫폼 사업자(Google LLC 또는 Apple Inc.)가 자체 개인정보처리방침에 따라 설치 기록, 기기 정보, 진단 데이터 등을 수집·처리할 수 있습니다. 개발자는 이를 통해 이용자 개인을 식별하지 않으며, 플랫폼 사업자의 데이터 처리에 관한 자세한 내용은 Google 또는 Apple의 개인정보처리방침을 참고하시기 바랍니다.':
+      "When you download, install, or update the App through Google Play or the Apple App Store, or if you enable OS-level crash/diagnostics reporting, the platform provider (Google LLC or Apple Inc.) may collect and process installation records, device information, and diagnostic data under their own privacy policies. We do not receive information that identifies you personally from these reports. Please refer to Google's or Apple's Privacy Policy for details on their practices.",
+    '5. 아동의 개인정보 보호': "5. Children's Privacy",
+    '앱은 아동을 포함한 모든 연령의 이용자로부터 어떠한 개인정보도 수집하지 않습니다. 앱은 13세 이상 이용자를 대상으로 하며, 아동을 대상으로 하지 않습니다.':
+      'The App does not collect personal information from anyone, including children of any age. The app is intended for users aged 13 and over and is not directed at children.',
+    '6. 개인정보처리방침의 변경': '6. Changes to This Privacy Policy',
+    '향후 업데이트를 통해 신규 기능(예: 선택적 인앱 구매 또는 광고 등)이 도입되어 데이터 처리 방식이 변경되는 경우, 해당 기능이 활성화되기 전에 본 개인정보처리방침을 개정하고 스토어 페이지 및 앱을 통해 고지합니다.':
+      'If future updates introduce new features (such as optional in-app purchases or advertising) that change how data is handled, we will update this Privacy Policy and notify users via the store listing and/or within the App before any such features become active.',
+    '7. 문의처': '7. Contact Us',
+    '본 방침에 관한 문의 사항은 아래 연락처로 문의해 주시기 바랍니다.': 'If you have any questions about this Privacy Policy, please contact us at:',
+    '이메일: whitesheep0601@gmail.com': 'Email: whitesheep0601@gmail.com',
+    '웹사이트/정책 URL: https://whitesheep-game-studio.github.io/apps/solitaire-duo/privacy/':
+      'Website / Policy URL: https://whitesheep-game-studio.github.io/apps/solitaire-duo/privacy/',
+    '이 방침은 출시 전 초안이며 앱 출시와 함께 확정됩니다.': 'This policy is a pre-release draft and will be finalized with the app release.',
+    '이 페이지는 Solitaire Duo에 포함된 제3자 자료의 출처와 이용 조건을 안내합니다.': 'This page lists the sources and licenses of third-party material included in Solitaire Duo.',
+    '게임 엔진': 'Game engine',
+    'Godot Engine 4.7.2는 MIT 라이선스로 제공됩니다.': 'Godot Engine 4.7.2 is provided under the MIT license.',
+    'Godot 라이선스': 'Godot license',
+    글꼴: 'Fonts',
+    'Noto Sans KR, Noto Sans JP, Source Serif 4는 SIL Open Font License 1.1로 제공됩니다.':
+      'Noto Sans KR, Noto Sans JP and Source Serif 4 are provided under the SIL Open Font License 1.1.',
+    'SIL OFL 1.1 안내': 'About SIL OFL 1.1',
+    '배경 음악': 'Background music',
+    'J. S. 바흐 평균율 클라비어곡집 1권 전주곡 C장조 BWV 846, Kimiko Ishizaka 연주 녹음은 CC0 1.0으로 공개되어 있습니다.':
+      "The recording of J. S. Bach's Prelude in C major, BWV 846 from The Well-Tempered Clavier, performed by Kimiko Ishizaka, is released under CC0 1.0.",
+    'CC0 1.0 안내': 'About CC0 1.0',
+    '자체 제작 자료': 'Original material',
+    '카드 그래픽, 카드 뒷면, 효과음, 앱 이름과 아이콘은 WhiteSheep Game Studio가 직접 제작했으며 위 조건에 포함되지 않습니다.':
+      'Card graphics, card backs, sound effects, the app name and icon are made by WhiteSheep Game Studio and are not covered by the licenses above.',
+    'Solitaire Duo 서비스 이용약관': 'Solitaire Duo Terms of Service',
+    '최종 갱신 2026년 11월 15일 · 출시 전 초안': 'Last updated November 15, 2026 · Pre-release draft',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 카드 게임 앱 ‘Solitaire Duo’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
+      'These terms describe the conditions for using Solitaire Duo, the card game app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before you use the app.',
+    'Solitaire Duo는 프리셀과 스파이더 솔리테어를 즐길 수 있는 1인용 카드 게임 앱입니다. 이 약관은 Solitaire Duo 앱과 관련 지원에 적용되며 다른 앱에는 자동으로 적용되지 않습니다. 기능은 업데이트될 수 있습니다.':
+      'Solitaire Duo is a single-player card game app with FreeCell and Spider Solitaire. These terms apply to the Solitaire Duo app and its support, not automatically to other apps. Features may change with updates.',
+    '이용자는 관련 법령을 준수하고 앱을 정상적인 개인 이용 목적으로 사용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스 운영을 방해해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
+      'You must follow applicable laws and use the app for normal personal purposes. Do not copy or redistribute the app or its content without permission, or interfere with the service. Your rights under applicable law are not limited.',
+    '3. 게임 진행과 저장 데이터': '3. Game progress and stored data',
+    '게임 진행, 되돌리기 기록, 통계, 카드 뒷면 수집 정보와 설정은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'Game progress, undo history, statistics, card-back collection and settings are stored on your device. Deleting the app, clearing data, changing devices or operating system behavior may remove or restore them.',
+    '4. 광고 및 결제': '4. Advertising and payments',
+    '현재 앱에는 광고와 앱 내 결제가 없습니다. 향후 광고나 유료 기능이 도입되면 해당 기능이 활성화되기 전에 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
+      "The app currently has no advertising and no in-app purchases. If ads or paid features are introduced later, in-app notices and related policies will be updated before they are enabled. If store purchases are introduced, the store's payment and refund rules and applicable laws apply.",
+    '5. 지식재산권': '5. Intellectual property',
+    '앱의 디자인, 자체 제작 그래픽·효과음 및 소프트웨어에 관한 권리는 운영자 또는 정당한 권리자에게 귀속됩니다. 제3자 자료에는 해당 자료의 라이선스가 우선 적용되며, 출처는 출처·이용 조건 페이지에서 확인할 수 있습니다.':
+      "Rights in the app's design, original graphics and sound effects, and software belong to the operator or the rightful owners. Third-party material is governed first by its own license; sources are listed on the sources and credits page.",
+    '6. 서비스 변경 및 중단': '6. Changes and discontinuation',
+    '기능 개선, 보안, 운영 또는 불가피한 사유로 서비스의 일부를 변경하거나 중단할 수 있습니다.':
+      'We may change or discontinue parts of the service for improvements, security, operations or unavoidable reasons.',
+    '7. 면책': '7. Limitation of responsibility',
+    '앱은 오락 목적으로 제공되며 모든 배치가 풀 수 있다고 보장하지 않습니다. 이용자의 법령상 권리에는 영향을 주지 않습니다.':
+      'The app is provided for entertainment and does not guarantee that every deal is solvable. Your rights under applicable law are not affected.',
+    '8. 문의': '8. Contact',
+    '약관에 관한 문의는 지원 페이지의 이메일로 보내 주세요.': 'Send questions about these terms to the email address on the support page.',
+    '익숙한 한 판, 새로운 여유.': 'A familiar game. A fresh moment.',
+    '프리셀과 스파이더 솔리테어를 한 앱에서 즐기는 1인용 카드 게임.': 'A single-player card game with FreeCell and Spider Solitaire in one app.',
+    '개인정보처리방침 초안 · 2026-11-15': 'Privacy policy draft · 2026-11-15',
+    게임: 'Games',
+    '전체 4개': '4 total',
+    '게임 · Android / iOS': 'Games · Android / iOS',
+    'Solitaire Duo · WhiteSheep Game Studio': 'Solitaire Duo · WhiteSheep Game Studio',
+    'Solitaire Duo · 지원 · WhiteSheep Game Studio': 'Solitaire Duo · Support · WhiteSheep Game Studio',
+    'Solitaire Duo · 개인정보 안내 · WhiteSheep Game Studio': 'Solitaire Duo · Privacy · WhiteSheep Game Studio',
+    'Solitaire Duo · 출처·이용 조건 · WhiteSheep Game Studio': 'Solitaire Duo · Sources and credits · WhiteSheep Game Studio',
+    'Solitaire Duo · 서비스 이용약관 · WhiteSheep Game Studio': 'Solitaire Duo · Terms of Service · WhiteSheep Game Studio'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */
