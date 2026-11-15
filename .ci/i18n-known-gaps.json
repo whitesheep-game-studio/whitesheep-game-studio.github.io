@@ -196,8 +196,8 @@
       "locations": ["index.html:meta:og:title", "index.html:title"]
     },
     {
-      "id": "text.f99066e5f189ffd155d6",
-      "source": "를 확인해 주세요. 출시 전 초안과 최종 방침을 구분해 표시합니다.",
+      "id": "text.b5266da96f1c536a6532",
+      "source": "를 확인해 주세요.",
       "locales": ["en", "ja"],
       "locations": ["privacy/index.html:text"]
     },
