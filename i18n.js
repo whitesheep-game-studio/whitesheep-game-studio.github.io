@@ -845,12 +845,12 @@ window.WHITESHEEP_TRANSLATIONS = {
     '8. 책임과 이용자 권리': '8. Responsibility and user rights',
     '9. 약관 변경과 문의': '9. Changes to these terms and contact',
     '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Terms of Service · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 공부 · WhiteSheep Game Studio': 'Japan IT Cert Study · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 공부': 'Japan IT Cert Study',
+    '일본 IT 국가자격증 공부 · WhiteSheep Game Studio': 'Japanese IT Cert Prep · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부': 'Japanese IT Cert Prep',
     '일본 IT 국가자격증,': 'Japan’s IT certification,',
     '결 따라 차근차근.': 'one step at a time.',
     'IT 패스포트 공개 기출과 IT 용어를 일본어 원문으로 익히는 학습 앱, 일본 IT 국가자격증 공부.':
-      'A study app for the public IT Passport past questions and IT terms in the original Japanese: Japan IT Cert Study.',
+      'A study app for the public IT Passport past questions and IT terms in the original Japanese: Japanese IT Cert Prep.',
     'Android 출시 예정': 'Android coming soon',
     '앱 알아보기 ↓': 'Explore the app ↓',
     '펼친 책과 톱니, 실뭉치를 표현한 일본 IT 국가자격증 공부 심벌': 'Yui symbol showing an open book, a gear and a ball of yarn',
@@ -868,11 +868,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     '최대 10문항 15분 모의시험과 틀린 문제 기록을 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
       'A mock exam of up to 10 questions in 15 minutes and your record of missed questions are saved on your device. No account or server is needed.',
     '문제 번호와 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': 'Sending the question number together with the app version helps us check.',
-    '일본 IT 국가자격증 공부 · 개인정보 안내 · WhiteSheep Game Studio': 'Japan IT Cert Study · Privacy Policy · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 공부 개인정보처리방침': 'Japan IT Cert Study Privacy Policy',
+    '일본 IT 국가자격증 공부 · 개인정보 안내 · WhiteSheep Game Studio': 'Japanese IT Cert Prep · Privacy Policy · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 개인정보처리방침': 'Japanese IT Cert Prep Privacy Policy',
     '최종 갱신 2026년 11월 14일': 'Last updated November 14, 2026',
     '초록지붕이층집은 일본 IT 국가자격증 공부 — 일본 IT 자격시험 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
-      '초록지붕이층집 explains how personal information is handled in Japan IT Cert Study, a study app for Japanese IT exams. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence and the web page that hosts this policy.',
+      '초록지붕이층집 explains how personal information is handled in Japanese IT Cert Prep, a study app for Japanese IT exams. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence and the web page that hosts this policy.',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장되며 앱이 외부로 전송하지 않습니다.':
       'The app has no account sign-up, own server, analytics SDK, advertising SDK or payment feature. Study records are stored on your device and are not sent anywhere by the app.',
     '풀이 기록과 시각, 오답 기록, 북마크, 모의시험의 문항·선택·종료 시각, 일본어 이해도, 표시 언어, 보조 언어, 번역·후리가나 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
@@ -895,7 +895,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 이용 대상과 변경': '7. Intended users and changes',
     '연령 확인을 위한 생년월일이나 신분증을 수집하지 않습니다. 처리 목적·항목·제공자가 바뀌면 이 페이지의 일자와 내용을 갱신하고 시행 전에 안내합니다.':
       'We do not collect birth dates or ID documents to verify age. If purposes, items or providers of processing change, we will update the date and content of this page and give notice before the change takes effect.',
-    '일본 IT 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': 'Japan IT Cert Study · Sources and Terms of Use · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': 'Japanese IT Cert Prep · Sources and Terms of Use · WhiteSheep Game Studio',
     '이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.': 'This page describes the sources and terms the app points to.',
     '비공식 앱': 'Unofficial app',
     '이 앱은 독립행정법인 정보처리추진기구(IPA)와 관련이 없는 비공식 학습 앱입니다. IPA의 인증이나 추천을 받지 않았으며 합격을 보장하지 않습니다. IPA의 로고와 명칭을 사용한 공식 표시는 없습니다.':
@@ -916,17 +916,17 @@ window.WHITESHEEP_TRANSLATIONS = {
     '수록 내용은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험 실라버스와 위에 적은 공개 문제를 기준으로 합니다.':
       'Content is based on the syllabi of IT Passport, Information Security Management, Fundamental Information Technology Engineer and Applied Information Technology Engineer, and the public questions listed above.',
     '틀린 곳은 문의 메일로 알려 주세요.': 'If you find a mistake, please let us know by email.',
-    '일본 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'Japan IT Cert Study · Support · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'Japanese IT Cert Prep · Support · WhiteSheep Game Studio',
     '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
       'Please send the year and question number or the term, the app version and what is wrong. Attach a screenshot if helpful, with personal information hidden.',
     '풀이 기록, 오답, 북마크, 모의시험 진행 상황, 표시 언어와 읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       'Answer history, missed questions, bookmarks, mock exam progress, display language and reading aid settings are stored on your device. The operator cannot view or recover records from a server. Depending on app removal, data deletion and backup settings, records may disappear or be restored.',
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다.':
       'Contact person: operator of 초록지붕이층집. Please send requests for access, correction or deletion to the email address above. Support email is deleted within 90 days after handling ends.',
-    '일본 IT 국가자격증 공부 · 서비스 이용약관 · WhiteSheep Game Studio': 'Japan IT Cert Study · Terms of Service · WhiteSheep Game Studio',
-    '일본 IT 국가자격증 공부 서비스 이용약관': 'Japan IT Cert Study Terms of Service',
+    '일본 IT 국가자격증 공부 · 서비스 이용약관 · WhiteSheep Game Studio': 'Japanese IT Cert Prep · Terms of Service · WhiteSheep Game Studio',
+    '일본 IT 국가자격증 공부 서비스 이용약관': 'Japanese IT Cert Prep Terms of Service',
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본 IT 자격시험 학습 앱 ‘일본 IT 국가자격증 공부’의 이용 조건을 안내합니다.':
-      'These terms describe the conditions of use for “Japan IT Cert Study”, a study app for Japanese IT exams provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+      'These terms describe the conditions of use for “Japanese IT Cert Prep”, a study app for Japanese IT exams provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
     '이 앱은 IT 패스포트 공개 기출과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
       'This is an unofficial educational app that helps you study public IT Passport past questions and IT terms. These terms apply only to this app and its related support.',
     '이용자는 관련 법령을 준수하고 정상적인 학습 목적으로 앱을 이용해야 합니다. 앱과 콘텐츠를 무단으로 복제·재배포하거나 서비스에 피해를 주는 방식으로 이용해서는 안 됩니다. 법령상 허용되는 이용자의 권리는 제한하지 않습니다.':
@@ -964,7 +964,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
       'Live advertising and in-app payment features are not currently enabled in the app. If ads or paid features are introduced, we will update in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.',
     'IT 패스포트·SG·FE·AP 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
-      'A study app that explains, in Japanese, the concepts that appeared in past questions, organized by exam area for IT Passport, SG, FE and AP: Japan IT Cert Study.',
+      'A study app that explains, in Japanese, the concepts that appeared in past questions, organized by exam area for IT Passport, SG, FE and AP: Japanese IT Cert Prep.',
     '기출을 푸는 대신,': 'Instead of solving past papers,',
     '나온 개념을 이해하세요.': 'understand the concepts they test.',
     'IT 패스포트(IP)·정보보안관리(SG)·기본정보기술자(FE)·응용정보기술자(AP)의 IPA 실라버스 중분류별로 공개 문제 684문항을 분석해, 실제로 출제된 개념 258개를 설명합니다. 번역은 숨김·눌러서 표시·항상 표시 중에서 고르고, 일본어 문장 아래에 한글 발음이나 로마자를 켤 수 있습니다.':
