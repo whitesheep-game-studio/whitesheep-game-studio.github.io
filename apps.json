@@ -35,5 +35,16 @@
     "platforms": ["Android"],
     "icon": "/assets/itcert/icon.svg",
     "policy_status": "개인정보처리방침 · 2026-11-14"
+  },
+  {
+    "slug": "solitaire-duo",
+    "name": "Solitaire Duo",
+    "tagline": "익숙한 한 판, 새로운 여유.",
+    "description": "프리셀과 스파이더 솔리테어를 한 앱에서 즐기는 1인용 카드 게임.",
+    "category": "게임",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/solitaire-duo/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-15"
   }
 ]
