@@ -37,11 +37,11 @@ test('language switching translates homepage and persists', async ({ page }) => 
 });
 test('app search and mobile layout', async ({ page }) => {
   await page.goto('/apps/');
-  await expect(page.locator('[data-app]')).toHaveCount(2);
+  await expect(page.locator('[data-app]')).toHaveCount(4);
   await page.locator('#app-search').fill('nothing-found-123');
   await expect(page.locator('[data-app]:visible')).toHaveCount(0);
   await page.locator('#app-search').fill('');
-  await expect(page.locator('[data-app]:visible')).toHaveCount(2);
+  await expect(page.locator('[data-app]:visible')).toHaveCount(4);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
 });
 test('homepage accessibility', async ({ page }) => {
@@ -55,21 +55,21 @@ test('localized counts preserve filters and update in all three languages', asyn
   await page.locator('#language-trigger').click();
   await page.locator('[data-language="en"]').click();
   await page.locator('#app-status').selectOption('출시 예정');
-  await expect(page.locator('[data-app]:visible')).toHaveCount(1);
-  await expect(page.locator('#app-count')).toHaveText('1 / 2 total');
+  await expect(page.locator('[data-app]:visible')).toHaveCount(2);
+  await expect(page.locator('#app-count')).toHaveText('2 / 4 total');
   await page.locator('#app-search').fill('no-match-ci');
-  await expect(page.locator('#app-count')).toHaveText('0 / 2 total');
+  await expect(page.locator('#app-count')).toHaveText('0 / 4 total');
   await page.locator('#language-trigger').click();
   await page.locator('[data-language="ja"]').click();
-  await expect(page.locator('#app-count')).toHaveText('全2件中0件');
+  await expect(page.locator('#app-count')).toHaveText('全4件中0件');
   await expect(page.locator('#app-search')).toHaveValue('no-match-ci');
   await page.locator('#app-search').fill('');
-  await expect(page.locator('#app-count')).toHaveText('全2件中1件');
+  await expect(page.locator('#app-count')).toHaveText('全4件中2件');
   await page.locator('#app-status').selectOption('출시');
-  await expect(page.locator('[data-app]:visible')).toHaveCount(1);
+  await expect(page.locator('[data-app]:visible')).toHaveCount(2);
   await page.locator('#language-trigger').click();
   await page.locator('[data-language="ko"]').click();
-  await expect(page.locator('#app-count')).toHaveText('1개 / 전체 2개');
+  await expect(page.locator('#app-count')).toHaveText('2개 / 전체 4개');
 });
 
 test('app privacy policy preserves data and advertising boundaries in every language', async ({ page }) => {
@@ -117,7 +117,7 @@ for (const [locale, status, label] of [
     for (const route of ['/', '/apps/', '/apps/kanjigyeol/']) {
       await page.goto(route);
       await expect(page.locator('html')).toHaveAttribute('lang', locale);
-      const badge = page.getByRole('link', { name: label, exact: true });
+      const badge = page.getByRole('link', { name: label, exact: true }).first();
       await expect(badge).toHaveAttribute('href', 'https://apps.apple.com/kr/app/%EC%B9%B8%EC%A7%80%EA%B2%B0/id6832132208');
       await expect(page.locator('.status').first()).toHaveText(status);
       await expect(badge.locator('img')).toBeVisible();
