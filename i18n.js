@@ -221,14 +221,14 @@ window.WHITESHEEP_TRANSLATIONS = {
     '권리 문의': '権利に関するお問い合わせ',
     '콘텐츠의 권리나 출처 표기에 대한 문의와 시정 요청 이메일:': 'コンテンツの権利や出典表示に関するお問い合わせ・是正のご依頼（メール）：',
     '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.': '受け付けた内容を確認し、必要に応じて該当項目をいったん非公開にしたうえで検討します。',
-    일본문법결: '日本文法結',
+    일본문법결: 'イルボンムンボプギョル',
     '활용을 한눈에, 문형은 차근차근.': '活用をひと目で、文型は着実に。',
     '동사·형용사·명사의 활용과 문형을 한국어로 한눈에 익히는 일본어 문법 학습 앱.': '動詞・形容詞・名詞の活用と文型を韓国語でひと目で身につける日本語文法学習アプリ。',
     '활용을 한눈에,': '活用をひと目で、',
     '문형은 차근차근.': '文型は着実に。',
-    '동사·형용사·명사의 활용과 문형을 한국어로 익히는 일본어 문법 앱, 일본문법결.': '動詞・形容詞・名詞の活用と文型を韓国語で学ぶ日本語文法アプリ、日本文法結。',
-    '일본문법결 알아보기 ↓': '日本文法結を見る ↓',
-    '활용표 한 장을 표현한 일본문법결 심벌': '活用表1枚を表した日本文法結のシンボル',
+    '동사·형용사·명사의 활용과 문형을 한국어로 익히는 일본어 문법 앱, 일본문법결.': '動詞・形容詞・名詞の活用と文型を韓国語で学ぶ日本語文法アプリ、イルボンムンボプギョル。',
+    '일본문법결 알아보기 ↓': 'イルボンムンボプギョルを見る ↓',
+    '활용표 한 장을 표현한 일본문법결 심벌': '活用表1枚を表したイルボンムンボプギョルのシンボル',
     '분류별로 활용을,': '品詞ごとに活用を、',
     '접속형별로 문형을.': '接続形ごとに文型を。',
     '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
@@ -251,10 +251,10 @@ window.WHITESHEEP_TRANSLATIONS = {
     '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': '必要に応じて該当の画面を添付してください。個人情報は隠してください。',
     '마지막으로 본 단어·문형, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       '最後に見た単語・文型、学習の印（わかる・あやふや）、ブックマーク、表示言語・テーマ・読み補助の設定は端末に保存されます。運営者がサーバーで記録を閲覧したり復元したりすることはできません。アプリの削除・OSのデータ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
-    '일본문법결 개인정보처리방침': '日本文法結 プライバシーポリシー',
+    '일본문법결 개인정보처리방침': 'イルボンムンボプギョル プライバシーポリシー',
     '최종 갱신 2026년 11월 8일': '最終更新・2026年11월8日',
     '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
-      '초록지붕이층집は、日本語文法学習アプリ「日本文法結」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、およびこの方針を掲載するウェブページに適用されます。',
+      '초록지붕이층집は、日本語文法学習アプリ「일본문법결」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、およびこの方針を掲載するウェブページに適用されます。',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
       'アプリにはアカウント登録、独自サーバー、分析SDK、広告SDK、決済機能はありません。学習履歴は端末に保存されます。メールサービスとウェブホスティングによる情報処理は、以下で別に説明します。',
     '마지막으로 본 단어·문형 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
@@ -279,15 +279,15 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 이용자의 권리와 파기 방법': '7. 利用者の権利と削除方法',
     '8. 이용 대상과 아동': '8. 利用対象と児童',
     '일본문법결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
-      '日本文法結は、大韓民国の満14歳以上の青少年および成人を対象としています。生年月日や身分証を収集して年齢を確認することはなく、すべての利用者を成人とみなすこともありません。満14歳未満の個人情報がお問い合わせに含まれていると知った場合は、必要な保護措置を検討し、不要な情報を削除します。',
+      '일본문법결は、大韓民国の満14歳以上の青少年および成人を対象としています。生年月日や身分証を収集して年齢を確認することはなく、すべての利用者を成人とみなすこともありません。満14歳未満の個人情報がお問い合わせに含まれていると知った場合は、必要な保護措置を検討し、不要な情報を削除します。',
     '9. 변경 안내': '9. 変更のお知らせ',
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
-      '処理の目的・項目・提供者・保存基準などが変更される場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は、施行前に同意を得ます。外部リンクは各提供者の公表内容であり、日本文法結の方針に代わるものではありません。',
+      '処理の目的・項目・提供者・保存基準などが変更される場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は、施行前に同意を得ます。外部リンクは各提供者の公表内容であり、일본문법결の方針に代わるものではありません。',
     'Jonathan Waller의 JLPT 자료': 'Jonathan WallerのJLPT資料',
     '일본문법결은 iOS로 출시되었고 Android 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
-      '日本文法結はiOSで公開済みで、Androidの公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
+      '일본문법결はiOSで公開済みで、Androidの公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
     '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
-      '日本文法結の単語データには、JMdictから取り入れた表記・読みとJLPTの参考レベルが含まれています。JMdictはCC BY-SA 4.0の条件に従い出典を表示して加工しており、同じ条件が適用される範囲を含むデータの公開方法は、公開とあわせて決める予定です。アプリのコード、画面デザイン、アプリ名とアイコンはこの条件に含まれません。',
+      '일본문법결の単語データには、JMdictから取り入れた表記・読みとJLPTの参考レベルが含まれています。JMdictはCC BY-SA 4.0の条件に従い出典を表示して加工しており、同じ条件が適用される範囲を含むデータの公開方法は、公開とあわせて決める予定です。アプリのコード、画面デザイン、アプリ名とアイコンはこの条件に含まれません。',
     JMdict: 'JMdict',
     'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
       'JMdictの著作権はJames William BreenとElectronic Dictionary Research and Development Group（EDRDG）にあります。JSON変換版にはStanislav Petrovのjmdict-simplifiedを使用しました。単語の表記・読み・品詞と英語の参考訳をもとにしており、韓国語の意味は新たに作成しました。利用条件はEDRDGライセンスとCC BY-SA 4.0に従い、EDRDGによる保証・推奨を意味しません。',
@@ -303,20 +303,20 @@ window.WHITESHEEP_TRANSLATIONS = {
     '실제 화면: 단어와 암기 팁까지': '実際の画面：単語と暗記のコツまで',
     '실제 화면: 편안한 다크 테마': '実際の画面：目に優しいダークテーマ',
     '전체 2개': '全2件',
-    '일본문법결 · WhiteSheep Game Studio': '日本文法結 · WhiteSheep Game Studio',
-    '일본문법결 · 지원 · WhiteSheep Game Studio': '日本文法結 · サポート · WhiteSheep Game Studio',
-    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': '日本文法結 · プライバシーポリシー · WhiteSheep Game Studio',
-    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': '日本文法結 · 出典と利用条件 · WhiteSheep Game Studio',
+    '일본문법결 · WhiteSheep Game Studio': 'イルボンムンボプギョル · WhiteSheep Game Studio',
+    '일본문법결 · 지원 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サポート · WhiteSheep Game Studio',
+    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': 'イルボンムンボプギョル · プライバシーポリシー · WhiteSheep Game Studio',
+    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': 'イルボンムンボプギョル · 出典と利用条件 · WhiteSheep Game Studio',
     '메일에 붙여 넣고 어떤 내용이 잘못되었는지 적어 주세요.': 'メールに貼り付けて、どの内容が間違っているかを書いてください。',
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다. 법령상 보존 등 예외가 필요한 경우 관련 근거와 기간을 확인해 안내합니다.':
       '担当者：초록지붕이층집の運営者。上記のメールアドレスに、開示・訂正・削除などのご依頼をお送りください。お問い合わせメールは、対応終了後90日以内に削除します。法令上の保存などの例外が必要な場合は、関連する根拠と期間を確認してご案内します。',
     '앱은 이메일을 자동으로 보내지 않습니다. 복사한 양식을 직접 편집한 뒤 보내실 수 있습니다.':
       'アプリはメールを自動送信しません。コピーした書式を自分で編集してから送信できます。',
-    '일본문법결 서비스 이용약관': '日本文法結 サービス利用規約',
+    '일본문법결 서비스 이용약관': 'イルボンムンボプギョル サービス利用規約',
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 문법 학습 앱 ‘일본문법결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
-      'この規約は、초록지붕이층집（開発者ブランド WhiteSheep Game Studio）が提供する日本語文法学習アプリ「日本文法結」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
+      'この規約は、초록지붕이층집（開発者ブランド WhiteSheep Game Studio）が提供する日本語文法学習アプリ「일본문법결」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
     '일본문법결은 일본어 동사·형용사·명사의 활용과 문형을 한국어로 보여 주는 교육용 앱입니다. 이 약관은 일본문법결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
-      '日本文法結は、日本語の動詞・形容詞・名詞の活用と文型を韓国語で示す教育用アプリです。この規約は日本文法結アプリと関連するサポートサービスに適用され、他のアプリには自動的には適用されません。提供される学習コンテンツと機能は更新されることがあります。',
+      '일본문법결は、日本語の動詞・形容詞・名詞の活用と文型を韓国語で示す教育用アプリです。この規約は일본문법결アプリと関連するサポートサービスに適用され、他のアプリには自動的には適用されません。提供される学習コンテンツと機能は更新されることがあります。',
     '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료이며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
       '活用形、文型の説明、単語の韓国語の意味は、学習を助けるための資料であり、誤りや漏れがある場合があります。試験・業務など重要な判断には、信頼できる辞書や公式資料もあわせてご確認ください。コンテンツの出典と利用条件は別の',
     '마지막으로 본 단어·문형, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
@@ -345,7 +345,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 서비스 변경 및 중단': '7. サービスの変更と中断',
     '8. 책임과 이용자 권리': '8. 責任と利用者の権利',
     '9. 약관 변경과 문의': '9. 規約の変更とお問い合わせ',
-    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': '日本文法結 · サービス利用規約 · WhiteSheep Game Studio',
+    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サービス利用規約 · WhiteSheep Game Studio',
     '일본 IT 국가자격증 공부 · WhiteSheep Game Studio': 'IT国家資格 勉強 · WhiteSheep Game Studio',
     '일본 IT 국가자격증 공부': 'IT国家資格 勉強',
     '일본 IT 국가자격증,': '日本のIT国家資格を、',
@@ -411,11 +411,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     'IPA 사이트 이용 안내': 'IPAサイトのご利用案内',
     'IPA 공개 문제': 'IPA 公開問題',
     '용어집과 번역': '用語集と翻訳',
-    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
-      '用語は、IPAのITパスポート試験シラバス（Ver.6.5）に出てくる言葉をもとに選びました。日本語・韓国語・英語の定義と読みは運営者が新たに書いた説明で、IPAの公式文言や公式翻訳ではありません。',
+    '용어는 IPA의 IT 패스포트 시험 실라버스에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
+      '用語は、IPAのITパスポート試験シラバスに出てくる言葉をもとに選びました。日本語・韓国語・英語の定義と読みは運営者が新たに書いた説明で、IPAの公式文言や公式翻訳ではありません。',
     '수록 기준': '収録の基準',
-    '수록 내용은 IT 패스포트 시험 실라버스 Ver.6.5와 2025년도·2026년도 공개 문제를 기준으로 합니다.':
-      '収録内容は、ITパスポート試験シラバスVer.6.5と2025年度・2026年度の公開問題に基づきます。',
+    '수록 내용은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험 실라버스와 위에 적은 공개 문제를 기준으로 합니다.':
+      '収録内容は、ITパスポート・情報セキュリティマネジメント・基本情報技術者・応用情報技術者の各試験シラバスと、上記の公開問題を基準としています。',
     '틀린 곳은 문의 메일로 알려 주세요.': '誤りを見つけたら、問い合わせメールでお知らせください。',
     '일본 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'IT国家資格 勉強 · サポート · WhiteSheep Game Studio',
     '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
@@ -464,12 +464,12 @@ window.WHITESHEEP_TRANSLATIONS = {
       '学習位置や閲覧履歴などは端末に保存されます。アプリの削除、データの初期化、端末の変更、OSの動作により、記録が消えたり復元されたりすることがあります。個人情報と外部SDKに関する事項は',
     '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
       '現在、アプリでは運用広告とアプリ内決済機能は有効になっていません。今後広告や有料機能を導入する場合は、アプリ内の案内と関連ポリシーを更新します。ストアでの購入を導入する場合は、そのストアの決済・返金規定と関連法令が適用されます。',
-    'IT 패스포트 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
-      'ITパスポートの出題分野ごとに、過去問に出た概念を日本語で解説する学習アプリ、IT国家資格 勉強。',
+    'IT 패스포트·SG·FE·AP 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
+      'ITパスポート・SG・FE・APの出題分野ごとに、過去問に出た概念を日本語で解説する学習アプリ、IT国家資格 勉強。',
     '기출을 푸는 대신,': '過去問を解く代わりに、',
     '나온 개념을 이해하세요.': '出題された概念を理解しよう。',
-    'IPA 실라버스(Ver.6.5)의 9개 영역·23개 중분류별로 2025·2026년도 공개 문제 200문항을 분석해, 실제로 출제된 개념 93개를 설명합니다. 일본어 이해도에 맞춰 번역을 켜고 끌 수 있습니다.':
-      'IPAシラバス（Ver.6.5）の9分野・23の中分類ごとに、2025・2026年度の公開問題200問を分析し、実際に出題された概念93個を解説します。日本語の理解度に合わせて、翻訳の表示を切り替えられます。',
+    'IT 패스포트(IP)·정보보안관리(SG)·기본정보기술자(FE)·응용정보기술자(AP)의 IPA 실라버스 중분류별로 공개 문제 684문항을 분석해, 실제로 출제된 개념 258개를 설명합니다. 번역은 숨김·눌러서 표시·항상 표시 중에서 고르고, 일본어 문장 아래에 한글 발음이나 로마자를 켤 수 있습니다.':
+      'ITパスポート（IP）・情報セキュリティマネジメント（SG）・基本情報技術者（FE）・応用情報技術者（AP）のIPAシラバスの中分類ごとに、公開問題684問を分析し、実際に出題された概念258個を解説します。翻訳は非表示・タップで表示・常に表示から選べ、日本語の文の下にハングル発音やローマ字を表示できます。',
     '영역별로 개념 학습': '分野ごとに概念を学ぶ',
     '중분류마다 출제 경향과 소분류별 문항 수, 개념 카드를 확인합니다.': '中分類ごとに、出題の傾向、小分類別の問題数、概念カードを確認します。',
     '출제 포인트와 함정': '出題のポイントと落とし穴',
@@ -478,21 +478,21 @@ window.WHITESHEEP_TRANSLATIONS = {
     'IT 용어 500개를 일본어·한국어·영어로 확인하고, 이해한 개념과 북마크를 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
       'IT用語500語を日本語・韓国語・英語で確認し、理解した概念とブックマークを端末に保存します。アカウントもサーバーも不要です。',
     '개념 이름이나 영역과 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': '概念名や分野とアプリのバージョンを一緒に送っていただけると、確認の助けになります。',
-    '이해함으로 표시한 개념, 북마크한 개념과 용어, 마지막으로 본 개념, 일본어 이해도, 표시 언어, 번역 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
-      '「理解した」にした概念、ブックマークした概念と用語、最後に見た概念、日本語の理解度、表示言語、翻訳の表示設定を保存し、学習位置と設定を復元します。運営者は端末内だけにある記録を遠隔で閲覧できません。',
+    '이해함으로 표시한 개념, 북마크한 개념과 용어, 마지막으로 본 개념, 표시 언어, 번역 표시, 읽기 도움(한글 발음·로마자), 화면 테마 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      '「理解した」にした概念、ブックマークした概念と用語、最後に見た概念、表示言語、翻訳の表示、読み補助（ハングル発音・ローマ字）、画面テーマの設定を保存し、学習位置と設定を復元します。運営者は端末内だけにある記録をリモートで閲覧できません。',
     '기출문제의 이용': '過去問題の利用',
-    '이 앱은 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
-      'このアプリは、IPAが公開したITパスポート試験の公開問題（2025年度・2026年度 各100問）を分析し、出題された概念を解説します。問題の本文と画像はアプリに含めず、概念ごとに関連する問題を年度と問題番号だけで示し、IPAの公式の問題集へのリンクを案内します。著作権はIPAに帰属します。',
-    '문제를 실라버스 Ver.6.5의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
-      '問題をシラバスVer.6.5の中分類に分けた基準、概念の解説と出題のポイントは運営者が新たに書いたもので、IPAの公式解説ではありません。IPAの利用案内に従い、出典を表示します。',
+    '이 앱은 IPA가 공개한 IT 패스포트(2025·2026년도 각 100문항), 정보보안관리(2023~2026년도 각 15문항), 기본정보기술자(2023~2026년도 과목 A·B), 응용정보기술자(2021년 봄·2022년 가을·2023년 봄·2024년 봄 오전 각 80문항) 시험의 공개 문제를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
+      'このアプリは、IPAが公開したITパスポート（2025・2026年度 各100問）、情報セキュリティマネジメント（2023〜2026年度 各15問）、基本情報技術者（2023〜2026年度 科目A・B）、応用情報技術者（2021年春・2022年秋・2023年春・2024年春 午前 各80問）の公開問題を分析し、出題された概念を解説します。問題の本文と画像はアプリに含めず、概念ごとに関連する問題を年度と問番号のみで表示し、IPAの公式問題集へのリンクを案内します。著作権はIPAに帰属します。',
+    '문제를 각 시험 실라버스의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
+      '問題を各試験のシラバスの中分類に分けた基準、概念の解説と出題のポイントは運営者が新たに書いたもので、IPAの公式解説ではありません。IPAの利用案内に従い、出典を表示します。',
     '개념 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
       '概念名または用語名、アプリのバージョン、誤っている内容を書いてお送りください。必要なら画面を添付し、個人情報は隠してください。',
-    '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
-      '「理解した」の表示、ブックマーク、最後に見た概念、表示言語と翻訳の設定は端末に保存されます。運営者がサーバーから記録を閲覧・復旧することはできません。アプリの削除・データ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
-    '이 앱은 IT 패스포트 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
-      'このアプリは、ITパスポート試験シラバスの分野ごとの概念解説とIT用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
-    'IT 패스포트 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
-      'ITパスポートのシラバス分野ごとに、過去問に出た概念を日本語で解説し、IT用語500語もあわせて学べる日本のIT資格試験学習アプリ。'
+    '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역·읽기 도움·화면 테마 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      '「理解した」の表示、ブックマーク、最後に見た概念、表示言語、翻訳・読み補助・画面テーマの設定は端末に保存されます。運営者がサーバーから記録を閲覧・復旧することはできません。アプリの削除・データ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
+    '이 앱은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험의 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、ITパスポート・情報セキュリティマネジメント・基本情報技術者・応用情報技術者の各試験について、シラバスの分野ごとの概念解説とIT用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    'IT 패스포트·SG·FE·AP 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
+      'ITパスポート・SG・FE・APのシラバス分野ごとに、過去問に出た概念を日本語で解説し、IT用語500語もあわせて学べる日本のIT資格試験学習アプリ。'
   },
   en: {
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
@@ -717,16 +717,16 @@ window.WHITESHEEP_TRANSLATIONS = {
     '콘텐츠의 권리나 출처 표기에 대한 문의와 시정 요청 이메일:': 'Email for inquiries and correction requests about content rights or source credits:',
     '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.':
       'We review what we receive and, where necessary, first take the item in question offline and then examine it.',
-    일본문법결: 'Japanese Grammar Grain',
+    일본문법결: 'Ilbon Mungbeopgyeol',
     '활용을 한눈에, 문형은 차근차근.': 'Conjugations at a glance, patterns step by step.',
     '동사·형용사·명사의 활용과 문형을 한국어로 한눈에 익히는 일본어 문법 학습 앱.':
       'A Japanese grammar app that teaches verb, adjective, and noun conjugations and sentence patterns at a glance, in Korean.',
     '활용을 한눈에,': 'Conjugations at a glance,',
     '문형은 차근차근.': 'patterns step by step.',
     '동사·형용사·명사의 활용과 문형을 한국어로 익히는 일본어 문법 앱, 일본문법결.':
-      'A Japanese grammar app that teaches verb, adjective, and noun conjugations and sentence patterns in Korean: Japanese Grammar Grain.',
-    '일본문법결 알아보기 ↓': 'Explore Japanese Grammar Grain ↓',
-    '활용표 한 장을 표현한 일본문법결 심벌': 'Japanese Grammar Grain symbol showing a single conjugation table',
+      'A Japanese grammar app that teaches verb, adjective, and noun conjugations and sentence patterns in Korean: Ilbon Mungbeopgyeol.',
+    '일본문법결 알아보기 ↓': 'Explore Ilbon Mungbeopgyeol ↓',
+    '활용표 한 장을 표현한 일본문법결 심벌': 'Ilbon Mungbeopgyeol symbol showing a single conjugation table',
     '분류별로 활용을,': 'Conjugations by word type,',
     '접속형별로 문형을.': 'patterns by connection form.',
     '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
@@ -750,10 +750,10 @@ window.WHITESHEEP_TRANSLATIONS = {
     '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': 'If needed, attach the relevant screen. Please hide any personal information.',
     '마지막으로 본 단어·문형, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       'Your last viewed word or pattern, study marks (known/unsure), bookmarks, and language, theme, and reading-aid settings are stored on your device. The operator cannot view or restore these records from a server. Depending on app deletion, OS data deletion, and backup settings, records may be lost or restored.',
-    '일본문법결 개인정보처리방침': 'Japanese Grammar Grain Privacy Policy',
+    '일본문법결 개인정보처리방침': 'Ilbon Mungbeopgyeol Privacy Policy',
     '최종 갱신 2026년 11월 8일': 'Last updated November 8, 2026',
     '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
-      '초록지붕이층집 explains how personal information is handled for Japanese Grammar Grain (Japanese Grammar Grain), a Japanese grammar learning app. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support replies, and this web page.',
+      '초록지붕이층집 explains how personal information is handled for 일본문법결 (Ilbon Mungbeopgyeol), a Japanese grammar learning app. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support replies, and this web page.',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
       'The app has no sign-up, own server, analytics SDK, advertising SDK, or payment feature. Study records are stored on your device. Information processing by the email service and web hosting is explained separately below.',
     '마지막으로 본 단어·문형 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
@@ -778,15 +778,15 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 이용자의 권리와 파기 방법': '7. Your rights and deletion',
     '8. 이용 대상과 아동': '8. Intended users and children',
     '일본문법결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
-      'Japanese Grammar Grain is intended for teenagers aged 14 and over and adults in the Republic of Korea. We do not collect birth dates or ID documents to verify age, and we do not treat every user as an adult. If we learn that an inquiry contains personal information of a child under 14, we will consider necessary protective measures and delete unnecessary information.',
+      '일본문법결 is intended for teenagers aged 14 and over and adults in the Republic of Korea. We do not collect birth dates or ID documents to verify age, and we do not treat every user as an adult. If we learn that an inquiry contains personal information of a child under 14, we will consider necessary protective measures and delete unnecessary information.',
     '9. 변경 안내': '9. Changes to this policy',
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
-      'When purposes, items, providers, or retention standards change, we will update this page’s version and effective date and announce the change and when it applies. Changes that need separate consent will be put to you before they take effect. External links are each provider’s own notices and do not replace the policy for Japanese Grammar Grain.',
+      'When purposes, items, providers, or retention standards change, we will update this page’s version and effective date and announce the change and when it applies. Changes that need separate consent will be put to you before they take effect. External links are each provider’s own notices and do not replace the policy for 일본문법결.',
     'Jonathan Waller의 JLPT 자료': 'Jonathan Waller’s JLPT resources',
     '일본문법결은 iOS로 출시되었고 Android 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
-      'Japanese Grammar Grain is released on iOS and Android is being prepared for release. This page describes the sources and terms the app points to.',
+      '일본문법결 is released on iOS and Android is being prepared for release. This page describes the sources and terms the app points to.',
     '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
-      'The word data in Japanese Grammar Grain includes spellings and readings taken from JMdict and reference JLPT levels. JMdict is credited and adapted under CC BY-SA 4.0, and how the data will be published, including the scope where the same terms apply, will be decided together with the release. The app code, screen design, app name, and icon are not covered by these terms.',
+      'The word data in 일본문법결 includes spellings and readings taken from JMdict and reference JLPT levels. JMdict is credited and adapted under CC BY-SA 4.0, and how the data will be published, including the scope where the same terms apply, will be decided together with the release. The app code, screen design, app name, and icon are not covered by these terms.',
     JMdict: 'JMdict',
     'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
       'The copyright of JMdict belongs to James William Breen and the Electronic Dictionary Research and Development Group (EDRDG). The JSON conversion by Stanislav Petrov, jmdict-simplified, was used. The app builds on word spellings, readings, parts of speech, and English reference glosses, and the Korean meanings were newly written. The terms follow the EDRDG licence and CC BY-SA 4.0 and do not imply endorsement by EDRDG.',
@@ -802,20 +802,20 @@ window.WHITESHEEP_TRANSLATIONS = {
     '실제 화면: 단어와 암기 팁까지': 'Actual screen: words and memory tips too',
     '실제 화면: 편안한 다크 테마': 'Actual screen: a comfortable dark theme',
     '전체 2개': '2 total',
-    '일본문법결 · WhiteSheep Game Studio': 'Japanese Grammar Grain · WhiteSheep Game Studio',
-    '일본문법결 · 지원 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Support · WhiteSheep Game Studio',
-    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Privacy Policy · WhiteSheep Game Studio',
-    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Sources and terms · WhiteSheep Game Studio',
+    '일본문법결 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · WhiteSheep Game Studio',
+    '일본문법결 · 지원 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Support · WhiteSheep Game Studio',
+    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Privacy Policy · WhiteSheep Game Studio',
+    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Sources and terms · WhiteSheep Game Studio',
     '메일에 붙여 넣고 어떤 내용이 잘못되었는지 적어 주세요.': 'Paste it into an email and describe what is wrong.',
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다. 법령상 보존 등 예외가 필요한 경우 관련 근거와 기간을 확인해 안내합니다.':
       'Contact: the operator of 초록지붕이층집. Send requests for access, correction, deletion, and similar matters to the email above. Support emails are deleted within 90 days after handling ends. If an exception such as legal retention is needed, we will confirm the basis and period and let you know.',
     '앱은 이메일을 자동으로 보내지 않습니다. 복사한 양식을 직접 편집한 뒤 보내실 수 있습니다.':
       'The app does not send email automatically. You can edit the copied form yourself before sending it.',
-    '일본문법결 서비스 이용약관': 'Japanese Grammar Grain Terms of Service',
+    '일본문법결 서비스 이용약관': 'Ilbon Mungbeopgyeol Terms of Service',
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 문법 학습 앱 ‘일본문법결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
-      'These terms describe the conditions of use for Japanese Grammar Grain, a Japanese grammar learning app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
+      'These terms describe the conditions of use for 일본문법결, a Japanese grammar learning app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
     '일본문법결은 일본어 동사·형용사·명사의 활용과 문형을 한국어로 보여 주는 교육용 앱입니다. 이 약관은 일본문법결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
-      'Japanese Grammar Grain is an educational app that shows the conjugations of Japanese verbs, adjectives, and nouns and sentence patterns in Korean. These terms apply to the Japanese Grammar Grain app and its related support services, and do not automatically apply to other apps. The learning content and features provided may be updated.',
+      '일본문법결 is an educational app that shows the conjugations of Japanese verbs, adjectives, and nouns and sentence patterns in Korean. These terms apply to the 일본문법결 app and its related support services, and do not automatically apply to other apps. The learning content and features provided may be updated.',
     '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료이며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
       'Conjugated forms, pattern explanations, and the Korean meanings of words are materials to support learning, and errors or omissions may exist. For important decisions such as exams or work, please also check authoritative dictionaries or official materials. The sources and terms of the content are available on the separate',
     '마지막으로 본 단어·문형, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
@@ -844,7 +844,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 서비스 변경 및 중단': '7. Changes to and suspension of the service',
     '8. 책임과 이용자 권리': '8. Responsibility and user rights',
     '9. 약관 변경과 문의': '9. Changes to these terms and contact',
-    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Terms of Service · WhiteSheep Game Studio',
+    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Terms of Service · WhiteSheep Game Studio',
     '일본 IT 국가자격증 공부 · WhiteSheep Game Studio': 'Japan IT Cert Study · WhiteSheep Game Studio',
     '일본 IT 국가자격증 공부': 'Japan IT Cert Study',
     '일본 IT 국가자격증,': 'Japan’s IT certification,',
@@ -910,11 +910,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     'IPA 사이트 이용 안내': 'IPA site terms of use',
     'IPA 공개 문제': 'IPA public questions',
     '용어집과 번역': 'Glossary and translations',
-    '용어는 IPA의 IT 패스포트 시험 실라버스(Ver.6.5)에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
-      'Terms were chosen from words appearing in IPA’s IT Passport exam syllabus (Ver.6.5). The Japanese, Korean and English definitions and readings are original explanations written by the operator, not official IPA wording or translations.',
+    '용어는 IPA의 IT 패스포트 시험 실라버스에 나오는 말을 바탕으로 골랐습니다. 일본어·한국어·영어 정의와 읽기는 운영자가 새로 작성한 설명이며 IPA의 공식 문구나 공식 번역이 아닙니다.':
+      'Terms were chosen from words appearing in IPA’s IT Passport exam syllabus. The Japanese, Korean and English definitions and readings are original explanations written by the operator, not official IPA wording or translations.',
     '수록 기준': 'Scope of content',
-    '수록 내용은 IT 패스포트 시험 실라버스 Ver.6.5와 2025년도·2026년도 공개 문제를 기준으로 합니다.':
-      'Content is based on the IT Passport exam syllabus Ver.6.5 and the FY2025 and FY2026 public questions.',
+    '수록 내용은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험 실라버스와 위에 적은 공개 문제를 기준으로 합니다.':
+      'Content is based on the syllabi of IT Passport, Information Security Management, Fundamental Information Technology Engineer and Applied Information Technology Engineer, and the public questions listed above.',
     '틀린 곳은 문의 메일로 알려 주세요.': 'If you find a mistake, please let us know by email.',
     '일본 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'Japan IT Cert Study · Support · WhiteSheep Game Studio',
     '연도와 문제 번호 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
@@ -963,12 +963,12 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Your study position and viewing history are stored on your device. Depending on app removal, data reset, device changes or operating system behavior, records may disappear or be restored. For personal information and external SDKs, see',
     '현재 앱에는 운영 광고 및 앱 내 결제 기능이 활성화되어 있지 않습니다. 향후 광고나 유료 기능이 도입되면 앱 내 안내와 관련 정책을 갱신합니다. 스토어를 통한 구매가 도입되는 경우 해당 스토어의 결제·환불 규정과 관련 법령이 적용됩니다.':
       'Live advertising and in-app payment features are not currently enabled in the app. If ads or paid features are introduced, we will update in-app notices and related policies. If purchases through a store are introduced, that store’s payment and refund rules and applicable laws will apply.',
-    'IT 패스포트 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
-      'A study app that explains, in Japanese, the concepts that appeared in past questions, organized by IT Passport exam area: Japan IT Cert Study.',
+    'IT 패스포트·SG·FE·AP 출제 영역별로, 기출에 나온 개념을 일본어로 설명하는 학습 앱, 일본 IT 국가자격증 공부.':
+      'A study app that explains, in Japanese, the concepts that appeared in past questions, organized by exam area for IT Passport, SG, FE and AP: Japan IT Cert Study.',
     '기출을 푸는 대신,': 'Instead of solving past papers,',
     '나온 개념을 이해하세요.': 'understand the concepts they test.',
-    'IPA 실라버스(Ver.6.5)의 9개 영역·23개 중분류별로 2025·2026년도 공개 문제 200문항을 분석해, 실제로 출제된 개념 93개를 설명합니다. 일본어 이해도에 맞춰 번역을 켜고 끌 수 있습니다.':
-      'We analyzed the 200 public questions of FY2025 and FY2026 across the 9 areas and 23 categories of the IPA syllabus (Ver.6.5) and explain the 93 concepts that actually appeared. You can turn the translation on or off to match your Japanese level.',
+    'IT 패스포트(IP)·정보보안관리(SG)·기본정보기술자(FE)·응용정보기술자(AP)의 IPA 실라버스 중분류별로 공개 문제 684문항을 분석해, 실제로 출제된 개념 258개를 설명합니다. 번역은 숨김·눌러서 표시·항상 표시 중에서 고르고, 일본어 문장 아래에 한글 발음이나 로마자를 켤 수 있습니다.':
+      'For each category of the IPA syllabi of IT Passport (IP), Information Security Management (SG), Fundamental Information Technology Engineer (FE) and Applied Information Technology Engineer (AP), we analyzed 684 public questions and explain the 258 concepts that were actually tested. Choose hidden, show on tap or always show for translations, and turn on Korean-script pronunciation or romaji under the Japanese text.',
     '영역별로 개념 학습': 'Learn concepts by area',
     '중분류마다 출제 경향과 소분류별 문항 수, 개념 카드를 확인합니다.': 'For each category, check how it is tested, the number of questions per subcategory and the concept cards.',
     '출제 포인트와 함정': 'Exam points and pitfalls',
@@ -977,21 +977,21 @@ window.WHITESHEEP_TRANSLATIONS = {
     'IT 용어 500개를 일본어·한국어·영어로 확인하고, 이해한 개념과 북마크를 기기에 저장합니다. 계정과 서버는 필요하지 않습니다.':
       'Check 500 IT terms in Japanese, Korean and English, and save the concepts you understood and your bookmarks on the device. No account or server is needed.',
     '개념 이름이나 영역과 앱 버전을 함께 보내 주시면 확인에 도움이 됩니다.': 'Sending the concept name or area together with the app version helps us check.',
-    '이해함으로 표시한 개념, 북마크한 개념과 용어, 마지막으로 본 개념, 일본어 이해도, 표시 언어, 번역 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
-      'We store the concepts you marked as understood, bookmarked concepts and terms, the last concept you viewed, your Japanese level, display language and translation display setting to restore your place and settings. The operator cannot remotely view records that exist only on your device.',
+    '이해함으로 표시한 개념, 북마크한 개념과 용어, 마지막으로 본 개념, 표시 언어, 번역 표시, 읽기 도움(한글 발음·로마자), 화면 테마 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      'The app saves concepts marked as understood, bookmarked concepts and terms, the last concept viewed, and your display language, translation display, reading aid (Korean-script pronunciation, romaji) and theme settings to restore your place and settings. The operator cannot remotely view records that exist only on your device.',
     '기출문제의 이용': 'Use of past questions',
-    '이 앱은 IPA가 공개한 IT 패스포트 시험 공개 문제(2025년도·2026년도 각 100문항)를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
-      'This app analyzes the public IT Passport exam questions released by IPA (100 each for fiscal 2025 and fiscal 2026) and explains the concepts that were tested. The question text and images are not included in the app; for each concept, related questions are shown only by year and question number, with a link to IPA’s official question book. Copyright belongs to IPA.',
-    '문제를 실라버스 Ver.6.5의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
-      'The criteria for sorting questions into the syllabus Ver.6.5 categories, and the concept explanations and exam points, are original work by the operator and not official IPA commentary. In line with IPA’s usage guidance, the source is shown.',
+    '이 앱은 IPA가 공개한 IT 패스포트(2025·2026년도 각 100문항), 정보보안관리(2023~2026년도 각 15문항), 기본정보기술자(2023~2026년도 과목 A·B), 응용정보기술자(2021년 봄·2022년 가을·2023년 봄·2024년 봄 오전 각 80문항) 시험의 공개 문제를 분석해, 출제된 개념을 설명합니다. 문제 본문과 이미지는 앱에 담지 않고, 개념마다 관련 문제를 연도와 문제 번호로만 표시하며 IPA의 공식 문제집 링크를 안내합니다. 저작권은 IPA에 있습니다.':
+      'This app analyzes the public questions released by IPA for IT Passport (100 each for FY2025 and FY2026), Information Security Management (15 each for FY2023 to FY2026), Fundamental Information Technology Engineer (Subjects A and B, FY2023 to FY2026) and Applied Information Technology Engineer (80 morning questions each for spring 2021, autumn 2022, spring 2023 and spring 2024), and explains the concepts that were tested. It does not include question text or images; it shows related questions only by year and number and points to IPA’s official question books. Copyright belongs to IPA.',
+    '문제를 각 시험 실라버스의 중분류로 나눈 기준, 개념 설명과 출제 포인트는 운영자가 새로 작성한 것이며 IPA의 공식 해설이 아닙니다. IPA의 이용 안내에 따라 출처를 표시합니다.':
+      'The basis for sorting questions into the categories of each exam’s syllabus, the concept explanations and the exam points were newly written by the operator and are not IPA’s official explanations. Sources are shown in line with IPA’s terms of use.',
     '개념 또는 용어 이름, 앱 버전, 잘못된 내용을 적어 보내 주세요. 필요하면 화면을 첨부하되 개인적인 정보는 가려 주세요.':
       'Please send the concept or term name, the app version and what is wrong. Attach a screenshot if helpful, with personal information hidden.',
-    '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
-      'Understood marks, bookmarks, the last concept viewed, display language and translation settings are stored on your device. The operator cannot view or recover records from a server. Depending on app removal, data deletion and backup settings, records may disappear or be restored.',
-    '이 앱은 IT 패스포트 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
-      'This is an unofficial educational app that supports learning concept explanations by IT Passport syllabus area and IT terms. These terms apply only to this app and its related support.',
-    'IT 패스포트 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
-      'A study app for Japanese IT exams that explains, in Japanese, concepts that appeared in past questions by IT Passport syllabus area, together with 500 IT terms.'
+    '이해함 표시, 북마크, 마지막으로 본 개념, 표시 언어와 번역·읽기 도움·화면 테마 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'Understood marks, bookmarks, the last concept viewed, and your display language, translation, reading aid and theme settings are saved on your device. The operator cannot view or recover them from a server. Records may be lost or restored depending on app deletion, data deletion and backup settings.',
+    '이 앱은 IT 패스포트·정보보안관리·기본정보기술자·응용정보기술자 시험의 실라버스 영역별 개념 설명과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that supports learning concept explanations by syllabus area, and IT terms, for the IT Passport, Information Security Management, Fundamental Information Technology Engineer and Applied Information Technology Engineer exams. These terms apply only to this app and its related support.',
+    'IT 패스포트·SG·FE·AP 실라버스 영역별로 기출에 나온 개념을 일본어로 설명하고, IT 용어 500개를 함께 익히는 일본 IT 자격시험 학습 앱.':
+      'A study app for Japanese IT exams that explains, in Japanese, concepts that appeared in past questions by syllabus area for IT Passport, SG, FE and AP, together with 500 IT terms.'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */
