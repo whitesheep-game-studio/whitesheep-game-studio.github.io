@@ -221,14 +221,14 @@ window.WHITESHEEP_TRANSLATIONS = {
     '권리 문의': '権利に関するお問い合わせ',
     '콘텐츠의 권리나 출처 표기에 대한 문의와 시정 요청 이메일:': 'コンテンツの権利や出典表示に関するお問い合わせ・是正のご依頼（メール）：',
     '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.': '受け付けた内容を確認し、必要に応じて該当項目をいったん非公開にしたうえで検討します。',
-    일본문법결: 'イルボンムンボプギョル',
+    일본문법결: '日本文法結',
     '활용을 한눈에, 문형은 차근차근.': '活用をひと目で、文型は着実に。',
     '동사·형용사·명사의 활용과 문형을 한국어로 한눈에 익히는 일본어 문법 학습 앱.': '動詞・形容詞・名詞の活用と文型を韓国語でひと目で身につける日本語文法学習アプリ。',
     '활용을 한눈에,': '活用をひと目で、',
     '문형은 차근차근.': '文型は着実に。',
-    '동사·형용사·명사의 활용과 문형을 한국어로 익히는 일본어 문법 앱, 일본문법결.': '動詞・形容詞・名詞の活用と文型を韓国語で学ぶ日本語文法アプリ、イルボンムンボプギョル。',
-    '일본문법결 알아보기 ↓': 'イルボンムンボプギョルを見る ↓',
-    '활용표 한 장을 표현한 일본문법결 심벌': '活用表1枚を表したイルボンムンボプギョルのシンボル',
+    '동사·형용사·명사의 활용과 문형을 한국어로 익히는 일본어 문법 앱, 일본문법결.': '動詞・形容詞・名詞の活用と文型を韓国語で学ぶ日本語文法アプリ、日本文法結。',
+    '일본문법결 알아보기 ↓': '日本文法結を見る ↓',
+    '활용표 한 장을 표현한 일본문법결 심벌': '活用表1枚を表した日本文法結のシンボル',
     '분류별로 활용을,': '品詞ごとに活用を、',
     '접속형별로 문형을.': '接続形ごとに文型を。',
     '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
@@ -251,10 +251,10 @@ window.WHITESHEEP_TRANSLATIONS = {
     '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': '必要に応じて該当の画面を添付してください。個人情報は隠してください。',
     '마지막으로 본 단어·문형, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       '最後に見た単語・文型、学習の印（わかる・あやふや）、ブックマーク、表示言語・テーマ・読み補助の設定は端末に保存されます。運営者がサーバーで記録を閲覧したり復元したりすることはできません。アプリの削除・OSのデータ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
-    '일본문법결 개인정보처리방침': 'イルボンムンボプギョル プライバシーポリシー',
+    '일본문법결 개인정보처리방침': '日本文法結 プライバシーポリシー',
     '최종 갱신 2026년 11월 8일': '最終更新・2026年11월8日',
     '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
-      '초록지붕이층집は、日本語文法学習アプリ「일본문법결」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、およびこの方針を掲載するウェブページに適用されます。',
+      '초록지붕이층집は、日本語文法学習アプリ「日本文法結」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、およびこの方針を掲載するウェブページに適用されます。',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
       'アプリにはアカウント登録、独自サーバー、分析SDK、広告SDK、決済機能はありません。学習履歴は端末に保存されます。メールサービスとウェブホスティングによる情報処理は、以下で別に説明します。',
     '마지막으로 본 단어·문형 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
@@ -279,15 +279,15 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 이용자의 권리와 파기 방법': '7. 利用者の権利と削除方法',
     '8. 이용 대상과 아동': '8. 利用対象と児童',
     '일본문법결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
-      '일본문법결は、大韓民国の満14歳以上の青少年および成人を対象としています。生年月日や身分証を収集して年齢を確認することはなく、すべての利用者を成人とみなすこともありません。満14歳未満の個人情報がお問い合わせに含まれていると知った場合は、必要な保護措置を検討し、不要な情報を削除します。',
+      '日本文法結は、大韓民国の満14歳以上の青少年および成人を対象としています。生年月日や身分証を収集して年齢を確認することはなく、すべての利用者を成人とみなすこともありません。満14歳未満の個人情報がお問い合わせに含まれていると知った場合は、必要な保護措置を検討し、不要な情報を削除します。',
     '9. 변경 안내': '9. 変更のお知らせ',
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
-      '処理の目的・項目・提供者・保存基準などが変更される場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は、施行前に同意を得ます。外部リンクは各提供者の公表内容であり、일본문법결の方針に代わるものではありません。',
+      '処理の目的・項目・提供者・保存基準などが変更される場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は、施行前に同意を得ます。外部リンクは各提供者の公表内容であり、日本文法結の方針に代わるものではありません。',
     'Jonathan Waller의 JLPT 자료': 'Jonathan WallerのJLPT資料',
     '일본문법결은 iOS로 출시되었고 Android 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
-      '일본문법결はiOSで公開済みで、Androidの公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
+      '日本文法結はiOSで公開済みで、Androidの公開を準備中です。このページはアプリが参照する出典と利用条件の案内です。',
     '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
-      '일본문법결の単語データには、JMdictから取り入れた表記・読みとJLPTの参考レベルが含まれています。JMdictはCC BY-SA 4.0の条件に従い出典を表示して加工しており、同じ条件が適用される範囲を含むデータの公開方法は、公開とあわせて決める予定です。アプリのコード、画面デザイン、アプリ名とアイコンはこの条件に含まれません。',
+      '日本文法結の単語データには、JMdictから取り入れた表記・読みとJLPTの参考レベルが含まれています。JMdictはCC BY-SA 4.0の条件に従い出典を表示して加工しており、同じ条件が適用される範囲を含むデータの公開方法は、公開とあわせて決める予定です。アプリのコード、画面デザイン、アプリ名とアイコンはこの条件に含まれません。',
     JMdict: 'JMdict',
     'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
       'JMdictの著作権はJames William BreenとElectronic Dictionary Research and Development Group（EDRDG）にあります。JSON変換版にはStanislav Petrovのjmdict-simplifiedを使用しました。単語の表記・読み・品詞と英語の参考訳をもとにしており、韓国語の意味は新たに作成しました。利用条件はEDRDGライセンスとCC BY-SA 4.0に従い、EDRDGによる保証・推奨を意味しません。',
@@ -303,20 +303,20 @@ window.WHITESHEEP_TRANSLATIONS = {
     '실제 화면: 단어와 암기 팁까지': '実際の画面：単語と暗記のコツまで',
     '실제 화면: 편안한 다크 테마': '実際の画面：目に優しいダークテーマ',
     '전체 2개': '全2件',
-    '일본문법결 · WhiteSheep Game Studio': 'イルボンムンボプギョル · WhiteSheep Game Studio',
-    '일본문법결 · 지원 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サポート · WhiteSheep Game Studio',
-    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': 'イルボンムンボプギョル · プライバシーポリシー · WhiteSheep Game Studio',
-    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': 'イルボンムンボプギョル · 出典と利用条件 · WhiteSheep Game Studio',
+    '일본문법결 · WhiteSheep Game Studio': '日本文法結 · WhiteSheep Game Studio',
+    '일본문법결 · 지원 · WhiteSheep Game Studio': '日本文法結 · サポート · WhiteSheep Game Studio',
+    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': '日本文法結 · プライバシーポリシー · WhiteSheep Game Studio',
+    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': '日本文法結 · 出典と利用条件 · WhiteSheep Game Studio',
     '메일에 붙여 넣고 어떤 내용이 잘못되었는지 적어 주세요.': 'メールに貼り付けて、どの内容が間違っているかを書いてください。',
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다. 법령상 보존 등 예외가 필요한 경우 관련 근거와 기간을 확인해 안내합니다.':
       '担当者：초록지붕이층집の運営者。上記のメールアドレスに、開示・訂正・削除などのご依頼をお送りください。お問い合わせメールは、対応終了後90日以内に削除します。法令上の保存などの例外が必要な場合は、関連する根拠と期間を確認してご案内します。',
     '앱은 이메일을 자동으로 보내지 않습니다. 복사한 양식을 직접 편집한 뒤 보내실 수 있습니다.':
       'アプリはメールを自動送信しません。コピーした書式を自分で編集してから送信できます。',
-    '일본문법결 서비스 이용약관': 'イルボンムンボプギョル サービス利用規約',
+    '일본문법결 서비스 이용약관': '日本文法結 サービス利用規約',
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 문법 학습 앱 ‘일본문법결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
-      'この規約は、초록지붕이층집（開発者ブランド WhiteSheep Game Studio）が提供する日本語文法学習アプリ「일본문법결」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
+      'この規約は、초록지붕이층집（開発者ブランド WhiteSheep Game Studio）が提供する日本語文法学習アプリ「日本文法結」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
     '일본문법결은 일본어 동사·형용사·명사의 활용과 문형을 한국어로 보여 주는 교육용 앱입니다. 이 약관은 일본문법결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
-      '일본문법결は、日本語の動詞・形容詞・名詞の活用と文型を韓国語で示す教育用アプリです。この規約は일본문법결アプリと関連するサポートサービスに適用され、他のアプリには自動的には適用されません。提供される学習コンテンツと機能は更新されることがあります。',
+      '日本文法結は、日本語の動詞・形容詞・名詞の活用と文型を韓国語で示す教育用アプリです。この規約は日本文法結アプリと関連するサポートサービスに適用され、他のアプリには自動的には適用されません。提供される学習コンテンツと機能は更新されることがあります。',
     '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료이며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
       '活用形、文型の説明、単語の韓国語の意味は、学習を助けるための資料であり、誤りや漏れがある場合があります。試験・業務など重要な判断には、信頼できる辞書や公式資料もあわせてご確認ください。コンテンツの出典と利用条件は別の',
     '마지막으로 본 단어·문형, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
@@ -345,7 +345,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 서비스 변경 및 중단': '7. サービスの変更と中断',
     '8. 책임과 이용자 권리': '8. 責任と利用者の権利',
     '9. 약관 변경과 문의': '9. 規約の変更とお問い合わせ',
-    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'イルボンムンボプギョル · サービス利用規約 · WhiteSheep Game Studio',
+    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': '日本文法結 · サービス利用規約 · WhiteSheep Game Studio',
     '일본 IT 국가자격증 공부 · WhiteSheep Game Studio': 'IT国家資格 勉強 · WhiteSheep Game Studio',
     '일본 IT 국가자격증 공부': 'IT国家資格 勉強',
     '일본 IT 국가자격증,': '日本のIT国家資格を、',
@@ -717,16 +717,16 @@ window.WHITESHEEP_TRANSLATIONS = {
     '콘텐츠의 권리나 출처 표기에 대한 문의와 시정 요청 이메일:': 'Email for inquiries and correction requests about content rights or source credits:',
     '접수한 내용은 확인하고, 필요하면 해당 항목을 먼저 비공개로 전환한 뒤 검토합니다.':
       'We review what we receive and, where necessary, first take the item in question offline and then examine it.',
-    일본문법결: 'Ilbon Mungbeopgyeol',
+    일본문법결: 'Japanese Grammar Grain',
     '활용을 한눈에, 문형은 차근차근.': 'Conjugations at a glance, patterns step by step.',
     '동사·형용사·명사의 활용과 문형을 한국어로 한눈에 익히는 일본어 문법 학습 앱.':
       'A Japanese grammar app that teaches verb, adjective, and noun conjugations and sentence patterns at a glance, in Korean.',
     '활용을 한눈에,': 'Conjugations at a glance,',
     '문형은 차근차근.': 'patterns step by step.',
     '동사·형용사·명사의 활용과 문형을 한국어로 익히는 일본어 문법 앱, 일본문법결.':
-      'A Japanese grammar app that teaches verb, adjective, and noun conjugations and sentence patterns in Korean: Ilbon Mungbeopgyeol.',
-    '일본문법결 알아보기 ↓': 'Explore Ilbon Mungbeopgyeol ↓',
-    '활용표 한 장을 표현한 일본문법결 심벌': 'Ilbon Mungbeopgyeol symbol showing a single conjugation table',
+      'A Japanese grammar app that teaches verb, adjective, and noun conjugations and sentence patterns in Korean: Japanese Grammar Grain.',
+    '일본문법결 알아보기 ↓': 'Explore Japanese Grammar Grain ↓',
+    '활용표 한 장을 표현한 일본문법결 심벌': 'Japanese Grammar Grain symbol showing a single conjugation table',
     '분류별로 활용을,': 'Conjugations by word type,',
     '접속형별로 문형을.': 'patterns by connection form.',
     '동사 세 그룹, い형용사, な형용사, 명사의 보통체·공손체 활용을 현재·과거, 긍정·부정으로 한 장의 표에 모았습니다. 바뀌는 어미는 굵게, 한자의 읽기는 한자 위에 작게 보여 줍니다.':
@@ -750,10 +750,10 @@ window.WHITESHEEP_TRANSLATIONS = {
     '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': 'If needed, attach the relevant screen. Please hide any personal information.',
     '마지막으로 본 단어·문형, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       'Your last viewed word or pattern, study marks (known/unsure), bookmarks, and language, theme, and reading-aid settings are stored on your device. The operator cannot view or restore these records from a server. Depending on app deletion, OS data deletion, and backup settings, records may be lost or restored.',
-    '일본문법결 개인정보처리방침': 'Ilbon Mungbeopgyeol Privacy Policy',
+    '일본문법결 개인정보처리방침': 'Japanese Grammar Grain Privacy Policy',
     '최종 갱신 2026년 11월 8일': 'Last updated November 8, 2026',
     '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
-      '초록지붕이층집 explains how personal information is handled for 일본문법결 (Ilbon Mungbeopgyeol), a Japanese grammar learning app. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support replies, and this web page.',
+      '초록지붕이층집 explains how personal information is handled for Japanese Grammar Grain (Japanese Grammar Grain), a Japanese grammar learning app. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support replies, and this web page.',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
       'The app has no sign-up, own server, analytics SDK, advertising SDK, or payment feature. Study records are stored on your device. Information processing by the email service and web hosting is explained separately below.',
     '마지막으로 본 단어·문형 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
@@ -778,15 +778,15 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 이용자의 권리와 파기 방법': '7. Your rights and deletion',
     '8. 이용 대상과 아동': '8. Intended users and children',
     '일본문법결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
-      '일본문법결 is intended for teenagers aged 14 and over and adults in the Republic of Korea. We do not collect birth dates or ID documents to verify age, and we do not treat every user as an adult. If we learn that an inquiry contains personal information of a child under 14, we will consider necessary protective measures and delete unnecessary information.',
+      'Japanese Grammar Grain is intended for teenagers aged 14 and over and adults in the Republic of Korea. We do not collect birth dates or ID documents to verify age, and we do not treat every user as an adult. If we learn that an inquiry contains personal information of a child under 14, we will consider necessary protective measures and delete unnecessary information.',
     '9. 변경 안내': '9. Changes to this policy',
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 일본문법결의 방침을 대체하지 않습니다.':
-      'When purposes, items, providers, or retention standards change, we will update this page’s version and effective date and announce the change and when it applies. Changes that need separate consent will be put to you before they take effect. External links are each provider’s own notices and do not replace the policy for 일본문법결.',
+      'When purposes, items, providers, or retention standards change, we will update this page’s version and effective date and announce the change and when it applies. Changes that need separate consent will be put to you before they take effect. External links are each provider’s own notices and do not replace the policy for Japanese Grammar Grain.',
     'Jonathan Waller의 JLPT 자료': 'Jonathan Waller’s JLPT resources',
     '일본문법결은 iOS로 출시되었고 Android 출시를 준비 중입니다. 이 페이지는 앱이 가리키는 출처와 이용 조건 안내입니다.':
-      '일본문법결 is released on iOS and Android is being prepared for release. This page describes the sources and terms the app points to.',
+      'Japanese Grammar Grain is released on iOS and Android is being prepared for release. This page describes the sources and terms the app points to.',
     '일본문법결의 단어 데이터에는 JMdict에서 가져온 표기·읽기와 JLPT 참고 레벨이 들어 있습니다. JMdict는 CC BY-SA 4.0 조건에 따라 출처를 표시하고 가공했으며, 같은 조건이 적용되는 범위를 포함한 데이터 공개 방식은 출시와 함께 정할 예정입니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘은 이 조건에 포함되지 않습니다.':
-      'The word data in 일본문법결 includes spellings and readings taken from JMdict and reference JLPT levels. JMdict is credited and adapted under CC BY-SA 4.0, and how the data will be published, including the scope where the same terms apply, will be decided together with the release. The app code, screen design, app name, and icon are not covered by these terms.',
+      'The word data in Japanese Grammar Grain includes spellings and readings taken from JMdict and reference JLPT levels. JMdict is credited and adapted under CC BY-SA 4.0, and how the data will be published, including the scope where the same terms apply, will be decided together with the release. The app code, screen design, app name, and icon are not covered by these terms.',
     JMdict: 'JMdict',
     'JMdict의 저작권은 James William Breen과 Electronic Dictionary Research and Development Group(EDRDG)에 있습니다. JSON 변환판은 Stanislav Petrov의 jmdict-simplified를 사용했습니다. 단어의 표기·읽기·품사와 영어 참고 뜻을 바탕으로 하며, 한국어 뜻은 새로 작성했습니다. 이용 조건은 EDRDG 라이선스와 CC BY-SA 4.0을 따르며 EDRDG의 보증·추천을 뜻하지 않습니다.':
       'The copyright of JMdict belongs to James William Breen and the Electronic Dictionary Research and Development Group (EDRDG). The JSON conversion by Stanislav Petrov, jmdict-simplified, was used. The app builds on word spellings, readings, parts of speech, and English reference glosses, and the Korean meanings were newly written. The terms follow the EDRDG licence and CC BY-SA 4.0 and do not imply endorsement by EDRDG.',
@@ -802,20 +802,20 @@ window.WHITESHEEP_TRANSLATIONS = {
     '실제 화면: 단어와 암기 팁까지': 'Actual screen: words and memory tips too',
     '실제 화면: 편안한 다크 테마': 'Actual screen: a comfortable dark theme',
     '전체 2개': '2 total',
-    '일본문법결 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · WhiteSheep Game Studio',
-    '일본문법결 · 지원 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Support · WhiteSheep Game Studio',
-    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Privacy Policy · WhiteSheep Game Studio',
-    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Sources and terms · WhiteSheep Game Studio',
+    '일본문법결 · WhiteSheep Game Studio': 'Japanese Grammar Grain · WhiteSheep Game Studio',
+    '일본문법결 · 지원 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Support · WhiteSheep Game Studio',
+    '일본문법결 · 개인정보 안내 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Privacy Policy · WhiteSheep Game Studio',
+    '일본문법결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Sources and terms · WhiteSheep Game Studio',
     '메일에 붙여 넣고 어떤 내용이 잘못되었는지 적어 주세요.': 'Paste it into an email and describe what is wrong.',
     '담당자: 초록지붕이층집 운영자. 위 이메일로 열람·정정·삭제 등 요청을 보내주세요. 문의 메일은 처리 종료 후 90일 이내에 삭제합니다. 법령상 보존 등 예외가 필요한 경우 관련 근거와 기간을 확인해 안내합니다.':
       'Contact: the operator of 초록지붕이층집. Send requests for access, correction, deletion, and similar matters to the email above. Support emails are deleted within 90 days after handling ends. If an exception such as legal retention is needed, we will confirm the basis and period and let you know.',
     '앱은 이메일을 자동으로 보내지 않습니다. 복사한 양식을 직접 편집한 뒤 보내실 수 있습니다.':
       'The app does not send email automatically. You can edit the copied form yourself before sending it.',
-    '일본문법결 서비스 이용약관': 'Ilbon Mungbeopgyeol Terms of Service',
+    '일본문법결 서비스 이용약관': 'Japanese Grammar Grain Terms of Service',
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 문법 학습 앱 ‘일본문법결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
-      'These terms describe the conditions of use for 일본문법결, a Japanese grammar learning app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
+      'These terms describe the conditions of use for Japanese Grammar Grain, a Japanese grammar learning app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
     '일본문법결은 일본어 동사·형용사·명사의 활용과 문형을 한국어로 보여 주는 교육용 앱입니다. 이 약관은 일본문법결 앱과 관련 지원 서비스에 적용되며, 다른 앱에는 자동으로 적용되지 않습니다. 제공되는 학습 콘텐츠와 기능은 업데이트될 수 있습니다.':
-      '일본문법결 is an educational app that shows the conjugations of Japanese verbs, adjectives, and nouns and sentence patterns in Korean. These terms apply to the 일본문법결 app and its related support services, and do not automatically apply to other apps. The learning content and features provided may be updated.',
+      'Japanese Grammar Grain is an educational app that shows the conjugations of Japanese verbs, adjectives, and nouns and sentence patterns in Korean. These terms apply to the Japanese Grammar Grain app and its related support services, and do not automatically apply to other apps. The learning content and features provided may be updated.',
     '활용형, 문형 설명, 단어의 한국어 뜻은 학습을 돕기 위한 자료이며 오류나 누락이 있을 수 있습니다. 시험·업무 등 중요한 판단에는 공신력 있는 사전이나 공식 자료를 함께 확인해 주세요. 콘텐츠의 출처와 이용 조건은 별도':
       'Conjugated forms, pattern explanations, and the Korean meanings of words are materials to support learning, and errors or omissions may exist. For important decisions such as exams or work, please also check authoritative dictionaries or official materials. The sources and terms of the content are available on the separate',
     '마지막으로 본 단어·문형, 학습 표시, 북마크 등은 기기에 저장됩니다. 앱 삭제, 데이터 초기화, 기기 변경 또는 운영체제 동작에 따라 기록이 사라지거나 복원될 수 있습니다. 개인정보 관련 사항은':
@@ -844,7 +844,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '7. 서비스 변경 및 중단': '7. Changes to and suspension of the service',
     '8. 책임과 이용자 권리': '8. Responsibility and user rights',
     '9. 약관 변경과 문의': '9. Changes to these terms and contact',
-    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Ilbon Mungbeopgyeol · Terms of Service · WhiteSheep Game Studio',
+    '일본문법결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Japanese Grammar Grain · Terms of Service · WhiteSheep Game Studio',
     '일본 IT 국가자격증 공부 · WhiteSheep Game Studio': 'Japan IT Cert Study · WhiteSheep Game Studio',
     '일본 IT 국가자격증 공부': 'Japan IT Cert Study',
     '일본 IT 국가자격증,': 'Japan’s IT certification,',
