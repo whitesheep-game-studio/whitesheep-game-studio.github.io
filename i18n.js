@@ -392,8 +392,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'このページは静的なウェブページで、ログイン、入力フォーム、広告、外部の分析スクリプトを使用しません。ブラウザのlocalStorageには選択した言語のみを保存し、サーバーへは送信しません。',
     '6. 이용자의 권리와 파기': '6. 利用者の権利と破棄',
     '운영자가 보유한 문의 정보에 대해 열람, 정정, 삭제, 처리 정지를 요청할 수 있습니다. 기기에만 저장된 기록은 앱 데이터 삭제로 지울 수 있습니다. 보유 기간이 끝난 메일과 첨부는 복구가 어렵도록 삭제합니다. Google과 GitHub가 독립적으로 보유하는 정보에는 각 제공자의 절차가 적용됩니다.':
-      '運営者が保有する問い合わせ情報について、閲覧、訂正、削除、処理停止を請求できます。端末内だけに保存された記録は、アプリのデータ削除で消去できます。保管期間が終わったメールと添付は、復元が困難になるよう削除します。GoogleとGitHubが独自に保有する情報には、各提供者の手続が適用されます。',
-    '7. 이용 대상과 변경': '7. 利用対象と変更',
+      '運営者が保有する問い合わせ情報について、開示、訂正、削除、処理停止を請求できます。端末内だけに保存された記録は、アプリのデータ削除で消去できます。保管期間が終わったメールと添付は、復元が困難になるよう削除します。GoogleとGitHubが独自に保有する情報には、各提供者の手続が適用されます。',
+    '7. 이용 대상과 변경': '7. 対象となる利用者と変更',
     '연령 확인을 위한 생년월일이나 신분증을 수집하지 않습니다. 처리 목적·항목·제공자가 바뀌면 이 페이지의 일자와 내용을 갱신하고 시행 전에 안내합니다.':
       '年齢確認のための生年月日や身分証は収集しません。処理の目的・項目・提供者が変わる場合は、このページの日付と内容を更新し、施行前にお知らせします。',
     '일본 IT 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': 'IT国家資格 勉強 · 出典・利用条件 · WhiteSheep Game Studio',
@@ -761,7 +761,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '대한민국 국세기본법·법인세법·소득세법·부가가치세법 등 조세법 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
       '韓国の国税基本法・法人税法・所得税法・付加価値税法などの租税法の体系を参考に、概念カードと用語集を運営者が独自に編集しました。',
     '학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다. 세법은 자주 개정되므로 실제 신고·납부와 세무 판단은 현행 법령과 전문가를 통해 확인하세요.':
-      '学習を助けるための資料であり、税務相談や税務・法律上の助言ではありません。税法は頻繁に改正されるため、実際の申告・納付や税務上の判断は、現行の法令と専門家にご確認ください。',
+      '学習を助けるための資料であり、税務相談や税務・法律上の助言ではありません。税法は頻繁に改正されるため、実際の申告・納付や税務上の判断にあたっては、現行の法令を確認し、専門家にご相談ください。',
     '매일매일 세법': '毎日税法',
     '매일매일 세법 · WhiteSheep Game Studio': '毎日税法 · WhiteSheep Game Studio',
     '매일매일 세법 · 지원 · WhiteSheep Game Studio': '毎日税法 · サポート · WhiteSheep Game Studio',
@@ -858,7 +858,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘안전 국가자격증 공부’의 이용 조건을 안내합니다.':
       'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「安全衛生国家資格勉強」の利用条件を説明します。',
     '이 앱은 한국·일본 산업안전·산업보건 분야 자격의 핵심 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
-      'このアプリは、韓国・日本の労働安全・労働衛生分野の資格の基礎概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。'
+      'このアプリは、韓国・日本の労働安全・労働衛生分野の資格の主要な概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。'
   },
   en: {
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
@@ -874,7 +874,7 @@ window.WHITESHEEP_TRANSLATIONS = {
       'The app has no account registration, operator-run server, separate analytics SDK, or payment feature. Learning history is stored on your device. Processing by advertising and consent SDKs, email services, and website hosting is described separately below.',
     '1. 운영자와 개인정보 문의': '1. Operator and privacy contact',
     '운영자 및 개인정보 문의 담당자: 초록지붕이층집 운영자': 'Operator and privacy contact: the operator of 초록지붕이층집',
-    '문의·열람·정정·삭제·처리 정지 요청:': 'Questions and requests for access, correction, deletion, or restriction:',
+    '문의·열람·정정·삭제·처리 정지 요청:': 'Questions and requests for access, correction, deletion or suspension of processing:',
     '2. 기기에 저장하는 학습 기록과 설정': '2. Learning history and settings stored on your device',
     '현재 한자 ID, 열람한 한자 ID, 콘텐츠·저장 형식 버전 및 화면 테마를 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 광고업체의 서버로 전송하지 않습니다. 운영자는 기기에만 있는 학습 기록을 원격으로 조회할 수 없습니다.':
       'The app stores the current kanji ID, viewed kanji IDs, content and storage-format versions, and display theme to restore your place and preferences. The app itself does not send these records to the operator or advertising companies. The operator cannot remotely access learning history held only on your device.',
@@ -1240,7 +1240,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '초록지붕이층집은 일본 IT 국가자격증 공부 — 일본 IT 자격시험 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
       '초록지붕이층집 explains how personal information is handled in Japanese IT Cert Study, a study app for Japanese IT exams. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence and the web page that hosts this policy.',
     '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장되며 앱이 외부로 전송하지 않습니다.':
-      'The app has no account sign-up, own server, analytics SDK, advertising SDK or payment feature. Study records are stored on your device and are not sent anywhere by the app.',
+      'The app has no account sign-up, no server of its own, and no analytics SDK, advertising SDK or payment feature. Study records are stored on your device and are not sent anywhere by the app.',
     '풀이 기록과 시각, 오답 기록, 북마크, 모의시험의 문항·선택·종료 시각, 일본어 이해도, 표시 언어, 보조 언어, 번역·후리가나 표시 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
       'We store answer history and timestamps, records of missed questions, bookmarks, the questions, choices and end time of a mock exam, Japanese level, display language, support language and translation/furigana display settings to restore your place and settings. The operator cannot remotely view records that exist only on your device.',
     '이 정보는 앱 데이터를 삭제할 때까지 기기에 남습니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
@@ -1310,7 +1310,7 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Copyright in the past questions belongs to IPA. Rights in the app’s design, original explanations and software belong to the operator or rightful holders.',
     '7. 변경과 문의': '7. Changes and contact',
     '서비스와 약관은 변경될 수 있으며 중대한 변경은 가능한 방법으로 안내합니다. 이 약관은 적용 법령상 소비자 권리를 제한하지 않습니다. 문의:':
-      'The service and these terms may change, and significant changes will be announced where possible. These terms do not limit consumer rights under applicable law. Contact:',
+      'The service and these terms may change, and significant changes will be announced by the means available. These terms do not limit consumer rights under applicable law. Contact:',
     '학습 · iOS': 'Learning · iOS',
     'IT 패스포트 공개 기출 200문항과 IT 용어 500개를 일본어 원문으로 익히는 일본 IT 자격시험 학습 앱.':
       'A study app for Japanese IT exams with 200 public IT Passport past questions and 500 IT terms in the original Japanese.',
@@ -1568,13 +1568,13 @@ window.WHITESHEEP_TRANSLATIONS = {
     '재무관리 핵심 개념,': 'Key finance concepts,',
     '카드와 퀴즈로 매일.': 'in daily cards and quizzes.',
     '재무관리(CPA 1·2차)와 CFA Level 1~3 핵심 개념을 카드·용어집·퀴즈로 공부하는 오프라인 학습 앱.':
-      'Key finance concepts for Korean CPA and CFA Levels I-III: cards, glossary, quiz.',
+      'Key finance concepts for Korean CPA and CFA Levels I–III: cards, glossary, quiz.',
     '한국 공인회계사(CPA) 1·2차 시험의 재무관리와 CFA Level 1~3에서 다루는 핵심 개념을 4개 과목, 12개 영역으로 나누어 공부합니다. 개념 카드 32개와 용어 22개를 담았고, 재무관리는 한국어, CFA 과목은 영어를 원문으로 합니다.':
-      'Study the key concepts of Financial Management for the Korean CPA exam (1st and 2nd stages) and of CFA Levels I-III in four subjects and 12 areas. The app holds 32 concept cards and 22 glossary terms; Financial Management is written in Korean and the CFA subjects in English.',
+      'Study the key concepts of Financial Management for the Korean CPA exam (1st and 2nd stages) and of CFA Levels I–III in four subjects and 12 areas. The app holds 32 concept cards and 22 glossary terms; Financial Management is written in Korean and the CFA subjects in English.',
     '이 앱은 금융감독원, 그리고 CFA Institute와 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. CFA Institute는 이 앱을 보증하거나 홍보하지 않으며, 내용의 정확성이나 품질을 보증하지 않습니다. CFA®와 Chartered Financial Analyst®는 CFA Institute의 등록 상표입니다.':
       'This is an unofficial study app. It is not affiliated with the Financial Supervisory Service of Korea or with CFA Institute, and it does not guarantee a pass. CFA Institute does not endorse, promote or warrant the accuracy or quality of this app. CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.',
     '한국 CPA 1·2차 재무관리 출제범위와 CFA Level I~III 커리큘럼 토픽을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 시험 문제 본문은 앱에 담지 않았습니다.':
-      'Concept cards and the glossary were edited by the operator with reference to the scope of Financial Management in the Korean CPA exam (1st and 2nd stages) and the curriculum topics of CFA Levels I-III. The app does not include the text of exam questions.',
+      'Concept cards and the glossary were edited by the operator with reference to the scope of Financial Management in the Korean CPA exam (1st and 2nd stages) and the curriculum topics of CFA Levels I–III. The app does not include the text of exam questions.',
     '매일매일 재무관리': 'Daily Finance',
     '매일매일 재무관리 · WhiteSheep Game Studio': 'Daily Finance · WhiteSheep Game Studio',
     '매일매일 재무관리 · 지원 · WhiteSheep Game Studio': 'Daily Finance · Support · WhiteSheep Game Studio',
@@ -1590,7 +1590,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 재무관리’의 이용 조건을 안내합니다.':
       'These terms describe the conditions of use for “Daily Finance”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
     '이 앱은 한국 CPA 1·2차 재무관리와 CFA Level 1~3의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
-      'This is an unofficial educational app that helps you learn the concepts and terms of Financial Management for the Korean CPA exam (1st and 2nd stages) and of CFA Levels I-III. These terms apply only to this app and its related support.',
+      'This is an unofficial educational app that helps you learn the concepts and terms of Financial Management for the Korean CPA exam (1st and 2nd stages) and of CFA Levels I–III. These terms apply only to this app and its related support.',
     '경제학·재정학·경영학,': 'Economics, public finance and business,',
     '개념 카드로 매일.': 'one concept card at a time.',
     '경제학·재정학·경영학 핵심 개념 37개를 카드, 용어집, 퀴즈, 오답노트로 공부하는 오프라인 학습 앱.':
@@ -1627,7 +1627,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '대한민국 국세기본법·법인세법·소득세법·부가가치세법 등 조세법 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
       'Concept cards and the glossary were edited by the operator with reference to Korean tax statutes such as the Framework Act on National Taxes, the Corporate Tax Act, the Income Tax Act and the Value-Added Tax Act.',
     '학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다. 세법은 자주 개정되므로 실제 신고·납부와 세무 판단은 현행 법령과 전문가를 통해 확인하세요.':
-      'It is a study aid, not tax consultation or tax or legal advice. Tax law changes often, so check current statutes and a qualified professional before any real filing, payment or tax decision.',
+      'It is a study aid, not tax consultation or tax or legal advice. Tax law changes often, so check current statutes and consult a qualified professional before any real filing, payment or tax decision.',
     '매일매일 세법': 'Daily Tax Law',
     '매일매일 세법 · WhiteSheep Game Studio': 'Daily Tax Law · WhiteSheep Game Studio',
     '매일매일 세법 · 지원 · WhiteSheep Game Studio': 'Daily Tax Law · Support · WhiteSheep Game Studio',
@@ -1707,7 +1707,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '산업안전보건 관계 법령과 공식 출제기준을 바탕으로 운영자가 자체 정리한 학습 자료입니다.':
       'The material is study content organized by the operator from occupational safety and health statutes and official exam syllabi.',
     '각 자격의 출제 범위 전체를 다루지 않으며, 기출문제의 본문·보기·정답은 담지 않았습니다. 사업장의 안전보건교육, 관계 법령, 전문가의 판단을 대신하지 않습니다. 법령과 기준은 개정될 수 있으므로 실제 업무와 시험 응시 요건은 반드시 최신 법령과 공식 안내로 확인하세요.':
-      'It does not cover the full scope of any exam and contains no past-question text, answer choices or answers. It does not replace workplace safety and health training, the law or professional judgement. Laws and standards change, so always check current legislation and official guidance for real work and for exam requirements.',
+      'It does not cover the full scope of any exam and contains no past-question text, answer choices or answers. It does not replace workplace safety and health training, applicable laws and regulations or professional judgement. Laws and standards change, so always check current legislation and official guidance for real work and for exam requirements.',
     '안전 국가자격증 공부': 'Safety Certification Study',
     '안전 국가자격증 공부 · WhiteSheep Game Studio': 'Safety Certification Study · WhiteSheep Game Studio',
     '안전 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'Safety Certification Study · Support · WhiteSheep Game Studio',
