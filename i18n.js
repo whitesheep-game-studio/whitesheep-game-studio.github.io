@@ -621,7 +621,244 @@ window.WHITESHEEP_TRANSLATIONS = {
     'Solitaire Duo · 지원 · WhiteSheep Game Studio': 'Solitaire Duo · サポート · WhiteSheep Game Studio',
     'Solitaire Duo · 개인정보 안내 · WhiteSheep Game Studio': 'Solitaire Duo · プライバシーポリシー · WhiteSheep Game Studio',
     'Solitaire Duo · 출처·이용 조건 · WhiteSheep Game Studio': 'Solitaire Duo · 出典・利用条件 · WhiteSheep Game Studio',
-    'Solitaire Duo · 서비스 이용약관 · WhiteSheep Game Studio': 'Solitaire Duo · 利用規約 · WhiteSheep Game Studio'
+    'Solitaire Duo · 서비스 이용약관 · WhiteSheep Game Studio': 'Solitaire Duo · 利用規約 · WhiteSheep Game Studio',
+    '출시 전 초안 · 최종 갱신 2026년 11월 17일': '公開前ドラフト・最終更新：2026年11月17日',
+    '이해함으로 표시한 개념, 북마크한 개념과 용어, 오답노트에 담긴 개념, 마지막으로 본 개념, 표시 언어, 번역 표시, 화면 테마 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      '理解済みとしてマークした概念、ブックマークした概念と用語、誤答ノートに入った概念、最後に見た概念、表示言語、翻訳の表示、画面テーマの設定を保存し、学習位置と設定を復元します。運営者は端末内だけにある記録をリモートで閲覧できません。',
+    '이해함 표시, 북마크, 오답노트, 마지막으로 본 개념, 표시 언어와 번역 표시·화면 테마 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      '「理解した」の表示、ブックマーク、誤答ノート、最後に見た概念、表示言語、翻訳の表示・画面テーマの設定は端末に保存されます。運営者がサーバーから記録を閲覧・復旧することはできません。アプリの削除・データ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
+    '최종 갱신 2026년 11월 17일 · 출시 전 초안': '最終更新 2026年11月17日・公開前ドラフト',
+    '수록 내용에는 오류나 누락이 있을 수 있으며 합격이나 점수를 보장하지 않습니다. 시험 일정과 최신 출제 범위, 법령과 기준의 최신 내용은 공식 안내와 원문을 확인해 주세요. 출처와 이용 조건은':
+      '収録内容には誤りや漏れがある場合があり、合格や得点を保証するものではありません。試験日程と最新の出題範囲、法令や基準の最新の内容は、公式の案内と原文をご確認ください。出典と利用条件は',
+    '앱의 디자인, 자체 작성 설명과 소프트웨어에 관한 권리는 운영자 또는 정당한 권리자에게 있습니다. 법령·기준서와 각 기관의 명칭·상표에 관한 권리는 해당 권리자에게 있습니다.':
+      'アプリのデザイン、独自に作成した解説、ソフトウェアに関する権利は、運営者または正当な権利者に帰属します。法令・基準書および各機関の名称・商標に関する権利は、それぞれの権利者に帰属します。',
+    '콘텐츠의 출처': 'コンテンツの出典',
+    '이 앱은 비공식 학습 앱이며 합격을 보장하지 않습니다.': '本アプリは非公式の学習アプリで、合格を保証するものではありません。',
+    '개념 카드로 읽고,': '概念カードで読み、',
+    '퀴즈로 확인하세요.': 'クイズで確かめよう。',
+    '개념 카드': '概念カード',
+    '카드마다 개념 설명과 시험 핵심 포인트를 함께 읽습니다.': 'カードごとに、概念の解説と試験のポイントをあわせて読めます。',
+    '퀴즈와 오답노트': 'クイズと誤答ノート',
+    '핵심 포인트를 읽고 맞는 개념을 네 개 보기 중에서 고르는 퀴즈를 한 번에 최대 10문항씩 풉니다. 틀린 개념은 오답노트에 모이고, 오답노트만 다시 풀 수 있습니다.':
+      '試験のポイントを読み、当てはまる概念を4つの選択肢から選ぶクイズを、1回につき最大10問解けます。間違えた概念は誤答ノートにたまり、誤答ノートだけを解き直せます。',
+    '용어집과 학습 기록': '用語集と学習記録',
+    '용어집에서 한국어·영어·일본어 이름과 설명을 확인합니다. 이해한 개념, 북마크, 오답노트는 기기에만 저장되며 계정과 서버가 필요 없습니다.':
+      '用語集で韓国語・英語・日本語の名称と説明を確認できます。理解した概念、ブックマーク、誤答ノートは端末にのみ保存され、アカウントもサーバーも不要です。',
+    '개인정보처리방침 초안 · 2026-11-17': 'プライバシーポリシー（ドラフト）・2026-11-17',
+    '전체 12개': '全12件',
+    '한국 IT 자격 16종,': '韓国のIT資格16種、',
+    '기초 개념부터 차근차근.': '基礎概念から一歩ずつ。',
+    '정보처리기사·정보보안기사 등 한국 IT 자격 16종의 기초 개념과 IT 용어 500개를 카드와 퀴즈로 공부합니다.':
+      '情報処理技師など韓国のIT資格16種について、基礎概念とIT用語500語をカードとクイズで学べる非公式アプリです。',
+    '정보처리기사·정보보안기사·정보통신기사 등 한국 IT 자격 16종의 기초 개념을 자격별·과목별 학습 경로로 나누어 개념 카드로 공부합니다. IT 용어 500개는 한국어·영어·일본어 표기와 설명으로 확인합니다. 기출문제를 푸는 앱이 아니라 개념 카드를 읽고 퀴즈로 확인하는 기초 학습 앱입니다.':
+      '情報処理技師・情報保安技師・情報通信技師など韓国のIT資格16種の基礎概念を、資格・科目ごとの学習コースに分けて概念カードで学びます。IT用語500語は韓国語・英語・日本語の表記と説明で確認できます。過去問を解くアプリではなく、概念カードを読んでクイズで確かめる基礎学習アプリです。',
+    '이 앱은 한국산업인력공단(Q-Net), 한국방송통신전파진흥원, 한국데이터산업진흥원, 대한상공회의소, 한국지능정보사회진흥원, 한국경영기술지도사회 등 시험 시행·관련 기관이나 정부 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. 시험 일정과 출제기준은 반드시 각 시행 기관의 공지를 확인해 주세요.':
+      '本アプリは、韓国産業人力公団（Q-Net）、韓国放送通信電波振興院、韓国データ産業振興院、大韓商工会議所、韓国知能情報社会振興院、韓国経営技術指導士会などの試験実施・関連機関や政府機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。試験日程と出題基準は、必ず各実施機関の案内をご確認ください。',
+    '공개된 공식 출제기준과 표준 문서를 바탕으로 운영자가 자체 정리한 학습 자료입니다. 기출문제 본문·보기·정답은 앱에 담지 않았습니다.':
+      '公開されている公式の出題基準と標準文書をもとに、運営者が独自にまとめた学習資料です。過去問題の本文・選択肢・正答はアプリに含めていません。',
+    '한국 IT 국가자격증 공부': '韓国IT国家資格勉強',
+    '한국 IT 국가자격증 공부 · WhiteSheep Game Studio': '韓国IT国家資格勉強 · WhiteSheep Game Studio',
+    '한국 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': '韓国IT国家資格勉強 · サポート · WhiteSheep Game Studio',
+    '한국 IT 국가자격증 공부 · 개인정보 안내 · WhiteSheep Game Studio': '韓国IT国家資格勉強 · プライバシーポリシー · WhiteSheep Game Studio',
+    '한국 IT 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': '韓国IT国家資格勉強 · 出典・利用条件 · WhiteSheep Game Studio',
+    '한국 IT 국가자격증 공부 · 서비스 이용약관 · WhiteSheep Game Studio': '韓国IT国家資格勉強 · サービス利用規約 · WhiteSheep Game Studio',
+    '한국 IT 자격 16종, 기초 개념부터 차근차근.': '韓国のIT資格16種、基礎概念から一歩ずつ。',
+    '한국 IT 국가자격증 공부 앱 아이콘': '韓国IT国家資格勉強のアプリアイコン',
+    '한국 IT 국가자격증 공부 개인정보처리방침': '韓国IT国家資格勉強 プライバシーポリシー',
+    '한국 IT 국가자격증 공부 서비스 이용약관': '韓国IT国家資格勉強 サービス利用規約',
+    '초록지붕이층집은 학습 앱 ‘한국 IT 국가자격증 공부’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、学習アプリ「韓国IT国家資格勉強」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針を掲載するウェブページに適用されます。',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘한국 IT 국가자격증 공부’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「韓国IT国家資格勉強」の利用条件を説明します。',
+    '이 앱은 한국 IT 자격 16종의 기초 개념과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、韓国のIT資格16種の基礎概念とIT用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    '회계기준마다 다른 처리,': '基準ごとに異なる会計処理を、',
+    '카드로 나누어 정리.': 'カードで整理。',
+    'K-IFRS·IFRS, US-GAAP, 일본기준, 일반기업회계기준과 원가관리회계의 핵심 개념을 카드와 퀴즈로 공부합니다.':
+      'IFRS・米国基準・日本基準・韓国基準の財務会計と原価管理会計の重要概念を、カードとクイズで学べます。',
+    '재무회계를 K-IFRS·IFRS, US-GAAP, 일본기준(J-GAAP), 일반기업회계기준(K-GAAP)으로 나누고 원가관리회계를 더해 5개 과목, 25개 영역으로 공부합니다. 개념 카드 67개와 회계 용어 43개를 한국어·영어·일본어로 볼 수 있고, 과목의 원문 언어와 표시 언어가 다르면 원문과 번역을 함께 보여 줍니다.':
+      '財務会計をK-IFRS・IFRS、米国基準（US-GAAP）、日本基準（J-GAAP）、韓国の一般企業会計基準（K-GAAP）に分け、原価管理会計を加えた5科目・25領域で学びます。概念カード67枚と会計用語43語を韓国語・英語・日本語で読め、科目の原文の言語と表示言語が違うときは原文と翻訳を並べて表示します。',
+    '이 앱은 IFRS 재단·국제회계기준위원회(IASB), 한국회계기준원(KASB), 미국 재무회계기준위원회(FASB), 일본 기업회계기준위원회(ASBJ)를 비롯한 어떤 기준제정기구·시험 주관 기관·정부 기관과도 무관한 비공식 학습 앱이며, 시험 합격을 보장하지 않습니다.':
+      '本アプリは、IFRS財団・国際会計基準審議会（IASB）、韓国会計基準院（KASB）、米国財務会計基準審議会（FASB）、企業会計基準委員会（ASBJ）をはじめ、いかなる基準設定主体・試験実施機関・政府機関とも関係のない非公式の学習アプリで、試験の合格を保証するものではありません。',
+    'K-IFRS·IFRS, FASB ASC(US-GAAP), ASBJ(J-GAAP), 일반기업회계기준(K-GAAP) 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 개념 설명과 용어 풀이는 운영자가 새로 정리한 학습용 요약이며 기준서 원문을 대신하지 않습니다.':
+      'K-IFRS・IFRS、FASB ASC（US-GAAP）、ASBJ（J-GAAP）、韓国の一般企業会計基準（K-GAAP）の体系を参考に、概念カードと用語集を運営者が独自に編集しました。概念の解説と用語の説明は、運営者が新たにまとめた学習用の要約であり、基準書の原文に代わるものではありません。',
+    '매일매일 회계학': '毎日会計学',
+    '매일매일 회계학 · WhiteSheep Game Studio': '毎日会計学 · WhiteSheep Game Studio',
+    '매일매일 회계학 · 지원 · WhiteSheep Game Studio': '毎日会計学 · サポート · WhiteSheep Game Studio',
+    '매일매일 회계학 · 개인정보 안내 · WhiteSheep Game Studio': '毎日会計学 · プライバシーポリシー · WhiteSheep Game Studio',
+    '매일매일 회계학 · 출처·이용 조건 · WhiteSheep Game Studio': '毎日会計学 · 出典・利用条件 · WhiteSheep Game Studio',
+    '매일매일 회계학 · 서비스 이용약관 · WhiteSheep Game Studio': '毎日会計学 · サービス利用規約 · WhiteSheep Game Studio',
+    '회계기준마다 다른 처리, 카드로 나누어 정리.': '基準ごとに異なる会計処理を、カードで整理。',
+    '매일매일 회계학 앱 아이콘': '毎日会計学のアプリアイコン',
+    '매일매일 회계학 개인정보처리방침': '毎日会計学 プライバシーポリシー',
+    '매일매일 회계학 서비스 이용약관': '毎日会計学 サービス利用規約',
+    '초록지붕이층집은 학습 앱 ‘매일매일 회계학’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、学習アプリ「毎日会計学」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針を掲載するウェブページに適用されます。',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 회계학’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「毎日会計学」の利用条件を説明します。',
+    '이 앱은 재무회계(K-IFRS·IFRS, US-GAAP, J-GAAP, K-GAAP)와 원가관리회계의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、財務会計（K-IFRS・IFRS、US-GAAP、J-GAAP、K-GAAP）と原価管理会計の概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    '재무관리 핵심 개념,': '財務管理の重要概念を、',
+    '카드와 퀴즈로 매일.': 'カードとクイズで毎日。',
+    '재무관리(CPA 1·2차)와 CFA Level 1~3 핵심 개념을 카드·용어집·퀴즈로 공부하는 오프라인 학습 앱.':
+      '韓国CPAの財務管理とCFA Level 1〜3の重要概念を、カード・用語集・クイズで学べるオフライン学習アプリ。',
+    '한국 공인회계사(CPA) 1·2차 시험의 재무관리와 CFA Level 1~3에서 다루는 핵심 개념을 4개 과목, 12개 영역으로 나누어 공부합니다. 개념 카드 32개와 용어 22개를 담았고, 재무관리는 한국어, CFA 과목은 영어를 원문으로 합니다.':
+      '韓国公認会計士（CPA）1次・2次試験の財務管理と、CFA Level 1〜3で扱う重要概念を、4科目・12分野に分けて学びます。概念カード32枚と用語22語を収録し、財務管理は韓国語、CFAの科目は英語が原文です。',
+    '이 앱은 공인회계사시험을 주관·시행하는 금융위원회·금융감독원, 그리고 CFA Institute와 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. CFA Institute는 이 앱을 보증하거나 홍보하지 않으며, 내용의 정확성이나 품질을 보증하지 않습니다. CFA®와 Chartered Financial Analyst®는 CFA Institute의 등록 상표입니다.':
+      '本アプリは、韓国の公認会計士試験を所管・実施する金融委員会・金融監督院、およびCFA Instituteとは関係のない非公式の学習アプリで、合格を保証するものではありません。CFA Instituteは本アプリを保証・推奨しておらず、内容の正確性や品質を保証するものでもありません。CFA®およびChartered Financial Analyst®はCFA Instituteの登録商標です。',
+    '한국 CPA 1·2차 재무관리 출제범위와 CFA Level I~III 커리큘럼 토픽을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 시험 문제 본문은 앱에 담지 않았습니다.':
+      '韓国CPA 1次・2次の財務管理の出題範囲とCFA Level I〜IIIのカリキュラムのトピックを参考に、概念カードと用語集を運営者が独自に編集しました。試験問題の本文はアプリに含めていません。',
+    '매일매일 재무관리': '毎日財務管理',
+    '매일매일 재무관리 · WhiteSheep Game Studio': '毎日財務管理 · WhiteSheep Game Studio',
+    '매일매일 재무관리 · 지원 · WhiteSheep Game Studio': '毎日財務管理 · サポート · WhiteSheep Game Studio',
+    '매일매일 재무관리 · 개인정보 안내 · WhiteSheep Game Studio': '毎日財務管理 · プライバシーポリシー · WhiteSheep Game Studio',
+    '매일매일 재무관리 · 출처·이용 조건 · WhiteSheep Game Studio': '毎日財務管理 · 出典・利用条件 · WhiteSheep Game Studio',
+    '매일매일 재무관리 · 서비스 이용약관 · WhiteSheep Game Studio': '毎日財務管理 · サービス利用規約 · WhiteSheep Game Studio',
+    '재무관리 핵심 개념, 카드와 퀴즈로 매일.': '財務管理の重要概念を、カードとクイズで毎日。',
+    '매일매일 재무관리 앱 아이콘': '毎日財務管理のアプリアイコン',
+    '매일매일 재무관리 개인정보처리방침': '毎日財務管理 プライバシーポリシー',
+    '매일매일 재무관리 서비스 이용약관': '毎日財務管理 サービス利用規約',
+    '초록지붕이층집은 학습 앱 ‘매일매일 재무관리’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、学習アプリ「毎日財務管理」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針を掲載するウェブページに適用されます。',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 재무관리’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「毎日財務管理」の利用条件を説明します。',
+    '이 앱은 한국 CPA 1·2차 재무관리와 CFA Level 1~3의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、韓国CPA 1次・2次の財務管理とCFA Level 1〜3の概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    '경제학·재정학·경영학,': '経済学・財政学・経営学を、',
+    '개념 카드로 매일.': '概念カードで毎日。',
+    '경제학·재정학·경영학 핵심 개념 37개를 카드, 용어집, 퀴즈, 오답노트로 공부하는 오프라인 학습 앱.':
+      '経済学・財政学・経営学の重要概念37項目を、カード・用語集・クイズ・誤答ノートで学べるオフライン学習アプリ。',
+    '경제학, 재정학, 일반경영학의 핵심 개념을 3개 과목, 17개 출제 영역으로 나누어 공부합니다. 공인회계사(CPA) 1차 시험의 경제학·일반경영학과 세무사(CTA) 1차 시험의 재정학 범위를 참고해 구성했으며, 개념 카드 37개와 용어 25개를 담았습니다.':
+      '経済学・財政学・経営学の重要な概念を、3科目・17の出題分野に分けて学びます。韓国の公認会計士（CPA）1次試験の経済学・経営学と、韓国の税理士（CTA）1次試験の財政学の範囲を参考に構成し、概念カード37枚と用語25語を収録しています。',
+    '이 앱은 금융위원회·금융감독원(공인회계사 시험), 국세청·한국산업인력공단(세무사 시험)을 비롯한 어떤 시험 주관·시행 기관과도 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、韓国の金融委員会・金融監督院（公認会計士試験）、国税庁・韓国産業人力公団（税理士試験）をはじめ、いかなる試験の主管・実施機関とも関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '개념 카드와 용어집은 표준 미시·거시경제학, 재정학 및 일반경영학(조직·전략·경영과학) 교육과정을 참고해 운영자가 자체 편집한 내용입니다. 기출문제의 본문은 앱에 담지 않고 연도와 문항 번호로만 안내합니다.':
+      '概念カードと用語集は、標準的なミクロ・マクロ経済学、財政学および経営学（組織・戦略・経営科学）のカリキュラムを参考に、運営者が独自に編集したものです。過去問題の本文はアプリに含めず、年度と問番号のみで案内します。',
+    '매일매일 경제학': '毎日経済学',
+    '매일매일 경제학 · WhiteSheep Game Studio': '毎日経済学 · WhiteSheep Game Studio',
+    '매일매일 경제학 · 지원 · WhiteSheep Game Studio': '毎日経済学 · サポート · WhiteSheep Game Studio',
+    '매일매일 경제학 · 개인정보 안내 · WhiteSheep Game Studio': '毎日経済学 · プライバシーポリシー · WhiteSheep Game Studio',
+    '매일매일 경제학 · 출처·이용 조건 · WhiteSheep Game Studio': '毎日経済学 · 出典・利用条件 · WhiteSheep Game Studio',
+    '매일매일 경제학 · 서비스 이용약관 · WhiteSheep Game Studio': '毎日経済学 · サービス利用規約 · WhiteSheep Game Studio',
+    '경제학·재정학·경영학, 개념 카드로 매일.': '経済学・財政学・経営学を、概念カードで毎日。',
+    '매일매일 경제학 앱 아이콘': '毎日経済学のアプリアイコン',
+    '매일매일 경제학 개인정보처리방침': '毎日経済学 プライバシーポリシー',
+    '매일매일 경제학 서비스 이용약관': '毎日経済学 サービス利用規約',
+    '초록지붕이층집은 학습 앱 ‘매일매일 경제학’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、学習アプリ「毎日経済学」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針を掲載するウェブページに適用されます。',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 경제학’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「毎日経済学」の利用条件を説明します。',
+    '이 앱은 경제학·재정학·일반경영학의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、経済学・財政学・経営学の概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    '세무회계·세법·세법학,': '韓国の税務会計・税法・税法学を、',
+    '영역별로 차근차근.': '分野ごとに一歩ずつ。',
+    '세무회계·세법·세법학의 핵심 개념을 카드, 용어집, 퀴즈로 공부합니다. 오프라인, 광고 없음.':
+      '韓国の税務会計・税法・税法学の重要概念を、カード・用語集・クイズで学習。オフライン対応、広告なし。',
+    '대한민국 세법을 세무회계, 세법, 세법학 3과목 13개 영역으로 나누어 공부합니다. 개념 카드 31개와 용어 15개를 담았습니다. 학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다.':
+      '韓国の税法を税務会計・税法・税法学の3科目・13分野に分けて学びます。概念カード31枚と用語15語を収録しています。学習を助けるための資料であり、税務相談や税務・法律上の助言ではありません。',
+    '이 앱은 국세청, 기획재정부, 법제처, 한국산업인력공단을 비롯한 과세 관청·정부 기관·시험 시행 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、韓国の国税庁、企画財政部、法制処、韓国産業人力公団をはじめとする税務当局・政府機関・試験実施機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '대한민국 국세기본법·법인세법·소득세법·부가가치세법 등 조세법 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
+      '韓国の国税基本法・法人税法・所得税法・付加価値税法などの租税法の体系を参考に、概念カードと用語集を運営者が独自に編集しました。',
+    '학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다. 세법은 자주 개정되므로 실제 신고·납부와 세무 판단은 현행 법령과 전문가를 통해 확인하세요.':
+      '学習を助けるための資料であり、税務相談や税務・法律上の助言ではありません。税法は頻繁に改正されるため、実際の申告・納付や税務上の判断は、現行の法令と専門家にご確認ください。',
+    '매일매일 세법': '毎日税法',
+    '매일매일 세법 · WhiteSheep Game Studio': '毎日税法 · WhiteSheep Game Studio',
+    '매일매일 세법 · 지원 · WhiteSheep Game Studio': '毎日税法 · サポート · WhiteSheep Game Studio',
+    '매일매일 세법 · 개인정보 안내 · WhiteSheep Game Studio': '毎日税法 · プライバシーポリシー · WhiteSheep Game Studio',
+    '매일매일 세법 · 출처·이용 조건 · WhiteSheep Game Studio': '毎日税法 · 出典・利用条件 · WhiteSheep Game Studio',
+    '매일매일 세법 · 서비스 이용약관 · WhiteSheep Game Studio': '毎日税法 · サービス利用規約 · WhiteSheep Game Studio',
+    '세무회계·세법·세법학, 영역별로 차근차근.': '韓国の税務会計・税法・税法学を、分野ごとに一歩ずつ。',
+    '매일매일 세법 앱 아이콘': '毎日税法のアプリアイコン',
+    '매일매일 세법 개인정보처리방침': '毎日税法 プライバシーポリシー',
+    '매일매일 세법 서비스 이용약관': '毎日税法 サービス利用規約',
+    '초록지붕이층집은 학습 앱 ‘매일매일 세법’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、学習アプリ「毎日税法」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針を掲載するウェブページに適用されます。',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 세법’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「毎日税法」の利用条件を説明します。',
+    '이 앱은 대한민국 세무회계·세법·세법학의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、韓国の税務会計・税法・税法学の概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    '회사법 중심의 상법,': '会社法を中心とした韓国の商法を、',
+    '조문 번호와 함께.': '条文番号とともに。',
+    '상법 회사편·총칙·상행위와 외부감사법·공인회계사법의 핵심 개념을 카드, 용어집, 퀴즈로 공부합니다.':
+      '韓国の商法（会社法・総則・商行為）と外部監査法・公認会計士法の要点を、概念カード・用語集・クイズで学べます。',
+    '대한민국 상법, 그중에서도 회사법을 중심으로 6개 영역, 10개 주제로 나누어 공부합니다. 개념 카드 25개는 관련 조문 번호와 함께 설명하고, 시험 핵심 포인트 50개와 용어 22개를 담았습니다. 법률 자문이 아닌 학습 자료입니다.':
+      '韓国の商法、なかでも会社法を中心に、6つの領域・10のテーマに分けて学びます。概念カード25枚は関連する条文番号とともに解説し、試験のポイント50項目と用語22語を収録しています。法的助言ではなく、学習用の資料です。',
+    '이 앱은 금융감독원·금융위원회 등 시험 주관 기관, 법무부, 법제처, 법원과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、韓国の金融監督院・金融委員会などの試験実施機関、法務部、法制処、裁判所とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '대한민국 상법 제3편 회사 규정을 중심으로 상법총칙·상행위, 외부감사법·공인회계사법 등 법령을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
+      '韓国商法第3編（会社）の規定を中心に、商法総則・商行為、外部監査法・公認会計士法などの法令を参考に、概念カードと用語集を運営者が独自に編集しました。',
+    '개념 설명과 용어 풀이는 법령을 참고해 운영자가 정리한 학습 자료로, 법률 자문이 아닙니다. 법령은 개정될 수 있으므로 실제 사건이나 업무에는 최신 법령 원문을 확인하고 전문가와 상담하세요.':
+      '概念の解説と用語の説明は、法令を参考に運営者がまとめた学習用の資料であり、法的助言ではありません。法令は改正されることがあるため、実際の案件や業務では最新の法令原文を確認し、専門家にご相談ください。',
+    '매일매일 상법': '毎日商法',
+    '매일매일 상법 · WhiteSheep Game Studio': '毎日商法 · WhiteSheep Game Studio',
+    '매일매일 상법 · 지원 · WhiteSheep Game Studio': '毎日商法 · サポート · WhiteSheep Game Studio',
+    '매일매일 상법 · 개인정보 안내 · WhiteSheep Game Studio': '毎日商法 · プライバシーポリシー · WhiteSheep Game Studio',
+    '매일매일 상법 · 출처·이용 조건 · WhiteSheep Game Studio': '毎日商法 · 出典・利用条件 · WhiteSheep Game Studio',
+    '매일매일 상법 · 서비스 이용약관 · WhiteSheep Game Studio': '毎日商法 · サービス利用規約 · WhiteSheep Game Studio',
+    '회사법 중심의 상법, 조문 번호와 함께.': '会社法を中心とした韓国の商法を、条文番号とともに。',
+    '매일매일 상법 앱 아이콘': '毎日商法のアプリアイコン',
+    '매일매일 상법 개인정보처리방침': '毎日商法 プライバシーポリシー',
+    '매일매일 상법 서비스 이용약관': '毎日商法 サービス利用規約',
+    '초록지붕이층집은 학습 앱 ‘매일매일 상법’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、学習アプリ「毎日商法」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針を掲載するウェブページに適用されます。',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 상법’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「毎日商法」の利用条件を説明します。',
+    '이 앱은 회사법을 중심으로 한 대한민국 상법의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、会社法を中心とした韓国の商法の概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    '회계감사 핵심 개념,': '会計監査の重要概念を、',
+    '짧은 카드로 정리.': '短いカードで整理。',
+    '한국 CPA 회계감사와 USCPA AUD의 핵심 개념을 카드·퀴즈·오답노트로 익히는 오프라인 학습 앱.':
+      '韓国CPA会計監査とUSCPA AUDの重要概念を、カード・クイズ・誤答ノートで学べるオフライン学習アプリ。',
+    '한국 공인회계사 시험의 회계감사(K-GAAS)와 미국공인회계사 시험의 AUD를 2개 과목, 7개 출제 영역으로 나누어 공부합니다. 개념 카드 20개와 감사 용어 15개를 담았고, 한국 CPA 과목은 한국어, AUD는 영어 원문을 기준으로 합니다.':
+      '韓国公認会計士試験の会計監査（K-GAAS）と米国公認会計士試験のAUDを、2科目・7つの出題分野に分けて学びます。概念カード20枚と監査用語15語を収録し、韓国CPAの科目は韓国語、AUDは英語の原文が基準です。',
+    '이 앱은 금융감독원, 한국공인회계사회(KICPA), AICPA, NASBA, PCAOB 등 시험 주관 기관이나 기준 제정 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、韓国金融監督院、韓国公認会計士会（KICPA）、AICPA、NASBA、PCAOBなど、試験の実施機関や基準設定機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '한국채택국제감사기준(K-GAAS), 외부감사법, AICPA AU-C/SSAE/SSARS 및 PCAOB 감사기준 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 개념 설명과 용어 풀이는 기준서 원문을 대신하지 않습니다. 실제 적용이나 수험 준비에는 최신 기준서와 공식 자료를 함께 확인하세요.':
+      'K-GAAS（韓国採択国際監査基準）、外部監査法、AICPAのAU-C・SSAE・SSARSおよびPCAOB監査基準の体系を参考に、概念カードと用語集を運営者が独自に編集しました。概念の解説と用語の説明は、基準書の原文に代わるものではありません。実務や受験準備では、最新の基準書と公式の資料もあわせてご確認ください。',
+    '매일매일 회계감사': '毎日会計監査',
+    '매일매일 회계감사 · WhiteSheep Game Studio': '毎日会計監査 · WhiteSheep Game Studio',
+    '매일매일 회계감사 · 지원 · WhiteSheep Game Studio': '毎日会計監査 · サポート · WhiteSheep Game Studio',
+    '매일매일 회계감사 · 개인정보 안내 · WhiteSheep Game Studio': '毎日会計監査 · プライバシーポリシー · WhiteSheep Game Studio',
+    '매일매일 회계감사 · 출처·이용 조건 · WhiteSheep Game Studio': '毎日会計監査 · 出典・利用条件 · WhiteSheep Game Studio',
+    '매일매일 회계감사 · 서비스 이용약관 · WhiteSheep Game Studio': '毎日会計監査 · サービス利用規約 · WhiteSheep Game Studio',
+    '회계감사 핵심 개념, 짧은 카드로 정리.': '会計監査の重要概念を、短いカードで整理。',
+    '매일매일 회계감사 앱 아이콘': '毎日会計監査のアプリアイコン',
+    '매일매일 회계감사 개인정보처리방침': '毎日会計監査 プライバシーポリシー',
+    '매일매일 회계감사 서비스 이용약관': '毎日会計監査 サービス利用規約',
+    '초록지붕이층집은 학습 앱 ‘매일매일 회계감사’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、学習アプリ「毎日会計監査」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針を掲載するウェブページに適用されます。',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 회계감사’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「毎日会計監査」の利用条件を説明します。',
+    '이 앱은 한국 CPA 회계감사와 USCPA AUD의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、韓国CPA会計監査とUSCPA AUDの概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。',
+    '산업안전·보건 자격,': '労働安全衛生の資格、',
+    '핵심 개념을 카드로.': '基礎概念をカードで。',
+    '한국·일본 산업안전·보건 자격의 핵심 개념을 카드로 공부합니다. 용어집·퀴즈·오답노트, 오프라인.':
+      '韓国・日本の労働安全衛生分野の資格で問われる基礎概念をカードで学習。用語集・クイズ・誤答ノート付き、オフライン対応。',
+    '한국과 일본의 산업안전·산업보건 분야 자격을 준비할 때 알아야 할 핵심 개념을 학습 경로 16개, 49개 단원의 개념 카드 147장으로 공부합니다. 서로 다른 주제는 68개이며 용어 36개를 한국어·일본어·영어로 확인합니다. 영어 설명은 147장 중 63장에, 일본어 설명은 120장에 있으며 없는 카드는 원문으로 표시됩니다. 기출문제를 푸는 앱이 아니라 기초 개념을 이해하고 스스로 확인하는 학습 보조 도구입니다.':
+      '韓国と日本の労働安全・労働衛生分野の資格に向けて押さえておきたい基礎概念を、16の学習コース・49単元の概念カード147枚で学びます。異なるテーマは68で、用語36語を日本語・韓国語・英語で確認できます。英語の解説は147枚中63枚、日本語の解説は120枚にあり、ないカードは原文で表示されます。過去問を解くアプリではなく、基礎を理解して自分で確かめるための学習補助ツールです。',
+    '이 앱은 고용노동부, 한국산업인력공단(Q-Net), 일본 후생노동성, 공익재단법인 안전위생기술시험협회 등 시험 시행 기관·정부 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、厚生労働省、公益財団法人安全衛生技術試験協会、韓国の雇用労働部、韓国産業人力公団（Q-Net）などの試験実施機関・行政機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '산업안전보건 관계 법령과 공식 출제기준을 바탕으로 운영자가 자체 정리한 학습 자료입니다.': '労働安全衛生関係法令と公式の出題基準をもとに、運営者が独自にまとめた学習資料です。',
+    '각 자격의 출제 범위 전체를 다루지 않으며, 기출문제의 본문·보기·정답은 담지 않았습니다. 사업장의 안전보건교육, 관계 법령, 전문가의 판단을 대신하지 않습니다. 법령과 기준은 개정될 수 있으므로 실제 업무와 시험 응시 요건은 반드시 최신 법령과 공식 안내로 확인하세요.':
+      '各資格の出題範囲のすべてを扱うものではなく、過去問題の本文・選択肢・正答は収録していません。事業場での安全衛生教育、関係法令、専門家の判断に代わるものではありません。法令や基準は改正されることがあるため、実務や受験要件は必ず最新の法令と公式の案内で確認してください。',
+    '안전 국가자격증 공부': '安全衛生国家資格勉強',
+    '안전 국가자격증 공부 · WhiteSheep Game Studio': '安全衛生国家資格勉強 · WhiteSheep Game Studio',
+    '안전 국가자격증 공부 · 지원 · WhiteSheep Game Studio': '安全衛生国家資格勉強 · サポート · WhiteSheep Game Studio',
+    '안전 국가자격증 공부 · 개인정보 안내 · WhiteSheep Game Studio': '安全衛生国家資格勉強 · プライバシーポリシー · WhiteSheep Game Studio',
+    '안전 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': '安全衛生国家資格勉強 · 出典・利用条件 · WhiteSheep Game Studio',
+    '안전 국가자격증 공부 · 서비스 이용약관 · WhiteSheep Game Studio': '安全衛生国家資格勉強 · サービス利用規約 · WhiteSheep Game Studio',
+    '산업안전·보건 자격, 핵심 개념을 카드로.': '労働安全衛生の資格、基礎概念をカードで。',
+    '안전 국가자격증 공부 앱 아이콘': '安全衛生国家資格勉強のアプリアイコン',
+    '안전 국가자격증 공부 개인정보처리방침': '安全衛生国家資格勉強 プライバシーポリシー',
+    '안전 국가자격증 공부 서비스 이용약관': '安全衛生国家資格勉強 サービス利用規約',
+    '초록지붕이층집은 학습 앱 ‘안전 국가자격증 공부’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집は、学習アプリ「安全衛生国家資格勉強」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針を掲載するウェブページに適用されます。',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘안전 국가자격증 공부’의 이용 조건을 안내합니다.':
+      'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する学習アプリ「安全衛生国家資格勉強」の利用条件を説明します。',
+    '이 앱은 한국·일본 산업안전·산업보건 분야 자격의 핵심 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'このアプリは、韓国・日本の労働安全・労働衛生分野の資格の基礎概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。'
   },
   en: {
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
@@ -1251,7 +1488,242 @@ window.WHITESHEEP_TRANSLATIONS = {
     'Solitaire Duo · 지원 · WhiteSheep Game Studio': 'Solitaire Duo · Support · WhiteSheep Game Studio',
     'Solitaire Duo · 개인정보 안내 · WhiteSheep Game Studio': 'Solitaire Duo · Privacy · WhiteSheep Game Studio',
     'Solitaire Duo · 출처·이용 조건 · WhiteSheep Game Studio': 'Solitaire Duo · Sources and credits · WhiteSheep Game Studio',
-    'Solitaire Duo · 서비스 이용약관 · WhiteSheep Game Studio': 'Solitaire Duo · Terms of Service · WhiteSheep Game Studio'
+    'Solitaire Duo · 서비스 이용약관 · WhiteSheep Game Studio': 'Solitaire Duo · Terms of Service · WhiteSheep Game Studio',
+    '출시 전 초안 · 최종 갱신 2026년 11월 17일': 'Pre-release draft · Last updated November 17, 2026',
+    '이해함으로 표시한 개념, 북마크한 개념과 용어, 오답노트에 담긴 개념, 마지막으로 본 개념, 표시 언어, 번역 표시, 화면 테마 설정을 저장하여 학습 위치와 설정을 복원합니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
+      'The app saves concepts marked as understood, bookmarked concepts and terms, concepts in your wrong-answer notes, the last concept viewed, and your display language, translation display and theme settings to restore your place and settings. The operator cannot remotely view records that exist only on your device.',
+    '이해함 표시, 북마크, 오답노트, 마지막으로 본 개념, 표시 언어와 번역 표시·화면 테마 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
+      'Understood marks, bookmarks, wrong-answer notes, the last concept viewed, and your display language, translation display and theme settings are saved on your device. The operator cannot view or recover them from a server. Records may be lost or restored depending on app deletion, data deletion and backup settings.',
+    '최종 갱신 2026년 11월 17일 · 출시 전 초안': 'Last updated November 17, 2026 · Pre-release draft',
+    '수록 내용에는 오류나 누락이 있을 수 있으며 합격이나 점수를 보장하지 않습니다. 시험 일정과 최신 출제 범위, 법령과 기준의 최신 내용은 공식 안내와 원문을 확인해 주세요. 출처와 이용 조건은':
+      'Content may contain errors or omissions and does not guarantee a pass or a score. For exam schedules, the latest exam scope and the current text of laws and standards, check official guidance and the original texts. Sources and terms of use can be found in',
+    '앱의 디자인, 자체 작성 설명과 소프트웨어에 관한 권리는 운영자 또는 정당한 권리자에게 있습니다. 법령·기준서와 각 기관의 명칭·상표에 관한 권리는 해당 권리자에게 있습니다.':
+      'Rights in the app’s design, originally written explanations and software belong to the operator or the rightful owners. Rights in statutes, standards and the names and trademarks of each organization belong to their respective owners.',
+    '콘텐츠의 출처': 'Where the content comes from',
+    '이 앱은 비공식 학습 앱이며 합격을 보장하지 않습니다.': 'This is an unofficial study app and does not guarantee a pass.',
+    '개념 카드로 읽고,': 'Read the concept cards,',
+    '퀴즈로 확인하세요.': 'then check yourself with a quiz.',
+    '개념 카드': 'Concept cards',
+    '카드마다 개념 설명과 시험 핵심 포인트를 함께 읽습니다.': 'Each card pairs an explanation of the concept with its exam points.',
+    '퀴즈와 오답노트': 'Quiz and wrong-answer notes',
+    '핵심 포인트를 읽고 맞는 개념을 네 개 보기 중에서 고르는 퀴즈를 한 번에 최대 10문항씩 풉니다. 틀린 개념은 오답노트에 모이고, 오답노트만 다시 풀 수 있습니다.':
+      'Read an exam point and pick the matching concept from four choices, up to 10 questions per round. Concepts you miss are collected in your wrong-answer notes, and you can retake just those.',
+    '용어집과 학습 기록': 'Glossary and study records',
+    '용어집에서 한국어·영어·일본어 이름과 설명을 확인합니다. 이해한 개념, 북마크, 오답노트는 기기에만 저장되며 계정과 서버가 필요 없습니다.':
+      'The glossary gives each term’s Korean, English and Japanese names and explanation. Concepts you understood, bookmarks and wrong-answer notes are saved only on your device, with no account or server needed.',
+    '개인정보처리방침 초안 · 2026-11-17': 'Privacy policy draft · 2026-11-17',
+    '전체 12개': '12 total',
+    '한국 IT 자격 16종,': '16 Korean IT certifications,',
+    '기초 개념부터 차근차근.': 'from the fundamentals up.',
+    '정보처리기사·정보보안기사 등 한국 IT 자격 16종의 기초 개념과 IT 용어 500개를 카드와 퀴즈로 공부합니다.':
+      'Core concepts and 500 IT terms for 16 Korean IT certifications, with quizzes.',
+    '정보처리기사·정보보안기사·정보통신기사 등 한국 IT 자격 16종의 기초 개념을 자격별·과목별 학습 경로로 나누어 개념 카드로 공부합니다. IT 용어 500개는 한국어·영어·일본어 표기와 설명으로 확인합니다. 기출문제를 푸는 앱이 아니라 개념 카드를 읽고 퀴즈로 확인하는 기초 학습 앱입니다.':
+      'Learn the foundation concepts behind 16 Korean IT certifications, including Engineer Information Processing, Engineer Information Security and Engineer Information & Communication, through concept cards arranged in study paths by certification and subject. The 500 IT terms come with Korean, English and Japanese names and explanations. It is not a past-paper app: you read concept cards and check yourself with quizzes.',
+    '이 앱은 한국산업인력공단(Q-Net), 한국방송통신전파진흥원, 한국데이터산업진흥원, 대한상공회의소, 한국지능정보사회진흥원, 한국경영기술지도사회 등 시험 시행·관련 기관이나 정부 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. 시험 일정과 출제기준은 반드시 각 시행 기관의 공지를 확인해 주세요.':
+      'This is an unofficial study app. It is not affiliated with HRD Korea (Q-Net), the Korea Communications Agency, the Korea Data Agency, the Korea Chamber of Commerce and Industry, the National Information Society Agency, the Korea Management & Technology Consultant Association, or any other exam body or government agency, and it does not guarantee a pass. Always check each exam body’s announcements for exam schedules and syllabi.',
+    '공개된 공식 출제기준과 표준 문서를 바탕으로 운영자가 자체 정리한 학습 자료입니다. 기출문제 본문·보기·정답은 앱에 담지 않았습니다.':
+      'The material is study content organized by the operator from published official exam syllabi and standards documents. No past-question text, answer choices or answers are included.',
+    '한국 IT 국가자격증 공부': 'Korean IT Certification Study',
+    '한국 IT 국가자격증 공부 · WhiteSheep Game Studio': 'Korean IT Certification Study · WhiteSheep Game Studio',
+    '한국 IT 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'Korean IT Certification Study · Support · WhiteSheep Game Studio',
+    '한국 IT 국가자격증 공부 · 개인정보 안내 · WhiteSheep Game Studio': 'Korean IT Certification Study · Privacy Policy · WhiteSheep Game Studio',
+    '한국 IT 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': 'Korean IT Certification Study · Sources and Terms of Use · WhiteSheep Game Studio',
+    '한국 IT 국가자격증 공부 · 서비스 이용약관 · WhiteSheep Game Studio': 'Korean IT Certification Study · Terms of Service · WhiteSheep Game Studio',
+    '한국 IT 자격 16종, 기초 개념부터 차근차근.': '16 Korean IT certifications, from the fundamentals up.',
+    '한국 IT 국가자격증 공부 앱 아이콘': 'Korean IT Certification Study app icon',
+    '한국 IT 국가자격증 공부 개인정보처리방침': 'Korean IT Certification Study Privacy Policy',
+    '한국 IT 국가자격증 공부 서비스 이용약관': 'Korean IT Certification Study Terms of Service',
+    '초록지붕이층집은 학습 앱 ‘한국 IT 국가자격증 공부’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the study app “Korean IT Certification Study”. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence, and the web page that provides this policy.',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘한국 IT 국가자격증 공부’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Korean IT Certification Study”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 한국 IT 자격 16종의 기초 개념과 IT 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you learn the foundation concepts and IT terms behind 16 Korean IT certifications. These terms apply only to this app and its related support.',
+    '회계기준마다 다른 처리,': 'Accounting that differs by framework,',
+    '카드로 나누어 정리.': 'sorted into cards.',
+    'K-IFRS·IFRS, US-GAAP, 일본기준, 일반기업회계기준과 원가관리회계의 핵심 개념을 카드와 퀴즈로 공부합니다.':
+      'Study IFRS, US GAAP, J-GAAP, K-GAAP and cost accounting with cards and quizzes.',
+    '재무회계를 K-IFRS·IFRS, US-GAAP, 일본기준(J-GAAP), 일반기업회계기준(K-GAAP)으로 나누고 원가관리회계를 더해 5개 과목, 25개 영역으로 공부합니다. 개념 카드 67개와 회계 용어 43개를 한국어·영어·일본어로 볼 수 있고, 과목의 원문 언어와 표시 언어가 다르면 원문과 번역을 함께 보여 줍니다.':
+      'Financial accounting is split into K-IFRS/IFRS, US GAAP, Japanese GAAP (J-GAAP) and Korean GAAP for non-public entities (K-GAAP), and together with cost & management accounting makes five subjects and 25 areas. The 67 concept cards and 43 accounting terms are available in Korean, English and Japanese, and when a subject’s original language differs from your display language the app shows the original with a translation.',
+    '이 앱은 IFRS 재단·국제회계기준위원회(IASB), 한국회계기준원(KASB), 미국 재무회계기준위원회(FASB), 일본 기업회계기준위원회(ASBJ)를 비롯한 어떤 기준제정기구·시험 주관 기관·정부 기관과도 무관한 비공식 학습 앱이며, 시험 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with the IFRS Foundation or the International Accounting Standards Board (IASB), the Korea Accounting Standards Board (KASB), the Financial Accounting Standards Board (FASB), the Accounting Standards Board of Japan (ASBJ), or any other standard setter, exam body or government agency, and it does not guarantee a pass in any exam.',
+    'K-IFRS·IFRS, FASB ASC(US-GAAP), ASBJ(J-GAAP), 일반기업회계기준(K-GAAP) 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 개념 설명과 용어 풀이는 운영자가 새로 정리한 학습용 요약이며 기준서 원문을 대신하지 않습니다.':
+      'Concept cards and the glossary were edited by the operator with reference to the K-IFRS/IFRS, FASB ASC (US GAAP), ASBJ (J-GAAP) and K-GAAP frameworks. The explanations and glossary entries are original study summaries written by the operator; they do not replace the standards themselves.',
+    '매일매일 회계학': 'Daily Accounting',
+    '매일매일 회계학 · WhiteSheep Game Studio': 'Daily Accounting · WhiteSheep Game Studio',
+    '매일매일 회계학 · 지원 · WhiteSheep Game Studio': 'Daily Accounting · Support · WhiteSheep Game Studio',
+    '매일매일 회계학 · 개인정보 안내 · WhiteSheep Game Studio': 'Daily Accounting · Privacy Policy · WhiteSheep Game Studio',
+    '매일매일 회계학 · 출처·이용 조건 · WhiteSheep Game Studio': 'Daily Accounting · Sources and Terms of Use · WhiteSheep Game Studio',
+    '매일매일 회계학 · 서비스 이용약관 · WhiteSheep Game Studio': 'Daily Accounting · Terms of Service · WhiteSheep Game Studio',
+    '회계기준마다 다른 처리, 카드로 나누어 정리.': 'Accounting that differs by framework, sorted into cards.',
+    '매일매일 회계학 앱 아이콘': 'Daily Accounting app icon',
+    '매일매일 회계학 개인정보처리방침': 'Daily Accounting Privacy Policy',
+    '매일매일 회계학 서비스 이용약관': 'Daily Accounting Terms of Service',
+    '초록지붕이층집은 학습 앱 ‘매일매일 회계학’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the study app “Daily Accounting”. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence, and the web page that provides this policy.',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 회계학’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Daily Accounting”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 재무회계(K-IFRS·IFRS, US-GAAP, J-GAAP, K-GAAP)와 원가관리회계의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you learn the concepts and terms of financial accounting (K-IFRS/IFRS, US GAAP, J-GAAP, K-GAAP) and cost & management accounting. These terms apply only to this app and its related support.',
+    '재무관리 핵심 개념,': 'Key finance concepts,',
+    '카드와 퀴즈로 매일.': 'in daily cards and quizzes.',
+    '재무관리(CPA 1·2차)와 CFA Level 1~3 핵심 개념을 카드·용어집·퀴즈로 공부하는 오프라인 학습 앱.':
+      'Key finance concepts for Korean CPA and CFA Levels I-III: cards, glossary, quiz.',
+    '한국 공인회계사(CPA) 1·2차 시험의 재무관리와 CFA Level 1~3에서 다루는 핵심 개념을 4개 과목, 12개 영역으로 나누어 공부합니다. 개념 카드 32개와 용어 22개를 담았고, 재무관리는 한국어, CFA 과목은 영어를 원문으로 합니다.':
+      'Study the key concepts of Financial Management for the Korean CPA exam (1st and 2nd stages) and of CFA Levels I-III in four subjects and 12 areas. The app holds 32 concept cards and 22 glossary terms; Financial Management is written in Korean and the CFA subjects in English.',
+    '이 앱은 공인회계사시험을 주관·시행하는 금융위원회·금융감독원, 그리고 CFA Institute와 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. CFA Institute는 이 앱을 보증하거나 홍보하지 않으며, 내용의 정확성이나 품질을 보증하지 않습니다. CFA®와 Chartered Financial Analyst®는 CFA Institute의 등록 상표입니다.':
+      'This is an unofficial study app. It is not affiliated with the Financial Services Commission or the Financial Supervisory Service of Korea, which oversee and administer the Korean CPA exam, or with CFA Institute, and it does not guarantee a pass. CFA Institute does not endorse, promote or warrant the accuracy or quality of this app. CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.',
+    '한국 CPA 1·2차 재무관리 출제범위와 CFA Level I~III 커리큘럼 토픽을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 시험 문제 본문은 앱에 담지 않았습니다.':
+      'Concept cards and the glossary were edited by the operator with reference to the scope of Financial Management in the Korean CPA exam (1st and 2nd stages) and the curriculum topics of CFA Levels I-III. The app does not include the text of exam questions.',
+    '매일매일 재무관리': 'Daily Finance',
+    '매일매일 재무관리 · WhiteSheep Game Studio': 'Daily Finance · WhiteSheep Game Studio',
+    '매일매일 재무관리 · 지원 · WhiteSheep Game Studio': 'Daily Finance · Support · WhiteSheep Game Studio',
+    '매일매일 재무관리 · 개인정보 안내 · WhiteSheep Game Studio': 'Daily Finance · Privacy Policy · WhiteSheep Game Studio',
+    '매일매일 재무관리 · 출처·이용 조건 · WhiteSheep Game Studio': 'Daily Finance · Sources and Terms of Use · WhiteSheep Game Studio',
+    '매일매일 재무관리 · 서비스 이용약관 · WhiteSheep Game Studio': 'Daily Finance · Terms of Service · WhiteSheep Game Studio',
+    '재무관리 핵심 개념, 카드와 퀴즈로 매일.': 'Key finance concepts, in daily cards and quizzes.',
+    '매일매일 재무관리 앱 아이콘': 'Daily Finance app icon',
+    '매일매일 재무관리 개인정보처리방침': 'Daily Finance Privacy Policy',
+    '매일매일 재무관리 서비스 이용약관': 'Daily Finance Terms of Service',
+    '초록지붕이층집은 학습 앱 ‘매일매일 재무관리’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the study app “Daily Finance”. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence, and the web page that provides this policy.',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 재무관리’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Daily Finance”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 한국 CPA 1·2차 재무관리와 CFA Level 1~3의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you learn the concepts and terms of Financial Management for the Korean CPA exam (1st and 2nd stages) and of CFA Levels I-III. These terms apply only to this app and its related support.',
+    '경제학·재정학·경영학,': 'Economics, public finance and business,',
+    '개념 카드로 매일.': 'one concept card at a time.',
+    '경제학·재정학·경영학 핵심 개념 37개를 카드, 용어집, 퀴즈, 오답노트로 공부하는 오프라인 학습 앱.':
+      'Study 37 key concepts in economics, public finance and business, fully offline.',
+    '경제학, 재정학, 일반경영학의 핵심 개념을 3개 과목, 17개 출제 영역으로 나누어 공부합니다. 공인회계사(CPA) 1차 시험의 경제학·일반경영학과 세무사(CTA) 1차 시험의 재정학 범위를 참고해 구성했으며, 개념 카드 37개와 용어 25개를 담았습니다.':
+      'Study the key concepts of economics, public finance and business administration in three subjects and 17 exam areas. The content follows the scope of the economics and business administration subjects of the Korean CPA first-stage exam and the public finance subject of the Korean Certified Tax Accountant (CTA) first-stage exam, with 37 concept cards and 25 glossary terms.',
+    '이 앱은 금융위원회·금융감독원(공인회계사 시험), 국세청·한국산업인력공단(세무사 시험)을 비롯한 어떤 시험 주관·시행 기관과도 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with any exam body, including Korea’s Financial Services Commission and Financial Supervisory Service (CPA exam) or the National Tax Service and the Human Resources Development Service of Korea (CTA exam), and it does not guarantee a pass.',
+    '개념 카드와 용어집은 표준 미시·거시경제학, 재정학 및 일반경영학(조직·전략·경영과학) 교육과정을 참고해 운영자가 자체 편집한 내용입니다. 기출문제의 본문은 앱에 담지 않고 연도와 문항 번호로만 안내합니다.':
+      'Concept cards and glossary entries are original editorial summaries by the operator, based on standard microeconomics, macroeconomics, public finance and business administration (organization, strategy and management science) curricula. The app does not include the text of past questions and refers to them only by year and number.',
+    '매일매일 경제학': 'Daily Economics',
+    '매일매일 경제학 · WhiteSheep Game Studio': 'Daily Economics · WhiteSheep Game Studio',
+    '매일매일 경제학 · 지원 · WhiteSheep Game Studio': 'Daily Economics · Support · WhiteSheep Game Studio',
+    '매일매일 경제학 · 개인정보 안내 · WhiteSheep Game Studio': 'Daily Economics · Privacy Policy · WhiteSheep Game Studio',
+    '매일매일 경제학 · 출처·이용 조건 · WhiteSheep Game Studio': 'Daily Economics · Sources and Terms of Use · WhiteSheep Game Studio',
+    '매일매일 경제학 · 서비스 이용약관 · WhiteSheep Game Studio': 'Daily Economics · Terms of Service · WhiteSheep Game Studio',
+    '경제학·재정학·경영학, 개념 카드로 매일.': 'Economics, public finance and business, one concept card at a time.',
+    '매일매일 경제학 앱 아이콘': 'Daily Economics app icon',
+    '매일매일 경제학 개인정보처리방침': 'Daily Economics Privacy Policy',
+    '매일매일 경제학 서비스 이용약관': 'Daily Economics Terms of Service',
+    '초록지붕이층집은 학습 앱 ‘매일매일 경제학’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the study app “Daily Economics”. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence, and the web page that provides this policy.',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 경제학’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Daily Economics”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 경제학·재정학·일반경영학의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you learn the concepts and terms of economics, public finance and business administration. These terms apply only to this app and its related support.',
+    '세무회계·세법·세법학,': 'Korean tax accounting and tax law,',
+    '영역별로 차근차근.': 'one area at a time.',
+    '세무회계·세법·세법학의 핵심 개념을 카드, 용어집, 퀴즈로 공부합니다. 오프라인, 광고 없음.': 'Korean tax accounting and tax law concepts in cards, a glossary and quizzes.',
+    '대한민국 세법을 세무회계, 세법, 세법학 3과목 13개 영역으로 나누어 공부합니다. 개념 카드 31개와 용어 15개를 담았습니다. 학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다.':
+      'Study the tax law of the Republic of Korea in three subjects, Tax Accounting, Tax Law and Tax Jurisprudence, across 13 areas, with 31 concept cards and 15 glossary terms. It is a study aid, not tax consultation or tax or legal advice.',
+    '이 앱은 국세청, 기획재정부, 법제처, 한국산업인력공단을 비롯한 과세 관청·정부 기관·시험 시행 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with any tax authority, government agency or exam body, including Korea’s National Tax Service, Ministry of Economy and Finance, Ministry of Government Legislation and Human Resources Development Service of Korea, and it does not guarantee a pass.',
+    '대한민국 국세기본법·법인세법·소득세법·부가가치세법 등 조세법 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
+      'Concept cards and the glossary were edited by the operator with reference to Korean tax statutes such as the Framework Act on National Taxes, the Corporate Tax Act, the Income Tax Act and the Value-Added Tax Act.',
+    '학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다. 세법은 자주 개정되므로 실제 신고·납부와 세무 판단은 현행 법령과 전문가를 통해 확인하세요.':
+      'It is a study aid, not tax consultation or tax or legal advice. Tax law changes often, so check current statutes and a qualified professional before any real filing, payment or tax decision.',
+    '매일매일 세법': 'Daily Tax Law',
+    '매일매일 세법 · WhiteSheep Game Studio': 'Daily Tax Law · WhiteSheep Game Studio',
+    '매일매일 세법 · 지원 · WhiteSheep Game Studio': 'Daily Tax Law · Support · WhiteSheep Game Studio',
+    '매일매일 세법 · 개인정보 안내 · WhiteSheep Game Studio': 'Daily Tax Law · Privacy Policy · WhiteSheep Game Studio',
+    '매일매일 세법 · 출처·이용 조건 · WhiteSheep Game Studio': 'Daily Tax Law · Sources and Terms of Use · WhiteSheep Game Studio',
+    '매일매일 세법 · 서비스 이용약관 · WhiteSheep Game Studio': 'Daily Tax Law · Terms of Service · WhiteSheep Game Studio',
+    '세무회계·세법·세법학, 영역별로 차근차근.': 'Korean tax accounting and tax law, one area at a time.',
+    '매일매일 세법 앱 아이콘': 'Daily Tax Law app icon',
+    '매일매일 세법 개인정보처리방침': 'Daily Tax Law Privacy Policy',
+    '매일매일 세법 서비스 이용약관': 'Daily Tax Law Terms of Service',
+    '초록지붕이층집은 학습 앱 ‘매일매일 세법’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the study app “Daily Tax Law”. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence, and the web page that provides this policy.',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 세법’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Daily Tax Law”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 대한민국 세무회계·세법·세법학의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you learn the concepts and terms of Korean tax accounting, tax law and tax jurisprudence. These terms apply only to this app and its related support.',
+    '회사법 중심의 상법,': 'Korean commercial law, centered on company law,',
+    '조문 번호와 함께.': 'with article numbers.',
+    '상법 회사편·총칙·상행위와 외부감사법·공인회계사법의 핵심 개념을 카드, 용어집, 퀴즈로 공부합니다.':
+      'Korean company and commercial law in concept cards, a glossary and quizzes.',
+    '대한민국 상법, 그중에서도 회사법을 중심으로 6개 영역, 10개 주제로 나누어 공부합니다. 개념 카드 25개는 관련 조문 번호와 함께 설명하고, 시험 핵심 포인트 50개와 용어 22개를 담았습니다. 법률 자문이 아닌 학습 자료입니다.':
+      'Study the Korean Commercial Act, with a focus on company law, in six areas and ten topics. The 25 concept cards are explained with the relevant article numbers, alongside 50 exam points and 22 glossary terms. It is study material, not legal advice.',
+    '이 앱은 금융감독원·금융위원회 등 시험 주관 기관, 법무부, 법제처, 법원과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with any exam body such as Korea’s Financial Supervisory Service or Financial Services Commission, nor with the Ministry of Justice, the Ministry of Government Legislation or the courts, and it does not guarantee a pass.',
+    '대한민국 상법 제3편 회사 규정을 중심으로 상법총칙·상행위, 외부감사법·공인회계사법 등 법령을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
+      'Concept cards and the glossary were edited by the operator with reference to Korean statutes, chiefly Part III (Companies) of the Commercial Act, together with its general provisions and commercial transactions, the External Audit Act and the CPA Act.',
+    '개념 설명과 용어 풀이는 법령을 참고해 운영자가 정리한 학습 자료로, 법률 자문이 아닙니다. 법령은 개정될 수 있으므로 실제 사건이나 업무에는 최신 법령 원문을 확인하고 전문가와 상담하세요.':
+      'The explanations and glossary entries are study material prepared by the operator with reference to the statutes; they are not legal advice. Laws are amended over time, so for a real case or for work, check the current text of the law and consult a professional.',
+    '매일매일 상법': 'Daily Commercial Law',
+    '매일매일 상법 · WhiteSheep Game Studio': 'Daily Commercial Law · WhiteSheep Game Studio',
+    '매일매일 상법 · 지원 · WhiteSheep Game Studio': 'Daily Commercial Law · Support · WhiteSheep Game Studio',
+    '매일매일 상법 · 개인정보 안내 · WhiteSheep Game Studio': 'Daily Commercial Law · Privacy Policy · WhiteSheep Game Studio',
+    '매일매일 상법 · 출처·이용 조건 · WhiteSheep Game Studio': 'Daily Commercial Law · Sources and Terms of Use · WhiteSheep Game Studio',
+    '매일매일 상법 · 서비스 이용약관 · WhiteSheep Game Studio': 'Daily Commercial Law · Terms of Service · WhiteSheep Game Studio',
+    '회사법 중심의 상법, 조문 번호와 함께.': 'Korean commercial law, centered on company law, with article numbers.',
+    '매일매일 상법 앱 아이콘': 'Daily Commercial Law app icon',
+    '매일매일 상법 개인정보처리방침': 'Daily Commercial Law Privacy Policy',
+    '매일매일 상법 서비스 이용약관': 'Daily Commercial Law Terms of Service',
+    '초록지붕이층집은 학습 앱 ‘매일매일 상법’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the study app “Daily Commercial Law”. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence, and the web page that provides this policy.',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 상법’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Daily Commercial Law”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 회사법을 중심으로 한 대한민국 상법의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you learn the concepts and terms of Korean commercial law, with a focus on company law. These terms apply only to this app and its related support.',
+    '회계감사 핵심 개념,': 'Key auditing concepts,',
+    '짧은 카드로 정리.': 'in short cards.',
+    '한국 CPA 회계감사와 USCPA AUD의 핵심 개념을 카드·퀴즈·오답노트로 익히는 오프라인 학습 앱.': 'Key audit concepts for Korean CPA and USCPA AUD: cards, quizzes, review notes.',
+    '한국 공인회계사 시험의 회계감사(K-GAAS)와 미국공인회계사 시험의 AUD를 2개 과목, 7개 출제 영역으로 나누어 공부합니다. 개념 카드 20개와 감사 용어 15개를 담았고, 한국 CPA 과목은 한국어, AUD는 영어 원문을 기준으로 합니다.':
+      'Study Auditing for the Korean CPA exam (K-GAAS) and AUD for the US CPA exam in two subjects and seven exam areas. The app holds 20 concept cards and 15 auditing terms; Korean CPA content is based on Korean text and AUD on English text.',
+    '이 앱은 금융감독원, 한국공인회계사회(KICPA), AICPA, NASBA, PCAOB 등 시험 주관 기관이나 기준 제정 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with or endorsed by the Financial Supervisory Service of Korea, the Korean Institute of Certified Public Accountants (KICPA), AICPA, NASBA, PCAOB, or any other exam body or standard setter, and it does not guarantee a pass.',
+    '한국채택국제감사기준(K-GAAS), 외부감사법, AICPA AU-C/SSAE/SSARS 및 PCAOB 감사기준 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 개념 설명과 용어 풀이는 기준서 원문을 대신하지 않습니다. 실제 적용이나 수험 준비에는 최신 기준서와 공식 자료를 함께 확인하세요.':
+      'Concept cards and the glossary were edited by the operator with reference to K-GAAS, the External Audit Act, AICPA AU-C, SSAE and SSARS, and PCAOB auditing standards. The explanations and glossary entries do not replace the standards themselves. For practice or exam preparation, also check the current standards and official materials.',
+    '매일매일 회계감사': 'Daily Auditing',
+    '매일매일 회계감사 · WhiteSheep Game Studio': 'Daily Auditing · WhiteSheep Game Studio',
+    '매일매일 회계감사 · 지원 · WhiteSheep Game Studio': 'Daily Auditing · Support · WhiteSheep Game Studio',
+    '매일매일 회계감사 · 개인정보 안내 · WhiteSheep Game Studio': 'Daily Auditing · Privacy Policy · WhiteSheep Game Studio',
+    '매일매일 회계감사 · 출처·이용 조건 · WhiteSheep Game Studio': 'Daily Auditing · Sources and Terms of Use · WhiteSheep Game Studio',
+    '매일매일 회계감사 · 서비스 이용약관 · WhiteSheep Game Studio': 'Daily Auditing · Terms of Service · WhiteSheep Game Studio',
+    '회계감사 핵심 개념, 짧은 카드로 정리.': 'Key auditing concepts, in short cards.',
+    '매일매일 회계감사 앱 아이콘': 'Daily Auditing app icon',
+    '매일매일 회계감사 개인정보처리방침': 'Daily Auditing Privacy Policy',
+    '매일매일 회계감사 서비스 이용약관': 'Daily Auditing Terms of Service',
+    '초록지붕이층집은 학습 앱 ‘매일매일 회계감사’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the study app “Daily Auditing”. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence, and the web page that provides this policy.',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘매일매일 회계감사’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Daily Auditing”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 한국 CPA 회계감사와 USCPA AUD의 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you learn the concepts and terms of Auditing for the Korean CPA exam and AUD for the US CPA exam. These terms apply only to this app and its related support.',
+    '산업안전·보건 자격,': 'Safety and health certifications,',
+    '핵심 개념을 카드로.': 'core concepts in cards.',
+    '한국·일본 산업안전·보건 자격의 핵심 개념을 카드로 공부합니다. 용어집·퀴즈·오답노트, 오프라인.': 'Core concept cards for Korean and Japanese safety and health certifications.',
+    '한국과 일본의 산업안전·산업보건 분야 자격을 준비할 때 알아야 할 핵심 개념을 학습 경로 16개, 49개 단원의 개념 카드 147장으로 공부합니다. 서로 다른 주제는 68개이며 용어 36개를 한국어·일본어·영어로 확인합니다. 영어 설명은 147장 중 63장에, 일본어 설명은 120장에 있으며 없는 카드는 원문으로 표시됩니다. 기출문제를 푸는 앱이 아니라 기초 개념을 이해하고 스스로 확인하는 학습 보조 도구입니다.':
+      'Learn the core concepts behind occupational safety and health qualifications in Korea and Japan through 16 study paths and 147 concept cards in 49 units. There are 68 distinct topics, and 36 glossary terms come with Korean, Japanese and English names and explanations. English text is available for 63 of the 147 cards and Japanese text for 120; the other cards are shown in their original language. It is not a past-paper app but a study aid for understanding the fundamentals and checking yourself.',
+    '이 앱은 고용노동부, 한국산업인력공단(Q-Net), 일본 후생노동성, 공익재단법인 안전위생기술시험협회 등 시험 시행 기관·정부 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with Korea’s Ministry of Employment and Labor or the Human Resources Development Service of Korea (Q-Net), nor with Japan’s Ministry of Health, Labour and Welfare or the Japan Industrial Safety and Health Examination Institute (安全衛生技術試験協会), and it does not guarantee a pass.',
+    '산업안전보건 관계 법령과 공식 출제기준을 바탕으로 운영자가 자체 정리한 학습 자료입니다.':
+      'The material is study content organized by the operator from occupational safety and health statutes and official exam syllabi.',
+    '각 자격의 출제 범위 전체를 다루지 않으며, 기출문제의 본문·보기·정답은 담지 않았습니다. 사업장의 안전보건교육, 관계 법령, 전문가의 판단을 대신하지 않습니다. 법령과 기준은 개정될 수 있으므로 실제 업무와 시험 응시 요건은 반드시 최신 법령과 공식 안내로 확인하세요.':
+      'It does not cover the full scope of any exam and contains no past-question text, answer choices or answers. It does not replace workplace safety and health training, the law or professional judgement. Laws and standards change, so always check current legislation and official guidance for real work and for exam requirements.',
+    '안전 국가자격증 공부': 'Safety Certification Study',
+    '안전 국가자격증 공부 · WhiteSheep Game Studio': 'Safety Certification Study · WhiteSheep Game Studio',
+    '안전 국가자격증 공부 · 지원 · WhiteSheep Game Studio': 'Safety Certification Study · Support · WhiteSheep Game Studio',
+    '안전 국가자격증 공부 · 개인정보 안내 · WhiteSheep Game Studio': 'Safety Certification Study · Privacy Policy · WhiteSheep Game Studio',
+    '안전 국가자격증 공부 · 출처·이용 조건 · WhiteSheep Game Studio': 'Safety Certification Study · Sources and Terms of Use · WhiteSheep Game Studio',
+    '안전 국가자격증 공부 · 서비스 이용약관 · WhiteSheep Game Studio': 'Safety Certification Study · Terms of Service · WhiteSheep Game Studio',
+    '산업안전·보건 자격, 핵심 개념을 카드로.': 'Safety and health certifications, core concepts in cards.',
+    '안전 국가자격증 공부 앱 아이콘': 'Safety Certification Study app icon',
+    '안전 국가자격증 공부 개인정보처리방침': 'Safety Certification Study Privacy Policy',
+    '안전 국가자격증 공부 서비스 이용약관': 'Safety Certification Study Terms of Service',
+    '초록지붕이층집은 학습 앱 ‘안전 국가자격증 공부’의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
+      '초록지붕이층집 explains how personal information is handled for the study app “Safety Certification Study”. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support correspondence, and the web page that provides this policy.',
+    '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 학습 앱 ‘안전 국가자격증 공부’의 이용 조건을 안내합니다.':
+      'These terms describe the conditions of use for “Safety Certification Study”, a study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio).',
+    '이 앱은 한국·일본 산업안전·산업보건 분야 자격의 핵심 개념과 용어를 학습하도록 돕는 비공식 교육용 앱입니다. 이 약관은 이 앱과 관련 지원 서비스에만 적용됩니다.':
+      'This is an unofficial educational app that helps you learn the core concepts and terms behind occupational safety and health qualifications in Korea and Japan. These terms apply only to this app and its related support.'
   }
 };
 /* WhiteSheep Game Studio: client-side i18n without external dependencies. */
