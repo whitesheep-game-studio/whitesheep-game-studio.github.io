@@ -48,5 +48,93 @@
     "platforms": ["Android", "iOS"],
     "icon": "/assets/solitaire-duo/icon.png",
     "policy_status": "개인정보처리방침 초안 · 2026-11-15"
+  },
+  {
+    "slug": "itkcert",
+    "name": "한국 IT 국가자격증 공부",
+    "tagline": "한국 IT 자격 16종, 기초 개념부터 차근차근.",
+    "description": "정보처리기사·정보보안기사 등 한국 IT 자격 16종의 기초 개념과 IT 용어 500개를 카드와 퀴즈로 공부합니다.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/itkcert/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-17"
+  },
+  {
+    "slug": "ac",
+    "name": "매일매일 회계학",
+    "tagline": "회계기준마다 다른 처리, 카드로 나누어 정리.",
+    "description": "K-IFRS·IFRS, US-GAAP, 일본기준, 일반기업회계기준과 원가관리회계의 핵심 개념을 카드와 퀴즈로 공부합니다.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/ac/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-17"
+  },
+  {
+    "slug": "fi",
+    "name": "매일매일 재무관리",
+    "tagline": "재무관리 핵심 개념, 카드와 퀴즈로 매일.",
+    "description": "재무관리(CPA 1·2차)와 CFA Level 1~3 핵심 개념을 카드·용어집·퀴즈로 공부하는 오프라인 학습 앱.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/fi/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-17"
+  },
+  {
+    "slug": "ec",
+    "name": "매일매일 경제학",
+    "tagline": "경제학·재정학·경영학, 개념 카드로 매일.",
+    "description": "경제학·재정학·경영학 핵심 개념 37개를 카드, 용어집, 퀴즈, 오답노트로 공부하는 오프라인 학습 앱.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/ec/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-17"
+  },
+  {
+    "slug": "tax",
+    "name": "매일매일 세법",
+    "tagline": "세무회계·세법·세법학, 영역별로 차근차근.",
+    "description": "세무회계·세법·세법학의 핵심 개념을 카드, 용어집, 퀴즈로 공부합니다. 오프라인, 광고 없음.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/tax/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-17"
+  },
+  {
+    "slug": "claw",
+    "name": "매일매일 상법",
+    "tagline": "회사법 중심의 상법, 조문 번호와 함께.",
+    "description": "상법 회사편·총칙·상행위와 외부감사법·공인회계사법의 핵심 개념을 카드, 용어집, 퀴즈로 공부합니다.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/claw/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-17"
+  },
+  {
+    "slug": "audit",
+    "name": "매일매일 회계감사",
+    "tagline": "회계감사 핵심 개념, 짧은 카드로 정리.",
+    "description": "한국 CPA 회계감사와 USCPA AUD의 핵심 개념을 카드·퀴즈·오답노트로 익히는 오프라인 학습 앱.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/audit/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-17"
+  },
+  {
+    "slug": "safetyengineer",
+    "name": "안전 국가자격증 공부",
+    "tagline": "산업안전·보건 자격, 핵심 개념을 카드로.",
+    "description": "한국·일본 산업안전·보건 자격의 핵심 개념을 카드로 공부합니다. 용어집·퀴즈·오답노트, 오프라인.",
+    "category": "학습",
+    "status": "출시 예정",
+    "platforms": ["Android", "iOS"],
+    "icon": "/assets/safetyengineer/icon.png",
+    "policy_status": "개인정보처리방침 초안 · 2026-11-17"
   }
 ]

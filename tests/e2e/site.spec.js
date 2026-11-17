@@ -37,11 +37,11 @@ test('language switching translates homepage and persists', async ({ page }) => 
 });
 test('app search and mobile layout', async ({ page }) => {
   await page.goto('/apps/');
-  await expect(page.locator('[data-app]')).toHaveCount(4);
+  await expect(page.locator('[data-app]')).toHaveCount(12);
   await page.locator('#app-search').fill('nothing-found-123');
   await expect(page.locator('[data-app]:visible')).toHaveCount(0);
   await page.locator('#app-search').fill('');
-  await expect(page.locator('[data-app]:visible')).toHaveCount(4);
+  await expect(page.locator('[data-app]:visible')).toHaveCount(12);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
 });
 test('homepage accessibility', async ({ page }) => {
@@ -55,21 +55,21 @@ test('localized counts preserve filters and update in all three languages', asyn
   await page.locator('#language-trigger').click();
   await page.locator('[data-language="en"]').click();
   await page.locator('#app-status').selectOption('출시 예정');
-  await expect(page.locator('[data-app]:visible')).toHaveCount(1);
-  await expect(page.locator('#app-count')).toHaveText('1 / 4 total');
+  await expect(page.locator('[data-app]:visible')).toHaveCount(9);
+  await expect(page.locator('#app-count')).toHaveText('9 / 12 total');
   await page.locator('#app-search').fill('no-match-ci');
-  await expect(page.locator('#app-count')).toHaveText('0 / 4 total');
+  await expect(page.locator('#app-count')).toHaveText('0 / 12 total');
   await page.locator('#language-trigger').click();
   await page.locator('[data-language="ja"]').click();
-  await expect(page.locator('#app-count')).toHaveText('全4件中0件');
+  await expect(page.locator('#app-count')).toHaveText('全12件中0件');
   await expect(page.locator('#app-search')).toHaveValue('no-match-ci');
   await page.locator('#app-search').fill('');
-  await expect(page.locator('#app-count')).toHaveText('全4件中1件');
+  await expect(page.locator('#app-count')).toHaveText('全12件中9件');
   await page.locator('#app-status').selectOption('출시');
   await expect(page.locator('[data-app]:visible')).toHaveCount(3);
   await page.locator('#language-trigger').click();
   await page.locator('[data-language="ko"]').click();
-  await expect(page.locator('#app-count')).toHaveText('3개 / 전체 4개');
+  await expect(page.locator('#app-count')).toHaveText('3개 / 전체 12개');
 });
 
 test('app privacy policy preserves data and advertising boundaries in every language', async ({ page }) => {
@@ -130,3 +130,38 @@ for (const [locale, status, label] of [
     }
   });
 }
+
+test('unreleased study apps show a coming-soon status, translated policies and no store links', async ({ page }) => {
+  const apps = [
+    ['itkcert', '한국 IT 국가자격증 공부', '韓国IT国家資格勉強', 'Korean IT Certification Study'],
+    ['ac', '매일매일 회계학', '毎日会計学', 'Daily Accounting'],
+    ['fi', '매일매일 재무관리', '毎日財務管理', 'Daily Finance'],
+    ['ec', '매일매일 경제학', '毎日経済学', 'Daily Economics'],
+    ['tax', '매일매일 세법', '毎日税法', 'Daily Tax Law'],
+    ['claw', '매일매일 상법', '毎日商法', 'Daily Commercial Law'],
+    ['audit', '매일매일 회계감사', '毎日会計監査', 'Daily Auditing'],
+    ['safetyengineer', '안전 국가자격증 공부', '安全衛生国家資格勉強', 'Safety Certification Study']
+  ];
+  await page.goto('/');
+  for (const [index, locale, status, privacy, draft] of [
+    [1, 'ko', 'Android·iOS 출시 준비 중', '개인정보처리방침', '이 방침은 출시 전 초안이며 앱 출시와 함께 확정됩니다.'],
+    [2, 'ja', 'Android・iOS 公開準備中', 'プライバシーポリシー', '本ポリシーは公開前のドラフトであり、アプリの公開に合わせて確定します。'],
+    [3, 'en', 'Android and iOS coming soon', 'Privacy Policy', 'This policy is a pre-release draft and will be finalized with the app release.']
+  ]) {
+    await page.locator('#language-trigger').click();
+    await page.locator(`[data-language="${locale}"]`).click();
+    for (const app of apps) {
+      await page.goto(`/apps/${app[0]}/`);
+      await expect(page.locator('html')).toHaveAttribute('lang', locale);
+      await expect(page).toHaveTitle(`${app[index]} · WhiteSheep Game Studio`);
+      await expect(page.locator('.hero .status')).toHaveText(status);
+      await expect(page.locator('a[href*="apps.apple.com"], a[href*="play.google.com"]')).toHaveCount(0);
+      const icon = page.locator('.hero-mark img');
+      expect(await icon.evaluate((img) => img.complete && img.naturalWidth > 0)).toBe(true);
+      await page.goto(`/apps/${app[0]}/privacy/`);
+      await expect(page.locator('article.doc h1')).toHaveText(`${app[index]} ${privacy}`);
+      await expect(page.locator('article.doc .note')).toHaveText(draft);
+      if (locale !== 'ko') expect((await page.locator('article.doc').innerText()).replaceAll('초록지붕이층집', '')).not.toMatch(/[가-힣]/u);
+    }
+  }
+});

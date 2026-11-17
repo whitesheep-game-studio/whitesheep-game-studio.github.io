@@ -1,6 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: 'tests/e2e',
+  // The static test server (python http.server) refuses connections when two workers load the app list's icons at once.
+  workers: 1,
   use: { baseURL: 'http://127.0.0.1:8765' },
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
