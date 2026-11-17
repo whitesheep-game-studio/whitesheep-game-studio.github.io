@@ -652,8 +652,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '情報処理技師など韓国のIT資格16種について、基礎概念とIT用語500語をカードとクイズで学べる非公式アプリです。',
     '정보처리기사·정보보안기사·정보통신기사 등 한국 IT 자격 16종의 기초 개념을 자격별·과목별 학습 경로로 나누어 개념 카드로 공부합니다. IT 용어 500개는 한국어·영어·일본어 표기와 설명으로 확인합니다. 기출문제를 푸는 앱이 아니라 개념 카드를 읽고 퀴즈로 확인하는 기초 학습 앱입니다.':
       '情報処理技師・情報保安技師・情報通信技師など韓国のIT資格16種の基礎概念を、資格・科目ごとの学習コースに分けて概念カードで学びます。IT用語500語は韓国語・英語・日本語の表記と説明で確認できます。過去問を解くアプリではなく、概念カードを読んでクイズで確かめる基礎学習アプリです。',
-    '이 앱은 한국산업인력공단(Q-Net), 한국방송통신전파진흥원, 한국데이터산업진흥원, 대한상공회의소, 한국지능정보사회진흥원, 한국경영기술지도사회 등 시험 시행·관련 기관이나 정부 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. 시험 일정과 출제기준은 반드시 각 시행 기관의 공지를 확인해 주세요.':
-      '本アプリは、韓国産業人力公団（Q-Net）、韓国放送通信電波振興院、韓国データ産業振興院、大韓商工会議所、韓国知能情報社会振興院、韓国経営技術指導士会などの試験実施・関連機関や政府機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。試験日程と出題基準は、必ず各実施機関の案内をご確認ください。',
+    '이 앱은 한국산업인력공단(Q-Net), 대한상공회의소, 한국경영기술지도사회 등 시험 시행·관련 기관이나 정부 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. 시험 일정과 출제기준은 반드시 각 시행 기관의 공지를 확인해 주세요.':
+      '本アプリは、韓国産業人力公団（Q-Net）、大韓商工会議所、韓国経営技術指導士会などの試験実施・関連機関や政府機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。試験日程と出題基準は、必ず各実施機関の案内をご確認ください。',
     '공개된 공식 출제기준과 표준 문서를 바탕으로 운영자가 자체 정리한 학습 자료입니다. 기출문제 본문·보기·정답은 앱에 담지 않았습니다.':
       '公開されている公式の出題基準と標準文書をもとに、運営者が独自にまとめた学習資料です。過去問題の本文・選択肢・正答はアプリに含めていません。',
     '한국 IT 국가자격증 공부': '韓国IT国家資格勉強',
@@ -704,8 +704,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '韓国CPAの財務管理とCFA Level 1〜3の重要概念を、カード・用語集・クイズで学べるオフライン学習アプリ。',
     '한국 공인회계사(CPA) 1·2차 시험의 재무관리와 CFA Level 1~3에서 다루는 핵심 개념을 4개 과목, 12개 영역으로 나누어 공부합니다. 개념 카드 32개와 용어 22개를 담았고, 재무관리는 한국어, CFA 과목은 영어를 원문으로 합니다.':
       '韓国公認会計士（CPA）1次・2次試験の財務管理と、CFA Level 1〜3で扱う重要概念を、4科目・12分野に分けて学びます。概念カード32枚と用語22語を収録し、財務管理は韓国語、CFAの科目は英語が原文です。',
-    '이 앱은 공인회계사시험을 주관·시행하는 금융위원회·금융감독원, 그리고 CFA Institute와 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. CFA Institute는 이 앱을 보증하거나 홍보하지 않으며, 내용의 정확성이나 품질을 보증하지 않습니다. CFA®와 Chartered Financial Analyst®는 CFA Institute의 등록 상표입니다.':
-      '本アプリは、韓国の公認会計士試験を所管・実施する金融委員会・金融監督院、およびCFA Instituteとは関係のない非公式の学習アプリで、合格を保証するものではありません。CFA Instituteは本アプリを保証・推奨しておらず、内容の正確性や品質を保証するものでもありません。CFA®およびChartered Financial Analyst®はCFA Instituteの登録商標です。',
+    '이 앱은 금융감독원, 그리고 CFA Institute와 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. CFA Institute는 이 앱을 보증하거나 홍보하지 않으며, 내용의 정확성이나 품질을 보증하지 않습니다. CFA®와 Chartered Financial Analyst®는 CFA Institute의 등록 상표입니다.':
+      '本アプリは、韓国の金融監督院、およびCFA Instituteとは関係のない非公式の学習アプリで、合格を保証するものではありません。CFA Instituteは本アプリを保証・推奨しておらず、内容の正確性や品質を保証するものでもありません。CFA®およびChartered Financial Analyst®はCFA Instituteの登録商標です。',
     '한국 CPA 1·2차 재무관리 출제범위와 CFA Level I~III 커리큘럼 토픽을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 시험 문제 본문은 앱에 담지 않았습니다.':
       '韓国CPA 1次・2次の財務管理の出題範囲とCFA Level I〜IIIのカリキュラムのトピックを参考に、概念カードと用語集を運営者が独自に編集しました。試験問題の本文はアプリに含めていません。',
     '매일매일 재무관리': '毎日財務管理',
@@ -730,8 +730,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '経済学・財政学・経営学の重要概念37項目を、カード・用語集・クイズ・誤答ノートで学べるオフライン学習アプリ。',
     '경제학, 재정학, 일반경영학의 핵심 개념을 3개 과목, 17개 출제 영역으로 나누어 공부합니다. 공인회계사(CPA) 1차 시험의 경제학·일반경영학과 세무사(CTA) 1차 시험의 재정학 범위를 참고해 구성했으며, 개념 카드 37개와 용어 25개를 담았습니다.':
       '経済学・財政学・経営学の重要な概念を、3科目・17の出題分野に分けて学びます。韓国の公認会計士（CPA）1次試験の経済学・経営学と、韓国の税理士（CTA）1次試験の財政学の範囲を参考に構成し、概念カード37枚と用語25語を収録しています。',
-    '이 앱은 금융위원회·금융감독원(공인회계사 시험), 국세청·한국산업인력공단(세무사 시험)을 비롯한 어떤 시험 주관·시행 기관과도 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
-      '本アプリは、韓国の金融委員会・金融監督院（公認会計士試験）、国税庁・韓国産業人力公団（税理士試験）をはじめ、いかなる試験の主管・実施機関とも関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '이 앱은 어떤 시험 주관·시행 기관과도 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、いかなる試験の主管・実施機関とも関係のない非公式の学習アプリで、合格を保証するものではありません。',
     '개념 카드와 용어집은 표준 미시·거시경제학, 재정학 및 일반경영학(조직·전략·경영과학) 교육과정을 참고해 운영자가 자체 편집한 내용입니다. 기출문제의 본문은 앱에 담지 않고 연도와 문항 번호로만 안내합니다.':
       '概念カードと用語集は、標準的なミクロ・マクロ経済学、財政学および経営学（組織・戦略・経営科学）のカリキュラムを参考に、運営者が独自に編集したものです。過去問題の本文はアプリに含めず、年度と問番号のみで案内します。',
     '매일매일 경제학': '毎日経済学',
@@ -756,8 +756,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '韓国の税務会計・税法・税法学の重要概念を、カード・用語集・クイズで学習。オフライン対応、広告なし。',
     '대한민국 세법을 세무회계, 세법, 세법학 3과목 13개 영역으로 나누어 공부합니다. 개념 카드 31개와 용어 15개를 담았습니다. 학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다.':
       '韓国の税法を税務会計・税法・税法学の3科目・13分野に分けて学びます。概念カード31枚と用語15語を収録しています。学習を助けるための資料であり、税務相談や税務・法律上の助言ではありません。',
-    '이 앱은 국세청, 기획재정부, 법제처, 한국산업인력공단을 비롯한 과세 관청·정부 기관·시험 시행 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
-      '本アプリは、韓国の国税庁、企画財政部、法制処、韓国産業人力公団をはじめとする税務当局・政府機関・試験実施機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '이 앱은 국세청을 비롯한 과세 관청·정부 기관·시험 시행 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、韓国の国税庁をはじめとする税務当局・政府機関・試験実施機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
     '대한민국 국세기본법·법인세법·소득세법·부가가치세법 등 조세법 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
       '韓国の国税基本法・法人税法・所得税法・付加価値税法などの租税法の体系を参考に、概念カードと用語集を運営者が独自に編集しました。',
     '학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다. 세법은 자주 개정되므로 실제 신고·납부와 세무 판단은 현행 법령과 전문가를 통해 확인하세요.':
@@ -784,8 +784,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '韓国の商法（会社法・総則・商行為）と外部監査法・公認会計士法の要点を、概念カード・用語集・クイズで学べます。',
     '대한민국 상법, 그중에서도 회사법을 중심으로 6개 영역, 10개 주제로 나누어 공부합니다. 개념 카드 25개는 관련 조문 번호와 함께 설명하고, 시험 핵심 포인트 50개와 용어 22개를 담았습니다. 법률 자문이 아닌 학습 자료입니다.':
       '韓国の商法、なかでも会社法を中心に、6つの領域・10のテーマに分けて学びます。概念カード25枚は関連する条文番号とともに解説し、試験のポイント50項目と用語22語を収録しています。法的助言ではなく、学習用の資料です。',
-    '이 앱은 금융감독원·금융위원회 등 시험 주관 기관, 법무부, 법제처, 법원과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
-      '本アプリは、韓国の金融監督院・金融委員会などの試験実施機関、法務部、法制処、裁判所とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '이 앱은 시험 주관 기관·정부 기관·법원과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、試験実施機関・政府機関・裁判所とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
     '대한민국 상법 제3편 회사 규정을 중심으로 상법총칙·상행위, 외부감사법·공인회계사법 등 법령을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
       '韓国商法第3編（会社）の規定を中心に、商法総則・商行為、外部監査法・公認会計士法などの法令を参考に、概念カードと用語集を運営者が独自に編集しました。',
     '개념 설명과 용어 풀이는 법령을 참고해 운영자가 정리한 학습 자료로, 법률 자문이 아닙니다. 법령은 개정될 수 있으므로 실제 사건이나 업무에는 최신 법령 원문을 확인하고 전문가와 상담하세요.':
@@ -812,8 +812,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '韓国CPA会計監査とUSCPA AUDの重要概念を、カード・クイズ・誤答ノートで学べるオフライン学習アプリ。',
     '한국 공인회계사 시험의 회계감사(K-GAAS)와 미국공인회계사 시험의 AUD를 2개 과목, 7개 출제 영역으로 나누어 공부합니다. 개념 카드 20개와 감사 용어 15개를 담았고, 한국 CPA 과목은 한국어, AUD는 영어 원문을 기준으로 합니다.':
       '韓国公認会計士試験の会計監査（K-GAAS）と米国公認会計士試験のAUDを、2科目・7つの出題分野に分けて学びます。概念カード20枚と監査用語15語を収録し、韓国CPAの科目は韓国語、AUDは英語の原文が基準です。',
-    '이 앱은 금융감독원, 한국공인회계사회(KICPA), AICPA, NASBA, PCAOB 등 시험 주관 기관이나 기준 제정 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
-      '本アプリは、韓国金融監督院、韓国公認会計士会（KICPA）、AICPA、NASBA、PCAOBなど、試験の実施機関や基準設定機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
+    '이 앱은 금융감독원, AICPA, PCAOB 등 시험 주관 기관이나 기준 제정 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      '本アプリは、韓国金融監督院、AICPA、PCAOBなど、試験の実施機関や基準設定機関とは関係のない非公式の学習アプリで、合格を保証するものではありません。',
     '한국채택국제감사기준(K-GAAS), 외부감사법, AICPA AU-C/SSAE/SSARS 및 PCAOB 감사기준 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 개념 설명과 용어 풀이는 기준서 원문을 대신하지 않습니다. 실제 적용이나 수험 준비에는 최신 기준서와 공식 자료를 함께 확인하세요.':
       'K-GAAS（韓国採択国際監査基準）、外部監査法、AICPAのAU-C・SSAE・SSARSおよびPCAOB監査基準の体系を参考に、概念カードと用語集を運営者が独自に編集しました。概念の解説と用語の説明は、基準書の原文に代わるものではありません。実務や受験準備では、最新の基準書と公式の資料もあわせてご確認ください。',
     '매일매일 회계감사': '毎日会計監査',
@@ -1519,8 +1519,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Core concepts and 500 IT terms for 16 Korean IT certifications, with quizzes.',
     '정보처리기사·정보보안기사·정보통신기사 등 한국 IT 자격 16종의 기초 개념을 자격별·과목별 학습 경로로 나누어 개념 카드로 공부합니다. IT 용어 500개는 한국어·영어·일본어 표기와 설명으로 확인합니다. 기출문제를 푸는 앱이 아니라 개념 카드를 읽고 퀴즈로 확인하는 기초 학습 앱입니다.':
       'Learn the foundation concepts behind 16 Korean IT certifications, including Engineer Information Processing, Engineer Information Security and Engineer Information & Communication, through concept cards arranged in study paths by certification and subject. The 500 IT terms come with Korean, English and Japanese names and explanations. It is not a past-paper app: you read concept cards and check yourself with quizzes.',
-    '이 앱은 한국산업인력공단(Q-Net), 한국방송통신전파진흥원, 한국데이터산업진흥원, 대한상공회의소, 한국지능정보사회진흥원, 한국경영기술지도사회 등 시험 시행·관련 기관이나 정부 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. 시험 일정과 출제기준은 반드시 각 시행 기관의 공지를 확인해 주세요.':
-      'This is an unofficial study app. It is not affiliated with HRD Korea (Q-Net), the Korea Communications Agency, the Korea Data Agency, the Korea Chamber of Commerce and Industry, the National Information Society Agency, the Korea Management & Technology Consultant Association, or any other exam body or government agency, and it does not guarantee a pass. Always check each exam body’s announcements for exam schedules and syllabi.',
+    '이 앱은 한국산업인력공단(Q-Net), 대한상공회의소, 한국경영기술지도사회 등 시험 시행·관련 기관이나 정부 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. 시험 일정과 출제기준은 반드시 각 시행 기관의 공지를 확인해 주세요.':
+      'This is an unofficial study app. It is not affiliated with HRD Korea (Q-Net), the Korea Chamber of Commerce and Industry, the Korea Management & Technology Consultant Association, or any other exam body or government agency, and it does not guarantee a pass. Always check each exam body’s announcements for exam schedules and syllabi.',
     '공개된 공식 출제기준과 표준 문서를 바탕으로 운영자가 자체 정리한 학습 자료입니다. 기출문제 본문·보기·정답은 앱에 담지 않았습니다.':
       'The material is study content organized by the operator from published official exam syllabi and standards documents. No past-question text, answer choices or answers are included.',
     '한국 IT 국가자격증 공부': 'Korean IT Certification Study',
@@ -1571,8 +1571,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Key finance concepts for Korean CPA and CFA Levels I-III: cards, glossary, quiz.',
     '한국 공인회계사(CPA) 1·2차 시험의 재무관리와 CFA Level 1~3에서 다루는 핵심 개념을 4개 과목, 12개 영역으로 나누어 공부합니다. 개념 카드 32개와 용어 22개를 담았고, 재무관리는 한국어, CFA 과목은 영어를 원문으로 합니다.':
       'Study the key concepts of Financial Management for the Korean CPA exam (1st and 2nd stages) and of CFA Levels I-III in four subjects and 12 areas. The app holds 32 concept cards and 22 glossary terms; Financial Management is written in Korean and the CFA subjects in English.',
-    '이 앱은 공인회계사시험을 주관·시행하는 금융위원회·금융감독원, 그리고 CFA Institute와 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. CFA Institute는 이 앱을 보증하거나 홍보하지 않으며, 내용의 정확성이나 품질을 보증하지 않습니다. CFA®와 Chartered Financial Analyst®는 CFA Institute의 등록 상표입니다.':
-      'This is an unofficial study app. It is not affiliated with the Financial Services Commission or the Financial Supervisory Service of Korea, which oversee and administer the Korean CPA exam, or with CFA Institute, and it does not guarantee a pass. CFA Institute does not endorse, promote or warrant the accuracy or quality of this app. CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.',
+    '이 앱은 금융감독원, 그리고 CFA Institute와 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다. CFA Institute는 이 앱을 보증하거나 홍보하지 않으며, 내용의 정확성이나 품질을 보증하지 않습니다. CFA®와 Chartered Financial Analyst®는 CFA Institute의 등록 상표입니다.':
+      'This is an unofficial study app. It is not affiliated with the Financial Supervisory Service of Korea or with CFA Institute, and it does not guarantee a pass. CFA Institute does not endorse, promote or warrant the accuracy or quality of this app. CFA® and Chartered Financial Analyst® are registered trademarks owned by CFA Institute.',
     '한국 CPA 1·2차 재무관리 출제범위와 CFA Level I~III 커리큘럼 토픽을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 시험 문제 본문은 앱에 담지 않았습니다.':
       'Concept cards and the glossary were edited by the operator with reference to the scope of Financial Management in the Korean CPA exam (1st and 2nd stages) and the curriculum topics of CFA Levels I-III. The app does not include the text of exam questions.',
     '매일매일 재무관리': 'Daily Finance',
@@ -1597,8 +1597,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Study 37 key concepts in economics, public finance and business, fully offline.',
     '경제학, 재정학, 일반경영학의 핵심 개념을 3개 과목, 17개 출제 영역으로 나누어 공부합니다. 공인회계사(CPA) 1차 시험의 경제학·일반경영학과 세무사(CTA) 1차 시험의 재정학 범위를 참고해 구성했으며, 개념 카드 37개와 용어 25개를 담았습니다.':
       'Study the key concepts of economics, public finance and business administration in three subjects and 17 exam areas. The content follows the scope of the economics and business administration subjects of the Korean CPA first-stage exam and the public finance subject of the Korean Certified Tax Accountant (CTA) first-stage exam, with 37 concept cards and 25 glossary terms.',
-    '이 앱은 금융위원회·금융감독원(공인회계사 시험), 국세청·한국산업인력공단(세무사 시험)을 비롯한 어떤 시험 주관·시행 기관과도 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
-      'This is an unofficial study app. It is not affiliated with any exam body, including Korea’s Financial Services Commission and Financial Supervisory Service (CPA exam) or the National Tax Service and the Human Resources Development Service of Korea (CTA exam), and it does not guarantee a pass.',
+    '이 앱은 어떤 시험 주관·시행 기관과도 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with any exam body, and it does not guarantee a pass.',
     '개념 카드와 용어집은 표준 미시·거시경제학, 재정학 및 일반경영학(조직·전략·경영과학) 교육과정을 참고해 운영자가 자체 편집한 내용입니다. 기출문제의 본문은 앱에 담지 않고 연도와 문항 번호로만 안내합니다.':
       'Concept cards and glossary entries are original editorial summaries by the operator, based on standard microeconomics, macroeconomics, public finance and business administration (organization, strategy and management science) curricula. The app does not include the text of past questions and refers to them only by year and number.',
     '매일매일 경제학': 'Daily Economics',
@@ -1622,8 +1622,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '세무회계·세법·세법학의 핵심 개념을 카드, 용어집, 퀴즈로 공부합니다. 오프라인, 광고 없음.': 'Korean tax accounting and tax law concepts in cards, a glossary and quizzes.',
     '대한민국 세법을 세무회계, 세법, 세법학 3과목 13개 영역으로 나누어 공부합니다. 개념 카드 31개와 용어 15개를 담았습니다. 학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다.':
       'Study the tax law of the Republic of Korea in three subjects, Tax Accounting, Tax Law and Tax Jurisprudence, across 13 areas, with 31 concept cards and 15 glossary terms. It is a study aid, not tax consultation or tax or legal advice.',
-    '이 앱은 국세청, 기획재정부, 법제처, 한국산업인력공단을 비롯한 과세 관청·정부 기관·시험 시행 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
-      'This is an unofficial study app. It is not affiliated with any tax authority, government agency or exam body, including Korea’s National Tax Service, Ministry of Economy and Finance, Ministry of Government Legislation and Human Resources Development Service of Korea, and it does not guarantee a pass.',
+    '이 앱은 국세청을 비롯한 과세 관청·정부 기관·시험 시행 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with any tax authority, government agency or exam body, including Korea’s National Tax Service, and it does not guarantee a pass.',
     '대한민국 국세기본법·법인세법·소득세법·부가가치세법 등 조세법 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
       'Concept cards and the glossary were edited by the operator with reference to Korean tax statutes such as the Framework Act on National Taxes, the Corporate Tax Act, the Income Tax Act and the Value-Added Tax Act.',
     '학습을 돕는 자료일 뿐 세무 상담이나 세무·법률 자문이 아닙니다. 세법은 자주 개정되므로 실제 신고·납부와 세무 판단은 현행 법령과 전문가를 통해 확인하세요.':
@@ -1650,8 +1650,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Korean company and commercial law in concept cards, a glossary and quizzes.',
     '대한민국 상법, 그중에서도 회사법을 중심으로 6개 영역, 10개 주제로 나누어 공부합니다. 개념 카드 25개는 관련 조문 번호와 함께 설명하고, 시험 핵심 포인트 50개와 용어 22개를 담았습니다. 법률 자문이 아닌 학습 자료입니다.':
       'Study the Korean Commercial Act, with a focus on company law, in six areas and ten topics. The 25 concept cards are explained with the relevant article numbers, alongside 50 exam points and 22 glossary terms. It is study material, not legal advice.',
-    '이 앱은 금융감독원·금융위원회 등 시험 주관 기관, 법무부, 법제처, 법원과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
-      'This is an unofficial study app. It is not affiliated with any exam body such as Korea’s Financial Supervisory Service or Financial Services Commission, nor with the Ministry of Justice, the Ministry of Government Legislation or the courts, and it does not guarantee a pass.',
+    '이 앱은 시험 주관 기관·정부 기관·법원과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with any exam body, government agency or court, and it does not guarantee a pass.',
     '대한민국 상법 제3편 회사 규정을 중심으로 상법총칙·상행위, 외부감사법·공인회계사법 등 법령을 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다.':
       'Concept cards and the glossary were edited by the operator with reference to Korean statutes, chiefly Part III (Companies) of the Commercial Act, together with its general provisions and commercial transactions, the External Audit Act and the CPA Act.',
     '개념 설명과 용어 풀이는 법령을 참고해 운영자가 정리한 학습 자료로, 법률 자문이 아닙니다. 법령은 개정될 수 있으므로 실제 사건이나 업무에는 최신 법령 원문을 확인하고 전문가와 상담하세요.':
@@ -1677,8 +1677,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '한국 CPA 회계감사와 USCPA AUD의 핵심 개념을 카드·퀴즈·오답노트로 익히는 오프라인 학습 앱.': 'Key audit concepts for Korean CPA and USCPA AUD: cards, quizzes, review notes.',
     '한국 공인회계사 시험의 회계감사(K-GAAS)와 미국공인회계사 시험의 AUD를 2개 과목, 7개 출제 영역으로 나누어 공부합니다. 개념 카드 20개와 감사 용어 15개를 담았고, 한국 CPA 과목은 한국어, AUD는 영어 원문을 기준으로 합니다.':
       'Study Auditing for the Korean CPA exam (K-GAAS) and AUD for the US CPA exam in two subjects and seven exam areas. The app holds 20 concept cards and 15 auditing terms; Korean CPA content is based on Korean text and AUD on English text.',
-    '이 앱은 금융감독원, 한국공인회계사회(KICPA), AICPA, NASBA, PCAOB 등 시험 주관 기관이나 기준 제정 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
-      'This is an unofficial study app. It is not affiliated with or endorsed by the Financial Supervisory Service of Korea, the Korean Institute of Certified Public Accountants (KICPA), AICPA, NASBA, PCAOB, or any other exam body or standard setter, and it does not guarantee a pass.',
+    '이 앱은 금융감독원, AICPA, PCAOB 등 시험 주관 기관이나 기준 제정 기관과 무관한 비공식 학습 앱이며 합격을 보장하지 않습니다.':
+      'This is an unofficial study app. It is not affiliated with or endorsed by the Financial Supervisory Service of Korea, AICPA, PCAOB, or any other exam body or standard setter, and it does not guarantee a pass.',
     '한국채택국제감사기준(K-GAAS), 외부감사법, AICPA AU-C/SSAE/SSARS 및 PCAOB 감사기준 체계를 참고해 개념 카드와 용어집을 운영자가 자체 편집했습니다. 개념 설명과 용어 풀이는 기준서 원문을 대신하지 않습니다. 실제 적용이나 수험 준비에는 최신 기준서와 공식 자료를 함께 확인하세요.':
       'Concept cards and the glossary were edited by the operator with reference to K-GAAS, the External Audit Act, AICPA AU-C, SSAE and SSARS, and PCAOB auditing standards. The explanations and glossary entries do not replace the standards themselves. For practice or exam preparation, also check the current standards and official materials.',
     '매일매일 회계감사': 'Daily Auditing',
