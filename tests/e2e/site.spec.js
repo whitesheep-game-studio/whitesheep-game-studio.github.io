@@ -17,7 +17,7 @@ test('language selection waits for initialization when the translation script lo
     await expect(page.locator('#language-trigger')).toBeEnabled();
     await page.locator('#language-trigger').click();
     await page.locator('[data-language="en"]').click();
-    await expect(page.locator('h1')).toHaveText('Kanjigyeol Privacy Policy');
+    await expect(page.locator('h1')).toHaveText('KanjiGyeol Privacy Policy');
   } finally {
     releaseScript();
   }
@@ -77,14 +77,8 @@ test('app privacy policy preserves data and advertising boundaries in every lang
   const article = page.locator('article.doc');
   for (const [locale, title, retention, scope, tabTitle] of [
     ['ko', '칸지결 개인정보처리방침', '90일 이내', '이 배너는 Google 광고가 아니며 앱 데이터를 보내지 않습니다', '칸지결 · 개인정보 안내 · WhiteSheep Game Studio'],
-    [
-      'ja',
-      'カンジギョル プライバシーポリシー',
-      '90日以内',
-      'このバナーはGoogle広告ではなく、アプリのデータを送信しません',
-      'カンジギョル · プライバシーポリシー · WhiteSheep Game Studio'
-    ],
-    ['en', 'Kanjigyeol Privacy Policy', 'within 90 days', 'This banner is not a Google ad and does not send app data', 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio']
+    ['ja', '漢字結 プライバシーポリシー', '90日以内', 'このバナーはGoogle広告ではなく、アプリのデータを送信しません', '漢字結 · プライバシーポリシー · WhiteSheep Game Studio'],
+    ['en', 'KanjiGyeol Privacy Policy', 'within 90 days', 'This banner is not a Google ad and does not send app data', 'KanjiGyeol · Privacy Policy · WhiteSheep Game Studio']
   ]) {
     await page.locator('#language-trigger').click();
     await page.locator(`[data-language="${locale}"]`).click();
@@ -100,8 +94,8 @@ test('app privacy policy preserves data and advertising boundaries in every lang
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
   }
   await page.reload();
-  await expect(article.locator('h1')).toHaveText('Kanjigyeol Privacy Policy');
-  await expect(page).toHaveTitle('Kanjigyeol · Privacy Policy · WhiteSheep Game Studio');
+  await expect(article.locator('h1')).toHaveText('KanjiGyeol Privacy Policy');
+  await expect(page).toHaveTitle('KanjiGyeol · Privacy Policy · WhiteSheep Game Studio');
   await expect(page.locator('meta[name="description"]')).toHaveAttribute('content', 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.');
   await page.locator('#language-trigger').click();
   await page.locator('[data-language="ko"]').click();

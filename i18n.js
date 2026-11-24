@@ -4,10 +4,10 @@ window.WHITESHEEP_TRANSLATIONS = {
     'App Store에서 다운로드': 'App Storeからダウンロード',
     'Google Play에서 다운로드': 'Google Playでダウンロード',
     'iOS · Android 출시': 'iOS・Android 公開済み',
-    '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'カンジギョル · プライバシーポリシー · WhiteSheep Game Studio',
+    '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': '漢字結 · プライバシーポリシー · WhiteSheep Game Studio',
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'WhiteSheep Game Studioのゲーム・アプリ、更新情報、サポートを一か所でご確認いただけます。',
     '운영자 초록지붕이층집 · © 2026': '運営者 초록지붕이층집 · © 2026',
-    '칸지결 개인정보처리방침': 'カンジギョル プライバシーポリシー',
+    '칸지결 개인정보처리방침': '漢字結 プライバシーポリシー',
     '버전 1.1 · 시행일 2026년 11월 24일 · 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
       'バージョン1.1・施行日：2026年11月24日・以前のバージョンとの違いは第12項の変更履歴でご確認いただけます。',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
@@ -19,7 +19,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '문의·열람·정정·삭제·처리 정지 요청:': 'お問い合わせ・開示・訂正・削除・処理停止のご依頼：',
     '2. 기기에 저장하는 학습 기록과 설정': '2. 端末に保存する学習履歴と設定',
     '앱은 학습을 이어가고 이용자가 고른 설정을 복원하기 위해 다음 정보를 기기에 저장합니다. 칸지결은 이 기록을 운영자나 광고업체의 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
-      'アプリは、学習を続けられるようにし、利用者が選んだ設定を復元するため、次の情報を端末に保存します。カンジギョルはこれらの記録を運営者や広告事業者のサーバーに送信しません。運営者は端末内だけにある記録を遠隔で閲覧できません。',
+      'アプリは、学習を続けられるようにし、利用者が選んだ設定を復元するため、次の情報を端末に保存します。漢字結はこれらの記録を運営者や広告事業者のサーバーに送信しません。運営者は端末内だけにある記録を遠隔で閲覧できません。',
     '학습 기록': '学習履歴',
     '저장하는 정보와 이용 목적: 학습 유형별로 현재 한자 ID, 열람한 한자 ID, 콘텐츠·저장 형식 버전, 회독 수와 진행 중인 회독에서 본 한자 ID를 저장합니다. 학습 위치와 회독·뱃지 현황을 복원하는 데 사용합니다.':
       '保存する情報と利用目的：学習タイプごとに、現在の漢字ID、閲覧済みの漢字ID、コンテンツ・保存形式のバージョン、周回数、進行中の周回で見た漢字IDを保存します。学習位置と周回・バッジの状況を復元するために使用します。',
@@ -46,15 +46,15 @@ window.WHITESHEEP_TRANSLATIONS = {
     '삭제 및 설정: 앱 설정에서 끄면 예약된 알림을 취소합니다. 기기 설정에서도 알림 권한을 변경할 수 있습니다.':
       '削除と設定：アプリの設定でオフにすると、予約済みの通知が取り消されます。端末の設定でも通知の権限を変更できます。',
     '학습 기록 초기화는 회독 수, 북마크·최근 검색·오답 노트·알림·화면 설정을 별도로 유지합니다. 항목별로 삭제하거나 운영체제의 앱 데이터 삭제 기능을 이용할 수 있습니다. 앱 삭제나 기기 변경 시 기록이 사라질 수 있고, 운영체제의 백업·복원 설정에 따라 일부 기록이 복원될 수 있습니다. 칸지결은 별도의 계정 동기화를 제공하지 않습니다. 위 항목은 이용자가 앱을 사용하는 동안 계속 보관하며, 이용자가 삭제하기 전에는 운영자가 임의로 지우지 않습니다. 운영자는 기기 안의 기록에 접근하지 못하므로 운영자가 기간을 정해 삭제하지 않습니다.':
-      '学習履歴の初期化では、周回数、ブックマーク・最近の検索・間違いノート・通知・画面設定は別に保持されます。項目ごとに削除するか、OSのアプリデータ削除機能を利用できます。アプリの削除や端末の変更で記録が失われることがあり、OSのバックアップ・復元設定によっては一部の記録が復元されることがあります。カンジギョルは別個のアカウント同期を提供しません。上記の項目は、利用者がアプリを使用している間は保管され、利用者が削除する前に運営者が任意に消去することはありません。運営者は端末内の記録にアクセスできないため、運営者が期間を定めて削除することもありません。',
+      '学習履歴の初期化では、周回数、ブックマーク・最近の検索・間違いノート・通知・画面設定は別に保持されます。項目ごとに削除するか、OSのアプリデータ削除機能を利用できます。アプリの削除や端末の変更で記録が失われることがあり、OSのバックアップ・復元設定によっては一部の記録が復元されることがあります。漢字結は別個のアカウント同期を提供しません。上記の項目は、利用者がアプリを使用している間は保管され、利用者が削除する前に運営者が任意に消去することはありません。運営者は端末内の記録にアクセスできないため、運営者が期間を定めて削除することもありません。',
     '학습 알림은 기본으로 꺼져 있습니다. 사용자가 켤 때 필요한 알림 권한을 요청하며, 기기의 알림 기능으로 선택한 시각에 하루 한 번 알림을 예약합니다. 칸지결은 알림을 보내기 위해 푸시 서버, 전화번호 또는 이메일 주소를 사용하지 않습니다. 알림 문구는 고정된 안내문이며 학습 기록이나 개인정보를 담지 않습니다. 안드로이드에서는 기기를 다시 켠 뒤에도 알림을 이어 가려고 부팅 완료 신호를 받아 예약을 복원합니다. 알림을 거부하거나 꺼도 학습 기능을 사용할 수 있습니다.':
-      '学習リマインダーは初期状態でオフです。利用者がオンにするときに必要な通知権限を求め、端末の通知機能で、選択した時刻に1日1回の通知を予約します。カンジギョルは通知を送るためにプッシュサーバー、電話番号、メールアドレスを使用しません。通知の文言は固定の案内文で、学習履歴や個人情報は含みません。Androidでは、端末の再起動後も通知を続けるため、起動完了の信号を受け取って予約を復元します。通知を拒否またはオフにしても学習機能は利用できます。',
+      '学習リマインダーは初期状態でオフです。利用者がオンにするときに必要な通知権限を求め、端末の通知機能で、選択した時刻に1日1回の通知を予約します。漢字結は通知を送るためにプッシュサーバー、電話番号、メールアドレスを使用しません。通知の文言は固定の案内文で、学習履歴や個人情報は含みません。Androidでは、端末の再起動後も通知を続けるため、起動完了の信号を受け取って予約を復元します。通知を拒否またはオフにしても学習機能は利用できます。',
     '홈 화면 위젯「오늘의 한자」를 추가하면 앱이 앞으로 30일치의 날짜별 한자(한자, 뜻, 읽기, 대표 단어와 표시 언어)를 기기 안의 공유 저장소(안드로이드 앱 전용 저장소, iOS 앱 그룹)에 써 둡니다. 날짜로 정해지는 내용이며 학습 기록·북마크·검색어는 담지 않습니다. 위젯은 네트워크를 사용하지 않고 이 자료만 읽으며, 위젯을 누르면 해당 한자 카드를 앱에서 엽니다. 위젯을 제거해도 앱이 기록한 자료는 앱 데이터 삭제 때까지 남을 수 있습니다.':
       'ホーム画面ウィジェット「오늘의 한자」を追加すると、アプリは今後30日分の日付別の漢字（漢字、意味、読み、代表的な単語、表示言語）を、端末内の共有ストレージ（Androidのアプリ専用ストレージ、iOSのアプリグループ）に書き込みます。日付によって決まる内容であり、学習履歴・ブックマーク・検索語は含みません。ウィジェットはネットワークを使用せず、このデータだけを読み取り、ウィジェットをタップすると該当する漢字カードがアプリで開きます。ウィジェットを削除しても、アプリが記録したデータはアプリデータを削除するまで残ることがあります。',
     '일본어 읽기 듣기를 누르면 앱이 해당 일본어 글자를 기기에 내장된 음성 기능(iOS AVSpeechSynthesizer, 안드로이드 TextToSpeech)에 전달해 읽습니다. 앱은 이 글자를 운영자나 광고업체의 서버로 보내지 않습니다. 기기의 음성 엔진이 별도 설정에 따라 처리하는 범위는 기기 제조사·운영체제의 정책을 따릅니다.':
       '日本語の読み上げを押すと、アプリは該当する日本語の文字を端末内蔵の音声機能（iOSのAVSpeechSynthesizer、AndroidのTextToSpeech）に渡して読み上げます。アプリはこの文字を運営者や広告事業者のサーバーに送信しません。端末の音声エンジンが別の設定に従って処理する範囲は、端末メーカー・OSの方針に従います。',
     '다른 앱이 칸지결의 한자 카드를 여는 링크(kanjigyeol://card/한자ID)를 지원합니다. 칸지결은 링크에서 한자 ID만 읽어 해당 카드로 이동하며 링크 내용을 저장하거나 전송하지 않습니다.':
-      '他のアプリがカンジギョルの漢字カードを開くリンク（kanjigyeol://card/漢字ID）に対応しています。カンジギョルはリンクから漢字IDだけを読み取って該当のカードに移動し、リンクの内容を保存したり送信したりしません。',
+      '他のアプリが漢字結の漢字カードを開くリンク（kanjigyeol://card/漢字ID）に対応しています。漢字結はリンクから漢字IDだけを読み取って該当のカードに移動し、リンクの内容を保存したり送信したりしません。',
     '3. 문의와 오류 제보': '3. お問い合わせと不具合報告',
     '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 앱 버전, 운영체제·기기 종류, 한자 ID와 재현 절차는 문제 확인에 필요한 경우에만 알려 주세요. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요.':
       'メールでのお問い合わせでは、返信先、件名・本文、ご自身で添付した資料を受け取り、回答や不具合確認に利用します。アプリのバージョン、OS・端末の種類、漢字ID、再現手順は確認に必要な場合のみお知らせください。添付は任意です。パスワード、認証コード、身分証、健康情報、他人の個人情報は送らないでください。',
@@ -68,7 +68,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '앱에는 Google Mobile Ads와 Google UMP SDK가 포함됩니다. SDK가 동작하는 경우 IP 주소와 그로부터 추정되는 대략적 위치, 광고 ID·앱 세트 ID 등 식별자, 앱 실행·광고 노출·탭 등 상호작용, 성능·오류·진단 정보 및 동의 상태 등이 Google로 전송될 수 있습니다. 목적은 광고 제공·측정, SDK 및 서비스 운영, 진단, 보안과 부정 이용 방지입니다.':
       'アプリにはGoogle Mobile AdsとGoogle UMP SDKが含まれます。SDKの動作時には、IPアドレスとそこから推定されるおおよその位置、広告ID・アプリセットIDなどの識別子、起動・広告表示・タップなどの操作、性能・エラー・診断情報、同意状態などがGoogleへ送信されることがあります。目的は広告の提供・測定、SDKとサービスの運用、診断、セキュリティ、不正利用防止です。',
     '현재 배포 구성에서 칸지결의 Google 광고 초기화, 배너 요청 및 동의 화면 제공 기능은 꺼져 있습니다. 다만 Google 광고·동의 SDK는 앱에 포함되어 있으므로 이를 SDK와 Google 사이의 모든 통신이나 정보 처리가 없다는 의미로 해석하지 않습니다. 광고 기능을 켜거나 처리 범위가 달라지기 전에 방침과 필요한 안내·선택 절차를 갱신합니다. 개발·테스트 구성에서는 Google 샘플 광고를 사용합니다.':
-      '現在の配布構成では、カンジギョルのGoogle広告の初期化、バナーのリクエスト、同意画面の表示機能は無効です。ただし、Googleの広告・同意SDKはアプリに含まれているため、SDKとGoogleの間の通信や情報処理が一切ないという意味ではありません。広告機能を有効にする前、または処理範囲が変わる前に、本方針と必要な説明・選択手続きを更新します。開発・テスト構成ではGoogleのサンプル広告を使用します。',
+      '現在の配布構成では、漢字結のGoogle広告の初期化、バナーのリクエスト、同意画面の表示機能は無効です。ただし、Googleの広告・同意SDKはアプリに含まれているため、SDKとGoogleの間の通信や情報処理が一切ないという意味ではありません。広告機能を有効にする前、または処理範囲が変わる前に、本方針と必要な説明・選択手続きを更新します。開発・テスト構成ではGoogleのサンプル広告を使用します。',
     '광고가 꺼져 있는 동안 한국어 화면의 학습 화면 하단에는 운영자의 자체 홍보 배너가 표시됩니다. 이 배너는 Google 광고가 아니며 앱 데이터를 보내지 않습니다. 배너 링크를 눌렀을 때의 처리는 6항을 따릅니다.':
       '広告が無効の間、韓国語表示の学習画面の下部には運営者独自の宣伝バナーが表示されます。このバナーはGoogle広告ではなく、アプリのデータを送信しません。バナーのリンクをタップした場合の処理は第6項に従います。',
     '광고 기능을 켜는 구성에서는 광고 요청에 비개인화 광고와 콘텐츠 등급 G 설정을 사용합니다. 비개인화 광고도 식별자나 진단 정보 처리가 없다는 뜻은 아닙니다.':
@@ -89,11 +89,11 @@ window.WHITESHEEP_TRANSLATIONS = {
       'お問い合わせメール：Gmailを提供するGoogleのメール送信・保存・セキュリティ機能を利用します。方針掲載ページ：GitHub Pagesを提供するGitHub, Inc.など、該当するGitHubサービス提供者がアクセス情報を処理します。運営者が受け取るお問い合わせと、提供者が自社サービス・セキュリティ目的で処理する情報は区別します。',
     '사용자가 여는 외부 링크': '利用者が開く外部リンク',
     '연결된 사용단어의 ‘문법결에서 보기’를 누르면 칸지결은 기기의 앱 열기 기능을 사용해 문법결(munbeopgyeol://)에 사전 항목 ID, 단어 표기와 읽기를 전달합니다. 이 값은 해당 단어 화면을 여는 데 쓰입니다. 링크에 이용자 식별자, 학습 기록, 북마크, 최근 검색, 오답 기록이나 알림 설정은 포함하지 않습니다. 문법결을 열 수 없으면 운영체제에 맞는 스토어(Google Play 또는 App Store)의 문법결 페이지를 외부 앱·브라우저로 엽니다.':
-      '関連する使用単語の「문법결에서 보기」（문법결で表示）をタップすると、カンジギョルは端末のアプリ起動機能を使って、문법결（munbeopgyeol://）に辞書項目ID、単語の表記と読みを渡します。これらの値は該当する単語の画面を開くために使われます。リンクには、利用者の識別子、学習履歴、ブックマーク、最近の検索、間違いの記録、通知設定は含みません。문법결を開けない場合は、OSに合ったストア（Google PlayまたはApp Store）の문법결のページを外部アプリまたはブラウザで開きます。',
+      '関連する使用単語の「문법결에서 보기」（문법결で表示）をタップすると、漢字結は端末のアプリ起動機能を使って、문법결（munbeopgyeol://）に辞書項目ID、単語の表記と読みを渡します。これらの値は該当する単語の画面を開くために使われます。リンクには、利用者の識別子、学習履歴、ブックマーク、最近の検索、間違いの記録、通知設定は含みません。문법결を開けない場合は、OSに合ったストア（Google PlayまたはApp Store）の문법결のページを外部アプリまたはブラウザで開きます。',
     '한국어 화면의 운영자 홍보 배너를 누르면 네이버 스마트스토어 또는 손뜨개 원데이클래스 안내(네이버 지도 단축 링크) 페이지를 외부 브라우저로 엽니다. 설정의 개인정보 안내에서 방침 페이지를 외부 브라우저로 열 수 있습니다. 앱 정보에 표시된 운영자 웹사이트와 출처 주소는 화면에 표시되거나 복사할 수 있는 주소이며, 앱이 자동으로 열지 않습니다. 주소를 직접 열 경우 해당 서비스의 방침이 적용됩니다.':
       '韓国語表示でのみ表示される運営者の宣伝バナーをタップすると、NAVERスマートストア、または手編みのワンデイクラスの案内（NAVER地図の短縮リンク）のページを外部ブラウザで開きます。設定のプライバシー案内から、方針ページを外部ブラウザで開くことができます。アプリ情報に表示される運営者のウェブサイトと出典のアドレスは、画面に表示またはコピーできるアドレスであり、アプリが自動的に開くことはありません。アドレスをご自身で開く場合は、該当サービスの方針が適用されます。',
     '스토어·문법결·브라우저로 이동한 뒤에는 각 서비스의 방침이 적용됩니다. 해당 서비스는 접속 과정에서 IP 주소, 접속 기록이나 기기 정보를 처리할 수 있습니다. 외부 링크를 열지 않아도 칸지결에서 학습할 수 있습니다.':
-      'ストア、문법결、ブラウザに移動した後は、各サービスの方針が適用されます。これらのサービスは、アクセス時にIPアドレス、アクセス記録、端末情報を処理することがあります。外部リンクを開かなくてもカンジギョルで学習できます。',
+      'ストア、문법결、ブラウザに移動した後は、各サービスの方針が適用されます。これらのサービスは、アクセス時にIPアドレス、アクセス記録、端末情報を処理することがあります。外部リンクを開かなくても漢字結で学習できます。',
     '7. 국외 처리와 보유 기간': '7. 国外での処理と保存期間',
     'Google과 GitHub는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지합니다. 이용 시점에 통신망을 통한 전송·보관·처리가 이루어질 수 있습니다. 운영자는 이용자별 실제 서버 국가를 지정하거나 조회하지 못하며 미국 한 곳에서만 처리된다고 보장하지 않습니다. 제공자의 현재 처리지역·보호조치·연락처는 아래 공식 고지에서 확인할 수 있습니다.':
       'GoogleとGitHubは、米国を含む複数の国のインフラで情報を処理すると公表しています。利用時に通信ネットワークを通じた転送・保存・処理が行われることがあります。運営者は利用者ごとの実際のサーバー国を指定・照会できず、米国だけで処理されるとは保証しません。提供者の現在の処理地域、保護措置、連絡先は以下の公式文書で確認できます。',
@@ -120,10 +120,10 @@ window.WHITESHEEP_TRANSLATIONS = {
       '運営者アカウントとお問い合わせ資料へのアクセスは必要な担当者に限定し、アカウント・端末のアクセス保護、保有資料の確認・削除を行います。アプリはOSのアプリ保存領域を使用し、保存ライブラリー自体による追加暗号化は保証しません。Google広告SDKは送信時にTLS暗号化を使用し、本方針ページはHTTPSで提供します。利用者の端末や外部提供者の全システムを運営者が管理するという意味ではありません。',
     '11. 이용 대상과 아동': '11. 対象年齢と子ども',
     '칸지결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
-      'カンジギョルは韓国の14歳以上の青少年と成人を対象とします。生年月日や身分証を収集して年齢確認を行うことはなく、すべての利用者を成人と見なしません。14歳未満の個人情報がお問い合わせに含まれると判明した場合、必要な保護措置を検討し、不要な情報を削除します。',
+      '漢字結は韓国の14歳以上の青少年と成人を対象とします。生年月日や身分証を収集して年齢確認を行うことはなく、すべての利用者を成人と見なしません。14歳未満の個人情報がお問い合わせに含まれると判明した場合、必要な保護措置を検討し、不要な情報を削除します。',
     '12. 변경 안내와 외부 제공자 고지': '12. 変更のお知らせと外部提供者の文書',
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 칸지결의 방침이나 필요한 개별 동의를 대체하지 않습니다.':
-      '処理目的・項目・提供者・保存基準などを変更する場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は施行前に同意を得ます。外部リンクは各提供者の文書であり、カンジギョルの本方針や必要な個別同意に代わるものではありません。',
+      '処理目的・項目・提供者・保存基準などを変更する場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は施行前に同意を得ます。外部リンクは各提供者の文書であり、漢字結の本方針や必要な個別同意に代わるものではありません。',
     '변경 이력': '変更履歴',
     '버전 1.0 · 2026년 11월 2일: 최초 공개.': 'バージョン1.0・2026年11月2日：初回公開。',
     '버전 1.1 · 2026년 11월 24일: 북마크·최근 검색·오답 노트·학습 알림·표시 언어·읽기 설정·회독 수의 기기 저장, 홈 화면 위젯, 일본어 읽기 듣기, 외부 앱 링크, 문법결 연결, 운영자 홍보 배너와 외부 링크 처리, 광고 구성·권한 설명, 침해 신고 안내를 추가·보완했습니다.':
@@ -198,9 +198,9 @@ window.WHITESHEEP_TRANSLATIONS = {
     '한 글자씩,': '一文字ずつ、',
     '나만의 결로.': '自分のペースで。',
     '뜻과 소리, 모양과 이야기를 함께.': '意味・音・形・物語を一緒に。',
-    '한국어로 차근차근 익히는 일본어 한자, 칸지결.': '韓国語でじっくり学ぶ日本語漢字アプリ、カンジギョル。',
+    '한국어로 차근차근 익히는 일본어 한자, 칸지결.': '韓国語でじっくり学ぶ日本語漢字アプリ、漢字結。',
     'Android · iOS 출시 예정': 'Android · iOS 公開予定',
-    '칸지결 알아보기 ↓': 'カンジギョルについて ↓',
+    '칸지결 알아보기 ↓': '漢字結について ↓',
     '한 장에 한 글자.': 'カード1枚に漢字1字。',
     '읽고, 이해하고, 기억해요.': '読んで、理解して、覚えよう。',
     '한자의 한국어 뜻과 음, 일본어 음독·훈독, 사용단어를 한 카드에 담았습니다. 현재 모양을 풀어 쓴 설명과 창작 암기 팁을 함께 읽으며 글자에 익숙해져 보세요.':
@@ -233,13 +233,13 @@ window.WHITESHEEP_TRANSLATIONS = {
     '이 웹사이트': 'このウェブサイト',
     '권리 행사와 이용 대상': '権利行使と対象年齢',
     '안내 변경': '記載内容の変更',
-    '칸지결 · 출처·이용 조건 · WhiteSheep Game Studio': 'カンジギョル · 出典・利用条件 · WhiteSheep Game Studio',
-    칸지결: 'カンジギョル',
+    '칸지결 · 출처·이용 조건 · WhiteSheep Game Studio': '漢字結 · 出典・利用条件 · WhiteSheep Game Studio',
+    칸지결: '漢字結',
     '이 페이지는 칸지결 앱이 가리키는 출처와 이용 조건 안내입니다. 앱의 콘텐츠(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁)는 아래 출처를 바탕으로 합니다.':
-      'このページは、カンジギョルアプリが参照する出典と利用条件の案内です。アプリのコンテンツ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒント）は、以下の出典に基づいています。',
+      'このページは、漢字結アプリが参照する出典と利用条件の案内です。アプリのコンテンツ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒント）は、以下の出典に基づいています。',
     '콘텐츠 이용 조건': 'コンテンツの利用条件',
     '칸지결의 콘텐츠 데이터(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁과 출처 표기)는 권리가 존재하는 범위에서 CC BY-SA 4.0 라이선스로 공개합니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘, 광고 연동은 이 라이선스에 포함되지 않습니다.':
-      'カンジギョルのコンテンツデータ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒントと出典表示）は、権利が存在する範囲でCC BY-SA 4.0ライセンスにより公開します。アプリのコード、画面デザイン、アプリ名とアイコン、広告連携はこのライセンスに含まれません。',
+      '漢字結のコンテンツデータ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒントと出典表示）は、権利が存在する範囲でCC BY-SA 4.0ライセンスにより公開します。アプリのコード、画面デザイン、アプリ名とアイコン、広告連携はこのライセンスに含まれません。',
     'CC BY-SA 4.0 라이선스 안내': 'CC BY-SA 4.0ライセンスの案内',
     '문화청의 상용한자표와 음훈 색인을 바탕으로 표제자·순서·독음을 학습용 구조로 편집했습니다. 출처를 표시하고 가공했습니다. 일본 정부가 제작·승인·보증한 앱이 아닙니다.':
       '文化庁の常用漢字表と音訓索引に基づき、見出し字・順序・読みを学習用の構造に編集しました。出典を表示し、加工しています。日本政府が制作・承認・保証したアプリではありません。',
@@ -504,8 +504,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'ITパスポートの公開過去問題200問とIT用語500語を日本語の原文で学べる、日本のIT資格試験学習アプリ。',
     '학습 · Android': '学習 · Android',
     '전체 3개': '全3件',
-    '칸지결 서비스 이용약관': 'カンジギョル サービス利用規約',
-    '칸지결 · 서비스 이용약관 · WhiteSheep Game Studio': 'カンジギョル · サービス利用規約 · WhiteSheep Game Studio',
+    '칸지결 서비스 이용약관': '漢字結 サービス利用規約',
+    '칸지결 · 서비스 이용약관 · WhiteSheep Game Studio': '漢字結 · サービス利用規約 · WhiteSheep Game Studio',
     '버전 1.0 · 시행일 2026년 11월 5일': 'バージョン1.0・施行日：2026年11月5日',
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 한자 학습 앱 ‘칸지결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
       'この規約は、초록지붕이층집（開発者ブランドWhiteSheep Game Studio）が提供する日本語漢字学習アプリ「칸지결」の利用条件を説明します。アプリをご利用になる前に内容をご確認ください。',
@@ -918,10 +918,10 @@ window.WHITESHEEP_TRANSLATIONS = {
     'App Store에서 다운로드': 'Download on the App Store',
     'Google Play에서 다운로드': 'Get it on Google Play',
     'iOS · Android 출시': 'iOS and Android released',
-    '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'Kanjigyeol · Privacy Policy · WhiteSheep Game Studio',
+    '칸지결 · 개인정보 안내 · WhiteSheep Game Studio': 'KanjiGyeol · Privacy Policy · WhiteSheep Game Studio',
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.',
     '운영자 초록지붕이층집 · © 2026': 'Operated by 초록지붕이층집 · © 2026',
-    '칸지결 개인정보처리방침': 'Kanjigyeol Privacy Policy',
+    '칸지결 개인정보처리방침': 'KanjiGyeol Privacy Policy',
     '버전 1.1 · 시행일 2026년 11월 24일 · 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
       'Version 1.1 · Effective November 24, 2026 · Differences from the previous version are listed in the change history in section 12.',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
@@ -933,7 +933,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '문의·열람·정정·삭제·처리 정지 요청:': 'Questions and requests for access, correction, deletion or suspension of processing:',
     '2. 기기에 저장하는 학습 기록과 설정': '2. Learning history and settings stored on your device',
     '앱은 학습을 이어가고 이용자가 고른 설정을 복원하기 위해 다음 정보를 기기에 저장합니다. 칸지결은 이 기록을 운영자나 광고업체의 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
-      'To let you continue studying and to restore the settings you chose, the app stores the following information on your device. Kanjigyeol does not send these records to the operator or advertising companies. The operator cannot remotely access records held only on your device.',
+      'To let you continue studying and to restore the settings you chose, the app stores the following information on your device. KanjiGyeol does not send these records to the operator or advertising companies. The operator cannot remotely access records held only on your device.',
     '학습 기록': 'Learning history',
     '저장하는 정보와 이용 목적: 학습 유형별로 현재 한자 ID, 열람한 한자 ID, 콘텐츠·저장 형식 버전, 회독 수와 진행 중인 회독에서 본 한자 ID를 저장합니다. 학습 위치와 회독·뱃지 현황을 복원하는 데 사용합니다.':
       'Information stored and purpose: For each study type, the app stores the current kanji ID, viewed kanji IDs, content and storage-format versions, the number of rounds completed, and the kanji IDs seen in the round in progress. It is used to restore your study position and your round and badge status.',
@@ -963,15 +963,15 @@ window.WHITESHEEP_TRANSLATIONS = {
     '삭제 및 설정: 앱 설정에서 끄면 예약된 알림을 취소합니다. 기기 설정에서도 알림 권한을 변경할 수 있습니다.':
       'Deletion and settings: Turning reminders off in the app settings cancels the scheduled notification. You can also change the notification permission in your device settings.',
     '학습 기록 초기화는 회독 수, 북마크·최근 검색·오답 노트·알림·화면 설정을 별도로 유지합니다. 항목별로 삭제하거나 운영체제의 앱 데이터 삭제 기능을 이용할 수 있습니다. 앱 삭제나 기기 변경 시 기록이 사라질 수 있고, 운영체제의 백업·복원 설정에 따라 일부 기록이 복원될 수 있습니다. 칸지결은 별도의 계정 동기화를 제공하지 않습니다. 위 항목은 이용자가 앱을 사용하는 동안 계속 보관하며, 이용자가 삭제하기 전에는 운영자가 임의로 지우지 않습니다. 운영자는 기기 안의 기록에 접근하지 못하므로 운영자가 기간을 정해 삭제하지 않습니다.':
-      'Resetting learning history keeps the number of rounds completed, bookmarks, recent searches, the wrong-answer list, reminders and display settings separate. You can delete items individually or use your operating system’s app-data deletion feature. Records may be lost when you delete the app or change devices, and some records may be restored depending on your operating system’s backup and restore settings. Kanjigyeol does not provide separate account synchronization. These items are kept while you use the app, and the operator does not delete them arbitrarily before you do. Because the operator cannot access records on your device, the operator does not delete them after a set period.',
+      'Resetting learning history keeps the number of rounds completed, bookmarks, recent searches, the wrong-answer list, reminders and display settings separate. You can delete items individually or use your operating system’s app-data deletion feature. Records may be lost when you delete the app or change devices, and some records may be restored depending on your operating system’s backup and restore settings. KanjiGyeol does not provide separate account synchronization. These items are kept while you use the app, and the operator does not delete them arbitrarily before you do. Because the operator cannot access records on your device, the operator does not delete them after a set period.',
     '학습 알림은 기본으로 꺼져 있습니다. 사용자가 켤 때 필요한 알림 권한을 요청하며, 기기의 알림 기능으로 선택한 시각에 하루 한 번 알림을 예약합니다. 칸지결은 알림을 보내기 위해 푸시 서버, 전화번호 또는 이메일 주소를 사용하지 않습니다. 알림 문구는 고정된 안내문이며 학습 기록이나 개인정보를 담지 않습니다. 안드로이드에서는 기기를 다시 켠 뒤에도 알림을 이어 가려고 부팅 완료 신호를 받아 예약을 복원합니다. 알림을 거부하거나 꺼도 학습 기능을 사용할 수 있습니다.':
-      'Study reminders are off by default. When you turn them on, the app requests the necessary notification permission and schedules one notification per day at the time you selected, using the device’s notification feature. Kanjigyeol does not use a push server, phone number or email address to send notifications. The notification text is a fixed message and contains no learning history or personal information. On Android, so that reminders continue after the device is restarted, the app receives the boot-completed signal and restores the schedule. You can use the learning features even if you decline or turn off notifications.',
+      'Study reminders are off by default. When you turn them on, the app requests the necessary notification permission and schedules one notification per day at the time you selected, using the device’s notification feature. KanjiGyeol does not use a push server, phone number or email address to send notifications. The notification text is a fixed message and contains no learning history or personal information. On Android, so that reminders continue after the device is restarted, the app receives the boot-completed signal and restores the schedule. You can use the learning features even if you decline or turn off notifications.',
     '홈 화면 위젯「오늘의 한자」를 추가하면 앱이 앞으로 30일치의 날짜별 한자(한자, 뜻, 읽기, 대표 단어와 표시 언어)를 기기 안의 공유 저장소(안드로이드 앱 전용 저장소, iOS 앱 그룹)에 써 둡니다. 날짜로 정해지는 내용이며 학습 기록·북마크·검색어는 담지 않습니다. 위젯은 네트워크를 사용하지 않고 이 자료만 읽으며, 위젯을 누르면 해당 한자 카드를 앱에서 엽니다. 위젯을 제거해도 앱이 기록한 자료는 앱 데이터 삭제 때까지 남을 수 있습니다.':
       'If you add the home-screen widget 「오늘의 한자」, the app writes the next 30 days of date-based kanji (the kanji, meaning, readings, a representative word and the display language) to shared storage on your device (app-private storage on Android, an app group on iOS). The content is determined by date and does not include learning history, bookmarks or search terms. The widget does not use the network and only reads this data; tapping the widget opens the corresponding kanji card in the app. Even if you remove the widget, the data the app recorded may remain until you delete the app data.',
     '일본어 읽기 듣기를 누르면 앱이 해당 일본어 글자를 기기에 내장된 음성 기능(iOS AVSpeechSynthesizer, 안드로이드 TextToSpeech)에 전달해 읽습니다. 앱은 이 글자를 운영자나 광고업체의 서버로 보내지 않습니다. 기기의 음성 엔진이 별도 설정에 따라 처리하는 범위는 기기 제조사·운영체제의 정책을 따릅니다.':
       'When you tap to hear a Japanese reading, the app passes the relevant Japanese text to the device’s built-in speech feature (iOS AVSpeechSynthesizer, Android TextToSpeech) to be read aloud. The app does not send this text to the operator or advertising companies. What the device’s speech engine processes under its own settings is governed by the policies of the device manufacturer and operating system.',
     '다른 앱이 칸지결의 한자 카드를 여는 링크(kanjigyeol://card/한자ID)를 지원합니다. 칸지결은 링크에서 한자 ID만 읽어 해당 카드로 이동하며 링크 내용을 저장하거나 전송하지 않습니다.':
-      'The app supports a link that lets other apps open a Kanjigyeol kanji card (kanjigyeol://card/kanji ID). Kanjigyeol reads only the kanji ID from the link to go to that card and does not store or transmit the link contents.',
+      'The app supports a link that lets other apps open a KanjiGyeol kanji card (kanjigyeol://card/kanji ID). KanjiGyeol reads only the kanji ID from the link to go to that card and does not store or transmit the link contents.',
     '3. 문의와 오류 제보': '3. Support requests and error reports',
     '이메일 문의 시 회신 주소, 제목·본문 및 직접 첨부한 자료를 받아 문의 응대와 오류 확인에 사용합니다. 앱 버전, 운영체제·기기 종류, 한자 ID와 재현 절차는 문제 확인에 필요한 경우에만 알려 주세요. 첨부는 선택 사항이며 비밀번호, 인증번호, 신분증, 건강정보와 다른 사람의 개인정보는 보내지 마세요.':
       'When you email us, we receive your reply address, subject, message, and any attachments you choose to send, and use them to respond and investigate errors. Provide app version, operating system and device type, kanji ID, or reproduction steps only when relevant. Attachments are optional. Do not send passwords, verification codes, identity documents, health information, or other people’s personal information.',
@@ -985,7 +985,7 @@ window.WHITESHEEP_TRANSLATIONS = {
     '앱에는 Google Mobile Ads와 Google UMP SDK가 포함됩니다. SDK가 동작하는 경우 IP 주소와 그로부터 추정되는 대략적 위치, 광고 ID·앱 세트 ID 등 식별자, 앱 실행·광고 노출·탭 등 상호작용, 성능·오류·진단 정보 및 동의 상태 등이 Google로 전송될 수 있습니다. 목적은 광고 제공·측정, SDK 및 서비스 운영, 진단, 보안과 부정 이용 방지입니다.':
       'The app includes Google Mobile Ads and Google UMP SDKs. When these SDKs operate, IP addresses and approximate location derived from them, identifiers such as advertising and app-set IDs, interactions such as app launches, ad impressions and taps, performance and diagnostic information, errors, and consent status may be sent to Google. Purposes include ad delivery and measurement, SDK and service operation, diagnostics, security, and fraud prevention.',
     '현재 배포 구성에서 칸지결의 Google 광고 초기화, 배너 요청 및 동의 화면 제공 기능은 꺼져 있습니다. 다만 Google 광고·동의 SDK는 앱에 포함되어 있으므로 이를 SDK와 Google 사이의 모든 통신이나 정보 처리가 없다는 의미로 해석하지 않습니다. 광고 기능을 켜거나 처리 범위가 달라지기 전에 방침과 필요한 안내·선택 절차를 갱신합니다. 개발·테스트 구성에서는 Google 샘플 광고를 사용합니다.':
-      'In the current distribution configuration, Kanjigyeol’s Google ad initialization, banner requests and consent-screen display are turned off. However, because the Google advertising and consent SDKs are included in the app, this does not mean that there is no communication or information processing at all between the SDK and Google. Before ad features are turned on or the scope of processing changes, we will update this policy and the required notices and choice procedures. Development and test configurations use Google sample ads.',
+      'In the current distribution configuration, KanjiGyeol’s Google ad initialization, banner requests and consent-screen display are turned off. However, because the Google advertising and consent SDKs are included in the app, this does not mean that there is no communication or information processing at all between the SDK and Google. Before ad features are turned on or the scope of processing changes, we will update this policy and the required notices and choice procedures. Development and test configurations use Google sample ads.',
     '광고가 꺼져 있는 동안 한국어 화면의 학습 화면 하단에는 운영자의 자체 홍보 배너가 표시됩니다. 이 배너는 Google 광고가 아니며 앱 데이터를 보내지 않습니다. 배너 링크를 눌렀을 때의 처리는 6항을 따릅니다.':
       'While ads are turned off, the bottom of the study screen in the Korean-language display shows the operator’s own promotional banner. This banner is not a Google ad and does not send app data. What happens when you tap the banner link is governed by section 6.',
     '광고 기능을 켜는 구성에서는 광고 요청에 비개인화 광고와 콘텐츠 등급 G 설정을 사용합니다. 비개인화 광고도 식별자나 진단 정보 처리가 없다는 뜻은 아닙니다.':
@@ -1006,11 +1006,11 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Support email uses Google’s Gmail transmission, storage, and security features. For this policy webpage, the relevant GitHub service provider, including GitHub, Inc., processes access information through GitHub Pages. Support received by the operator is distinguished from information providers process for their own service and security purposes.',
     '사용자가 여는 외부 링크': 'External links you open',
     '연결된 사용단어의 ‘문법결에서 보기’를 누르면 칸지결은 기기의 앱 열기 기능을 사용해 문법결(munbeopgyeol://)에 사전 항목 ID, 단어 표기와 읽기를 전달합니다. 이 값은 해당 단어 화면을 여는 데 쓰입니다. 링크에 이용자 식별자, 학습 기록, 북마크, 최근 검색, 오답 기록이나 알림 설정은 포함하지 않습니다. 문법결을 열 수 없으면 운영체제에 맞는 스토어(Google Play 또는 App Store)의 문법결 페이지를 외부 앱·브라우저로 엽니다.':
-      'When you tap “문법결에서 보기” (View in 문법결) for a linked usage word, Kanjigyeol uses the device’s app-opening feature to pass the dictionary entry ID, the word’s spelling and its reading to 문법결 (munbeopgyeol://). These values are used to open the screen for that word. The link does not include any user identifier, learning history, bookmarks, recent searches, wrong-answer records or reminder settings. If 문법결 cannot be opened, the app opens the 문법결 page in the store for your operating system (Google Play or the App Store) in an external app or browser.',
+      'When you tap “문법결에서 보기” (View in 문법결) for a linked usage word, KanjiGyeol uses the device’s app-opening feature to pass the dictionary entry ID, the word’s spelling and its reading to 문법결 (munbeopgyeol://). These values are used to open the screen for that word. The link does not include any user identifier, learning history, bookmarks, recent searches, wrong-answer records or reminder settings. If 문법결 cannot be opened, the app opens the 문법결 page in the store for your operating system (Google Play or the App Store) in an external app or browser.',
     '한국어 화면의 운영자 홍보 배너를 누르면 네이버 스마트스토어 또는 손뜨개 원데이클래스 안내(네이버 지도 단축 링크) 페이지를 외부 브라우저로 엽니다. 설정의 개인정보 안내에서 방침 페이지를 외부 브라우저로 열 수 있습니다. 앱 정보에 표시된 운영자 웹사이트와 출처 주소는 화면에 표시되거나 복사할 수 있는 주소이며, 앱이 자동으로 열지 않습니다. 주소를 직접 열 경우 해당 서비스의 방침이 적용됩니다.':
       'Tapping the operator’s promotional banner on the Korean-language display opens a Naver Smart Store page or a crochet one-day class information page (a Naver Maps short link) in an external browser. From the privacy notice in settings, you can open the policy page in an external browser. The operator website and source addresses shown in the app information are addresses that can be displayed or copied; the app does not open them automatically. If you open an address yourself, the policy of that service applies.',
     '스토어·문법결·브라우저로 이동한 뒤에는 각 서비스의 방침이 적용됩니다. 해당 서비스는 접속 과정에서 IP 주소, 접속 기록이나 기기 정보를 처리할 수 있습니다. 외부 링크를 열지 않아도 칸지결에서 학습할 수 있습니다.':
-      'After you move to a store, 문법결 or a browser, the policy of each service applies. These services may process your IP address, access records or device information during access. You can study in Kanjigyeol without opening any external link.',
+      'After you move to a store, 문법결 or a browser, the policy of each service applies. These services may process your IP address, access records or device information during access. You can study in KanjiGyeol without opening any external link.',
     '7. 국외 처리와 보유 기간': '7. International processing and retention',
     'Google과 GitHub는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지합니다. 이용 시점에 통신망을 통한 전송·보관·처리가 이루어질 수 있습니다. 운영자는 이용자별 실제 서버 국가를 지정하거나 조회하지 못하며 미국 한 곳에서만 처리된다고 보장하지 않습니다. 제공자의 현재 처리지역·보호조치·연락처는 아래 공식 고지에서 확인할 수 있습니다.':
       'Google and GitHub disclose processing on infrastructure in multiple countries, including the United States. Transmission, storage, and processing over networks may occur when the services are used. The operator cannot specify or inspect the actual server country for each user and does not guarantee processing only in the United States. Current provider disclosures below describe processing locations, safeguards, and contacts.',
@@ -1037,7 +1037,7 @@ window.WHITESHEEP_TRANSLATIONS = {
       'We restrict access to operator accounts and support materials to necessary personnel, protect account and device access, and review and delete retained materials. The app uses operating-system app storage; extra encryption by the storage library itself is not guaranteed. Google’s advertising SDK uses TLS in transit, and this policy webpage uses HTTPS. This does not mean the operator controls every user device or every external provider system.',
     '11. 이용 대상과 아동': '11. Intended audience and children',
     '칸지결은 대한민국의 만 14세 이상 청소년과 성인을 대상으로 합니다. 생년월일이나 신분증을 수집하여 연령을 인증하지 않으며, 모든 이용자를 성인으로 간주하지 않습니다. 만 14세 미만의 개인정보가 문의에 포함된 사실을 알게 되면 필요한 보호조치를 검토하고 불필요한 정보를 삭제합니다.':
-      'Kanjigyeol is intended for teenagers aged 14 or older and adults in South Korea. We do not verify age by collecting birth dates or identity documents and do not treat every user as an adult. If we learn that a support request contains personal information about a child under 14, we consider necessary protective steps and delete unnecessary information.',
+      'KanjiGyeol is intended for teenagers aged 14 or older and adults in South Korea. We do not verify age by collecting birth dates or identity documents and do not treat every user as an adult. If we learn that a support request contains personal information about a child under 14, we consider necessary protective steps and delete unnecessary information.',
     '12. 변경 안내와 외부 제공자 고지': '12. Changes and external provider notices',
     '처리 목적·항목·제공자·보유 기준 등이 변경되면 이 페이지의 버전과 시행일을 갱신하고 변경 내용과 적용 시점을 안내합니다. 별도 동의가 필요한 변경은 시행 전에 동의를 받습니다. 외부 링크는 각 제공자의 고지이며 칸지결의 방침이나 필요한 개별 동의를 대체하지 않습니다.':
       'When processing purposes, data, providers, or retention criteria change, we update this page’s version and effective date and explain the changes and when they apply. Changes requiring separate consent will not take effect before that consent is obtained. External links are provider disclosures and do not replace this policy or any required individual consent.',
@@ -1115,9 +1115,9 @@ window.WHITESHEEP_TRANSLATIONS = {
     '한 글자씩,': 'One character at a time,',
     '나만의 결로.': 'at your own pace.',
     '뜻과 소리, 모양과 이야기를 함께.': 'Meaning, sound, shape, and story together.',
-    '한국어로 차근차근 익히는 일본어 한자, 칸지결.': 'Kanjigyeol helps you learn Japanese kanji step by step through Korean.',
+    '한국어로 차근차근 익히는 일본어 한자, 칸지결.': 'KanjiGyeol helps you learn Japanese kanji step by step through Korean.',
     'Android · iOS 출시 예정': 'Android · iOS coming soon',
-    '칸지결 알아보기 ↓': 'Discover Kanjigyeol ↓',
+    '칸지결 알아보기 ↓': 'Discover KanjiGyeol ↓',
     '한 장에 한 글자.': 'One card, one character.',
     '읽고, 이해하고, 기억해요.': 'Read it, understand it, remember it.',
     '한자의 한국어 뜻과 음, 일본어 음독·훈독, 사용단어를 한 카드에 담았습니다. 현재 모양을 풀어 쓴 설명과 창작 암기 팁을 함께 읽으며 글자에 익숙해져 보세요.':
@@ -1150,13 +1150,13 @@ window.WHITESHEEP_TRANSLATIONS = {
     '이 웹사이트': 'This website',
     '권리 행사와 이용 대상': 'Your rights and intended audience',
     '안내 변경': 'Changes to this notice',
-    '칸지결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Kanjigyeol · Sources and Terms of Use · WhiteSheep Game Studio',
-    칸지결: 'Kanjigyeol',
+    '칸지결 · 출처·이용 조건 · WhiteSheep Game Studio': 'KanjiGyeol · Sources and Terms of Use · WhiteSheep Game Studio',
+    칸지결: 'KanjiGyeol',
     '이 페이지는 칸지결 앱이 가리키는 출처와 이용 조건 안내입니다. 앱의 콘텐츠(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁)는 아래 출처를 바탕으로 합니다.':
-      'This page explains the sources and terms of use that the Kanjigyeol app points to. The app content (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji) draws on the sources below.',
+      'This page explains the sources and terms of use that the KanjiGyeol app points to. The app content (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji) draws on the sources below.',
     '콘텐츠 이용 조건': 'Content terms of use',
     '칸지결의 콘텐츠 데이터(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁과 출처 표기)는 권리가 존재하는 범위에서 CC BY-SA 4.0 라이선스로 공개합니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘, 광고 연동은 이 라이선스에 포함되지 않습니다.':
-      'The Kanjigyeol content data (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji, together with the source credits) is released under the CC BY-SA 4.0 license to the extent that rights exist in it. The app code, screen design, app name and icon, and advertising integration are not covered by this license.',
+      'The KanjiGyeol content data (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji, together with the source credits) is released under the CC BY-SA 4.0 license to the extent that rights exist in it. The app code, screen design, app name and icon, and advertising integration are not covered by this license.',
     'CC BY-SA 4.0 라이선스 안내': 'About the CC BY-SA 4.0 license',
     '문화청의 상용한자표와 음훈 색인을 바탕으로 표제자·순서·독음을 학습용 구조로 편집했습니다. 출처를 표시하고 가공했습니다. 일본 정부가 제작·승인·보증한 앱이 아닙니다.':
       "The headword characters, their order and their readings were edited into a learning-oriented structure based on the Agency for Cultural Affairs' Jōyō Kanji list and its on-kun index. The source is credited and the material has been modified. This app was not created, approved or endorsed by the Japanese government.",
@@ -1425,8 +1425,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'A study app for Japanese IT exams with 200 public IT Passport past questions and 500 IT terms in the original Japanese.',
     '학습 · Android': 'Learning · Android',
     '전체 3개': '3 total',
-    '칸지결 서비스 이용약관': 'Kanjigyeol Terms of Service',
-    '칸지결 · 서비스 이용약관 · WhiteSheep Game Studio': 'Kanjigyeol · Terms of Service · WhiteSheep Game Studio',
+    '칸지결 서비스 이용약관': 'KanjiGyeol Terms of Service',
+    '칸지결 · 서비스 이용약관 · WhiteSheep Game Studio': 'KanjiGyeol · Terms of Service · WhiteSheep Game Studio',
     '버전 1.0 · 시행일 2026년 11월 5일': 'Version 1.0 · Effective November 5, 2026',
     '이 약관은 초록지붕이층집(개발자 브랜드 WhiteSheep Game Studio)이 제공하는 일본어 한자 학습 앱 ‘칸지결’의 이용 조건을 안내합니다. 앱을 이용하기 전에 내용을 확인해 주세요.':
       'These terms describe the conditions of use for “칸지결”, a Japanese kanji study app provided by 초록지붕이층집 (developer brand WhiteSheep Game Studio). Please read them before using the app.',
