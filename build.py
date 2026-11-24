@@ -41,11 +41,17 @@ def write_page(route,title,body):
     (dest/'index.html').write_text(doc,encoding='utf-8')
 
 
+def store_badge(url,image,label):
+    return f'<a class="store-badge" href="{escape(url)}"><img src="/assets/badges/{image}" alt="{label}" width="150" height="50"></a>'
+
+
 def app_store_badge(app):
-    url=app.get('app_store_url')
-    if not url:
-        return ''
-    return f'<div class="store-links"><a class="store-badge" href="{escape(url)}"><img src="/assets/badges/app-store.svg" alt="App Store에서 다운로드" width="150" height="50"></a></div>'
+    badges=[]
+    if app.get('app_store_url'):
+        badges.append(store_badge(app['app_store_url'],'app-store.svg','App Store에서 다운로드'))
+    if app.get('play_store_url'):
+        badges.append(store_badge(app['play_store_url'],'google-play.svg','Google Play에서 다운로드'))
+    return f'<div class="store-links">{"".join(badges)}</div>' if badges else ''
 
 
 def app_card(app):

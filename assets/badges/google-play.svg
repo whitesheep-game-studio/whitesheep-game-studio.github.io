@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="50" viewBox="0 0 150 50" role="img" aria-label="Google Play">
+  <title>Google Play</title>
+  <rect x="0.5" y="0.5" width="149" height="49" rx="7.5" fill="#000" stroke="#a6a6a6"/>
+  <g fill="#fff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <text x="75" y="19" text-anchor="middle" font-size="9" font-weight="500" letter-spacing="0.8">GET IT ON</text>
+    <text x="75" y="38" text-anchor="middle" font-size="19" font-weight="600">Google Play</text>
+  </g>
+</svg>

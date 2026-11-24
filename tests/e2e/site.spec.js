@@ -105,12 +105,14 @@ test('app privacy policy preserves data and advertising boundaries in every lang
   expect(results.violations.filter((v) => ['serious', 'critical'].includes(v.impact))).toEqual([]);
 });
 
-for (const [locale, status, label] of [
-  ['ko', 'iOS 출시 · Android 출시 예정', 'App Store에서 다운로드'],
-  ['ja', 'iOS 公開済み · Android 公開予定', 'App Storeからダウンロード'],
-  ['en', 'iOS released · Android coming soon', 'Download on the App Store']
+const APP_STORE_HREF = 'https://apps.apple.com/kr/app/%EC%B9%B8%EC%A7%80%EA%B2%B0/id6832132208';
+const PLAY_STORE_HREF = 'https://play.google.com/store/apps/details?id=com.whitesheep0601.kanji';
+for (const [locale, status, label, playLabel] of [
+  ['ko', 'iOS · Android 출시', 'App Store에서 다운로드', 'Google Play에서 다운로드'],
+  ['ja', 'iOS・Android 公開済み', 'App Storeからダウンロード', 'Google Playでダウンロード'],
+  ['en', 'iOS and Android released', 'Download on the App Store', 'Get it on Google Play']
 ]) {
-  test(`released iOS store link and icons in ${locale}`, async ({ page }) => {
+  test(`released iOS and Android store links and icons in ${locale}`, async ({ page }) => {
     await page.goto('/');
     await page.locator('#language-trigger').click();
     await page.locator(`[data-language="${locale}"]`).click();
@@ -118,18 +120,41 @@ for (const [locale, status, label] of [
       await page.goto(route);
       await expect(page.locator('html')).toHaveAttribute('lang', locale);
       const badge = page.getByRole('link', { name: label, exact: true }).first();
-      await expect(badge).toHaveAttribute('href', 'https://apps.apple.com/kr/app/%EC%B9%B8%EC%A7%80%EA%B2%B0/id6832132208');
+      const playBadge = page.getByRole('link', { name: playLabel, exact: true }).first();
+      await expect(badge).toHaveAttribute('href', APP_STORE_HREF);
+      await expect(playBadge).toHaveAttribute('href', PLAY_STORE_HREF);
       await expect(page.locator('.status').first()).toHaveText(status);
       await expect(badge.locator('img')).toBeVisible();
+      await expect(playBadge.locator('img')).toBeVisible();
       const icon = page.locator('img[src="/assets/kanjigyeol/icon.svg"]').first();
       await expect(icon).toBeVisible();
       expect(await icon.evaluate((img) => img.complete && img.naturalWidth > 0)).toBe(true);
       expect(await badge.locator('img').evaluate((img) => img.complete && img.naturalWidth > 0)).toBe(true);
+      expect(await playBadge.locator('img').evaluate((img) => img.complete && img.naturalWidth > 0)).toBe(true);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-      await expect(page.locator('a[href*="play.google.com"]')).toHaveCount(0);
+      await expect(page.locator('a[href*="play.google.com"]')).toHaveCount(1);
     }
+    await page.goto('/apps/kanjigyeol/');
+    await expect(page.locator('.store-links')).toHaveCount(1);
+    await playBadgeFocus(page, playLabel);
   });
 }
+
+async function playBadgeFocus(page, playLabel) {
+  const playBadge = page.getByRole('link', { name: playLabel, exact: true }).first();
+  await playBadge.focus();
+  await expect(playBadge).toBeFocused();
+}
+
+test('only the released Android app links to Google Play; other apps keep their App Store badge only', async ({ page }) => {
+  await page.goto('/apps/');
+  for (const slug of ['jgrammar', 'itcert']) {
+    const card = page.locator(`article.app:has(a.app-main[href="/apps/${slug}/"])`);
+    await expect(card.locator('a[href*="apps.apple.com"]')).toHaveCount(1);
+    await expect(card.locator('a[href*="play.google.com"]')).toHaveCount(0);
+  }
+  await expect(page.locator('a[href*="play.google.com"]')).toHaveCount(1);
+});
 
 test('unreleased study apps show a coming-soon status, translated policies and no store links', async ({ page }) => {
   const apps = [
