@@ -40,6 +40,22 @@ class BuildIntegrityTests(unittest.TestCase):
         self.addCleanup(patcher.stop)
         build.main()
 
+    def test_only_kanjigyeol_gets_a_google_play_badge_next_to_app_store(self):
+        play = "https://play.google.com/store/apps/details?id=com.whitesheep0601.kanji"
+        for page in ("apps/kanjigyeol", "apps", ""):
+            html = (self.output / page / "index.html").read_text(encoding="utf-8")
+            self.assertEqual(html.count(play), 1, page)
+            self.assertIn('alt="Google Play에서 다운로드"', html)
+            self.assertLess(html.index("apps.apple.com"), html.index(play), page)
+        detail = (self.output / "apps/kanjigyeol/index.html").read_text(encoding="utf-8")
+        self.assertEqual(detail.count('class="store-links"'), 1)
+        self.assertEqual(detail.count('class="store-badge"'), 2)
+        for slug in ("jgrammar", "itcert"):
+            html = (self.output / "apps" / slug / "index.html").read_text(encoding="utf-8")
+            self.assertEqual(html.count("play.google.com"), 0, slug)
+            self.assertEqual(html.count('class="store-badge"'), 1, slug)
+        self.assertTrue((ROOT / "assets/badges/google-play.svg").is_file())
+
     def test_all_pages_match_actual_served_asset_bytes(self):
         pages = list(self.output.rglob("*.html"))
         self.assertGreater(len(pages), 0)
