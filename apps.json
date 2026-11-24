@@ -8,7 +8,7 @@
     "status": "출시",
     "platforms": ["Android", "iOS"],
     "icon": "/assets/kanjigyeol/icon.svg",
-    "policy_status": "개인정보처리방침 v1.0 · 2026-11-02",
+    "policy_status": "개인정보처리방침 v1.1 · 2026-11-24",
     "status_label": "iOS · Android 출시",
     "app_store_url": "https://apps.apple.com/kr/app/%EC%B9%B8%EC%A7%80%EA%B2%B0/id6832132208",
     "play_store_url": "https://play.google.com/store/apps/details?id=com.whitesheep0601.kanji"

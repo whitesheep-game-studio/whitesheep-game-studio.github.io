@@ -8,8 +8,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'WhiteSheep Game Studioのゲーム・アプリ、更新情報、サポートを一か所でご確認いただけます。',
     '운영자 초록지붕이층집 · © 2026': '運営者 초록지붕이층집 · © 2026',
     '칸지결 개인정보처리방침': 'カンジギョル プライバシーポリシー',
-    '버전 1.1 · 이 방침은 게시한 날부터 적용합니다. 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
-      'バージョン1.1・本方針は公開した日から適用します。以前のバージョンとの違いは第12項の変更履歴でご確認いただけます。',
+    '버전 1.1 · 시행일 2026년 11월 24일 · 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
+      'バージョン1.1・施行日：2026年11月24日・以前のバージョンとの違いは第12項の変更履歴でご確認いただけます。',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
       '초록지붕이층집は、漢字学習アプリ「칸지결 — 일본어 한자 학습」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針の掲載ページに適用されます。',
     '앱에는 회원가입, 자체 서버, 별도 분석 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 문의, 정책 페이지 방문, 외부 링크, 기기 내 음성·알림·홈 화면 위젯, 광고·동의 SDK의 처리 범위는 아래에서 설명합니다.':
@@ -126,8 +126,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       '処理目的・項目・提供者・保存基準などを変更する場合は、このページのバージョンと施行日を更新し、変更内容と適用時期をお知らせします。別途同意が必要な変更は施行前に同意を得ます。外部リンクは各提供者の文書であり、カンジギョルの本方針や必要な個別同意に代わるものではありません。',
     '변경 이력': '変更履歴',
     '버전 1.0 · 2026년 11월 2일: 최초 공개.': 'バージョン1.0・2026年11月2日：初回公開。',
-    '버전 1.1: 북마크·최근 검색·오답 노트·학습 알림·표시 언어·읽기 설정·회독 수의 기기 저장, 홈 화면 위젯, 일본어 읽기 듣기, 외부 앱 링크, 문법결 연결, 운영자 홍보 배너와 외부 링크 처리, 광고 구성·권한 설명, 침해 신고 안내를 추가·보완했습니다.':
-      'バージョン1.1：ブックマーク・最近の検索・間違いノート・学習リマインダー・表示言語・読み設定・周回数の端末内保存、ホーム画面ウィジェット、日本語の読み上げ、外部アプリへのリンク、문법결との連携、運営者の宣伝バナーと外部リンクの処理、広告の構成・権限の説明、侵害申告の案内を追加・補完しました。',
+    '버전 1.1 · 2026년 11월 24일: 북마크·최근 검색·오답 노트·학습 알림·표시 언어·읽기 설정·회독 수의 기기 저장, 홈 화면 위젯, 일본어 읽기 듣기, 외부 앱 링크, 문법결 연결, 운영자 홍보 배너와 외부 링크 처리, 광고 구성·권한 설명, 침해 신고 안내를 추가·보완했습니다.':
+      'バージョン1.1・2026年11月24日：ブックマーク・最近の検索・間違いノート・学習リマインダー・表示言語・読み設定・周回数の端末内保存、ホーム画面ウィジェット、日本語の読み上げ、外部アプリへのリンク、문법결との連携、運営者の宣伝バナーと外部リンクの処理、広告の構成・権限の説明、侵害申告の案内を追加・補完しました。',
     'Google 개인정보처리방침 및 문의': 'Googleのプライバシーポリシーとお問い合わせ',
     'Google 한국 거주자 추가 고지': 'Googleの韓国居住者向け追加情報',
     'Google 데이터 보유·삭제 기준': 'Googleのデータ保存・削除基準',
@@ -924,8 +924,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.',
     '운영자 초록지붕이층집 · © 2026': 'Operated by 초록지붕이층집 · © 2026',
     '칸지결 개인정보처리방침': 'Kanjigyeol Privacy Policy',
-    '버전 1.1 · 이 방침은 게시한 날부터 적용합니다. 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
-      'Version 1.1 · This policy applies from the date it is published. Differences from the previous version are listed in the change history in section 12.',
+    '버전 1.1 · 시행일 2026년 11월 24일 · 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
+      'Version 1.1 · Effective November 24, 2026 · Differences from the previous version are listed in the change history in section 12.',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
       '초록지붕이층집 explains how personal information is handled for the kanji learning app 칸지결 — 일본어 한자 학습. The developer brand is WhiteSheep Game Studio. This policy covers the app, support requests, and the webpage publishing this policy.',
     '앱에는 회원가입, 자체 서버, 별도 분석 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 문의, 정책 페이지 방문, 외부 링크, 기기 내 음성·알림·홈 화면 위젯, 광고·동의 SDK의 처리 범위는 아래에서 설명합니다.':
@@ -1045,8 +1045,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'When processing purposes, data, providers, or retention criteria change, we update this page’s version and effective date and explain the changes and when they apply. Changes requiring separate consent will not take effect before that consent is obtained. External links are provider disclosures and do not replace this policy or any required individual consent.',
     '변경 이력': 'Change history',
     '버전 1.0 · 2026년 11월 2일: 최초 공개.': 'Version 1.0 · November 2, 2026: First published.',
-    '버전 1.1: 북마크·최근 검색·오답 노트·학습 알림·표시 언어·읽기 설정·회독 수의 기기 저장, 홈 화면 위젯, 일본어 읽기 듣기, 외부 앱 링크, 문법결 연결, 운영자 홍보 배너와 외부 링크 처리, 광고 구성·권한 설명, 침해 신고 안내를 추가·보완했습니다.':
-      'Version 1.1: Added and expanded descriptions of on-device storage of bookmarks, recent searches, the wrong-answer list, study reminders, display language, reading settings and rounds completed; the home-screen widget; Japanese reading playback; external app links; the connection to 문법결; the operator’s promotional banner and external-link handling; ad configuration and permissions; and guidance on reporting violations.',
+    '버전 1.1 · 2026년 11월 24일: 북마크·최근 검색·오답 노트·학습 알림·표시 언어·읽기 설정·회독 수의 기기 저장, 홈 화면 위젯, 일본어 읽기 듣기, 외부 앱 링크, 문법결 연결, 운영자 홍보 배너와 외부 링크 처리, 광고 구성·권한 설명, 침해 신고 안내를 추가·보완했습니다.':
+      'Version 1.1 · November 24, 2026: Added and expanded descriptions of on-device storage of bookmarks, recent searches, the wrong-answer list, study reminders, display language, reading settings and rounds completed; the home-screen widget; Japanese reading playback; external app links; the connection to 문법결; the operator’s promotional banner and external-link handling; ad configuration and permissions; and guidance on reporting violations.',
     'Google 개인정보처리방침 및 문의': 'Google Privacy Policy and contact',
     'Google 한국 거주자 추가 고지': 'Google additional information for Korean residents',
     'Google 데이터 보유·삭제 기준': 'Google data retention and deletion criteria',
