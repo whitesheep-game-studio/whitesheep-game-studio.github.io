@@ -235,13 +235,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     '안내 변경': '記載内容の変更',
     '칸지결 · 출처·이용 조건 · WhiteSheep Game Studio': 'カンジギョル · 出典・利用条件 · WhiteSheep Game Studio',
     칸지결: 'カンジギョル',
-    '칸지결은 출시를 준비 중입니다. 앱의 콘텐츠(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁)는 검수 중이며, 이 페이지는 출시 시 앱이 가리키는 출처와 이용 조건 안내입니다. 아래 고지가 전체 원고의 검수 완료나 출시 승인을 뜻하지는 않습니다.':
-      'カンジギョルはリリースの準備中です。アプリのコンテンツ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒント）は検収中で、このページはリリース時にアプリが参照する出典と利用条件の案内です。以下の表示は、すべての原稿の検収完了やリリース承認を意味するものではありません。',
+    '이 페이지는 칸지결 앱이 가리키는 출처와 이용 조건 안내입니다. 앱의 콘텐츠(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁)는 아래 출처를 바탕으로 합니다.':
+      'このページは、カンジギョルアプリが参照する出典と利用条件の案内です。アプリのコンテンツ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒント）は、以下の出典に基づいています。',
     '콘텐츠 이용 조건': 'コンテンツの利用条件',
     '칸지결의 콘텐츠 데이터(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁과 출처 표기)는 권리가 존재하는 범위에서 CC BY-SA 4.0 라이선스로 공개합니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘, 광고 연동은 이 라이선스에 포함되지 않습니다.':
       'カンジギョルのコンテンツデータ（漢字ごとの韓国語の意味・読み・使用単語・字形の説明・暗記のヒントと出典表示）は、権利が存在する範囲でCC BY-SA 4.0ライセンスにより公開します。アプリのコード、画面デザイン、アプリ名とアイコン、広告連携はこのライセンスに含まれません。',
-    '콘텐츠 데이터 파일(JSON)과 SHA-256 체크섬은 앱 출시와 함께 이 페이지에서 로그인 없이 받을 수 있도록 공개할 예정입니다. 지금은 공개된 파일이 없습니다. 공개되는 데이터에 대해 앱 약관과 앱 스토어 약관은 이 페이지에서 데이터를 받은 사람의 권리를 제한하지 않습니다.':
-      'コンテンツデータファイル（JSON）とSHA-256チェックサムは、アプリのリリースと同時に、このページからログインなしで入手できるよう公開する予定です。現在、公開されているファイルはありません。公開されるデータについて、アプリの利用規約とアプリストアの規約は、このページからデータを入手した人の権利を制限しません。',
     'CC BY-SA 4.0 라이선스 안내': 'CC BY-SA 4.0ライセンスの案内',
     '문화청의 상용한자표와 음훈 색인을 바탕으로 표제자·순서·독음을 학습용 구조로 편집했습니다. 출처를 표시하고 가공했습니다. 일본 정부가 제작·승인·보증한 앱이 아닙니다.':
       '文化庁の常用漢字表と音訓索引に基づき、見出し字・順序・読みを学習用の構造に編集しました。出典を表示し、加工しています。日本政府が制作・承認・保証したアプリではありません。',
@@ -1154,13 +1152,11 @@ window.WHITESHEEP_TRANSLATIONS = {
     '안내 변경': 'Changes to this notice',
     '칸지결 · 출처·이용 조건 · WhiteSheep Game Studio': 'Kanjigyeol · Sources and Terms of Use · WhiteSheep Game Studio',
     칸지결: 'Kanjigyeol',
-    '칸지결은 출시를 준비 중입니다. 앱의 콘텐츠(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁)는 검수 중이며, 이 페이지는 출시 시 앱이 가리키는 출처와 이용 조건 안내입니다. 아래 고지가 전체 원고의 검수 완료나 출시 승인을 뜻하지는 않습니다.':
-      'Kanjigyeol is being prepared for release. The app content (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji) is still under review. This page explains the sources and terms of use that the app will point to at release. The notices below do not mean that all entries have been reviewed or approved for release.',
+    '이 페이지는 칸지결 앱이 가리키는 출처와 이용 조건 안내입니다. 앱의 콘텐츠(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁)는 아래 출처를 바탕으로 합니다.':
+      'This page explains the sources and terms of use that the Kanjigyeol app points to. The app content (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji) draws on the sources below.',
     '콘텐츠 이용 조건': 'Content terms of use',
     '칸지결의 콘텐츠 데이터(한자별 한국어 뜻·읽기·사용단어·모양 설명·암기 팁과 출처 표기)는 권리가 존재하는 범위에서 CC BY-SA 4.0 라이선스로 공개합니다. 앱 코드, 화면 디자인, 앱 이름과 아이콘, 광고 연동은 이 라이선스에 포함되지 않습니다.':
       'The Kanjigyeol content data (the Korean meaning, readings, example words, shape descriptions and memory tips for each kanji, together with the source credits) is released under the CC BY-SA 4.0 license to the extent that rights exist in it. The app code, screen design, app name and icon, and advertising integration are not covered by this license.',
-    '콘텐츠 데이터 파일(JSON)과 SHA-256 체크섬은 앱 출시와 함께 이 페이지에서 로그인 없이 받을 수 있도록 공개할 예정입니다. 지금은 공개된 파일이 없습니다. 공개되는 데이터에 대해 앱 약관과 앱 스토어 약관은 이 페이지에서 데이터를 받은 사람의 권리를 제한하지 않습니다.':
-      'The content data file (JSON) and its SHA-256 checksum will be published on this page, available without signing in, when the app is released. No files are published yet. For the data that is published, the app terms and the app store terms do not restrict the rights of people who obtain the data from this page.',
     'CC BY-SA 4.0 라이선스 안내': 'About the CC BY-SA 4.0 license',
     '문화청의 상용한자표와 음훈 색인을 바탕으로 표제자·순서·독음을 학습용 구조로 편집했습니다. 출처를 표시하고 가공했습니다. 일본 정부가 제작·승인·보증한 앱이 아닙니다.':
       "The headword characters, their order and their readings were edited into a learning-oriented structure based on the Agency for Cultural Affairs' Jōyō Kanji list and its on-kun index. The source is credited and the material has been modified. This app was not created, approved or endorsed by the Japanese government.",
