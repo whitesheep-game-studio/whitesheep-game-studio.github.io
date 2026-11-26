@@ -8,8 +8,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'WhiteSheep Game Studioのゲーム・アプリ、更新情報、サポートを一か所でご確認いただけます。',
     '운영자 초록지붕이층집 · © 2026': '運営者 초록지붕이층집 · © 2026',
     '칸지결 개인정보처리방침': '漢字結 プライバシーポリシー',
-    '버전 1.1 · 시행일 2026년 11월 24일 · 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
-      'バージョン1.1・施行日：2026年11月24日・以前のバージョンとの違いは第12項の変更履歴でご確認いただけます。',
+    '버전 1.2 · 시행일 2026년 11월 26일 · 광고 변경은 앱 1.1.0부터 적용합니다. 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
+      'バージョン1.2・施行日：2026年11月26日・広告の変更はアプリ1.1.0から適用します。以前のバージョンとの違いは第12項の変更履歴でご確認いただけます。',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
       '초록지붕이층집は、漢字学習アプリ「칸지결 — 일본어 한자 학습」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、本方針の掲載ページに適用されます。',
     '앱에는 회원가입, 자체 서버, 별도 분석 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 문의, 정책 페이지 방문, 외부 링크, 기기 내 음성·알림·홈 화면 위젯, 광고·동의 SDK의 처리 범위는 아래에서 설명합니다.':
@@ -67,8 +67,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '4. 광고와 동의 SDK의 정보 처리': '4. 広告・同意SDKによる情報処理',
     '앱에는 Google Mobile Ads와 Google UMP SDK가 포함됩니다. SDK가 동작하는 경우 IP 주소와 그로부터 추정되는 대략적 위치, 광고 ID·앱 세트 ID 등 식별자, 앱 실행·광고 노출·탭 등 상호작용, 성능·오류·진단 정보 및 동의 상태 등이 Google로 전송될 수 있습니다. 목적은 광고 제공·측정, SDK 및 서비스 운영, 진단, 보안과 부정 이용 방지입니다.':
       'アプリにはGoogle Mobile AdsとGoogle UMP SDKが含まれます。SDKの動作時には、IPアドレスとそこから推定されるおおよその位置、広告ID・アプリセットIDなどの識別子、起動・広告表示・タップなどの操作、性能・エラー・診断情報、同意状態などがGoogleへ送信されることがあります。目的は広告の提供・測定、SDKとサービスの運用、診断、セキュリティ、不正利用防止です。',
-    '광고가 꺼져 있는 동안 한국어 화면의 학습 화면 하단에는 운영자의 자체 홍보 배너가 표시됩니다. 이 배너는 Google 광고가 아니며 앱 데이터를 보내지 않습니다. 배너 링크를 눌렀을 때의 처리는 6항을 따릅니다.':
-      '広告が無効の間、韓国語表示の学習画面の下部には運営者独自の宣伝バナーが表示されます。このバナーはGoogle広告ではなく、アプリのデータを送信しません。バナーのリンクをタップした場合の処理は第6項に従います。',
+    '이전 버전에서 광고 대신 표시하던 운영자 자체 홍보 배너는 1.1.0에서 표시하지 않습니다.':
+      '以前のバージョンで広告の代わりに表示していた運営者独自の宣伝バナーは、1.1.0では表示しません。',
     '광고 기능을 켜는 구성에서는 광고 요청에 비개인화 광고와 콘텐츠 등급 G 설정을 사용합니다. 비개인화 광고도 식별자나 진단 정보 처리가 없다는 뜻은 아닙니다.':
       '広告機能を有効にする構成では、広告リクエストに非パーソナライズ広告とコンテンツレーティングGの設定を使用します。非パーソナライズ広告でも、識別子や診断情報が処理されないという意味ではありません。',
     '앱은 위치 권한·주소록·카메라·마이크·사진·생년월일·신분증을 요구하지 않으며 iOS 추적 허용 팝업을 요청하지 않습니다. 안드로이드에서는 인터넷 연결, 부팅 후 알림 복원, 알림 표시 권한을 사용하며 Google 광고 SDK가 광고 ID 사용 권한을 추가할 수 있습니다. 별도의 사용 통계·충돌 수집 SDK는 사용하지 않습니다.':
@@ -88,8 +88,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '사용자가 여는 외부 링크': '利用者が開く外部リンク',
     '연결된 사용단어의 ‘문법결에서 보기’를 누르면 칸지결은 기기의 앱 열기 기능을 사용해 문법결(munbeopgyeol://)에 사전 항목 ID, 단어 표기와 읽기를 전달합니다. 이 값은 해당 단어 화면을 여는 데 쓰입니다. 링크에 이용자 식별자, 학습 기록, 북마크, 최근 검색, 오답 기록이나 알림 설정은 포함하지 않습니다. 문법결을 열 수 없으면 운영체제에 맞는 스토어(Google Play 또는 App Store)의 문법결 페이지를 외부 앱·브라우저로 엽니다.':
       '関連する使用単語の「문법결에서 보기」（문법결で表示）をタップすると、漢字結は端末のアプリ起動機能を使って、문법결（munbeopgyeol://）に辞書項目ID、単語の表記と読みを渡します。これらの値は該当する単語の画面を開くために使われます。リンクには、利用者の識別子、学習履歴、ブックマーク、最近の検索、間違いの記録、通知設定は含みません。문법결を開けない場合は、OSに合ったストア（Google PlayまたはApp Store）の문법결のページを外部アプリまたはブラウザで開きます。',
-    '한국어 화면의 운영자 홍보 배너를 누르면 네이버 스마트스토어 또는 손뜨개 원데이클래스 안내(네이버 지도 단축 링크) 페이지를 외부 브라우저로 엽니다. 설정의 개인정보 안내에서 방침 페이지를 외부 브라우저로 열 수 있습니다. 앱 정보에 표시된 운영자 웹사이트와 출처 주소는 화면에 표시되거나 복사할 수 있는 주소이며, 앱이 자동으로 열지 않습니다. 주소를 직접 열 경우 해당 서비스의 방침이 적용됩니다.':
-      '韓国語表示でのみ表示される運営者の宣伝バナーをタップすると、NAVERスマートストア、または手編みのワンデイクラスの案内（NAVER地図の短縮リンク）のページを外部ブラウザで開きます。設定のプライバシー案内から、方針ページを外部ブラウザで開くことができます。アプリ情報に表示される運営者のウェブサイトと出典のアドレスは、画面に表示またはコピーできるアドレスであり、アプリが自動的に開くことはありません。アドレスをご自身で開く場合は、該当サービスの方針が適用されます。',
+    '설정의 개인정보 안내에서 방침 페이지를 외부 브라우저로 열 수 있습니다. 앱 정보에 표시된 운영자 웹사이트와 출처 주소는 화면에 표시되거나 복사할 수 있는 주소이며, 앱이 자동으로 열지 않습니다. 주소를 직접 열 경우 해당 서비스의 방침이 적용됩니다. 1.0.x 등 이전 버전의 홍보 배너를 누르면 네이버 스마트스토어 또는 손뜨개 원데이클래스 안내 페이지가 열립니다.':
+      '設定のプライバシー案内から、方針ページを外部ブラウザで開くことができます。アプリ情報に表示される運営者のウェブサイトと出典のアドレスは、画面に表示またはコピーできるアドレスであり、アプリが自動的に開くことはありません。アドレスをご自身で開く場合は、該当サービスの方針が適用されます。1.0.xなどの以前のバージョンで宣伝バナーをタップすると、NAVERスマートストア、または手編みワンデイクラスの案内ページが開きます。',
     '스토어·문법결·브라우저로 이동한 뒤에는 각 서비스의 방침이 적용됩니다. 해당 서비스는 접속 과정에서 IP 주소, 접속 기록이나 기기 정보를 처리할 수 있습니다. 외부 링크를 열지 않아도 칸지결에서 학습할 수 있습니다.':
       'ストア、문법결、ブラウザに移動した後は、各サービスの方針が適用されます。これらのサービスは、アクセス時にIPアドレス、アクセス記録、端末情報を処理することがあります。外部リンクを開かなくても漢字結で学習できます。',
     '7. 국외 처리와 보유 기간': '7. 国外での処理と保存期間',
@@ -99,8 +99,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Google SDK情報はSDK通信時に広告・同意・診断などのため処理され、保存期間は情報の種類・目的・設定・法的必要性によって異なります。お問い合わせメールには運営者の90日以内の削除基準を適用しますが、提供者の削除処理・バックアップは別の手続きに従います。Googleは一般的な削除・バックアップ保存の基準を公開していますが、これはすべての広告情報に共通する単一の保存期間を意味しません。',
     'GitHub의 접속 정보는 웹페이지 제공·보안·운영에 필요한 기간과 법적 의무 등에 따라 처리됩니다. 운영자는 개인별 호스팅 로그를 별도로 수집·다운로드하거나 학습 기록과 결합하지 않습니다. 상세한 보유 기준과 권리 요청은 GitHub의 개인정보 고지를 따릅니다.':
       'GitHubのアクセス情報は、ページ提供・セキュリティ・運用に必要な期間や法的義務などに応じて処理されます。運営者は個人別のホスティングログを別に収集・ダウンロードしたり学習履歴と結合したりしません。詳細な保存基準と権利に関するご依頼はGitHubのプライバシー文書をご確認ください。',
-    '외부 처리를 원하지 않으면 해당 서비스를 이용하지 않거나 문의 메일 전송을 중단하고 위 담당자에게 삭제·처리 정지를 요청할 수 있습니다. 문의 미전송이나 정책 웹페이지 미방문은 기기 내 학습을 막지 않습니다. 외부 링크의 처리 범위는 6항, 광고 관련 선택은 5항을 따릅니다. 방침의 게시는 별도 동의가 필요한 처리의 동의를 대신하지 않으며, 운영 광고를 활성화하기 전에 실제 제공자·국가·근거와 필요한 고지·동의 절차를 확인합니다.':
-      '外部処理を望まない場合は、該当サービスの利用やお問い合わせメールの送信を中止し、上記担当者に削除・処理停止を依頼できます。メールを送らない場合や方針ページを閲覧しない場合でも端末内の学習は利用できます。外部リンクの処理範囲は第6項、広告の選択は第5項に従います。本方針の公開は別途必要な同意に代わるものではなく、本番広告を有効にする前に実際の提供者・国・根拠と必要な説明・同意手続きを確認します。',
+    '외부 처리를 원하지 않으면 해당 서비스를 이용하지 않거나 문의 메일 전송을 중단하고 위 담당자에게 삭제·처리 정지를 요청할 수 있습니다. 문의 미전송이나 정책 웹페이지 미방문은 기기 내 학습을 막지 않습니다. 외부 링크의 처리 범위는 6항, 광고 관련 선택은 5항을 따릅니다. 방침의 게시는 별도 동의가 필요한 처리의 동의를 대신하지 않습니다.':
+      '外部処理を望まない場合は、該当サービスの利用やお問い合わせメールの送信を中止し、上記担当者に削除・処理停止を依頼できます。メールを送らない場合や方針ページを閲覧しない場合でも端末内の学習は利用できます。外部リンクの処理範囲は第6項、広告の選択は第5項に従います。本方針の公開は別途必要な同意に代わるものではありません。',
     '8. 이 웹페이지와 언어 설정': '8. このウェブページと言語設定',
     '이 페이지는 GitHub Pages의 정적 웹페이지입니다. 자체 로그인, 문의 입력폼, 광고, 외부 분석 스크립트와 웹폰트를 사용하지 않습니다. 브라우저의 localStorage에는 선택한 언어만 저장하며 서버로 전송하지 않습니다. 브라우저의 사이트 데이터 삭제로 지울 수 있고, 저장을 차단해도 기본 언어로 페이지를 읽을 수 있습니다. 호스팅 제공자의 접속 정보 처리는 6·7항과 별개로 사라지지 않습니다.':
       '本ページはGitHub Pagesの静的ウェブページです。独自ログイン、問い合わせ入力フォーム、広告、外部分析スクリプト、ウェブフォントは使用しません。ブラウザーのlocalStorageには選択した言語だけを保存し、サーバーへ送信しません。サイトデータの削除で消去でき、保存をブロックしても既定言語で閲覧できます。ホスティング提供者によるアクセス情報の処理は、第6・7項のとおり別に存在します。',
@@ -126,6 +126,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '버전 1.0 · 2026년 11월 2일: 최초 공개.': 'バージョン1.0・2026年11月2日：初回公開。',
     '버전 1.1 · 2026년 11월 24일: 북마크·최근 검색·오답 노트·학습 알림·표시 언어·읽기 설정·회독 수의 기기 저장, 홈 화면 위젯, 일본어 읽기 듣기, 외부 앱 링크, 문법결 연결, 운영자 홍보 배너와 외부 링크 처리, 광고 구성·권한 설명, 침해 신고 안내를 추가·보완했습니다.':
       'バージョン1.1・2026年11月24日：ブックマーク・最近の検索・間違いノート・学習リマインダー・表示言語・読み設定・周回数の端末内保存、ホーム画面ウィジェット、日本語の読み上げ、外部アプリへのリンク、문법결との連携、運営者の宣伝バナーと外部リンクの処理、広告の構成・権限の説明、侵害申告の案内を追加・補完しました。',
+    '버전 1.2 · 2026년 11월 26일: 앱 1.1.0의 iOS·Android 비개인화 배너 광고를 반영하고, 자체 홍보 배너를 더 표시하지 않는 것으로 바꿨습니다.':
+      'バージョン1.2・2026年11月26日：アプリ1.1.0のiOS・Androidのパーソナライズしないバナー広告を反映し、運営者独自の宣伝バナーの表示を終了しました。',
     'Google 개인정보처리방침 및 문의': 'Googleのプライバシーポリシーとお問い合わせ',
     'Google 한국 거주자 추가 고지': 'Googleの韓国居住者向け追加情報',
     'Google 데이터 보유·삭제 기준': 'Googleのデータ保存・削除基準',
@@ -321,8 +323,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'メールでのお問い合わせでは、返信先、件名・本文、ご自身で添付した資料を受け取り、回答や不具合確認に利用します。アプリのバージョン、OS・端末の種類、単語や文型の名前、再現手順は、確認に必要な場合にのみお知らせください。添付は任意であり、パスワード、認証コード、身分証、健康情報、他人の個人情報は送らないでください。',
     '앱 정보 화면의 제보 양식 복사는 앱 버전과 콘텐츠 버전을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
       'アプリ情報画面の報告用紙のコピーは、アプリとコンテンツのバージョンを含む書式を端末のクリップボードにコピーします。メールの自動送信や学習履歴の送信は行いません。送信前に内容を編集でき、クリップボードは端末・OSのポリシーに従って処理されます。',
-    '앱 하단에는 운영자의 스마트스토어 홍보 영역이 표시됩니다. 영역을 눌렀을 때만 기기의 외부 브라우저로 운영자 상점 페이지가 열리며, 앱은 이 과정에서 학습 기록이나 개인정보를 전달하지 않습니다. 열린 웹사이트의 정보 처리는 해당 사이트의 방침을 따릅니다.':
-      'アプリ下部には運営者のスマートストアの紹介欄が表示されます。この欄を押したときだけ、端末の外部ブラウザで運営者のショップページが開き、アプリはその際に学習履歴や個人情報を渡しません。開かれたウェブサイトの情報処理は、そのサイトの方針に従います。',
+    'Android 앱과 1.1.0 이전의 iOS 앱 하단에는 운영자의 홍보 배너(‘인천 손뜨개 원데이클래스’)가 표시됩니다. 배너를 눌렀을 때만 기기의 외부 브라우저로 네이버의 안내 페이지(네이버 지도 단축 링크)가 열리며, 앱은 이 과정에서 학습 기록이나 개인정보를 전달하지 않습니다. 열린 웹사이트의 정보 처리는 해당 사이트의 방침을 따릅니다.':
+      'Androidアプリと1.1.0より前のiOSアプリの下部には、運営者の宣伝バナー（「인천 손뜨개 원데이클래스」）が表示されます。バナーをタップしたときだけ、端末の外部ブラウザでNAVERの案内ページ（NAVER地図の短縮リンク）が開き、アプリはその際に学習履歴や個人情報を渡しません。開かれたウェブサイトの情報処理は、そのサイトの方針に従います。',
     '5. 외부 서비스와 국외 처리': '5. 外部サービスと国外での処理',
     '문의 이메일은 Gmail을 제공하는 Google의 메일 전송·저장·보안 기능을 사용하고, 이 정책 웹페이지는 GitHub Pages를 제공하는 GitHub, Inc.가 접속 정보를 처리합니다. 두 제공자는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지하며, 운영자는 이용자별 실제 처리 국가를 지정하거나 조회할 수 없습니다. 학습 기록은 판매하거나 외부에 제공하지 않습니다.':
       'お問い合わせメールはGmailを提供するGoogleのメール送信・保存・セキュリティ機能を利用し、この方針を掲載するウェブページではGitHub Pagesを提供するGitHub, Inc.がアクセス情報を処理します。両提供者は米国を含む複数の国のインフラで情報を処理すると公表しており、運営者は利用者ごとの実際の処理国を指定したり確認したりできません。学習履歴を販売したり外部に提供したりしません。',
@@ -922,8 +924,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.',
     '운영자 초록지붕이층집 · © 2026': 'Operated by 초록지붕이층집 · © 2026',
     '칸지결 개인정보처리방침': 'KanjiGyeol Privacy Policy',
-    '버전 1.1 · 시행일 2026년 11월 24일 · 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
-      'Version 1.1 · Effective November 24, 2026 · Differences from the previous version are listed in the change history in section 12.',
+    '버전 1.2 · 시행일 2026년 11월 26일 · 광고 변경은 앱 1.1.0부터 적용합니다. 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
+      'Version 1.2 · Effective November 26, 2026 · The advertising changes apply from app version 1.1.0. Differences from the previous version are listed in the change history in section 12.',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
       '초록지붕이층집 explains how personal information is handled for the kanji learning app 칸지결 — 일본어 한자 학습. The developer brand is WhiteSheep Game Studio. This policy covers the app, support requests, and the webpage publishing this policy.',
     '앱에는 회원가입, 자체 서버, 별도 분석 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 문의, 정책 페이지 방문, 외부 링크, 기기 내 음성·알림·홈 화면 위젯, 광고·동의 SDK의 처리 범위는 아래에서 설명합니다.':
@@ -984,8 +986,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '4. 광고와 동의 SDK의 정보 처리': '4. Information processed by advertising and consent SDKs',
     '앱에는 Google Mobile Ads와 Google UMP SDK가 포함됩니다. SDK가 동작하는 경우 IP 주소와 그로부터 추정되는 대략적 위치, 광고 ID·앱 세트 ID 등 식별자, 앱 실행·광고 노출·탭 등 상호작용, 성능·오류·진단 정보 및 동의 상태 등이 Google로 전송될 수 있습니다. 목적은 광고 제공·측정, SDK 및 서비스 운영, 진단, 보안과 부정 이용 방지입니다.':
       'The app includes Google Mobile Ads and Google UMP SDKs. When these SDKs operate, IP addresses and approximate location derived from them, identifiers such as advertising and app-set IDs, interactions such as app launches, ad impressions and taps, performance and diagnostic information, errors, and consent status may be sent to Google. Purposes include ad delivery and measurement, SDK and service operation, diagnostics, security, and fraud prevention.',
-    '광고가 꺼져 있는 동안 한국어 화면의 학습 화면 하단에는 운영자의 자체 홍보 배너가 표시됩니다. 이 배너는 Google 광고가 아니며 앱 데이터를 보내지 않습니다. 배너 링크를 눌렀을 때의 처리는 6항을 따릅니다.':
-      'While ads are turned off, the bottom of the study screen in the Korean-language display shows the operator’s own promotional banner. This banner is not a Google ad and does not send app data. What happens when you tap the banner link is governed by section 6.',
+    '이전 버전에서 광고 대신 표시하던 운영자 자체 홍보 배너는 1.1.0에서 표시하지 않습니다.':
+      'The operator’s own promotional banner that earlier versions showed instead of ads is no longer shown from 1.1.0.',
     '광고 기능을 켜는 구성에서는 광고 요청에 비개인화 광고와 콘텐츠 등급 G 설정을 사용합니다. 비개인화 광고도 식별자나 진단 정보 처리가 없다는 뜻은 아닙니다.':
       'In configurations where ad features are turned on, ad requests use non-personalized ads and a content rating of G. Non-personalized ads do not mean that identifiers or diagnostic information are not processed.',
     '앱은 위치 권한·주소록·카메라·마이크·사진·생년월일·신분증을 요구하지 않으며 iOS 추적 허용 팝업을 요청하지 않습니다. 안드로이드에서는 인터넷 연결, 부팅 후 알림 복원, 알림 표시 권한을 사용하며 Google 광고 SDK가 광고 ID 사용 권한을 추가할 수 있습니다. 별도의 사용 통계·충돌 수집 SDK는 사용하지 않습니다.':
@@ -1005,8 +1007,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '사용자가 여는 외부 링크': 'External links you open',
     '연결된 사용단어의 ‘문법결에서 보기’를 누르면 칸지결은 기기의 앱 열기 기능을 사용해 문법결(munbeopgyeol://)에 사전 항목 ID, 단어 표기와 읽기를 전달합니다. 이 값은 해당 단어 화면을 여는 데 쓰입니다. 링크에 이용자 식별자, 학습 기록, 북마크, 최근 검색, 오답 기록이나 알림 설정은 포함하지 않습니다. 문법결을 열 수 없으면 운영체제에 맞는 스토어(Google Play 또는 App Store)의 문법결 페이지를 외부 앱·브라우저로 엽니다.':
       'When you tap “문법결에서 보기” (View in 문법결) for a linked usage word, KanjiGyeol uses the device’s app-opening feature to pass the dictionary entry ID, the word’s spelling and its reading to 문법결 (munbeopgyeol://). These values are used to open the screen for that word. The link does not include any user identifier, learning history, bookmarks, recent searches, wrong-answer records or reminder settings. If 문법결 cannot be opened, the app opens the 문법결 page in the store for your operating system (Google Play or the App Store) in an external app or browser.',
-    '한국어 화면의 운영자 홍보 배너를 누르면 네이버 스마트스토어 또는 손뜨개 원데이클래스 안내(네이버 지도 단축 링크) 페이지를 외부 브라우저로 엽니다. 설정의 개인정보 안내에서 방침 페이지를 외부 브라우저로 열 수 있습니다. 앱 정보에 표시된 운영자 웹사이트와 출처 주소는 화면에 표시되거나 복사할 수 있는 주소이며, 앱이 자동으로 열지 않습니다. 주소를 직접 열 경우 해당 서비스의 방침이 적용됩니다.':
-      'Tapping the operator’s promotional banner on the Korean-language display opens a Naver Smart Store page or a crochet one-day class information page (a Naver Maps short link) in an external browser. From the privacy notice in settings, you can open the policy page in an external browser. The operator website and source addresses shown in the app information are addresses that can be displayed or copied; the app does not open them automatically. If you open an address yourself, the policy of that service applies.',
+    '설정의 개인정보 안내에서 방침 페이지를 외부 브라우저로 열 수 있습니다. 앱 정보에 표시된 운영자 웹사이트와 출처 주소는 화면에 표시되거나 복사할 수 있는 주소이며, 앱이 자동으로 열지 않습니다. 주소를 직접 열 경우 해당 서비스의 방침이 적용됩니다. 1.0.x 등 이전 버전의 홍보 배너를 누르면 네이버 스마트스토어 또는 손뜨개 원데이클래스 안내 페이지가 열립니다.':
+      'From the privacy notice in settings, you can open the policy page in an external browser. The operator website and source addresses shown in the app information are addresses that can be displayed or copied; the app does not open them automatically. If you open an address yourself, the policy of that service applies. In earlier versions such as 1.0.x, tapping the promotional banner opens a Naver Smart Store page or a crochet one-day class information page.',
     '스토어·문법결·브라우저로 이동한 뒤에는 각 서비스의 방침이 적용됩니다. 해당 서비스는 접속 과정에서 IP 주소, 접속 기록이나 기기 정보를 처리할 수 있습니다. 외부 링크를 열지 않아도 칸지결에서 학습할 수 있습니다.':
       'After you move to a store, 문법결 or a browser, the policy of each service applies. These services may process your IP address, access records or device information during access. You can study in KanjiGyeol without opening any external link.',
     '7. 국외 처리와 보유 기간': '7. International processing and retention',
@@ -1016,8 +1018,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'Google SDK information is processed for advertising, consent, diagnostics, and related purposes when SDK communication occurs. Retention depends on data type, purpose, settings, and legal needs. Our 90-day deletion rule applies to support emails under our control, while provider deletion and backups follow separate processes. Google publishes general deletion and backup-retention criteria; these are not a single retention period for all advertising data.',
     'GitHub의 접속 정보는 웹페이지 제공·보안·운영에 필요한 기간과 법적 의무 등에 따라 처리됩니다. 운영자는 개인별 호스팅 로그를 별도로 수집·다운로드하거나 학습 기록과 결합하지 않습니다. 상세한 보유 기준과 권리 요청은 GitHub의 개인정보 고지를 따릅니다.':
       'GitHub processes access information for the duration needed for webpage delivery, security, operation, and legal obligations. The operator does not separately collect or download individual hosting logs or combine them with learning history. GitHub’s privacy notice describes its retention criteria and rights-request process.',
-    '외부 처리를 원하지 않으면 해당 서비스를 이용하지 않거나 문의 메일 전송을 중단하고 위 담당자에게 삭제·처리 정지를 요청할 수 있습니다. 문의 미전송이나 정책 웹페이지 미방문은 기기 내 학습을 막지 않습니다. 외부 링크의 처리 범위는 6항, 광고 관련 선택은 5항을 따릅니다. 방침의 게시는 별도 동의가 필요한 처리의 동의를 대신하지 않으며, 운영 광고를 활성화하기 전에 실제 제공자·국가·근거와 필요한 고지·동의 절차를 확인합니다.':
-      'If you do not want external processing, you may refrain from using the relevant service or sending support emails and request deletion or restriction from the contact above. Not sending email or visiting this webpage does not prevent on-device learning. The scope of processing for external links follows section 6, and advertising choices follow section 5. Publishing this policy does not replace any separately required consent. Before enabling production ads, the actual providers, countries, legal basis, and required notices and consent processes must be confirmed.',
+    '외부 처리를 원하지 않으면 해당 서비스를 이용하지 않거나 문의 메일 전송을 중단하고 위 담당자에게 삭제·처리 정지를 요청할 수 있습니다. 문의 미전송이나 정책 웹페이지 미방문은 기기 내 학습을 막지 않습니다. 외부 링크의 처리 범위는 6항, 광고 관련 선택은 5항을 따릅니다. 방침의 게시는 별도 동의가 필요한 처리의 동의를 대신하지 않습니다.':
+      'If you do not want external processing, you may refrain from using the relevant service or sending support emails and request deletion or restriction from the contact above. Not sending email or visiting this webpage does not prevent on-device learning. The scope of processing for external links follows section 6, and advertising choices follow section 5. Publishing this policy does not replace any separately required consent.',
     '8. 이 웹페이지와 언어 설정': '8. This webpage and language preferences',
     '이 페이지는 GitHub Pages의 정적 웹페이지입니다. 자체 로그인, 문의 입력폼, 광고, 외부 분석 스크립트와 웹폰트를 사용하지 않습니다. 브라우저의 localStorage에는 선택한 언어만 저장하며 서버로 전송하지 않습니다. 브라우저의 사이트 데이터 삭제로 지울 수 있고, 저장을 차단해도 기본 언어로 페이지를 읽을 수 있습니다. 호스팅 제공자의 접속 정보 처리는 6·7항과 별개로 사라지지 않습니다.':
       'This is a static GitHub Pages webpage. It uses no operator-provided login, contact form, advertising, external analytics script, or web font. Browser localStorage holds only your selected language and is not sent to a server. You may clear it through site-data settings; blocking storage still permits reading in the default language. Hosting-provider processing of access information described in sections 6 and 7 still applies.',
@@ -1043,6 +1045,8 @@ window.WHITESHEEP_TRANSLATIONS = {
     '버전 1.0 · 2026년 11월 2일: 최초 공개.': 'Version 1.0 · November 2, 2026: First published.',
     '버전 1.1 · 2026년 11월 24일: 북마크·최근 검색·오답 노트·학습 알림·표시 언어·읽기 설정·회독 수의 기기 저장, 홈 화면 위젯, 일본어 읽기 듣기, 외부 앱 링크, 문법결 연결, 운영자 홍보 배너와 외부 링크 처리, 광고 구성·권한 설명, 침해 신고 안내를 추가·보완했습니다.':
       'Version 1.1 · November 24, 2026: Added and expanded descriptions of on-device storage of bookmarks, recent searches, the wrong-answer list, study reminders, display language, reading settings and rounds completed; the home-screen widget; Japanese reading playback; external app links; the connection to 문법결; the operator’s promotional banner and external-link handling; ad configuration and permissions; and guidance on reporting violations.',
+    '버전 1.2 · 2026년 11월 26일: 앱 1.1.0의 iOS·Android 비개인화 배너 광고를 반영하고, 자체 홍보 배너를 더 표시하지 않는 것으로 바꿨습니다.':
+      'Version 1.2 · November 26, 2026: Reflected the non-personalized banner ads on iOS and Android from app version 1.1.0 and stopped showing the operator’s own promotional banner.',
     'Google 개인정보처리방침 및 문의': 'Google Privacy Policy and contact',
     'Google 한국 거주자 추가 고지': 'Google additional information for Korean residents',
     'Google 데이터 보유·삭제 기준': 'Google data retention and deletion criteria',
@@ -1242,8 +1246,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'When you email us, we receive your reply address, subject, body, and any materials you attach, and use them to respond and check the problem. Tell us the app version, OS and device type, the word or pattern name, and reproduction steps only when needed. Attachments are optional; do not send passwords, verification codes, ID documents, health information, or other people’s personal information.',
     '앱 정보 화면의 제보 양식 복사는 앱 버전과 콘텐츠 버전을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
       'The app info screen’s “Copy report form” copies a form that includes the app and content versions to your device clipboard. It does not send email automatically or transmit your study records. You can edit the content before sending, and the clipboard is handled under your device and OS policies.',
-    '앱 하단에는 운영자의 스마트스토어 홍보 영역이 표시됩니다. 영역을 눌렀을 때만 기기의 외부 브라우저로 운영자 상점 페이지가 열리며, 앱은 이 과정에서 학습 기록이나 개인정보를 전달하지 않습니다. 열린 웹사이트의 정보 처리는 해당 사이트의 방침을 따릅니다.':
-      'A promotional area for the operator’s Smart Store is shown at the bottom of the app. Only when you tap it does the operator’s shop page open in your device’s external browser, and the app passes no study records or personal information in the process. Information processing by the opened website follows that site’s own policy.',
+    'Android 앱과 1.1.0 이전의 iOS 앱 하단에는 운영자의 홍보 배너(‘인천 손뜨개 원데이클래스’)가 표시됩니다. 배너를 눌렀을 때만 기기의 외부 브라우저로 네이버의 안내 페이지(네이버 지도 단축 링크)가 열리며, 앱은 이 과정에서 학습 기록이나 개인정보를 전달하지 않습니다. 열린 웹사이트의 정보 처리는 해당 사이트의 방침을 따릅니다.':
+      'The operator’s promotional banner (“인천 손뜨개 원데이클래스”, a hand-knitting one-day class) is shown at the bottom of the Android app and of iOS versions earlier than 1.1.0. Only when you tap it does a Naver information page (a Naver Maps short link) open in your device’s external browser, and the app passes no study records or personal information in the process. Information processing by the opened website follows that site’s own policy.',
     '5. 외부 서비스와 국외 처리': '5. External services and international processing',
     '문의 이메일은 Gmail을 제공하는 Google의 메일 전송·저장·보안 기능을 사용하고, 이 정책 웹페이지는 GitHub Pages를 제공하는 GitHub, Inc.가 접속 정보를 처리합니다. 두 제공자는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지하며, 운영자는 이용자별 실제 처리 국가를 지정하거나 조회할 수 없습니다. 학습 기록은 판매하거나 외부에 제공하지 않습니다.':
       'Support email uses the mail delivery, storage, and security features of Google, which provides Gmail, and this policy web page is served by GitHub, Inc., which provides GitHub Pages and processes access information. Both providers state that they process information on infrastructure in several countries including the United States, and the operator cannot specify or look up the actual processing country for each user. Study records are not sold or provided to others.',

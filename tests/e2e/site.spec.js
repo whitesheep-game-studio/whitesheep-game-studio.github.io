@@ -76,9 +76,9 @@ test('app privacy policy preserves data and advertising boundaries in every lang
   await page.goto('/apps/kanjigyeol/privacy/');
   const article = page.locator('article.doc');
   for (const [locale, title, retention, scope, tabTitle] of [
-    ['ko', '칸지결 개인정보처리방침', '90일 이내', '이 배너는 Google 광고가 아니며 앱 데이터를 보내지 않습니다', '칸지결 · 개인정보 안내 · WhiteSheep Game Studio'],
-    ['ja', '漢字結 プライバシーポリシー', '90日以内', 'このバナーはGoogle広告ではなく、アプリのデータを送信しません', '漢字結 · プライバシーポリシー · WhiteSheep Game Studio'],
-    ['en', 'KanjiGyeol Privacy Policy', 'within 90 days', 'This banner is not a Google ad and does not send app data', 'KanjiGyeol · Privacy Policy · WhiteSheep Game Studio']
+    ['ko', '칸지결 개인정보처리방침', '90일 이내', '운영자 자체 홍보 배너는 1.1.0에서 표시하지 않습니다', '칸지결 · 개인정보 안내 · WhiteSheep Game Studio'],
+    ['ja', '漢字結 プライバシーポリシー', '90日以内', '運営者独自の宣伝バナーは、1.1.0では表示しません', '漢字結 · プライバシーポリシー · WhiteSheep Game Studio'],
+    ['en', 'KanjiGyeol Privacy Policy', 'within 90 days', 'is no longer shown from 1.1.0', 'KanjiGyeol · Privacy Policy · WhiteSheep Game Studio']
   ]) {
     await page.locator('#language-trigger').click();
     await page.locator(`[data-language="${locale}"]`).click();
