@@ -67,8 +67,6 @@ window.WHITESHEEP_TRANSLATIONS = {
     '4. 광고와 동의 SDK의 정보 처리': '4. 広告・同意SDKによる情報処理',
     '앱에는 Google Mobile Ads와 Google UMP SDK가 포함됩니다. SDK가 동작하는 경우 IP 주소와 그로부터 추정되는 대략적 위치, 광고 ID·앱 세트 ID 등 식별자, 앱 실행·광고 노출·탭 등 상호작용, 성능·오류·진단 정보 및 동의 상태 등이 Google로 전송될 수 있습니다. 목적은 광고 제공·측정, SDK 및 서비스 운영, 진단, 보안과 부정 이용 방지입니다.':
       'アプリにはGoogle Mobile AdsとGoogle UMP SDKが含まれます。SDKの動作時には、IPアドレスとそこから推定されるおおよその位置、広告ID・アプリセットIDなどの識別子、起動・広告表示・タップなどの操作、性能・エラー・診断情報、同意状態などがGoogleへ送信されることがあります。目的は広告の提供・測定、SDKとサービスの運用、診断、セキュリティ、不正利用防止です。',
-    '현재 배포 구성에서 칸지결의 Google 광고 초기화, 배너 요청 및 동의 화면 제공 기능은 꺼져 있습니다. 다만 Google 광고·동의 SDK는 앱에 포함되어 있으므로 이를 SDK와 Google 사이의 모든 통신이나 정보 처리가 없다는 의미로 해석하지 않습니다. 광고 기능을 켜거나 처리 범위가 달라지기 전에 방침과 필요한 안내·선택 절차를 갱신합니다. 개발·테스트 구성에서는 Google 샘플 광고를 사용합니다.':
-      '現在の配布構成では、漢字結のGoogle広告の初期化、バナーのリクエスト、同意画面の表示機能は無効です。ただし、Googleの広告・同意SDKはアプリに含まれているため、SDKとGoogleの間の通信や情報処理が一切ないという意味ではありません。広告機能を有効にする前、または処理範囲が変わる前に、本方針と必要な説明・選択手続きを更新します。開発・テスト構成ではGoogleのサンプル広告を使用します。',
     '광고가 꺼져 있는 동안 한국어 화면의 학습 화면 하단에는 운영자의 자체 홍보 배너가 표시됩니다. 이 배너는 Google 광고가 아니며 앱 데이터를 보내지 않습니다. 배너 링크를 눌렀을 때의 처리는 6항을 따릅니다.':
       '広告が無効の間、韓国語表示の学習画面の下部には運営者独自の宣伝バナーが表示されます。このバナーはGoogle広告ではなく、アプリのデータを送信しません。バナーのリンクをタップした場合の処理は第6項に従います。',
     '광고 기능을 켜는 구성에서는 광고 요청에 비개인화 광고와 콘텐츠 등급 G 설정을 사용합니다. 비개인화 광고도 식별자나 진단 정보 처리가 없다는 뜻은 아닙니다.':
@@ -304,12 +302,17 @@ window.WHITESHEEP_TRANSLATIONS = {
     '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': '必要に応じて該当の画面を添付してください。個人情報は隠してください。',
     '마지막으로 본 단어·문형, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       '最後に見た単語・文型、学習の印（わかる・あやふや）、ブックマーク、表示言語・テーマ・読み補助の設定は端末に保存されます。運営者がサーバーで記録を閲覧したり復元したりすることはできません。アプリの削除・OSのデータ削除・バックアップ設定により、記録が消えたり復元されたりすることがあります。',
+    '1.1.0부터 iOS에서 Google 동의 도구가 광고 요청을 허용하면 비개인 맞춤 배너 광고를 요청합니다. 앱은 iOS 추적 허용 권한을 요청하지 않습니다. 개발 구성에서는 Google 샘플 광고를 사용합니다.':
+      'バージョン1.1.0以降のiOSでは、Googleの同意ツールが広告リクエストを許可した場合に、パーソナライズされていないバナー広告をリクエストします。アプリはiOSのトラッキング許可を要求しません。開発用ビルドではGoogleのサンプル広告を使用します。',
+    '앱에는 회원가입, 자체 서버, 별도 분석 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 광고, 동의, 이메일 서비스와 웹 호스팅에 관한 정보 처리는 아래에서 설명합니다.':
+      'アプリにはアカウント登録、独自サーバー、独立した分析SDK、決済機能はありません。学習履歴は端末に保存されます。広告、同意、メールサービス、ウェブホスティングでの情報処理については以下で説明します。',
+    '2026년 11월 26일 갱신 · iOS 광고 변경은 앱 1.1.0부터 적용': '2026年11月26日更新 · iOSの広告変更はアプリ1.1.0から適用',
+    '1.1.0부터 iOS와 Android에서 Google 동의 도구가 광고 요청을 허용하면 비개인화 배너 광고를 요청합니다. 앱은 iOS 추적 허용 권한을 요청하지 않습니다. 개발 구성에서는 Google 샘플 광고를 사용합니다.':
+      'バージョン1.1.0以降のiOSとAndroidでは、Googleの同意ツールが広告リクエストを許可した場合に、パーソナライズされていないバナー広告をリクエストします。アプリはiOSのトラッキング許可を要求しません。開発用ビルドではGoogleのサンプル広告を使用します。',
     '일본문법결 개인정보처리방침': '日本文法結 プライバシーポリシー',
     '최종 갱신 2026년 11월 8일': '最終更新・2026年11월8日',
     '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
       '초록지붕이층집は、日本語文法学習アプリ「日本文法結」の個人情報の取扱いを説明します。開発者ブランドはWhiteSheep Game Studioです。本方針はアプリ、お問い合わせ対応、およびこの方針を掲載するウェブページに適用されます。',
-    '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
-      'アプリにはアカウント登録、独自サーバー、分析SDK、広告SDK、決済機能はありません。学習履歴は端末に保存されます。メールサービスとウェブホスティングによる情報処理は、以下で別に説明します。',
     '마지막으로 본 단어·문형 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
       '最後に見た単語・文型のID、「わかる」「あやふや」の印、ブックマーク、表示言語、画面テーマ、読み補助の設定を保存し、学習位置と設定を復元します。アプリ自体はこれらの記録を運営者や外部サーバーへ送信しません。運営者は端末にだけある記録を遠隔で閲覧できません。',
     '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 위치 초기화는 마지막으로 본 단어·문형만 지우며, 학습 표시·북마크·설정은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
@@ -318,11 +321,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'メールでのお問い合わせでは、返信先、件名・本文、ご自身で添付した資料を受け取り、回答や不具合確認に利用します。アプリのバージョン、OS・端末の種類、単語や文型の名前、再現手順は、確認に必要な場合にのみお知らせください。添付は任意であり、パスワード、認証コード、身分証、健康情報、他人の個人情報は送らないでください。',
     '앱 정보 화면의 제보 양식 복사는 앱 버전과 콘텐츠 버전을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
       'アプリ情報画面の報告用紙のコピーは、アプリとコンテンツのバージョンを含む書式を端末のクリップボードにコピーします。メールの自動送信や学習履歴の送信は行いません。送信前に内容を編集でき、クリップボードは端末・OSのポリシーに従って処理されます。',
-    '4. 앱 하단의 홍보 영역': '4. アプリ下部の紹介欄',
     '앱 하단에는 운영자의 스마트스토어 홍보 영역이 표시됩니다. 영역을 눌렀을 때만 기기의 외부 브라우저로 운영자 상점 페이지가 열리며, 앱은 이 과정에서 학습 기록이나 개인정보를 전달하지 않습니다. 열린 웹사이트의 정보 처리는 해당 사이트의 방침을 따릅니다.':
       'アプリ下部には運営者のスマートストアの紹介欄が表示されます。この欄を押したときだけ、端末の外部ブラウザで運営者のショップページが開き、アプリはその際に学習履歴や個人情報を渡しません。開かれたウェブサイトの情報処理は、そのサイトの方針に従います。',
-    '앱에는 아직 광고 SDK가 포함되어 있지 않습니다. 광고 SDK를 도입하기 전에 이 방침을 갱신하고 필요한 안내와 선택 절차를 마련합니다.':
-      'アプリにはまだ広告SDKは含まれていません。広告SDKを導入する前に、この方針を更新し、必要な案内と選択手続きを用意します。',
     '5. 외부 서비스와 국외 처리': '5. 外部サービスと国外での処理',
     '문의 이메일은 Gmail을 제공하는 Google의 메일 전송·저장·보안 기능을 사용하고, 이 정책 웹페이지는 GitHub Pages를 제공하는 GitHub, Inc.가 접속 정보를 처리합니다. 두 제공자는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지하며, 운영자는 이용자별 실제 처리 국가를 지정하거나 조회할 수 없습니다. 학습 기록은 판매하거나 외부에 제공하지 않습니다.':
       'お問い合わせメールはGmailを提供するGoogleのメール送信・保存・セキュリティ機能を利用し、この方針を掲載するウェブページではGitHub Pagesを提供するGitHub, Inc.がアクセス情報を処理します。両提供者は米国を含む複数の国のインフラで情報を処理すると公表しており、運営者は利用者ごとの実際の処理国を指定したり確認したりできません。学習履歴を販売したり外部に提供したりしません。',
@@ -984,8 +984,6 @@ window.WHITESHEEP_TRANSLATIONS = {
     '4. 광고와 동의 SDK의 정보 처리': '4. Information processed by advertising and consent SDKs',
     '앱에는 Google Mobile Ads와 Google UMP SDK가 포함됩니다. SDK가 동작하는 경우 IP 주소와 그로부터 추정되는 대략적 위치, 광고 ID·앱 세트 ID 등 식별자, 앱 실행·광고 노출·탭 등 상호작용, 성능·오류·진단 정보 및 동의 상태 등이 Google로 전송될 수 있습니다. 목적은 광고 제공·측정, SDK 및 서비스 운영, 진단, 보안과 부정 이용 방지입니다.':
       'The app includes Google Mobile Ads and Google UMP SDKs. When these SDKs operate, IP addresses and approximate location derived from them, identifiers such as advertising and app-set IDs, interactions such as app launches, ad impressions and taps, performance and diagnostic information, errors, and consent status may be sent to Google. Purposes include ad delivery and measurement, SDK and service operation, diagnostics, security, and fraud prevention.',
-    '현재 배포 구성에서 칸지결의 Google 광고 초기화, 배너 요청 및 동의 화면 제공 기능은 꺼져 있습니다. 다만 Google 광고·동의 SDK는 앱에 포함되어 있으므로 이를 SDK와 Google 사이의 모든 통신이나 정보 처리가 없다는 의미로 해석하지 않습니다. 광고 기능을 켜거나 처리 범위가 달라지기 전에 방침과 필요한 안내·선택 절차를 갱신합니다. 개발·테스트 구성에서는 Google 샘플 광고를 사용합니다.':
-      'In the current distribution configuration, KanjiGyeol’s Google ad initialization, banner requests and consent-screen display are turned off. However, because the Google advertising and consent SDKs are included in the app, this does not mean that there is no communication or information processing at all between the SDK and Google. Before ad features are turned on or the scope of processing changes, we will update this policy and the required notices and choice procedures. Development and test configurations use Google sample ads.',
     '광고가 꺼져 있는 동안 한국어 화면의 학습 화면 하단에는 운영자의 자체 홍보 배너가 표시됩니다. 이 배너는 Google 광고가 아니며 앱 데이터를 보내지 않습니다. 배너 링크를 눌렀을 때의 처리는 6항을 따릅니다.':
       'While ads are turned off, the bottom of the study screen in the Korean-language display shows the operator’s own promotional banner. This banner is not a Google ad and does not send app data. What happens when you tap the banner link is governed by section 6.',
     '광고 기능을 켜는 구성에서는 광고 요청에 비개인화 광고와 콘텐츠 등급 G 설정을 사용합니다. 비개인화 광고도 식별자나 진단 정보 처리가 없다는 뜻은 아닙니다.':
@@ -1225,12 +1223,17 @@ window.WHITESHEEP_TRANSLATIONS = {
     '필요하면 해당 화면을 첨부해 주세요. 개인적인 정보는 가려 주세요.': 'If needed, attach the relevant screen. Please hide any personal information.',
     '마지막으로 본 단어·문형, 학습 표시(알아요·헷갈려요), 북마크, 표시 언어·테마·읽기 도움 설정은 기기에 저장됩니다. 운영자가 서버에서 기록을 조회하거나 복구할 수 없습니다. 앱 삭제·OS 데이터 삭제·백업 설정에 따라 기록이 사라지거나 복원될 수 있습니다.':
       'Your last viewed word or pattern, study marks (known/unsure), bookmarks, and language, theme, and reading-aid settings are stored on your device. The operator cannot view or restore these records from a server. Depending on app deletion, OS data deletion, and backup settings, records may be lost or restored.',
+    '1.1.0부터 iOS에서 Google 동의 도구가 광고 요청을 허용하면 비개인 맞춤 배너 광고를 요청합니다. 앱은 iOS 추적 허용 권한을 요청하지 않습니다. 개발 구성에서는 Google 샘플 광고를 사용합니다.':
+      'Starting with version 1.1.0 on iOS, the app requests non-personalized banner ads when Google’s consent tool allows the request. The app does not request iOS tracking permission. Development builds use Google sample ads.',
+    '앱에는 회원가입, 자체 서버, 별도 분석 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 광고, 동의, 이메일 서비스와 웹 호스팅에 관한 정보 처리는 아래에서 설명합니다.':
+      'The app has no account registration, proprietary server, separate analytics SDK, or payments. Learning history stays on the device. The sections below explain how advertising, consent, email and web hosting services process information.',
+    '2026년 11월 26일 갱신 · iOS 광고 변경은 앱 1.1.0부터 적용': 'Updated November 26, 2026 · iOS advertising changes apply starting with app version 1.1.0',
+    '1.1.0부터 iOS와 Android에서 Google 동의 도구가 광고 요청을 허용하면 비개인화 배너 광고를 요청합니다. 앱은 iOS 추적 허용 권한을 요청하지 않습니다. 개발 구성에서는 Google 샘플 광고를 사용합니다.':
+      'Starting with version 1.1.0 on iOS and Android, the app requests non-personalized banner ads when Google’s consent tool allows the request. The app does not request iOS tracking permission. Development builds use Google sample ads.',
     '일본문법결 개인정보처리방침': 'Japanese Grammar Grain Privacy Policy',
     '최종 갱신 2026년 11월 8일': 'Last updated November 8, 2026',
     '초록지붕이층집은 일본문법결 — 일본어 문법 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
       '초록지붕이층집 explains how personal information is handled for Japanese Grammar Grain (Japanese Grammar Grain), a Japanese grammar learning app. The developer brand is WhiteSheep Game Studio. This policy applies to the app, support replies, and this web page.',
-    '앱에는 회원가입, 자체 서버, 분석 SDK, 광고 SDK 및 결제 기능이 없습니다. 학습 기록은 기기에 저장됩니다. 이메일 서비스와 웹 호스팅의 정보 처리는 아래에서 별도로 설명합니다.':
-      'The app has no sign-up, own server, analytics SDK, advertising SDK, or payment feature. Study records are stored on your device. Information processing by the email service and web hosting is explained separately below.',
     '마지막으로 본 단어·문형 ID, 알아요·헷갈려요 표시, 북마크, 표시 언어, 화면 테마와 읽기 도움 설정을 저장하여 학습 위치와 설정을 복원합니다. 앱 자체는 이 기록을 운영자나 외부 서버로 전송하지 않습니다. 운영자는 기기에만 있는 기록을 원격으로 조회할 수 없습니다.':
       'The app stores the ID of your last viewed word or pattern, known/unsure marks, bookmarks, display language, screen theme, and reading-aid settings to restore your place and settings. The app itself does not send these records to the operator or any external server. The operator cannot remotely view records that exist only on your device.',
     '이 정보는 설정에서 초기화하거나 앱 데이터를 삭제할 때까지 기기에 남습니다. 학습 위치 초기화는 마지막으로 본 단어·문형만 지우며, 학습 표시·북마크·설정은 별도로 유지됩니다. 앱 삭제와 운영체제의 백업·복원 설정에 따라 재설치 후 기록이 복원될 수 있습니다.':
@@ -1239,11 +1242,8 @@ window.WHITESHEEP_TRANSLATIONS = {
       'When you email us, we receive your reply address, subject, body, and any materials you attach, and use them to respond and check the problem. Tell us the app version, OS and device type, the word or pattern name, and reproduction steps only when needed. Attachments are optional; do not send passwords, verification codes, ID documents, health information, or other people’s personal information.',
     '앱 정보 화면의 제보 양식 복사는 앱 버전과 콘텐츠 버전을 포함한 양식을 기기의 클립보드에 복사합니다. 이메일을 자동 발송하거나 학습 기록을 전송하지 않습니다. 전송 전 내용을 편집할 수 있으며 클립보드는 기기·운영체제의 정책에 따라 처리됩니다.':
       'The app info screen’s “Copy report form” copies a form that includes the app and content versions to your device clipboard. It does not send email automatically or transmit your study records. You can edit the content before sending, and the clipboard is handled under your device and OS policies.',
-    '4. 앱 하단의 홍보 영역': '4. Promotional area at the bottom of the app',
     '앱 하단에는 운영자의 스마트스토어 홍보 영역이 표시됩니다. 영역을 눌렀을 때만 기기의 외부 브라우저로 운영자 상점 페이지가 열리며, 앱은 이 과정에서 학습 기록이나 개인정보를 전달하지 않습니다. 열린 웹사이트의 정보 처리는 해당 사이트의 방침을 따릅니다.':
       'A promotional area for the operator’s Smart Store is shown at the bottom of the app. Only when you tap it does the operator’s shop page open in your device’s external browser, and the app passes no study records or personal information in the process. Information processing by the opened website follows that site’s own policy.',
-    '앱에는 아직 광고 SDK가 포함되어 있지 않습니다. 광고 SDK를 도입하기 전에 이 방침을 갱신하고 필요한 안내와 선택 절차를 마련합니다.':
-      'The app does not include an advertising SDK yet. Before introducing one, we will update this policy and provide the necessary notices and choices.',
     '5. 외부 서비스와 국외 처리': '5. External services and international processing',
     '문의 이메일은 Gmail을 제공하는 Google의 메일 전송·저장·보안 기능을 사용하고, 이 정책 웹페이지는 GitHub Pages를 제공하는 GitHub, Inc.가 접속 정보를 처리합니다. 두 제공자는 미국을 포함한 여러 국가의 인프라에서 정보를 처리한다고 고지하며, 운영자는 이용자별 실제 처리 국가를 지정하거나 조회할 수 없습니다. 학습 기록은 판매하거나 외부에 제공하지 않습니다.':
       'Support email uses the mail delivery, storage, and security features of Google, which provides Gmail, and this policy web page is served by GitHub, Inc., which provides GitHub Pages and processes access information. Both providers state that they process information on infrastructure in several countries including the United States, and the operator cannot specify or look up the actual processing country for each user. Study records are not sold or provided to others.',
