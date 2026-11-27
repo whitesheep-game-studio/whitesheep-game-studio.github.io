@@ -1,5 +1,13 @@
 window.WHITESHEEP_TRANSLATIONS = {
   ja: {
+    '뜻과 독음, 사용단어와 암기 팁을 함께 읽는 일본어 한자 학습 앱.': '意味と読み、使用単語と暗記のヒントを一緒に学ぶ日本語漢字学習アプリ。',
+    '일상을 채우는 작은 배움': '日々を満たす、小さな学び',
+    '매일 한 장씩, 일본어에 가까워지는 시간.': '毎日一枚ずつ、日本語に近づく時間。',
+    '칸지결·문법결 다운로드': '漢字結・日本文法結をダウンロード',
+    '칸지결·문법결 다운로드 · WhiteSheep Game Studio': '漢字結・日本文法結をダウンロード · WhiteSheep Game Studio',
+    '다운로드 준비 중': 'ダウンロード準備中',
+    '휴대폰에서는 배지를 누르고, PC에서는 QR을 스캔하세요.': 'スマートフォンではバッジをタップ、PCではQRコードをスキャン。',
+
     'iOS 출시 · Android 출시 예정': 'iOS 公開済み · Android 公開予定',
     'App Store에서 다운로드': 'App Storeからダウンロード',
     'Google Play에서 다운로드': 'Google Playでダウンロード',
@@ -916,6 +924,14 @@ window.WHITESHEEP_TRANSLATIONS = {
       'このアプリは、韓国・日本の労働安全・労働衛生分野の資格の主要な概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。'
   },
   en: {
+    '뜻과 독음, 사용단어와 암기 팁을 함께 읽는 일본어 한자 학습 앱.': 'Learn Japanese kanji with meanings, readings, vocabulary and memory tips.',
+    '일상을 채우는 작은 배움': 'Small lessons for everyday life',
+    '매일 한 장씩, 일본어에 가까워지는 시간.': 'One card a day, a little closer to Japanese.',
+    '칸지결·문법결 다운로드': 'Download KanjiGyeol & Japanese Grammar Grain',
+    '칸지결·문법결 다운로드 · WhiteSheep Game Studio': 'Download KanjiGyeol & Japanese Grammar Grain · WhiteSheep Game Studio',
+    '다운로드 준비 중': 'Download coming soon',
+    '휴대폰에서는 배지를 누르고, PC에서는 QR을 스캔하세요.': 'Tap a badge on your phone, or scan a QR code from your computer.',
+
     'iOS 출시 · Android 출시 예정': 'iOS released · Android coming soon',
     'App Store에서 다운로드': 'Download on the App Store',
     'Google Play에서 다운로드': 'Get it on Google Play',

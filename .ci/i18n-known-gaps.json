@@ -52,12 +52,6 @@
       "locations": ["privacy/index.html:text"]
     },
     {
-      "id": "text.67124540e6552fc47abc",
-      "source": "뜻과 독음, 사용단어와 암기 팁을 함께 읽는 일본어 한자 학습 앱.",
-      "locales": ["en", "ja"],
-      "locations": ["404.html:text", "apps/index.html:text", "index.html:text", "support/index.html:text"]
-    },
-    {
       "id": "text.74d1ba4f583f2ca91185",
       "source": "공개된 게임·앱 정보와 지원 안내를 제공하는 정적 홈페이지입니다. 자체 회원가입·문의 입력폼·분석 스크립트·광고·외부 웹폰트를 넣지 않았습니다. 검색·필터는 브라우저 안에서 동작하며 검색어를 별도로 운영자 서버에 보내거나 저장하지 않습니다.",
       "locales": ["en", "ja"],

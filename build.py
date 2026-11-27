@@ -6,6 +6,7 @@ import base64
 import hashlib
 import re
 import shutil
+from urllib.parse import urlsplit, parse_qs
 
 ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'docs'
@@ -31,14 +32,64 @@ def nav_links(route):
     return ''.join(f'<a href="/{k}/"{current(k)}>{label}</a>' for k,label in items)
 
 
-def write_page(route,title,body):
+def write_page(route,title,body,landing=False):
     dest=OUT/route;dest.mkdir(parents=True,exist_ok=True)
     canonical=ORIGIN+'/'+(route+'/' if route else '')
     css_url,css_integrity=asset_metadata('style.css')
     directory_url,directory_integrity=asset_metadata('directory.js')
     i18n_url,i18n_integrity=asset_metadata('i18n.js')
     doc=f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><title>{escape(title)} · WhiteSheep Game Studio</title><meta name="description" content="WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요."><meta property="og:title" content="{escape(title)} · WhiteSheep Game Studio"><meta property="og:type" content="website"><meta property="og:url" content="{canonical}"><link rel="canonical" href="{canonical}"><link rel="icon" href="/assets/studio.svg"><link rel="stylesheet" href="{css_url}" integrity="{css_integrity}"></head><body><a class="skip" href="#main">본문 바로가기</a><header><a class="brand" href="/"><img src="/assets/studio.svg" alt="" width="38" height="38"><span>WhiteSheep<br><small>Game Studio</small></span></a><nav aria-label="주 메뉴">{nav_links(route)}</nav><div class="language-picker"><button class="language-trigger" id="language-trigger" type="button" disabled aria-haspopup="true" aria-expanded="false" aria-controls="language-menu"><span aria-hidden="true">🌐</span><span data-i18n="lang.label">언어 변경</span><span class="current-language">한국어</span><span aria-hidden="true">⌄</span></button><div class="language-menu" id="language-menu" role="menu" hidden><button type="button" role="menuitemradio" aria-checked="true" data-language="ko">한국어 <small>· 한국어</small><span class="language-check">✓</span></button><button type="button" role="menuitemradio" aria-checked="false" data-language="ja">日本語 <small>· 일본어</small><span class="language-check"></span></button><button type="button" role="menuitemradio" aria-checked="false" data-language="en">English <small>· 영어</small><span class="language-check"></span></button></div></div></header><main id="main">{body}</main><footer><div>WhiteSheep Game Studio<br>운영자 초록지붕이층집 · © 2026</div><div class="links"><a href="/apps/">게임과 앱</a><a href="/support/">문의</a><a href="/privacy/">웹사이트 개인정보 안내</a></div></footer><script src="{directory_url}" integrity="{directory_integrity}" defer></script><script src="{i18n_url}" integrity="{i18n_integrity}" defer></script></body></html>'''
+    if landing:
+        description='매일 한 장씩, 일본어에 가까워지는 시간.'
+        doc=doc.replace('<body>', '<body class="japanese-landing">')
+        doc=doc.replace(f'<nav aria-label="주 메뉴">{nav_links(route)}</nav>', '')
+        doc=doc.replace('<a class="brand" href="/">', '<div class="brand">', 1)
+        doc=doc.replace('</small></span></a>', '</small></span></div>', 1)
+        doc=doc.replace('<a href="/apps/">게임과 앱</a><a href="/support/">문의</a>', '')
+        doc=doc.replace('WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.', description)
+        doc=doc.replace('</head>', f'<meta name="robots" content="noindex, follow"><meta property="og:description" content="{description}"><meta property="og:image" content="{ORIGIN}/assets/japanese/share.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"></head>')
     (dest/'index.html').write_text(doc,encoding='utf-8')
+
+
+JAPANESE_APPS=('kanjigyeol','jgrammar')
+
+
+def public_store_url(url,store):
+    """Fail closed: landing CTAs may only target public, production listings."""
+    parsed=urlsplit(url)
+    if parsed.scheme!='https' or parsed.username or parsed.password or parsed.port or parsed.fragment:
+        raise ValueError('Expected a public HTTPS store listing')
+    if store=='ios':
+        valid=parsed.netloc=='apps.apple.com' and re.fullmatch(r'/(?:[a-z]{2}/)?app/(?:[^/]+/)?id[0-9]+', parsed.path) and not parsed.query
+    else:
+        query=parse_qs(parsed.query,keep_blank_values=True)
+        valid=parsed.netloc=='play.google.com' and parsed.path=='/store/apps/details' and set(query)=={'id'} and len(query['id'])==1 and re.fullmatch(r'[a-zA-Z0-9_]+(?:\.[a-zA-Z0-9_]+)+',query['id'][0])
+    if not valid:
+        raise ValueError('Private, testing or non-listing store URL is not allowed')
+    return url
+
+
+def japanese_page(apps):
+    registry={app['slug']:app for app in apps}
+    cards=[]
+    for slug in JAPANESE_APPS:
+        app=registry[slug]
+        downloads=[]
+        for store,key,badge,label in [('ios','app_store_url','app-store.svg','App Store에서 다운로드'),('android','play_store_url','google-play-official.png','Google Play에서 다운로드')]:
+            url=app.get(key)
+            if url:
+                public_store_url(url,store)
+                # QR filenames bind the artwork to its exact destination; a changed URL
+                # can never display an old QR. The direct badge always uses the registry.
+                qr=f'assets/japanese/{hashlib.sha256(url.encode()).hexdigest()[:16]}.svg'
+                qr_html=f'<img class="download-qr" src="/{qr}" alt="" width="160" height="160">' if (OUT/qr).is_file() else ''
+                downloads.append(f'<a class="download-option" href="{escape(url)}">{qr_html}<img class="download-badge" src="/assets/badges/{badge}" alt="{label}" width="150" height="50"></a>')
+            else:
+                pending='다운로드 준비 중' if slug=='jgrammar' else '출시 예정'
+                downloads.append(f'<div class="download-option download-pending" aria-disabled="true"><div class="pending-platform">{"iOS" if store=="ios" else "Android"}<span>{pending}</span></div></div>')
+        cards.append(f'<article class="japanese-app" data-japanese-app="{slug}"><div class="japanese-app-heading"><img src="{escape(app["icon"])}" alt="" width="64" height="64"><div><span class="japanese-release">출시</span><h2>{escape(app["name"])}</h2></div></div><p class="japanese-description">{escape(app["description"])}</p><div class="download-options">{"".join(downloads)}</div></article>')
+    body='<section class="japanese-intro"><p class="eyebrow">WhiteSheep · Japanese</p><h1>일상을 채우는 작은 배움</h1><p class="lead">매일 한 장씩, 일본어에 가까워지는 시간.</p></section><div class="japanese-apps">'+''.join(cards)+'</div><p class="qr-hint">휴대폰에서는 배지를 누르고, PC에서는 QR을 스캔하세요.</p>'
+    write_page('japanese','칸지결·문법결 다운로드',body,landing=True)
 
 
 def store_badge(url,image,label):
@@ -84,6 +135,8 @@ def main():
     privacy='''<article class="doc"><p class="eyebrow">Website privacy</p><h1>웹사이트 개인정보 안내</h1><p class="meta">2026년 10월 30일 · 개발자 홈페이지 기준</p><h2>운영자와 문의</h2><p>운영자·문의 담당자: 초록지붕이층집 운영자<br>개발자 브랜드: WhiteSheep Game Studio<br>이메일: <a href="mailto:whitesheep0601@gmail.com">whitesheep0601@gmail.com</a></p><h2>이 웹사이트에서 처리하는 정보</h2><p>공개된 게임·앱 정보와 지원 안내를 제공하는 정적 홈페이지입니다. 자체 회원가입·문의 입력폼·분석 스크립트·광고·외부 웹폰트를 넣지 않았습니다. 검색·필터는 브라우저 안에서 동작하며 검색어를 별도로 운영자 서버에 보내거나 저장하지 않습니다.</p><p>GitHub Pages 호스팅은 사이트 제공·보안 등을 위해 IP 주소 등 접속 관련 기술 정보를 처리할 수 있습니다. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>을 확인해 주세요. 호스팅 계약의 상세 처리·국외 이전 조건은 최종 정책 검토 대상입니다.</p><h2>직접 보내신 문의</h2><p>이메일을 보내면 발신 주소·본문·첨부와 직접 적어 주신 앱·기기 정보를 운영자의 Gmail 메일함으로 받아 답변·오류 확인에 사용합니다. 처리 종료 후 90일 이내에 메일·첨부·관리 가능한 복사본과 휴지통에서 삭제합니다. 법령상 보존 등 예외는 별도로 확인하며 메일 서비스의 별도 백업 보관 기간까지 임의로 보장하지 않습니다.</p><h2>게임·앱의 개인정보는 별도 안내합니다</h2><p>이 안내를 모든 앱의 단일 개인정보처리방침으로 사용하지 않습니다. 광고·저장·분석·계정 기능은 앱별로 다를 수 있으므로 <a href="/apps/">해당 앱의 개인정보 페이지</a>를 확인해 주세요.</p><h2>권리 행사와 변경</h2><p>열람·정정·삭제 등 요청은 위 이메일로 보내실 수 있습니다. 처리 내용을 바꾸면 이 페이지의 일자와 안내를 갱신합니다. 법적 처리 근거·계약상 역할·국외 처리 세부 조건은 정식 출시 정책 확정 전 추가 검토합니다.</p></article>'''
     write_page('privacy','웹사이트 개인정보 안내',privacy)
     routes=['','apps','about','support','privacy']
+    # Deliberately absent from navigation, the registry directory and sitemap.
+    japanese_page(apps)
     for app in apps:
         slug=app['slug']
         for part in ['index','support','privacy','sources','terms']:
@@ -99,7 +152,7 @@ def main():
     (OUT/'.nojekyll').write_text('')
     (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+ORIGIN+'/sitemap.xml\n')
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+ORIGIN+'/'+(r+'/' if r else '')+'</loc></url>' for r in routes)+'</urlset>')
-    print(json.dumps({'apps':len(apps),'pages':len(routes),'output':str(OUT)}))
+    print(json.dumps({'apps':len(apps),'pages':len(routes)+1,'output':str(OUT)}))
 
 
 if __name__=='__main__':
