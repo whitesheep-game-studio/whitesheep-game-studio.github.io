@@ -1,6 +1,43 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
+test('all page templates share the landing language control design', async ({ page }, testInfo) => {
+  for (const colorScheme of ['light', 'dark']) {
+    await page.emulateMedia({ colorScheme });
+    let landingStyle;
+    for (const route of ['/japanese/', '/', '/apps/', '/about/', '/support/', '/privacy/', '/apps/kanjigyeol/', '/apps/jgrammar/privacy/', '/404.html']) {
+      await page.goto(route);
+      await expect(page.locator('#language-trigger')).toBeEnabled();
+      await page.mouse.move(0, 0);
+      const style = await page.locator('.language-picker').evaluate((picker) => {
+        const button = getComputedStyle(picker.querySelector('.language-trigger'));
+        const menu = getComputedStyle(picker.querySelector('.language-menu'));
+        return {
+          radius: button.borderRadius,
+          padding: button.padding,
+          gap: button.gap,
+          border: button.borderColor,
+          background: button.backgroundColor,
+          height: button.minHeight,
+          font: button.font,
+          menuRadius: menu.borderRadius,
+          menuBorder: menu.borderColor,
+          labelDisplay: getComputedStyle(picker.querySelector('[data-i18n="lang.label"]')).display
+        };
+      });
+      if (route === '/japanese/') landingStyle = style;
+      expect(style, `${colorScheme} ${route}`).toEqual(landingStyle);
+      expect(style.labelDisplay).toBe('none');
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+      if (route === '/') {
+        await page.locator('#language-trigger').click();
+        await page.screenshot({ path: testInfo.outputPath(`homepage-picker-${colorScheme}.png`), fullPage: true });
+        await page.keyboard.press('Escape');
+      }
+    }
+  }
+});
+
 test('SNS landing keeps exactly two apps, public downloads, QR and no global navigation', async ({ page }) => {
   await page.goto('/japanese/');
   await expect(page.locator('[data-japanese-app]')).toHaveCount(2);
