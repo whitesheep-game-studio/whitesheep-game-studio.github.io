@@ -17,6 +17,34 @@ window.WHITESHEEP_TRANSLATIONS = {
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'WhiteSheep Game Studioのゲーム・アプリ、更新情報、サポートを一か所でご確認いただけます。',
     '운영자 초록지붕이층집 · © 2026': '運営者 초록지붕이층집 · © 2026',
     '칸지결 개인정보처리방침': '漢字結 プライバシーポリシー',
+    '앱 1.1.1부터 광고 제거(한 번 구매)와 개발자 응원을 선택해 구매할 수 있습니다. 구매하지 않아도 학습 기능을 이용할 수 있습니다. 결제는 Apple App Store 또는 Google Play가 처리하며, 결제 수단과 스토어 계정 정보는 해당 스토어가 자체 방침에 따라 처리합니다. 앱은 스토어의 결제 기능에서 상품 정보·가격·구매 상태를 받아 구매와 복원을 처리하며 카드번호 등 결제 수단 정보는 받지 않습니다. 광고 제거 여부와 응원 횟수는 기기에 저장하며 운영자의 서버로 전송하지 않습니다. 운영자는 스토어가 판매자에게 제공하는 주문·판매 내역을 확인할 수 있습니다. 광고 제거를 구매하면 하단 배너 광고를 표시하지 않으며, 지원 화면에서 구매를 복원할 수 있습니다. 개발자 응원은 추가 기능을 제공하지 않습니다. 환불은 각 스토어의 절차와 관련 법령을 따릅니다.':
+      'アプリ1.1.1から、広告の削除（買い切り）と開発者の応援を任意で購入できます。購入しなくても学習機能を利用できます。決済はApple App StoreまたはGoogle Playが処理し、決済手段とストアアカウントの情報は各ストアが自社の方針に従って取り扱います。アプリはストアの決済機能から商品情報・価格・購入状態を受け取って購入と復元を処理し、カード番号などの決済手段の情報は受け取りません。広告削除の状態と応援の回数は端末に保存し、運営者のサーバーには送信しません。運営者はストアが販売者に提供する注文・販売の記録を確認できます。広告の削除を購入すると下部のバナー広告を表示せず、サポート画面で購入を復元できます。開発者の応援は追加の機能を提供しません。返金は各ストアの手続きと関連法令に従います。',
+    '광고를 보고 24시간 광고 제거':
+      '広告を見て24時間広告を非表示',
+    '앱 1.1.1부터 메뉴에서 선택하면 짧은 광고를 보고 24시간 동안 하단 배너 광고를 숨길 수 있습니다. 시청 버튼을 눌렀을 때만 Google AdMob 보상형 광고를 요청하며, 광고·동의 SDK의 정보 처리와 비개인화·콘텐츠 등급 G 설정, 광고 선택은 4항과 5항의 배너 광고와 같습니다. 광고를 끝까지 보지 않으면 적용하지 않습니다. 앱은 만료 시각만 기기에 저장하며 운영자의 서버로 전송하지 않습니다.':
+      'アプリ1.1.1から、メニューで選ぶと短い広告を見て24時間下部のバナー広告を非表示にできます。視聴ボタンを押したときだけGoogle AdMobのリワード広告をリクエストし、広告・同意SDKでの情報の取り扱い、パーソナライズしない設定とコンテンツレーティングG、広告の選択は第4項と第5項のバナー広告と同じです。広告を最後まで見ない場合は適用しません。アプリは期限の時刻のみを端末に保存し、運営者のサーバーには送信しません。',
+    '학습 화면 하단에는 Google AdMob 배너 광고가 표시될 수 있습니다. 앱 1.1.1부터 광고 제거(한 번 구매)와 개발자 응원을 선택적 인앱 결제로 제공하며, 광고를 끝까지 보면 24시간 동안 배너 광고를 숨기는 기능도 제공합니다. 24시간은 누적되지 않으며 광고를 불러오지 못하면 이용할 수 없습니다. 학습 기능은 구매나 광고 시청 없이 이용할 수 있습니다. 개발자 응원은 여러 번 구매할 수 있으며 추가 기능을 제공하지 않습니다. 광고 제거는 같은 스토어 계정에서 구매를 복원할 수 있습니다. 결제와 환불에는 해당 스토어의 규정과 관련 법령이 적용됩니다.':
+      '学習画面の下部にはGoogle AdMobのバナー広告が表示されることがあります。アプリ1.1.1から、広告の削除（買い切り）と開発者の応援を任意のアプリ内課金として提供し、広告を最後まで見ると24時間バナー広告を非表示にする機能も提供します。24時間は加算されず、広告を読み込めない場合は利用できません。学習機能は購入や広告の視聴なしで利用できます。開発者の応援は何度でも購入でき、追加の機能は提供しません。広告の削除は同じストアアカウントで購入を復元できます。決済と返金には各ストアの規定と関連法令が適用されます。',
+    '버전 1.3 · 시행일 2026년 11월 27일 · 인앱 결제는 앱 1.1.1부터 적용합니다. 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
+      'バージョン1.3・施行日：2026年11月27日・アプリ内課金はアプリ1.1.1から適用します。以前のバージョンとの違いは第12項の変更履歴でご確認いただけます。',
+    '앱에는 회원가입, 자체 서버 및 별도 분석 SDK가 없습니다. 앱 1.1.1부터 선택적 인앱 결제를 제공하며 처리 내용은 6항에서 설명합니다. 학습 기록은 기기에 저장됩니다. 이메일 문의, 정책 페이지 방문, 외부 링크, 기기 내 음성·알림·홈 화면 위젯, 광고·동의 SDK의 처리 범위는 아래에서 설명합니다.':
+      'アカウント登録、独自サーバー、独立した分析SDKはありません。アプリ1.1.1から任意のアプリ内課金を提供し、その取り扱いは第6項で説明します。学習履歴は端末に保存されます。メールでのお問い合わせ、方針ページの閲覧、外部リンク、端末内の音声・通知・ホーム画面ウィジェット、広告・同意SDKの処理範囲は以下で説明します。',
+    '선택적 인앱 결제':
+      '任意のアプリ内課金',
+    '앱 1.1.1부터 개발자 응원을 선택해 구매할 수 있습니다. 구매하지 않아도 학습 기능을 이용할 수 있으며, 응원을 구매해도 광고 제거 등 추가 기능은 제공되지 않습니다. 결제는 Apple App Store 또는 Google Play가 처리하며, 결제 수단과 스토어 계정 정보는 해당 스토어가 자체 방침에 따라 처리합니다. 앱은 스토어의 결제 기능에서 상품 정보·가격·구매 상태를 받아 결제를 처리하며 카드번호 등 결제 수단 정보는 받지 않습니다. 응원 횟수는 기기에 저장하며 운영자의 서버로 전송하지 않습니다. 운영자는 스토어가 판매자에게 제공하는 주문·판매 내역을 확인할 수 있습니다. 환불은 각 스토어의 절차와 관련 법령을 따릅니다.':
+      'アプリ1.1.1から、開発者の応援を任意で購入できます。購入しなくても学習機能を利用でき、応援を購入しても広告の削除などの追加機能は提供されません。決済はApple App StoreまたはGoogle Playが処理し、決済手段とストアアカウントの情報は各ストアが自社の方針に従って取り扱います。アプリはストアの決済機能から商品情報・価格・購入状態を受け取って決済を処理し、カード番号などの決済手段の情報は受け取りません。応援の回数は端末に保存し、運営者のサーバーには送信しません。運営者はストアが販売者に提供する注文・販売の記録を確認できます。返金は各ストアの手続きと関連法令に従います。',
+    '버전 1.3 · 2026년 11월 27일: 앱 1.1.1의 선택적 인앱 결제(광고 제거·개발자 응원)와 광고 시청 24시간 광고 제거의 처리를 추가했습니다.':
+      'バージョン1.3・2026年11月27日：アプリ1.1.1の任意のアプリ内課金（広告の削除・開発者の応援）と、広告視聴による24時間の広告非表示の取り扱いを追加しました。',
+    '2026년 11월 27일 갱신 · 인앱 결제는 앱 1.1.1부터 적용':
+      '2026年11月27日更新 · アプリ内課金はアプリ1.1.1から適用',
+    '앱에는 회원가입, 자체 서버 및 별도 분석 SDK가 없습니다. 앱 1.1.1부터 선택적 인앱 결제를 제공하며 처리 내용은 5항에서 설명합니다. 학습 기록은 기기에 저장됩니다. 광고, 동의, 이메일 서비스와 웹 호스팅에 관한 정보 처리는 아래에서 설명합니다.':
+      'アプリにはアカウント登録、独自サーバー、独立した分析SDKはありません。アプリ1.1.1から任意のアプリ内課金を提供し、その取り扱いは第5項で説明します。学習履歴は端末に保存されます。広告、同意、メールサービス、ウェブホスティングでの情報処理については以下で説明します。',
+    '앱 하단에는 Google AdMob 배너 광고 또는 운영자의 홍보 영역이 표시될 수 있습니다. 앱 1.1.1부터 개발자 응원을 선택적 인앱 결제로 제공합니다. 학습 기능은 구매 없이 이용할 수 있습니다. 개발자 응원은 여러 번 구매할 수 있으며 광고 제거 등 추가 기능을 제공하지 않습니다. 결제와 환불에는 해당 스토어의 규정과 관련 법령이 적용됩니다.':
+      'アプリの下部にはGoogle AdMobのバナー広告または運営者の紹介欄が表示されることがあります。アプリ1.1.1から、開発者の応援を任意のアプリ内課金として提供します。学習機能は購入せずに利用できます。開発者の応援は何度でも購入でき、広告の削除などの追加機能は提供しません。決済と返金には各ストアの規定と関連法令が適用されます。',
+    '버전 1.1 · 시행일 2026년 11월 27일':
+      'バージョン1.1・施行日：2026年11月27日',
+    '최종 갱신 2026년 11월 27일':
+      '最終更新・2026年11月27日',
     '버전 1.2 · 시행일 2026년 11월 26일 · 광고 변경은 앱 1.1.0부터 적용합니다. 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
       'バージョン1.2・施行日：2026年11月26日・広告の変更はアプリ1.1.0から適用します。以前のバージョンとの違いは第12項の変更履歴でご確認いただけます。',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
@@ -942,6 +970,34 @@ window.WHITESHEEP_TRANSLATIONS = {
     'WhiteSheep Game Studio의 게임과 앱, 업데이트와 지원 안내를 한곳에서 확인하세요.': 'Find WhiteSheep Game Studio games, apps, updates, and support in one place.',
     '운영자 초록지붕이층집 · © 2026': 'Operated by 초록지붕이층집 · © 2026',
     '칸지결 개인정보처리방침': 'KanjiGyeol Privacy Policy',
+    '앱 1.1.1부터 광고 제거(한 번 구매)와 개발자 응원을 선택해 구매할 수 있습니다. 구매하지 않아도 학습 기능을 이용할 수 있습니다. 결제는 Apple App Store 또는 Google Play가 처리하며, 결제 수단과 스토어 계정 정보는 해당 스토어가 자체 방침에 따라 처리합니다. 앱은 스토어의 결제 기능에서 상품 정보·가격·구매 상태를 받아 구매와 복원을 처리하며 카드번호 등 결제 수단 정보는 받지 않습니다. 광고 제거 여부와 응원 횟수는 기기에 저장하며 운영자의 서버로 전송하지 않습니다. 운영자는 스토어가 판매자에게 제공하는 주문·판매 내역을 확인할 수 있습니다. 광고 제거를 구매하면 하단 배너 광고를 표시하지 않으며, 지원 화면에서 구매를 복원할 수 있습니다. 개발자 응원은 추가 기능을 제공하지 않습니다. 환불은 각 스토어의 절차와 관련 법령을 따릅니다.':
+      'From app version 1.1.1 you can choose to buy ad removal (a one-time purchase) and developer tips. Learning features are available without buying anything. Payments are processed by the Apple App Store or Google Play, and each store handles payment methods and store account information under its own policy. The app receives product details, prices and purchase status from the store’s billing function to handle purchases and restoring them; it does not receive payment method details such as card numbers. Whether ads are removed and how many tips were given are saved on your device and are not sent to an operator server. The operator can view the order and sales records that the stores provide to sellers. After you buy ad removal, the bottom banner ad is not shown, and you can restore the purchase on the support screen. Developer tips unlock no additional features. Refunds follow each store’s process and applicable law.',
+    '광고를 보고 24시간 광고 제거':
+      'Watching an ad to hide ads for 24 hours',
+    '앱 1.1.1부터 메뉴에서 선택하면 짧은 광고를 보고 24시간 동안 하단 배너 광고를 숨길 수 있습니다. 시청 버튼을 눌렀을 때만 Google AdMob 보상형 광고를 요청하며, 광고·동의 SDK의 정보 처리와 비개인화·콘텐츠 등급 G 설정, 광고 선택은 4항과 5항의 배너 광고와 같습니다. 광고를 끝까지 보지 않으면 적용하지 않습니다. 앱은 만료 시각만 기기에 저장하며 운영자의 서버로 전송하지 않습니다.':
+      'From app version 1.1.1 you can choose in the menu to watch a short ad and hide the bottom banner ad for 24 hours. A Google AdMob rewarded ad is requested only when you press the watch button. Processing by the ads and consent SDKs, the non-personalized and content rating G settings, and your ad choices are the same as for the banner ads in sections 4 and 5. It is not applied if the ad is not watched to the end. The app saves only the expiry time on your device and does not send it to an operator server.',
+    '학습 화면 하단에는 Google AdMob 배너 광고가 표시될 수 있습니다. 앱 1.1.1부터 광고 제거(한 번 구매)와 개발자 응원을 선택적 인앱 결제로 제공하며, 광고를 끝까지 보면 24시간 동안 배너 광고를 숨기는 기능도 제공합니다. 24시간은 누적되지 않으며 광고를 불러오지 못하면 이용할 수 없습니다. 학습 기능은 구매나 광고 시청 없이 이용할 수 있습니다. 개발자 응원은 여러 번 구매할 수 있으며 추가 기능을 제공하지 않습니다. 광고 제거는 같은 스토어 계정에서 구매를 복원할 수 있습니다. 결제와 환불에는 해당 스토어의 규정과 관련 법령이 적용됩니다.':
+      'A Google AdMob banner ad may be shown at the bottom of study screens. From app version 1.1.1, ad removal (a one-time purchase) and developer tips are offered as optional in-app purchases, and watching an ad to the end also hides the banner ad for 24 hours. The 24 hours do not stack, and the feature is unavailable when no ad can be loaded. Learning features are available without buying anything or watching ads. Developer tips can be bought more than once and unlock no additional features. Ad removal can be restored with the same store account. Payments and refunds are subject to each store’s rules and applicable law.',
+    '버전 1.3 · 시행일 2026년 11월 27일 · 인앱 결제는 앱 1.1.1부터 적용합니다. 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
+      'Version 1.3 · Effective November 27, 2026 · In-app purchases apply from app version 1.1.1. Differences from the previous version are listed in the change history in section 12.',
+    '앱에는 회원가입, 자체 서버 및 별도 분석 SDK가 없습니다. 앱 1.1.1부터 선택적 인앱 결제를 제공하며 처리 내용은 6항에서 설명합니다. 학습 기록은 기기에 저장됩니다. 이메일 문의, 정책 페이지 방문, 외부 링크, 기기 내 음성·알림·홈 화면 위젯, 광고·동의 SDK의 처리 범위는 아래에서 설명합니다.':
+      'The app has no account registration, operator-run server, or separate analytics SDK. From app version 1.1.1 it offers optional in-app purchases, described in section 6. Learning history is stored on your device. The scope of processing for email inquiries, visits to the policy page, external links, on-device speech, notifications and the home-screen widget, and the advertising and consent SDKs is described below.',
+    '선택적 인앱 결제':
+      'Optional in-app purchases',
+    '앱 1.1.1부터 개발자 응원을 선택해 구매할 수 있습니다. 구매하지 않아도 학습 기능을 이용할 수 있으며, 응원을 구매해도 광고 제거 등 추가 기능은 제공되지 않습니다. 결제는 Apple App Store 또는 Google Play가 처리하며, 결제 수단과 스토어 계정 정보는 해당 스토어가 자체 방침에 따라 처리합니다. 앱은 스토어의 결제 기능에서 상품 정보·가격·구매 상태를 받아 결제를 처리하며 카드번호 등 결제 수단 정보는 받지 않습니다. 응원 횟수는 기기에 저장하며 운영자의 서버로 전송하지 않습니다. 운영자는 스토어가 판매자에게 제공하는 주문·판매 내역을 확인할 수 있습니다. 환불은 각 스토어의 절차와 관련 법령을 따릅니다.':
+      'From app version 1.1.1 you can choose to buy developer tips. Learning features are available without buying anything, and buying a tip does not remove ads or unlock any other feature. Payments are processed by the Apple App Store or Google Play, and each store handles payment methods and store account information under its own policy. The app receives product details, prices and purchase status from the store’s billing function to handle the payment; it does not receive payment method details such as card numbers. The number of tips is saved on your device and is not sent to an operator server. The operator can view the order and sales records that the stores provide to sellers. Refunds follow each store’s process and applicable law.',
+    '버전 1.3 · 2026년 11월 27일: 앱 1.1.1의 선택적 인앱 결제(광고 제거·개발자 응원)와 광고 시청 24시간 광고 제거의 처리를 추가했습니다.':
+      'Version 1.3 · November 27, 2026: Added how app version 1.1.1 handles the optional in-app purchases (ad removal and developer tips) and the 24-hour ad removal earned by watching an ad.',
+    '2026년 11월 27일 갱신 · 인앱 결제는 앱 1.1.1부터 적용':
+      'Updated November 27, 2026 · In-app purchases apply from app version 1.1.1',
+    '앱에는 회원가입, 자체 서버 및 별도 분석 SDK가 없습니다. 앱 1.1.1부터 선택적 인앱 결제를 제공하며 처리 내용은 5항에서 설명합니다. 학습 기록은 기기에 저장됩니다. 광고, 동의, 이메일 서비스와 웹 호스팅에 관한 정보 처리는 아래에서 설명합니다.':
+      'The app has no account registration, proprietary server, or separate analytics SDK. From app version 1.1.1 it offers optional in-app purchases, described in section 5. Learning history stays on the device. The sections below explain how advertising, consent, email and web hosting services process information.',
+    '앱 하단에는 Google AdMob 배너 광고 또는 운영자의 홍보 영역이 표시될 수 있습니다. 앱 1.1.1부터 개발자 응원을 선택적 인앱 결제로 제공합니다. 학습 기능은 구매 없이 이용할 수 있습니다. 개발자 응원은 여러 번 구매할 수 있으며 광고 제거 등 추가 기능을 제공하지 않습니다. 결제와 환불에는 해당 스토어의 규정과 관련 법령이 적용됩니다.':
+      'A Google AdMob banner ad or a promotional area of the operator may be shown at the bottom of the app. From app version 1.1.1, developer tips are offered as an optional in-app purchase. Learning features are available without buying anything. Developer tips can be bought more than once and do not remove ads or unlock any other feature. Payments and refunds are subject to each store’s rules and applicable law.',
+    '버전 1.1 · 시행일 2026년 11월 27일':
+      'Version 1.1 · Effective November 27, 2026',
+    '최종 갱신 2026년 11월 27일':
+      'Last updated November 27, 2026',
     '버전 1.2 · 시행일 2026년 11월 26일 · 광고 변경은 앱 1.1.0부터 적용합니다. 이전 버전과의 차이는 12항의 변경 이력에서 확인할 수 있습니다.':
       'Version 1.2 · Effective November 26, 2026 · The advertising changes apply from app version 1.1.0. Differences from the previous version are listed in the change history in section 12.',
     '초록지붕이층집은 칸지결 — 일본어 한자 학습 앱의 개인정보 처리 내용을 안내합니다. 개발자 브랜드는 WhiteSheep Game Studio입니다. 이 방침은 앱, 문의 응대 및 이 방침을 제공하는 웹페이지에 적용됩니다.':
