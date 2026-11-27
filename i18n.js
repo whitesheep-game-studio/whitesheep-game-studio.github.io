@@ -1,5 +1,6 @@
 window.WHITESHEEP_TRANSLATIONS = {
   ja: {
+    '2026년 11월 27일 갱신 · iOS 광고 변경은 앱 1.1.0부터 적용': '2026年11月27日更新・iOS広告の変更はアプリ1.1.0から適用',
     '뜻과 독음, 사용단어와 암기 팁을 함께 읽는 일본어 한자 학습 앱.': '意味と読み、使用単語と暗記のヒントを一緒に学ぶ日本語漢字学習アプリ。',
     '일상을 채우는 작은 배움': '日々を満たす、小さな学び',
     '매일 한 장씩, 일본어에 가까워지는 시간.': '毎日一枚ずつ、日本語に近づく時間。',
@@ -924,6 +925,7 @@ window.WHITESHEEP_TRANSLATIONS = {
       'このアプリは、韓国・日本の労働安全・労働衛生分野の資格の主要な概念と用語の学習を支援する非公式の教育用アプリです。この規約は、このアプリと関連するサポートにのみ適用されます。'
   },
   en: {
+    '2026년 11월 27일 갱신 · iOS 광고 변경은 앱 1.1.0부터 적용': 'Updated November 27, 2026 · iOS ad changes apply from app version 1.1.0',
     '뜻과 독음, 사용단어와 암기 팁을 함께 읽는 일본어 한자 학습 앱.': 'Learn Japanese kanji with meanings, readings, vocabulary and memory tips.',
     '일상을 채우는 작은 배움': 'Small lessons for everyday life',
     '매일 한 장씩, 일본어에 가까워지는 시간.': 'One card a day, a little closer to Japanese.',
