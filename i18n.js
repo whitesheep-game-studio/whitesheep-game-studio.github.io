@@ -1861,6 +1861,10 @@ window.WHITESHEEP_TRANSLATIONS = {
   const languages = {
     ko: {
       'lang.label': '언어 변경',
+      'lang.name.ko': '· 한국어',
+      'lang.name.ja': '· 일본어',
+      'lang.name.en': '· 영어',
+
       'nav.apps': '게임과 앱',
       'nav.about': '스튜디오',
       'nav.support': '문의',
@@ -1869,6 +1873,10 @@ window.WHITESHEEP_TRANSLATIONS = {
     },
     ja: {
       'lang.label': '言語を変更',
+      'lang.name.ko': '· 韓国語',
+      'lang.name.ja': '· 日本語',
+      'lang.name.en': '· 英語',
+
       'nav.apps': 'ゲーム・アプリ',
       'nav.about': 'スタジオ',
       'nav.support': 'お問い合わせ',
@@ -1877,6 +1885,10 @@ window.WHITESHEEP_TRANSLATIONS = {
     },
     en: {
       'lang.label': 'Change language',
+      'lang.name.ko': '· Korean',
+      'lang.name.ja': '· Japanese',
+      'lang.name.en': '· English',
+
       'nav.apps': 'Games & Apps',
       'nav.about': 'Studio',
       'nav.support': 'Contact',

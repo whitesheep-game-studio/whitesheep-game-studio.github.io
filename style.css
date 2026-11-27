@@ -176,7 +176,6 @@ td{padding-top:var(--wsds-space-2)}}
 .japanese-app-heading{display:flex;align-items:center;gap:16px}
 .japanese-app-heading>img{border-radius:14px;flex-shrink:0}
 .japanese-app h2{margin:0;font-size:24px}
-.japanese-release{color:var(--wsds-color-action);font-size:14px;font-weight:600}
 .japanese-description{font-size:16px;line-height:1.6;color:var(--wsds-color-text-muted);margin:18px 0;min-height:5em}
 .download-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .download-option{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:12px;text-decoration:none;border-radius:12px;min-width:0;padding:4px}
@@ -206,3 +205,13 @@ td{padding-top:var(--wsds-space-2)}}
  .qr-hint{display:none}
  .japanese-landing footer{margin-top:24px}
 }
+
+/* Shared language control: monochrome icon, clear chevron, localized captions. */
+.language-globe{flex-shrink:0;color:var(--wsds-color-action)}
+.language-chevron{display:inline-grid;place-items:center;width:20px;height:20px;flex-shrink:0}
+.language-chevron::before{content:"";width:9px;height:9px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg)}
+.language-trigger[aria-expanded="true"] .language-chevron::before{transform:translateY(2px) rotate(225deg)}
+.language-menu button small{font-size:14px}
+.japanese-landing .language-trigger{border-color:var(--wsds-line);border-radius:var(--wsds-radius-full);padding-inline:14px;gap:10px;background:transparent}
+.japanese-landing .language-trigger:hover,.japanese-landing .language-trigger[aria-expanded="true"]{background:var(--wsds-color-surface-selected);border-color:var(--wsds-color-action)}
+.japanese-landing .language-menu{border-color:var(--wsds-line);border-radius:16px}

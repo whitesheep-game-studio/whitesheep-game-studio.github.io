@@ -6,6 +6,8 @@ test('SNS landing keeps exactly two apps, public downloads, QR and no global nav
   await expect(page.locator('[data-japanese-app]')).toHaveCount(2);
   await expect(page.locator('nav')).toHaveCount(0);
   await expect(page.locator('h1')).toHaveCount(1);
+  await expect(page.locator('header .brand')).toHaveAttribute('href', '/');
+  await expect(page.locator('.japanese-release')).toHaveCount(0);
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, follow');
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', 'https://whitesheep-game-studio.github.io/assets/japanese/share.png');
   await expect(page.locator('.download-option[href]')).toHaveCount(3);
@@ -18,6 +20,31 @@ test('SNS landing keeps exactly two apps, public downloads, QR and no global nav
   }
   await page.goto('/');
   await expect(page.locator('a[href="/japanese/"]')).toHaveCount(0);
+});
+
+test('language captions follow the selected locale on the landing and homepage', async ({ page }, testInfo) => {
+  for (const route of ['/japanese/', '/']) {
+    await page.goto(route);
+    for (const [locale, captions] of [
+      ['ko', ['· 한국어', '· 일본어', '· 영어']],
+      ['ja', ['· 韓国語', '· 日本語', '· 英語']],
+      ['en', ['· Korean', '· Japanese', '· English']]
+    ]) {
+      await page.locator('#language-trigger').click();
+      await page.locator(`[data-language="${locale}"]`).click();
+      await page.locator('#language-trigger').click();
+      await expect(page.locator('#language-menu small')).toHaveText(captions);
+      const chevron = await page.locator('.language-chevron').boundingBox();
+      expect(chevron.width).toBeGreaterThanOrEqual(20);
+      if (route === '/japanese/' && locale === 'ja') {
+        await page.screenshot({ path: testInfo.outputPath('language-menu-ja.png'), fullPage: true });
+      }
+      await page.keyboard.press('Escape');
+    }
+  }
+  await page.goto('/japanese/');
+  await page.locator('header .brand').click();
+  await expect(page).toHaveURL('/');
 });
 
 test('landing translates metadata, persists language and supports Escape', async ({ page }) => {
